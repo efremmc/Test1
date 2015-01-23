@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Case Problem 3
+
+   World Series Source Document
+   Author: 
+   Date:   
+
+   Filename:         ws.xml
+   Supporting Files: ws.xsl
+-->
+
+<ws>
+   <series year="2005" mvp="Jermaine Dye">
+      <team name="Chicago White Sox" wins="4" />
+      <team name="Houston Astros" wins="0" />
+   </series>
+   <series year="2004" mvp="Manny Ramirez">
+      <team name="Boston Red Sox" wins="4" />
+      <team name="St. Louis Cardinals" wins="0" />
+   </series>
+   <series year="2003" mvp="Josh Beckett">
+      <team name="Florida Marlins" wins="4" />
+      <team name="NY Yankees" wins="2" />
+   </series>
+   <series year="2002" mvp="Troy Glaus">
+      <team name="Anaheim Angels" wins="4" />
+      <team name="San Francisco Giants" wins="3" />
+   </series>
+   <series year="2001" mvp="Curt Schilling/Randy Johnson">
+      <team name="Arizona Diamondbacks" wins="4" />
+      <team name="NY Yankees" wins="3" />
+   </series>
+   <series year="2000" mvp="Derek Jeter">
+      <team name="NY Yankees" wins="4" />
+      <team name="NY Mets" wins="1" />
+   </series>
+   <series year="1999" mvp="Mariano Rivera">
+      <team name="NY Yankees" wins="4" />
+      <team name="Atlanta Braves" wins="0" />
+   </series>
+   <series year="1998" mvp="Scott Brosius">
+      <team name="NY Yankees" wins="4" />
+      <team name="San Diego Padres" wins="0" />
+   </series>
+   <series year="1997" mvp="Livan Hernandez">
+      <team name="Florida Marlins" wins="4" />
+      <team name="Cleveland Indians" wins="3" />
+   </series>
+   <series year="1996" mvp="John Wetteland">
+      <team name="NY Yankees" wins="4" />
+      <team name="Atlanta Braves" wins="2" />
+   </series>
+   <series year="1995" mvp="Tom Glavine">
+      <team name="Atlanta Braves" wins="4" />
+      <team name="Cleveland Indians" wins="2" />
+   </series>
+   <series year="1993" mvp="Paul Molitor">
+      <team name="Toronto Blue Jays" wins="4" />
+      <team name="Philadelphia Phillies" wins="2" />
+   </series>
+   <series year="1992" mvp="Pat Borders">
+      <team name="Toronto Blue Jays" wins="4" />
+      <team name="Atlanta Braves" wins="2" />
+   </series>
+   <series year="1991" mvp="Jack Morris">
+      <team name="Minnesota Twins" wins="4" />
+      <team name="Atlanta Braves" wins="3" />
+   </series>
+   <series year="1990" mvp="Jose Rijo">
+      <team name="Cincinnati Reds" wins="4" />
+      <team name="Oakland A's" wins="0" />
+   </series>
+   <series year="1989" mvp="Dave Stewart">
+      <team name="Oakland A's" wins="4" />
+      <team name="San Francisco Giants" wins="0" />
+   </series>
+   <series year="1988" mvp="Orel Hershiser">
+      <team name="Los Angeles Dodgers" wins="4" />
+      <team name="Oakland A's" wins="1" />
+   </series>
+   <series year="1987" mvp="Frank Viola">
+      <team name="Minnesota Twins" wins="4" />
+      <team name="St. Louis Cardinals" wins="3" />
+   </series>
+   <series year="1986" mvp="Ray Knight">
+      <team name="NY Mets" wins="4" />
+      <team name="Boston Red Sox" wins="3" />
+   </series>
+   <series year="1985" mvp="Bret Saberhagen">
+      <team name="Kansas City Royals" wins="4" />
+      <team name="St. Louis Cardinals" wins="3" />
+   </series>
+   <series year="1984" mvp="Alan Trammell">
+      <team name="Detroit Tigers" wins="4" />
+      <team name="San Diego Padres" wins="1" />
+   </series>
+   <series year="1983" mvp="Rick Dempsey">
+      <team name="Baltimore Orioles" wins="4" />
+      <team name="Philadelphia Phillies" wins="1" />
+   </series>
+   <series year="1982" mvp="Darrell Porter">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="Milwaukee Brewers" wins="3" />
+   </series>
+   <series year="1981" mvp="Guerrero/Cey/Yeager">
+      <team name="Los Angeles Dodgers" wins="4" />
+      <team name="NY Yankees" wins="2" />
+   </series>
+   <series year="1980" mvp="Mike Schmidt">
+      <team name="Philadelphia Phillies" wins="4" />
+      <team name="Kansas City Royals" wins="2" />
+   </series>
+   <series year="1979" mvp="Willie Stargell">
+      <team name="Pittsburgh Pirates" wins="4" />
+      <team name="Baltimore Orioles" wins="3" />
+   </series>
+   <series year="1978" mvp="Bucky Dent">
+      <team name="NY Yankees" wins="4" />
+      <team name="Los Angeles Dodgers" wins="2" />
+   </series>
+   <series year="1977" mvp="Reggie Jackson">
+      <team name="NY Yankees" wins="4" />
+      <team name="Los Angeles Dodgers" wins="2" />
+   </series>
+   <series year="1976" mvp="Johnny Bench">
+      <team name="Cincinnati Reds" wins="4" />
+      <team name="NY Yankees" wins="0" />
+   </series>
+   <series year="1975" mvp="Pete Rose">
+      <team name="Cincinnati Reds" wins="4" />
+      <team name="Boston Red Sox" wins="3" />
+   </series>
+   <series year="1974" mvp="Rollie Fingers">
+      <team name="Oakland A's" wins="4" />
+      <team name="Los Angeles Dodgers" wins="1" />
+   </series>
+   <series year="1973" mvp="Reggie Jackson">
+      <team name="Oakland A's" wins="4" />
+      <team name="NY Mets" wins="3" />
+   </series>
+   <series year="1972" mvp="Gene Tenace">
+      <team name="Oakland A's" wins="4" />
+      <team name="Cincinnati Reds" wins="3" />
+   </series>
+   <series year="1971" mvp="Roberto Clemente">
+      <team name="Pittsburgh Pirates" wins="4" />
+      <team name="Baltimore Orioles" wins="3" />
+   </series>
+   <series year="1970" mvp="Brooks Robinson">
+      <team name="Baltimore Orioles" wins="4" />
+      <team name="Cincinnati Reds" wins="1" />
+   </series>
+   <series year="1969" mvp="Donn Clendenon">
+      <team name="NY Mets" wins="4" />
+      <team name="Baltimore Orioles" wins="1" />
+   </series>
+   <series year="1968" mvp="Mickey Lolich">
+      <team name="Detroit Tigers" wins="4" />
+      <team name="St. Louis Cardinals" wins="3" />
+   </series>
+   <series year="1967" mvp="Bob Gibson">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="Boston Red Sox" wins="3" />
+   </series>
+   <series year="1966" mvp="Frank Robinson">
+      <team name="Baltimore Orioles" wins="4" />
+      <team name="Los Angeles Dodgers" wins="0" />
+   </series>
+   <series year="1965" mvp="Sandy Koufax">
+      <team name="Los Angeles Dodgers" wins="4" />
+      <team name="Minnesota Twins" wins="3" />
+   </series>
+   <series year="1964" mvp="Bob Gibson">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="NY Yankees" wins="3" />
+   </series>
+   <series year="1963" mvp="Sandy Koufax">
+      <team name="Los Angeles Dodgers" wins="4" />
+      <team name="NY Yankees" wins="0" />
+   </series>
+   <series year="1962" mvp="Ralph Terry">
+      <team name="NY Yankees" wins="4" />
+      <team name="San Francisco Giants" wins="3" />
+   </series>
+   <series year="1961" mvp="Whitey Ford">
+      <team name="NY Yankees" wins="4" />
+      <team name="Cincinnati Reds" wins="1" />
+   </series>
+   <series year="1960" mvp="Bobby Richardson">
+      <team name="Pittsburgh Pirates" wins="4" />
+      <team name="NY Yankees" wins="3" />
+   </series>
+   <series year="1959" mvp="Larry Sherry">
+      <team name="Los Angeles Dodgers" wins="4" />
+      <team name="Chicago White Sox" wins="2" />
+   </series>
+   <series year="1958" mvp="Bob Turley">
+      <team name="NY Yankees" wins="4" />
+      <team name="Milwaukee Braves" wins="3" />
+   </series>
+   <series year="1957" mvp="Lew Burdette">
+      <team name="Milwaukee Braves" wins="4" />
+      <team name="NY Yankees" wins="3" />
+   </series>
+   <series year="1956" mvp="Don Larsen">
+      <team name="NY Yankees" wins="4" />
+      <team name="Brooklyn Dodgers" wins="3" />
+   </series>
+   <series year="1955" mvp="Johnny Podres">
+      <team name="Brooklyn Dodgers" wins="4" />
+      <team name="NY Yankees" wins="3" />
+   </series>
+   <series year="1954" mvp="">
+      <team name="NY Giants" wins="4" />
+      <team name="Cleveland Indians" wins="0" />
+   </series>
+   <series year="1953" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Brooklyn Dodgers" wins="2" />
+   </series>
+   <series year="1952" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Brooklyn Dodgers" wins="3" />
+   </series>
+   <series year="1951" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="NY Giants" wins="2" />
+   </series>
+   <series year="1950" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Philadelphia Phillies" wins="0" />
+   </series>
+   <series year="1949" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Brooklyn Dodgers" wins="1" />
+   </series>
+   <series year="1948" mvp="">
+      <team name="Cleveland Indians" wins="4" />
+      <team name="Boston Braves" wins="2" />
+   </series>
+   <series year="1947" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Brooklyn Dodgers" wins="3" />
+   </series>
+   <series year="1946" mvp="">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="Boston Red Sox" wins="3" />
+   </series>
+   <series year="1945" mvp="">
+      <team name="Detroit Tigers" wins="4" />
+      <team name="Chicago Cubs" wins="3" />
+   </series>
+   <series year="1944" mvp="">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="St. Louis Browns" wins="2" />
+   </series>
+   <series year="1943" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="St. Louis Cardinals" wins="1" />
+   </series>
+   <series year="1942" mvp="">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="NY Yankees" wins="1" />
+   </series>
+   <series year="1941" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Brooklyn Dodgers" wins="1" />
+   </series>
+   <series year="1940" mvp="">
+      <team name="Cincinnati Reds" wins="4" />
+      <team name="Detroit Tigers" wins="3" />
+   </series>
+   <series year="1939" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Cincinnati Reds" wins="0" />
+   </series>
+   <series year="1938" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Chicago Cubs" wins="0" />
+   </series>
+   <series year="1937" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="NY Giants" wins="1" />
+   </series>
+   <series year="1936" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="NY Giants" wins="2" />
+   </series>
+   <series year="1935" mvp="">
+      <team name="Detroit Tigers" wins="4" />
+      <team name="Chicago Cubs" wins="2" />
+   </series>
+   <series year="1934" mvp="">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="Detroit Tigers" wins="3" />
+   </series>
+   <series year="1933" mvp="">
+      <team name="NY Giants" wins="4" />
+      <team name="Washington Senators" wins="1" />
+   </series>
+   <series year="1932" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Chicago Cubs" wins="0" />
+   </series>
+   <series year="1931" mvp="">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="Philadelphia A's" wins="3" />
+   </series>
+   <series year="1930" mvp="">
+      <team name="Philadelphia A's" wins="4" />
+      <team name="St. Louis Cardinals" wins="2" />
+   </series>
+   <series year="1929" mvp="">
+      <team name="Philadelphia A's" wins="4" />
+      <team name="Chicago Cubs" wins="1" />
+   </series>
+   <series year="1928" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="St. Louis Cardinals" wins="0" />
+   </series>
+   <series year="1927" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="Pittsburgh Pirates" wins="0" />
+   </series>
+   <series year="1926" mvp="">
+      <team name="St. Louis Cardinals" wins="4" />
+      <team name="NY Yankees" wins="3" />
+   </series>
+   <series year="1925" mvp="">
+      <team name="Pittsburgh Pirates" wins="4" />
+      <team name="Washington Senators" wins="3" />
+   </series>
+   <series year="1924" mvp="">
+      <team name="Washington Senators" wins="4" />
+      <team name="NY Giants" wins="3" />
+   </series>
+   <series year="1923" mvp="">
+      <team name="NY Yankees" wins="4" />
+      <team name="NY Giants" wins="2" />
+   </series>
+   <series year="1922" mvp="">
+      <team name="NY Giants" wins="4" />
+      <team name="NY Yankees" wins="0" />
+   </series>
+   <series year="1921" mvp="">
+      <team name="NY Giants" wins="5" />
+      <team name="NY Yankees" wins="3" />
+   </series>
+   <series year="1920" mvp="">
+      <team name="Cleveland Indians" wins="5" />
+      <team name="Brooklyn Dodgers" wins="2" />
+   </series>
+   <series year="1919" mvp="">
+      <team name="Cincinnati Reds" wins="5" />
+      <team name="Chicago White Sox" wins="3" />
+   </series>
+   <series year="1918" mvp="">
+      <team name="Boston Red Sox" wins="4" />
+      <team name="Chicago Cubs" wins="2" />
+   </series>
+   <series year="1917" mvp="">
+      <team name="Chicago White Sox" wins="4" />
+      <team name="NY Giants" wins="2" />
+   </series>
+   <series year="1916" mvp="">
+      <team name="Boston Red Sox" wins="4" />
+      <team name="Brooklyn Dodgers" wins="1" />
+   </series>
+   <series year="1915" mvp="">
+      <team name="Boston Red Sox" wins="4" />
+      <team name="Philadelphia Phillies" wins="1" />
+   </series>
+   <series year="1914" mvp="">
+      <team name="Boston Braves" wins="4" />
+      <team name="Philadelphia A's" wins="0" />
+   </series>
+   <series year="1913" mvp="">
+      <team name="Philadelphia A's" wins="4" />
+      <team name="NY Giants" wins="1" />
+   </series>
+   <series year="1912" mvp="">
+      <team name="Boston Red Sox" wins="4" />
+      <team name="NY Giants" wins="3" />
+   </series>
+   <series year="1911" mvp="">
+      <team name="Philadelphia A's" wins="4" />
+      <team name="NY Giants" wins="2" />
+   </series>
+   <series year="1910" mvp="">
+      <team name="Philadelphia A's" wins="4" />
+      <team name="Chicago Cubs" wins="1" />
+   </series>
+   <series year="1909" mvp="">
+      <team name="Pittsburgh Pirates" wins="4" />
+      <team name="Detroit Tigers" wins="3" />
+   </series>
+   <series year="1908" mvp="">
+      <team name="Chicago Cubs" wins="4" />
+      <team name="Detroit Tigers" wins="1" />
+   </series>
+   <series year="1907" mvp="">
+      <team name="Chicago Cubs" wins="4" />
+      <team name="Detroit Tigers" wins="0" />
+   </series>
+   <series year="1906" mvp="">
+      <team name="Chicago White Sox" wins="4" />
+      <team name="Chicago Cubs" wins="2" />
+   </series>
+   <series year="1905" mvp="">
+      <team name="NY Giants" wins="4" />
+      <team name="Philadelphia A's" wins="1" />
+   </series>
+   <series year="1903" mvp="">
+      <team name="Boston Red Sox" wins="4" />
+      <team name="Pittsburgh Pirates" wins="3" />
+   </series>
+</ws>

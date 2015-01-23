@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/style.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE listings SYSTEM "style.dtd">
+
+    <listings>
+    ...
+    </listings>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT listings (property)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT property (description|age|garage|bedrooms|bathrooms|sqfeet|style|price|zip|state|city|street)*>
+<!ATTLIST property
+    agent CDATA #IMPLIED
+    firm CDATA #IMPLIED
+    rln CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT street (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT city (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT state (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT zip (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT price (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT style (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sqfeet (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT bathrooms (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT bedrooms (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT garage (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT age (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT description (#PCDATA)>

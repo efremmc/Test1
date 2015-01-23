@@ -1,0 +1,33 @@
+/*
+   New Perspectives on XML
+   Tutorial 9
+   Review Assignment
+
+   Freezing Point Cascading Style Sheet
+
+   Filename:         styles1.css
+   Supporting Files: 
+*/
+
+body          {background-color:rgb(255,255,192); width: 600px}
+#pageTitle    {font-family:Arial, Helvetica, sans-serif;font-size:24pt;font-weight:bold;
+               color:green; width: 600px}
+
+#pageSubtitle {font-family:Arial, Helvetica, sans-serif; font-style:italic; color:green;
+               border-bottom: 1px solid brown; width: 600px}
+#pageText     {color:brown; width: 600px}
+#pageAuthor   {color:brown; border-bottom:1px solid brown; margin-bottom:20px; 
+               padding-bottom:10px; width: 600px}
+a             {color:green}
+      
+.rowhead      {font-family:Arial, Helvetica, sans-serif; color:white;font-size:0.8em}
+#mName        {font-family:Arial, Helvetica, sans-serif; color:green; font-weight:bold}
+
+table         {border: 6px outset green; font-family: Arial, Helvetica, sans-serif;
+               font-size: 9pt; width: 570px}
+td, th        {vertical-align: top; border: 1px solid green; padding: 5px}
+td            {background-color: white}
+th            {background-color: green; color: white; text-align: left; 
+               font-weight: normal; width: 80px}
+
+button        {margin: 5px}

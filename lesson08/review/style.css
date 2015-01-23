@@ -1,0 +1,25 @@
+/*
+   New Perspectives on XML
+   Tutorial 8
+   Review Assignment
+
+   MidWest Homes Cascading Style Sheet
+
+   Filename:         listings.css
+   Supporting Files: 
+*/
+
+body             {width: 690px}
+div              {border: 2px solid blue; padding: 10px; background-color:rgb(192,255,192);
+                  font-size: 9pt}
+div b            {color:blue}
+div, h1, h2, th  {font-family: Arial, Helvetica, sans-serif}
+h1               {margin-bottom: -20px; color:blue; letter-spacing: 5px}
+h2               {text-align: left; color: blue; margin-top: 0px; margin-bottom: 0px;
+                  letter-spacing: 5px}
+table            {width: 690px; border: 7px outset green; margin-top: 25px}
+td, th           {font-size: 9pt; vertical-align: top; border: 1px solid green}
+th               {background-color: rgb(212,255,212); color: blue; text-align: left}
+th.head2         {background-color:blue; color:rgb(212,255,212); width: 200px; letter-spacing: 5px}
+td#desc          {text-align: justify; padding:10px; font-family: monospace; font-size:8pt;
+                  background-color: ivory; width: 250px}

@@ -1,0 +1,85 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Tutorial Case
+
+   Freezing Point Refrigerators Staff Report Table Version
+   Author: 
+   Date:   
+
+   Filename:         fp2.htm
+   Supporting Files: emp1.xml, fpinfo.xml, styles2.css, + multiple jpg image files
+
+-->
+   <title>Freezing Point Refrigerators</title>
+   <link href="styles2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <xml id="pageInfo" src="fpinfo.xml"></xml>
+   <xml id="staffInfo" src="emp1.xml"></xml>
+
+   <div id="pageData">
+
+      <div id="pageTitle" datasrc="#pageInfo" datafld="title"></div>
+      <div id="pageSubtitle" datasrc="#pageInfo" datafld="subtitle"></div>
+      <div id="pageText" datasrc="#pageInfo" datafld="purpose"></div>
+      <div id="pageAuthor">For more information, contact: 
+         <a datasrc="#pageInfo" datafld="authorEmail">
+            <span datasrc="#pageInfo" datafld="author"></span>
+         </a>.
+      </div>
+
+      <p>
+        <button>Show All</button>
+        <button>Show Pages</button>
+      </p>
+   </div>
+
+   <table>
+     <thead>
+     <tr>
+         <th colspan="6">
+            <button>|&lt; First</button>
+            <button>&lt; Previous Page </button>
+            <button>Next Page &gt;</button>
+            <button>Last &gt;|</button>
+         </th>
+     </tr>
+     <tr>
+         <th class="th1">Employee</th>
+         <th class="th1">Department</th>
+         <th class="th1">Position</th>
+         <th class="th2">Phone</th>
+         <th class="th3">Years</th>
+         <th class="th4">Status</th>
+     </tr>
+     </thead>
+
+     <tr><td style="text-align: center">
+           <img src="photo.jpg" alt="" /><br />
+           <span>Name</span>
+         </td>
+         <td>
+           <span>Department Name</span>
+         </td>
+         <td>
+           <span>Position Name</span>
+         </td>
+         <td>
+           <span>Phone Number</span>
+         </td>         
+         <td style="text-align: right">
+           <span>Years</span>
+         </td>
+         <td>
+           <span>Job Status</span>
+         </td>
+     </tr>
+   </table>
+
+</body>
+</html>
+

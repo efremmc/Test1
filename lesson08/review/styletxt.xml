@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Review Assignment
+
+   Real estate listings
+   Author: 
+   Date:   
+
+   Filename:         style.xml
+   Supporting Files: style.xsl
+
+-->
+
+<listings>
+   <property rln="r317080" firm="f102" agent="a2140">
+      <street>2638 Maple Avenue</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53701</zip>
+      <price>229000</price>
+      <style>2-story Transitional</style>
+      <sqfeet>2328</sqfeet>
+      <bathrooms>2 1/2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>2 car, attached</garage>
+      <age>22</age>
+      <description>Very nice home on a one block dead end street with woods nearby. 
+      Very special location for quiet and privacy! Home features open floor plan with 
+      large rooms - new patio doors to pretty yard. updates: shingles, vinyl siding, 
+      refrig and dishwasher, garage door. Fireplace in family room flanked by great 
+      built-ins. add first floor laundry and award winning Padua schools.
+      </description> 
+   </property>
+   <property rln="r317081" firm="f103" agent="a2141">
+      <street>3014 Allen Lane</street>
+      <city>Broxton</city>
+      <state>WI</state>
+      <zip>53987</zip>
+      <price>314200</price>
+      <style>2-story Transitional</style>
+      <sqfeet>2752</sqfeet>
+      <bathrooms>2 1/2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>3 car, attached</garage>
+      <age>15</age>
+      <description>Surround fireplace. Quality thru-out! Call lister for completion 
+      date. Wow! Expect to be impressed with this new 4-bdrm transitional home! All 
+      the upgrades for the distinguished buyer. Large entertaining kitchen w/corian counters, 
+      birch cabinets, maple flr and trim, lg work island. Pella windows everywhere. 200amp, 
+      ge profile appliances, whirlpool bath, kohler plumbing, trayed master, 
+      exposed ll w/8ft9in ceilings. 15-yr waterproof warrty, tile surround fireplace. 
+      Quality thru-out! Call lister for completion date.
+      </description> 
+   </property>
+   <property rln="r317082" firm="f104" agent="a2142">
+      <street>505 Brandit Road</street>
+      <city>Cutler</city>
+      <state>WI</state>
+      <zip>55709</zip>
+      <price>305200</price>
+      <style>2-story Colonial</style>
+      <sqfeet>2900</sqfeet>
+      <bathrooms>2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>2 car, attached</garage>
+      <age>17</age>
+      <description>A picture perfect home in a fantastic location. 4 bedrooms, formal 
+      dining and living room, a family room with wood burning fireplace and a lower level 
+      rec room. Close to Padua and Argyle with 1.67 acres of breathing space. Wood 
+      floors throughout, tile entry, 6 panel doors, 2 car garage and a home warranty so you 
+      can buy with confidence!
+      </description> 
+   </property>
+   <property rln="r317083" firm="f105" agent="a2143">
+      <street>77 East Creek Road</street>
+      <city>Argyle</city>
+      <state>WI</state>
+      <zip>56981</zip>
+      <price>290000</price>
+      <style>2-story Colonial</style>
+      <sqfeet>3169</sqfeet>
+      <bathrooms>2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>3 or more car, attached</garage>
+      <age>14</age>
+      <description>Quality built 2-story on wooded lot adjacent to park. Large entry with 
+      tile flr. Formal lr and dr w/chair rail and crown molding. Eat-in kitchen with breakfast 
+      bar and patio door that opens to a lrg deck. Fam rm w/built-in bookcases and woodburning 
+      fp. 4 bdrms on 2nd flr. Master w/walk-in closet and 3/4 bath. Fin ll has rec rm and 
+      office/exercise rm. Lots of space in the unfinished lower level. 3 car tandem garage. 
+      Home warranty included.   
+      </description> 
+   </property>
+   <property rln="r317084" firm="f102" agent="a2144">
+      <street>41 Mohawk Street</street>
+      <city>Stratmore</city>
+      <state>WI</state>
+      <zip>58105</zip>
+      <price>241900</price>
+      <style>1-story Ranch</style>
+      <sqfeet>1710</sqfeet>
+      <bathrooms>2</bathrooms>
+      <bedrooms>3</bedrooms>
+      <garage>2 car, attached</garage>
+      <age>12</age>
+      <description>Spectacular new ranch w/ extra deep yard! Vaulted great room has gas frplc. 
+      Spacious kitch w/pantry and brkfst bar. 1st flr laundry rm, walk-in closet and double 
+      vanity bath in master. Br 3 set up as a study w/french doors walkout ll w/over 
+      1200 sq ft for future finish! 14'x10' deck. Landscaping. Also an air-air exchanger for 
+      a healthier home w/hepa filter, 20 yr warranty tuff n dri water proofing, too! 6 panel 
+      doors, oak trim. Ready for move in!  
+      </description> 
+   </property>
+   <property rln="r317085" firm="f102" agent="a2144">
+      <street>88 Atkins Avenue</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53704</zip>
+      <price>305200</price>
+      <style>1-story Ranch</style>
+      <sqfeet>2800</sqfeet>
+      <bathrooms>2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>3 car, attached</garage>
+      <age>New</age>
+      <description>Expect to be impressed with this stunning ranch home situated on wooded 
+      lot backing to city bike trail. Home features include maple flrs, painted trim, spacious 
+      kitchen with 2 pantries and island with breakfast bar, huge great room with gorgeous view. 
+      Tray clg in dining, large master wp suite with tray ceiling, 10x18 deck, 12x12 patio, walkout 
+      ll, prof landscaping, air exchanger for healthier home and so much more!!
+      </description> 
+   </property>
+   <property rln="r317086" firm="f103" agent="a2145">
+      <street>3810 Stamford Lane</street>
+      <city>Oseola</city>
+      <state>WI</state>
+      <zip>53414</zip>
+      <price>315400</price>
+      <style>2-story Transitional</style>
+      <sqfeet>2751</sqfeet>
+      <bathrooms>2 1/2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>3 or more car, attached</garage>
+      <age>2</age>
+      <description>Stunning custom built 2-story 4 br home features 1st floor large master suite 
+      w/wic, dual vanitites, whirlpool tub and separate shower. Large great rm w/gas fp, formal dr/lr. 
+      Large kitchen w/center island, planning desk, and dinette. Hardwood flrs cover 2-story foyer, 
+      dinette, kitchen and powder rm. Cathedral ceiling highlights open flr plan. Maple cabinets, 
+      solid oak trim throughout. Job relo-highly motivated seller. All measurements approx.
+      </description> 
+   </property>
+   <property rln="r317087" firm="f102" agent="a2140">
+      <street>57 East Raulston Lane</street>
+      <city>Fenmore</city>
+      <state>WI</state>
+      <zip>56729</zip>
+      <price>329900</price>
+      <style>2-story Colonial</style>
+      <sqfeet>2770</sqfeet>
+      <bathrooms>2 1/2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>3 car, attached</garage>
+      <age>8</age>
+      <description>Wonderful 2-story colonial in super area. Homestead builder quality with 
+      custom cabinetry, oak trim, 6 panel doors, crown molding, elegant 2-story foyer. 
+      4 season sunroom overlooks huge backyard. Walkin closets.2 stairways to partially 
+      finished basement with lots of storage/expansion area. Nicely decorated and landscaped. 
+      Master bath with whirlpool! Fireplace in sunken family room. Huge 
+      kitchen with island and desk. Nice! Call seller direct and save!  
+      </description> 
+   </property>
+   <property rln="r317088" firm="f103" agent="a2146">
+      <street>14 Haywood Street</street>
+      <city>Cutler</city>
+      <state>WI</state>
+      <zip>55710</zip>
+      <price>319500</price>
+      <style>2-story Other</style>
+      <sqfeet>2565</sqfeet>
+      <bathrooms>2 1/2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>3 car, attached</garage>
+      <age>New</age>
+      <description>New 2-story by Eton homes 4 bedroom, 9' ceilings 1st floor wood 
+      floors kitchen and foyer, formal dining room, 1st floor study and laundy room, exposed 
+      lower level w/ 8' 6' ceilings. Large landscaped yard, 3 car tandom garage. 
+      </description> 
+   </property>
+   <property rln="r317089" firm="f105" agent="a2143">
+      <street>515 Lawrence Avenue</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53706</zip>
+      <price>274500</price>
+      <style>2-story Other</style>
+      <sqfeet>2100</sqfeet>
+      <bathrooms>2 1/2</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>2 car, attached</garage>
+      <age>New</age>
+      <description>Spacious 4 bedroom 2-story home featuring 9' ceilings first floor, 
+      wood floors kitchen and foyer, great room with gas fireplace, large kitchen with 
+      dinette, first floor laundry room, exposed lower level with 8'6 ceilings for future 
+      living area, 2 car tandem garage.
+      </description> 
+   </property>
+   <property rln="r317090" firm="f104" agent="a2147">
+      <street>9 Alston Court</street>
+      <city>Cutler</city>
+      <state>WI</state>
+      <zip>55712</zip>
+      <price>361500</price>
+      <style>2-story Transitional</style>
+      <sqfeet>3360</sqfeet>
+      <bathrooms>3</bathrooms>
+      <bedrooms>4</bedrooms>
+      <garage>3 or more car, attached</garage>
+      <age>9</age>
+      <description>Great curb appeal in this 9 yr old transitional w/2-story entry, 
+      tile flr. Formal lr and dr w/12' ceilings. Beautiful oak cabinetry w/center island, 
+      wet bar and dinette. Patio door opens to cobblestone patio. Fr w/gas fp. 2nd flr w/3 
+      bdrms. Double french doors leads to master suite w/walk-in shower, soaking tub and walk-in 
+      closet. Finished ll w/perfect in-law suite. Nicely landscaped yard w/inground 
+      sprinkler system.
+      </description> 
+   </property>
+   <property rln="r317091" firm="f105" agent="a2143">
+      <street>3211 Stamford Lane</street>
+      <city>Oseola</city>
+      <state>WI</state>
+      <zip>53414</zip>
+      <price>285200</price>
+      <style>Multi-level Contemporary</style>
+      <sqfeet>2911</sqfeet>
+      <bathrooms>2 1/2</bathrooms>
+      <bedrooms>3</bedrooms>
+      <garage>2 car, attached</garage>
+      <age>7</age>
+      <description>Expect a beautiful surprise when you walk into this contemporary home. 
+      The 3 bdrm, 2 1/2 bath home is filled with personality. Home offers formal dining, 
+      office, rec room, seperate master suite, mst ba has whrlpool tub. The sunroom (14x19) 
+      opens up to the fenced-in back yard which is a national hemerocallis garden. Location 
+      is unbeatable, backyard is next to preschool park and schools are minutes away. Slr will 
+      be removing some plants.
+      </description> 
+   </property>
+</listings>

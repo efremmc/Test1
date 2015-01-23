@@ -1,0 +1,25 @@
+/*
+   New Perspectives on XML
+   Tutorial 8
+   Case Problem 2
+
+   Best American Comedies Cascading Style Sheet
+
+   Filename:         comedy.css
+   Supporting Files: 
+*/
+
+body      {width: 620px; background-color:ivory}
+table     {width: 620px; font-size: 8pt; border: 2px solid orange; background-color:white}
+th, h1, td.sub, td.grand 
+          {font-family: Arial, Helvetica, sans-serif}
+th        {background-color: yellow; border-bottom: 2px solid orange; 
+           border-right: 1px solid orange; font-size:10pt}
+
+h1        {color: orange; margin: 0px; border-width:0px; padding: 0px}
+hr        {color: orange; background-color: orange}
+td,th     {vertical-align: top; padding: 2px}
+td.date   {border-right: 2px solid orange}
+td.num    {text-align: right}
+td.sub    {font-weight:bold; font-size:9pt; text-align: right}
+td.grand  {font-weight:bold; font-size:12pt; text-align: right}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Tutorial Case
+
+   List of agents
+
+   Filename:         agents.xml
+
+-->
+
+<agents>
+   <agent id="a2140">
+      <name>Karen Fawkes</name>
+      <phone>(608) 555-3414</phone>
+      <email>karen_fawkes@tofferrealty.com</email>
+   </agent>
+   <agent id="a2141">
+      <name>Linda DeJesus</name>
+      <phone>(608) 555-4140</phone>
+      <email>ldejesus@carsonhomes.com</email>
+   </agent>
+   <agent id="a2142">
+      <name>Lawrence Rao</name>
+      <phone>(414) 555-8580</phone>
+      <email>lkrao@rawlingscompany.com</email>
+   </agent>
+   <agent id="a2143">
+      <name>Michael Menschen</name>
+      <phone>(608) 555-8918</phone>
+      <email>mkmenschen@premierrealty.com</email>
+   </agent>
+   <agent id="a2144">
+      <name>Peter Grumwald</name>
+      <phone>(608) 555-3419</phone>
+      <email>peter_grumwald@tofferrealty.com</email>
+   </agent>
+   <agent id="a2145">
+      <name>Cynthia Cho</name>
+      <phone>(608) 555-5432</phone>
+      <email>ckcho@carsonhomes.com</email>
+   </agent>
+   <agent id="a2146">
+      <name>Ian Oppelganger</name>
+      <phone>(608) 555-5439</phone>
+      <email>idoppelganger@carsonhomes.com</email>
+   </agent>
+   <agent id="a2147">
+      <name>Allan Lee</name>
+      <phone>(414) 555-8900</phone>
+      <email>adlee@rawlingscompany.com</email>
+   </agent>
+</agents>

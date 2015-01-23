@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Case Problem 3
+
+   Money Managers Financial News Feed
+
+   Filename:         rss2.xml
+   Supporting Files: 
+-->
+
+<rss version="2.0"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  
+                    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+
+                    xmlns:admin="http://webns.net/mvcb/"
+  
+                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+
+
+   <channel>
+      <title>Money Managers News</title>
+      <link>home.htm</link>
+
+      <description>Money Managers delivers up-to-the-minute news and 
+      information on the latest financial stories from the United States 
+      and across the world.</description>
+
+      <dc:language>en-us</dc:language>
+      
+<dc:date>2008-03-24T12:22:54+09:00</dc:date>
+      
+<sy:updatePeriod>hourly</sy:updatePeriod>
+
+      <sy:updateFrequency>1</sy:updateFrequency>
+
+      <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+
+
+      <item>
+         <title>TR Financial Woes</title>
+         <link>news1.htm</link>
+         <description>Taylor Robotics is "tapped out" and can't borrow any 
+         more money to cover its mounting losses, making deep pay and benefit 
+         cuts it is seeking from its employees essential to its survival, the 
+         company's chief financial officer told an arbitration panel Tuesday. 
+         </description>
+         <dc:pubDate>Tue, 25 Mar 2008 12:17:37 EST</dc:pubDate>
+         <dc:subject>Industries</dc:subject>
+
+      </item>
+
+      <item>
+         <title>NASDAQ Rallies</title>
+         <link>news2.htm</link>
+         <description>U.S. stocks rallied on Tuesday, sending both the Dow 
+         Industrials and the broader SP 500 indexes close to five-year highs as 
+         a drop in Treasury yields eased worries about the interest rate and 
+         Goldman Sachs Group Inc. posted a record profit. 
+         </description>
+         <dc:pubDate>Tue, 25 Mar 2008 12:11:44 EST</dc:pubDate>
+         <dc:subject>Markets</dc:subject>
+
+      </item>
+
+      <item>
+         <title>Gold Jumps</title>
+         <link>news3.htm</link>
+         <description>Gold jumped to a one-month high at the close on Tuesday, 
+         powered by speculative and consumer buying and also by the dollar's 
+         steep fall, traders and analysts said. 
+         </description>
+         <dc:pubDate>Tue, 25 Mar 2008 12:05:12 EST</dc:pubDate>
+         <dc:subject>Markets</dc:subject>
+
+      </item>
+
+      <item>
+         <title>Possible WTO Sanctions</title>
+         <link>news4.htm</link>
+         <description>The European Union advised the World Trade Organization 
+         on Tuesday that it would reintroduce trade sanctions against Japan 
+         in two months unless the country complies with a WTO ruling against 
+         tax breaks for Japanese companies operating overseas.
+         </description>
+         <dc:pubDate>Tue, 25 Mar 2008 12:03:31 EST</dc:pubDate>
+         <dc:subject>International</dc:subject>
+
+      </item>
+
+   </channel>
+</rss>

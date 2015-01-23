@@ -1,0 +1,30 @@
+/*
+   New Perspectives on XML
+   Tutorial 9
+   Case Problem 1
+
+   AutoMaze Cascading Style Sheet
+
+   Filename:         amstyles.css
+   Supporting Files: 
+*/
+
+body      {width: 520px; background-color:rgb(255,192,192)}
+h1, h2    {font-family:Arial, Helvetica, sans-serif;color:blue;
+           margin: 0px; width: 520px; letter-spacing: 5px}
+h2        {margin-bottom: 10px; border-bottom: 3px solid blue}
+
+#shipData {width: 300px}
+#shipData th {text-align: left}
+
+#itemList {float: left; width: 520px; border: 1px solid rgb(255,192,192)}
+#orders   {font-size: 10pt}
+td, th    {vertical-align: top; border: 1px solid black; padding: 5px;
+           font-family: Courier New, monospace; font-size: 9pt}
+th        {background-color: rgb(232, 232, 232)}
+td        {background-color: white}
+.col1     {width: 50px}
+.col2     {width: 250px}
+.col3     {width: 40px}
+.col4     {width: 80px}
+

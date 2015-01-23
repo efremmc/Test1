@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Case Problem 4
+
+   The Lighthouse Donation List
+   Author: 
+   Date:   
+
+   Filename:         money.xml
+   Supporting Files: money.xsl
+-->
+
+<donations>
+   <donation pin="p1" amount="10000" />
+   <donation pin="p2" amount="50" />
+   <donation pin="p3" amount="100" />
+   <donation pin="p4" amount="10000" />
+   <donation pin="p5" amount="100" />
+   <donation pin="p6" amount="100" />
+   <donation pin="p7" amount="1000" />
+   <donation pin="p8" amount="100" />
+   <donation pin="p9" amount="10000" />
+   <donation pin="p10" amount="500" />
+   <donation pin="p11" amount="500" />
+   <donation pin="p12" amount="50" />
+   <donation pin="p13" amount="100" />
+   <donation pin="p14" amount="50" />
+   <donation pin="p15" amount="100" />
+   <donation pin="p16" amount="10000" />
+   <donation pin="p17" amount="1000" />
+   <donation pin="p18" amount="25000" />
+   <donation pin="p19" amount="50" />
+   <donation pin="p20" amount="5000" />
+   <donation pin="p21" amount="500" />
+   <donation pin="p22" amount="100" />
+   <donation pin="p23" amount="100" />
+   <donation pin="p24" amount="25000" />
+   <donation pin="p25" amount="500" />
+   <donation pin="p26" amount="5000" />
+   <donation pin="p27" amount="1000" />
+   <donation pin="p28" amount="1000" />
+   <donation pin="p29" amount="50" />
+   <donation pin="p30" amount="50" />
+   <donation pin="p31" amount="100" />
+   <donation pin="p32" amount="1000" />
+   <donation pin="p33" amount="50" />
+   <donation pin="p34" amount="500" />
+   <donation pin="p35" amount="50" />
+   <donation pin="p36" amount="500" />
+   <donation pin="p37" amount="500" />
+   <donation pin="p38" amount="100" />
+   <donation pin="p39" amount="500" />
+   <donation pin="p40" amount="50" />
+   <donation pin="p41" amount="500" />
+   <donation pin="p42" amount="1000" />
+   <donation pin="p43" amount="15000" />
+   <donation pin="p44" amount="1000" />
+   <donation pin="p45" amount="100" />
+   <donation pin="p46" amount="5000" />
+   <donation pin="p47" amount="500" />
+   <donation pin="p48" amount="100" />
+   <donation pin="p49" amount="100" />
+   <donation pin="p50" amount="50" />
+   <donation pin="p51" amount="50" />
+   <donation pin="p52" amount="50" />
+   <donation pin="p53" amount="15000" />
+   <donation pin="p54" amount="5000" />
+   <donation pin="p55" amount="50000" />
+   <donation pin="p56" amount="500" />
+   <donation pin="p57" amount="50" />
+   <donation pin="p58" amount="1000" />
+   <donation pin="p59" amount="1000" />
+   <donation pin="p60" amount="50" />
+</donations>

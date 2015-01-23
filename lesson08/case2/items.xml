@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Case Problem 2
+
+   WebFlowers Items Data
+
+   Filename:         items.xml
+   Supporting Files: 
+-->
+
+<items>
+   <item id="F101">
+      <name>Large Flower Vase Arrangement</name>
+      <price>74.99</price>
+   </item>
+   <item id="F102">
+      <name>Flowers Galore: Orchids and Roses</name>
+      <price>89.99</price>
+   </item>
+   <item id="F103">
+      <name>Bear with Dozen Roses</name>
+      <price>82.99</price>
+   </item>
+   <item id="F104">
+      <name>Medium Ivy Flower Bowl</name>
+      <price>49.99</price>
+   </item>
+   <item id="F105">
+      <name>Flower Bowl</name>
+      <price>54.99</price>
+   </item>
+   <item id="F106">
+      <name>One Dozen Red Roses</name>
+      <price>64.99</price>
+   </item>
+   <item id="F107">
+      <name>One Dozen White Roses</name>
+      <price>62.99</price>
+   </item>
+   <item id="F108">
+      <name>One Dozen Pink Roses</name>
+      <price>62.99</price>
+   </item>
+   <item id="F109">
+      <name>Fragrant Garden Basket</name>
+      <price>49.99</price>
+   </item>
+   <item id="F110">
+      <name>Classic Vase</name>
+      <price>64.99</price>
+   </item>
+   <item id="F111">
+      <name>White Flower Elegance</name>
+      <price>84.99</price>
+   </item>
+   <item id="F112">
+      <name>Flowers to Go</name>
+      <price>44.99</price>
+   </item>
+   <item id="F113">
+      <name>Bright Autumn Flowers</name>
+      <price>49.99</price>
+   </item>
+   <item id="F114">
+      <name>Pedestal Bowl</name>
+      <price>49.99</price>
+   </item>
+   <item id="F115">
+      <name>Summer Vase</name>
+      <price>69.99</price>
+   </item>
+   <item id="F116">
+      <name>Dizzy with Daisies</name>
+      <price>44.99</price>
+   </item>
+   <item id="F117">
+      <name>Fragrant Pink Lillies</name>
+      <price>72.99</price>
+   </item>
+   <item id="F118">
+      <name>Medley Basket</name>
+      <price>54.99</price>
+   </item>
+   <item id="F119">
+      <name>Romantic Vase</name>
+      <price>67.99</price>
+   </item>
+   <item id="F120">
+      <name>Spring Fling Flowers</name>
+      <price>59.99</price>
+   </item>
+   <item id="F121">
+      <name>Fragrant Lillies</name>
+      <price>74.99</price>
+   </item>
+   <item id="F122">
+      <name>Spring Flower Basket</name>
+      <price>54.99</price>
+   </item>
+   <item id="F123">
+      <name>Enchanted Roses</name>
+      <price>59.99</price>
+   </item>
+   <item id="F124">
+      <name>Large Flower Vase Arrangement</name>
+      <price>159.99</price>
+   </item>
+   <item id="F125">
+      <name>Spring Blooms</name>
+      <price>54.99</price>
+   </item>
+   <item id="F126">
+      <name>White Bear Bouquet</name>
+      <price>49.99</price>
+   </item>
+   <item id="F127">
+      <name>Golden Basket</name>
+      <price>69.99</price>
+   </item>
+   <item id="F128">
+      <name>Regal Iris Vase</name>
+      <price>57.99</price>
+   </item>
+   <item id="F129">
+      <name>Flowers of Europe</name>
+      <price>69.99</price>
+   </item>
+   <item id="F130">
+      <name>Fragrant Blooms</name>
+      <price>59.99</price>
+   </item>
+   <item id="F131">
+      <name>Pretty in Pink</name>
+      <price>49.99</price>
+   </item>
+   <item id="F132">
+      <name>Spray of Roses</name>
+      <price>69.99</price>
+   </item>
+   <item id="F133">
+      <name>Yellow Sunflowers</name>
+      <price>59.99</price>
+   </item>
+   <item id="F134">
+      <name>Bright Spring Vase</name>
+      <price>43.99</price>
+   </item>
+   <item id="F135">
+      <name>Yellow Daisy Vase</name>
+      <price>49.99</price>
+   </item>
+   <item id="F136">
+      <name>Spring Compote</name>
+      <price>109.99</price>
+   </item>
+   <item id="F137">
+      <name>Country Garden Basket</name>
+      <price>59.99</price>
+   </item>
+   <item id="F138">
+      <name>Sunflower Basket</name>
+      <price>56.99</price>
+   </item>
+   <item id="F139">
+      <name>Medium Ginger Jar</name>
+      <price>44.99</price>
+   </item>
+   <item id="F140">
+      <name>Pleasant Basket</name>
+      <price>99.99</price>
+   </item>
+</items>

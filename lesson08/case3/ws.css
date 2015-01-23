@@ -1,0 +1,31 @@
+/*
+   New Perspectives on XML
+   Tutorial 8
+   Case Problem 3
+
+   World Series Cascading Style Sheet
+
+   Filename:         ws.css
+   Supporting Files: 
+*/
+
+body                     {width: 750px; background-color: rgb(232,232,232); margin-top: 5px}
+
+#div1, #div2, #div3      {border: 1px solid black}
+#div1h, #div2h, #div3h   {font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 11pt;
+                          letter-spacing: 2px}
+#div1                    {width: 370px; height: 330px; overflow: auto; position: absolute; top: 75px; left: 10px}
+#div1h                   {position: absolute; top: 53px; left: 10px}
+#div2                    {width: 370px; height: 150px; overflow: auto; position: absolute; top: 75px; left: 390px}
+#div2h                   {position: absolute; top: 53px; left: 390px}
+#div3                    {width: 370px; height: 150px; overflow: auto; position: absolute; top: 255px; left: 390px}
+#div3h                   {position: absolute; top: 233px; left: 390px}
+
+table                    {background-color: white; width: 350px; font-size: 9pt; padding: 5px}
+
+h2, h4, th               {font-family: Arial, Helvetica, sans-serif}
+h2                       {width: 750px; text-align: center; margin: 0px; letter-spacing: 3px}
+th                       {vertical-align: top; text-align:left; border-bottom: 1px solid black}
+td                       {vertical-align: top}
+td.num                   {text-align: right}
+th.cname                 {width: 140px}

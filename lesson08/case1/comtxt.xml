@@ -1,0 +1,3580 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Case Problem 1
+
+   Best American Comedies
+   Author: 
+   Date:   
+
+   Filename:         comedy.xml
+   Supporting Files: comedy.xsl
+-->
+
+<poll>
+<ballot id="b1">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GOOD MORNING, VIETNAM (1987)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SILVER STREAK (1976)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b2">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BALL OF FIRE (1941)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b3">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b4">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b5">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE COURT JESTER (1956)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b6">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GOOD MORNING, VIETNAM (1987)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SILVER STREAK (1976)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b7">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b8">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MRS. DOUBTFIRE (1993)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b9">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY SLICKERS (1991)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b10">
+   <movie>9 TO 5 (1980)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b11">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE COURT JESTER (1956)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b12">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WOMAN OF THE YEAR (1942)</movie>
+</ballot>
+<ballot id="b13">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE MIRACLE OF MORGAN'S CREEK (1944)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b14">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEETLEJUICE (1988)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b15">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MRS. DOUBTFIRE (1993)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b16">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY SLICKERS (1991)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b17">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WOMAN OF THE YEAR (1942)</movie>
+</ballot>
+<ballot id="b18">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b19">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b20">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINNER AT EIGHT (1933)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b21">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BULL DURHAM (1988)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b22">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b23">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WOMAN OF THE YEAR (1942)</movie>
+</ballot>
+<ballot id="b24">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b25">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GOOD MORNING, VIETNAM (1987)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>LOST IN AMERICA (1985)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b26">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WOMAN OF THE YEAR (1942)</movie>
+</ballot>
+<ballot id="b27">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE FRESHMAN (1925)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b28">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SILVER STREAK (1976)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE PALM BEACH STORY (1942)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b29">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b30">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b31">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WOMAN OF THE YEAR (1942)</movie>
+</ballot>
+<ballot id="b32">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEETLEJUICE (1988)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b33">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BULL DURHAM (1988)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NUTTY PROFESSOR (1963)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b34">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b35">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MRS. DOUBTFIRE (1993)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b36">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b37">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b38">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b39">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE HEARTBREAK KID (1972)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b40">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b41">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b42">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b43">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b44">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SILVER STREAK (1976)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE PALM BEACH STORY (1942)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b45">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b46">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b47">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b48">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b49">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE MIRACLE OF MORGAN'S CREEK (1944)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b50">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MRS. DOUBTFIRE (1993)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE MIRACLE OF MORGAN'S CREEK (1944)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b51">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b52">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b53">
+   <movie>9 TO 5 (1980)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b54">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WOMAN OF THE YEAR (1942)</movie>
+</ballot>
+<ballot id="b55">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b56">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b57">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE MIRACLE OF MORGAN'S CREEK (1944)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b58">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEETLEJUICE (1988)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b59">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b60">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b61">
+   <movie>9 TO 5 (1980)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+</ballot>
+<ballot id="b62">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE COURT JESTER (1956)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b63">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b64">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE COURT JESTER (1956)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b65">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE MIRACLE OF MORGAN'S CREEK (1944)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b66">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>AUNTIE MAME (1958)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b67">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b68">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b69">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b70">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>LOST IN AMERICA (1985)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b71">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINNER AT EIGHT (1933)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b72">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b73">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BULL DURHAM (1988)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b74">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b75">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NUTTY PROFESSOR (1963)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b76">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GOOD MORNING, VIETNAM (1987)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>LOST IN AMERICA (1985)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b77">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE FRESHMAN (1925)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b78">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b79">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b80">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE COURT JESTER (1956)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b81">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b82">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WOMAN OF THE YEAR (1942)</movie>
+</ballot>
+<ballot id="b83">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BULL DURHAM (1988)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b84">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>AUNTIE MAME (1958)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b85">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MRS. DOUBTFIRE (1993)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b86">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b87">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY SLICKERS (1991)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b88">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE MIRACLE OF MORGAN'S CREEK (1944)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b89">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MRS. DOUBTFIRE (1993)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b90">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b91">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NUTTY PROFESSOR (1963)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b92">
+   <movie>9 TO 5 (1980)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b93">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE FRESHMAN (1925)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b94">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b95">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b96">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b97">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b98">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BULL DURHAM (1988)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b99">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEETLEJUICE (1988)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b100">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b101">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b102">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b103">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GOOD MORNING, VIETNAM (1987)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SILVER STREAK (1976)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b104">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE FRESHMAN (1925)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b105">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b106">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b107">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SILVER STREAK (1976)</movie>
+   <movie>SONS OF THE DESERT (1933)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b108">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEETLEJUICE (1988)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b109">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MRS. DOUBTFIRE (1993)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b110">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b111">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SILVER STREAK (1976)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE PALM BEACH STORY (1942)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b112">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b113">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b114">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b115">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b116">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BALL OF FIRE (1941)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b117">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>AUNTIE MAME (1958)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b118">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b119">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b120">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SILVER STREAK (1976)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE PALM BEACH STORY (1942)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b121">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>AUNTIE MAME (1958)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b122">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b123">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b124">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b125">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b126">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b127">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b128">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b129">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b130">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BIG (1988)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINNER AT EIGHT (1933)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE LADY EVE (1941)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b131">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEETLEJUICE (1988)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b132">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE MIRACLE OF MORGAN'S CREEK (1944)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b133">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b134">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEETLEJUICE (1988)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b135">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>AUNTIE MAME (1958)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b136">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b137">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GOOD MORNING, VIETNAM (1987)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>LOST IN AMERICA (1985)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b138">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b139">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GOOD MORNING, VIETNAM (1987)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>LOST IN AMERICA (1985)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b140">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b141">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FAST TIMES AT RIDGEMONT HIGH (1982)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NAVIGATOR (1924)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b142">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b143">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE FRESHMAN (1925)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b144">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BROADCAST NEWS (1987)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FARGO (1996)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>MANHATTAN (1979)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>ROAD TO MOROCCO (1942)</movie>
+   <movie>SLEEPER (1973)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE MIRACLE OF MORGAN'S CREEK (1944)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b145">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>AUNTIE MAME (1958)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b146">
+   <movie>9 TO 5 (1980)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>AUNTIE MAME (1958)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b147">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY SLICKERS (1991)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE HEARTBREAK KID (1972)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b148">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GOOD MORNING, VIETNAM (1987)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>LOST IN AMERICA (1985)</movie>
+   <movie>MONKEY BUSINESS (1931)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>WHAT'S UP, DOC? (1972)</movie>
+</ballot>
+<ballot id="b149">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TO BE OR NOT TO BE (1942)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b150">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>BULL DURHAM (1988)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NUTTY PROFESSOR (1963)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b151">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>TAKE THE MONEY AND RUN (1969)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WOMAN OF THE YEAR (1942)</movie>
+</ballot>
+<ballot id="b152">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE FRESHMAN (1925)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b153">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. BLANDINGS BUILDS HIS DREAM HOUSE (1948)</movie>
+   <movie>PRIVATE BENJAMIN (1980)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b154">
+   <movie>9 TO 5 (1980)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b155">
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARTHUR (1981)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>FATHER OF THE BRIDE (1950)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A GIFT (1934)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>MY MAN GODFREY (1936)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE NUTTY PROFESSOR (1963)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b156">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BALL OF FIRE (1941)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b157">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ADAM'S RIB (1949)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEING THERE (1979)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>GROUNDHOG DAY (1993)</movie>
+   <movie>HORSE FEATHERS (1932)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MOONSTRUCK (1987)</movie>
+   <movie>NINOTCHKA (1939)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>SULLIVAN'S TRAVELS (1941)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GREAT DICTATOR (1940)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THE THIN MAN (1934)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>WHEN HARRY MET SALLY (1989)</movie>
+</ballot>
+<ballot id="b158">
+   <movie>A NIGHT AT THE OPERA (1935)</movie>
+   <movie>AIRPLANE! (1980)</movie>
+   <movie>ARSENIC AND OLD LACE (1944)</movie>
+   <movie>BEVERLY HILLS COP (1984)</movie>
+   <movie>BRINGING UP BABY (1938)</movie>
+   <movie>DINER (1982)</movie>
+   <movie>DUCK SOUP (1933)</movie>
+   <movie>HAROLD AND MAUDE (1972)</movie>
+   <movie>IT HAPPENED ONE NIGHT (1934)</movie>
+   <movie>M*A*S*H (1970)</movie>
+   <movie>MR. DEEDS GOES TO TOWN (1936)</movie>
+   <movie>RAISING ARIZONA (1987)</movie>
+   <movie>SINGIN' IN THE RAIN (1952)</movie>
+   <movie>THE APARTMENT (1960)</movie>
+   <movie>THE GOLD RUSH (1925)</movie>
+   <movie>THE JERK (1979)</movie>
+   <movie>THE PHILADELPHIA STORY (1940)</movie>
+   <movie>THERE'S SOMETHING ABOUT MARY (1998)</movie>
+   <movie>TOOTSIE (1982)</movie>
+   <movie>YOUNG FRANKENSTEIN (1974)</movie>
+</ballot>
+<ballot id="b159">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CAT BALLOU (1965)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE FRESHMAN (1925)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b160">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>A SHOT IN THE DARK (1964)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>AUNTIE MAME (1958)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HARVEY (1950)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHAMPOO (1975)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+<ballot id="b161">
+   <movie>A FISH CALLED WANDA (1988)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>ANNIE HALL (1977)</movie>
+   <movie>BEETLEJUICE (1988)</movie>
+   <movie>BORN YESTERDAY (1950)</movie>
+   <movie>CITY LIGHTS (1931)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHERLOCK, JR. (1924)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE GENERAL (1927)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE SEVEN YEAR ITCH (1955)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>VICTOR/VICTORIA (1982)</movie>
+</ballot>
+<ballot id="b162">
+   <movie>A DAY AT THE RACES (1937)</movie>
+   <movie>ABBOTT AND COSTELLO MEET FRANKENSTEIN (1948)</movie>
+   <movie>AMERICAN GRAFFITI (1973)</movie>
+   <movie>BANANAS (1971)</movie>
+   <movie>BLAZING SADDLES (1974)</movie>
+   <movie>CADDYSHACK (1980)</movie>
+   <movie>DR. STRANGELOVE (1964)</movie>
+   <movie>GHOSTBUSTERS (1984)</movie>
+   <movie>HIS GIRL FRIDAY (1940)</movie>
+   <movie>IT'S A MAD MAD MAD MAD WORLD (1963)</movie>
+   <movie>MODERN TIMES (1936)</movie>
+   <movie>NATIONAL LAMPOON'S ANIMAL HOUSE (1978)</movie>
+   <movie>SHE DONE HIM WRONG (1933)</movie>
+   <movie>SOME LIKE IT HOT (1959)</movie>
+   <movie>THE AWFUL TRUTH (1937)</movie>
+   <movie>THE GRADUATE (1967)</movie>
+   <movie>THE ODD COUPLE (1968)</movie>
+   <movie>THE PRODUCERS (1968)</movie>
+   <movie>THIS IS SPINAL TAP (1984)</movie>
+   <movie>TOPPER (1937)</movie>
+</ballot>
+</poll>

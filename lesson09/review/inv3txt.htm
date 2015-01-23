@@ -1,0 +1,72 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Review Assignment
+
+   Freezing Point Refrigerators Product Report Hierarchical Table
+   Author: 
+   Date:   
+
+   Filename:         inv3.htm
+   Supporting Files: refg2.xml, sInfo.xml, styles3.css, + multiple jpg image files
+
+-->
+   <title>Freezing Point Refrigerators</title>
+   <link href="styles3.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+   <div id="pageData">
+
+     <div id="pageTitle">Title</div>
+     <div id="pageSubtitle">Subtitle</div>
+     <div id="pageText">Purpose</div>
+     <div id="pageAuthor">For more information, contact: 
+        <a href="#">
+          <span>Author</span>
+        </a>.
+     </div>
+     <p>
+     <input type="radio" name="modelType" value="Cabinet" checked />
+     <label>Cabinet Refrigerators</label>
+     <input type="radio" name="modelType" value="Freestanding" />
+     <label>Freestanding Refrigerators</label>
+     </p>
+   </div>
+
+   <table>
+     <thead>
+        <tr>
+           <th colspan="4">
+              <span>Model Type</span>
+           </th>
+        <tr>
+           <th>Product</th>
+           <th>Capacity/Dimensions</th>
+           <th>Energy Efficient</th>
+           <th>Freezer</th>
+        </tr>
+     </thead>
+     <tr><td style="text-align: center">
+           <img src="model.jpg" width="70" height="74" alt="" /><br />
+           <span>Model Name</span>
+           (<span>Price</span>)
+         </td>
+         <td>
+           <span>Capacity</span><br>
+           <span>Dimensions</span>
+         </td>
+         <td>
+           <span>Energy</span>
+         </td>         
+         <td>
+           <span>Freezer Type</span>
+         </td>
+     </tr>
+   </table>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Case Problem 2
+
+   WebFlowers Customer Data
+
+   Filename:         customers.xml
+   Supporting Files: 
+-->
+
+<customers>
+   <customer id="C28901">
+      <name>Karen Karls</name>
+      <street>89 Mohawk Lane</street>
+      <city>Madison</city>
+      <state>KY</state>
+      <zip>89312</zip>
+   </customer>
+   <customer id="C28902">
+      <name>Anthony Morranon</name>
+      <street>78 Alberone Avenue</street>
+      <city>East Texas</city>
+      <state>OK</state>
+      <zip>78121</zip>
+   </customer>
+   <customer id="C28903">
+      <name>Patty Whitney</name>
+      <street>2424 School Street</street>
+      <city>Banheim</city>
+      <state>ME</state>
+      <zip>12931</zip>
+   </customer>
+   <customer id="C28904">
+      <name>Oakwood Nursing Home</name>
+      <street>44 Tandy Lane</street>
+      <city>Oakwood</city>
+      <state>OH</state>
+      <zip>45381</zip>
+   </customer>
+   <customer id="C28905">
+      <name>Cutler Municipal Government</name>
+      <street>88 Main Street</street>
+      <city>Cutler</city>
+      <state>WI</state>
+      <zip>58781</zip>
+   </customer>
+   <customer id="C28906">
+      <name>Andy Sertain</name>
+      <street>9317 Lawrence Street</street>
+      <city>Banton</city>
+      <state>TX</state>
+      <zip>65731</zip>
+   </customer>
+   <customer id="C28907">
+      <name>Nancy's Notions</name>
+      <street>65 Mall Road</street>
+      <city>Kendall</city>
+      <state>IL</state>
+      <zip>68743</zip>
+   </customer>
+   <customer id="C28908">
+      <name>Maria Hoffman</name>
+      <street>8911 Third Street</street>
+      <city>Oseola</city>
+      <state>WI</state>
+      <zip>54871</zip>
+   </customer>
+   <customer id="C28909">
+      <name>Idlestan Nursing Home</name>
+      <street>405 Emory Lane</street>
+      <city>Idlestan</city>
+      <state>CN</state>
+      <zip>78101</zip>
+   </customer>
+   <customer id="C28910">
+      <name>Gary Wilkes</name>
+      <street>9837 Second Street</street>
+      <city>Yale</city>
+      <state>OR</state>
+      <zip>69023</zip>
+   </customer>
+   <customer id="C28911">
+      <name>Upton Clinic</name>
+      <street>55 Jackson Lane</street>
+      <city>Upton</city>
+      <state>FL</state>
+      <zip>47311</zip>
+   </customer>
+   <customer id="C28912">
+      <name>Gullickson, Inc.</name>
+      <street>31 East Hoffman Street</street>
+      <city>Ivy</city>
+      <state>MA</state>
+      <zip>87712</zip>
+   </customer>
+   <customer id="C28913">
+      <name>John Satee</name>
+      <street>101 Lawton Street</street>
+      <city>Mount Hope</city>
+      <state>CO</state>
+      <zip>87923</zip>
+   </customer>
+   <customer id="C28914">
+      <name>Kitchen Wares</name>
+      <street>25 Mall Road</street>
+      <city>Poulin</city>
+      <state>GA</state>
+      <zip>34871</zip>
+   </customer>
+   <customer id="C28915">
+      <name>Home Notions</name>
+      <street>8634 Main Street</street>
+      <city>Hawthorne</city>
+      <state>UT</state>
+      <zip>58944</zip>
+   </customer>
+   <customer id="C28916">
+      <name>Karen Li</name>
+      <street>450 Miller Lane</street>
+      <city>Belton</city>
+      <state>MI</state>
+      <zip>60983</zip>
+   </customer>
+   <customer id="C28917">
+      <name>Kay James</name>
+      <street>254 Prospect Road</street>
+      <city>Vale Park</city>
+      <state>CO</state>
+      <zip>80414</zip>
+   </customer>
+   <customer id="C28918">
+      <name>City of Haywood</name>
+      <street>14 Main Street</street>
+      <city>Haywood</city>
+      <state>TN</state>
+      <zip>78390</zip>
+   </customer>
+   <customer id="C28919">
+      <name>Dawson Nursing Home</name>
+      <street>311 Paulson Street</street>
+      <city>Fennimore</city>
+      <state>PA</state>
+      <zip>73213</zip>
+   </customer>
+   <customer id="C28920">
+      <name>Michael White</name>
+      <street>111 Dixon Street</street>
+      <city>North Forks</city>
+      <state>MN</state>
+      <zip>61098</zip>
+   </customer>
+</customers>

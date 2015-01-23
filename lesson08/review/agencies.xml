@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Review Assignment
+   Efrem McCrimon
+   3-29-2011
+
+   List of agents
+
+   Filename:         agencies.xml
+
+-->
+
+<firms>
+   <firm firmNum="f101">
+      <name>Acer Realty</name>
+      <street>400 Hawthorne Avenue</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53700</zip>
+      <phone>(608) 555-9092</phone>
+      <web>http://www.acerrealty.com</web>
+      <agents>
+         <agent agentNum="a2148">
+            <name>Gary Ubersetzing</name>
+            <phone>(608) 555-9091</phone>
+            <email>gary_uber@acerrealty.com</email>
+         </agent>
+         <agent agentNum="a2149">
+            <name>Kari Lawrence</name>
+            <phone>(608) 555-8799</phone>
+            <email>Kari_lawrence@acerrealty.com</email>
+         </agent>
+         <agent agentNum="a2150">
+            <name>Patty Becker</name>
+            <phone>(608) 555-0933</phone>
+            <email>patty_becker@acerrealty.com</email>
+         </agent>
+      </agents>
+   </firm>
+   <firm firmNum="f102">
+      <name>Toffer Realty</name>
+      <street>311 Allen Court</street>
+      <city>Bartlett</city>
+      <state>WI</state>
+      <zip>55910</zip>
+      <phone>(414) 555-5081</phone>
+      <web>http://www.tofferrealty.com</web>
+      <agents>
+         <agent agentNum="a2140">
+            <name>Karen Fawkes</name>
+            <phone>(608) 555-3414</phone>
+            <email>karen_fawkes@tofferrealty.com</email>
+         </agent>
+         <agent agentNum="a2144">
+            <name>Peter Grumwald</name>
+            <phone>(608) 555-3419</phone>
+            <email>peter_grumwald@tofferrealty.com</email>
+         </agent>
+      </agents>
+   </firm>
+   <firm firmNum="f103">
+      <name>Carson Homes</name>
+      <street>981 Frontage Road</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53720</zip>
+      <phone>(608) 555-0912</phone>
+      <web>http://www.carsonhomes.com</web>
+      <agents>
+         <agent agentNum="a2141">
+            <name>Linda DeJesus</name>
+            <phone>(608) 555-4140</phone>
+            <email>ldejesus@carsonhomes.com</email>
+         </agent>
+         <agent agentNum="a2146">
+            <name>Ian Oppelganger</name>
+            <phone>(608) 555-5439</phone>
+            <email>idoppelganger@carsonhomes.com</email>
+         </agent>
+         <agent agentNum="a2145">
+            <name>Cynthia Cho</name>
+            <phone>(608) 555-5432</phone>
+            <email>ckcho@carsonhomes.com</email>
+         </agent>
+      </agents>
+   </firm>
+   <firm firmNum="f104">
+      <name>The Rawlings Company</name>
+      <street>678 Grimble Street</street>
+      <city>Hilton</city>
+      <state>WI</state>
+      <zip>58912</zip>
+      <phone>(414) 555-6780</phone>
+      <web>http://www.rawlingscompany.com</web>
+      <agents>
+         <agent agentNum="a2142">
+            <name>Lawrence Rao</name>
+            <phone>(414) 555-8580</phone>
+            <email>lkrao@rawlingscompany.com</email>
+         </agent>
+         <agent agentNum="a2147">
+            <name>Allan Lee</name>
+            <phone>(414) 555-8900</phone>
+            <email>adlee@rawlingscompany.com</email>
+         </agent>
+      </agents>
+   </firm>
+   <firm firmNum="f105">
+      <name>Premier Realty</name>
+      <street>87 Crawford Court</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53705</zip>
+      <phone>(608) 555-8915</phone>
+      <web>http://www.premierrealty.com</web>
+      <agents>
+         <agent agentNum="a2143">
+            <name>Michael Menschen</name>
+            <phone>(608) 555-8918</phone>
+            <email>mkmenschen@premierrealty.com</email>
+         </agent>
+      </agents>
+   </firm>
+</firms>

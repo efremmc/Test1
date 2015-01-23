@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Review Assignment
+
+   Information about Freezing Point Refrigerators
+
+   Filename:         sinfo.xml
+
+-->
+
+<information>
+   <title>Freezing Point Refrigerators</title>
+   <subtitle>Product Information Page</subtitle>
+   <purpose>
+This page contains information about the different models of Freezing Point
+refrigerators. For each model, this page reports the model name, price, capacity,
+dimensions, energy efficiency, and the location of the freezer unit.
+   </purpose>
+   <author>Jason Lewis</author>
+   <authorEmail>mailto:jlewis@freezingpoint.com</authorEmail>
+</information>

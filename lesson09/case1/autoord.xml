@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Case Problem 1
+
+   List of Shipped Items
+
+   Filename:         autoord.xml
+
+-->
+
+<delivery>
+   <wName>Reston</wName>
+   <wContact>John McAdams</wContact>
+   <orderDate>8/15/2008</orderDate>
+   <recvDate>8/21/2008</recvDate>
+   <recvBy>David Hanson</recvBy>
+   <sCost>$385</sCost>
+   <manifest>
+      <item itemID="CM204">
+         <itemName>Camshaft (Box 20)</itemName>
+         <itemQty>10</itemQty>
+         <itemPrice>$289.95</itemPrice>
+      </item>
+      <item itemID="CR201">
+         <itemName>Carburetor (Box 25)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$159.95</itemPrice>
+      </item>
+      <item itemID="CRK310">
+         <itemName>Crankshaft (Box 10)</itemName>
+         <itemQty>3</itemQty>
+         <itemPrice>$109.95</itemPrice>
+      </item>
+      <item itemID="DS503">
+         <itemName>Distributor (Box 15)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$125.95</itemPrice>
+      </item>
+      <item itemID="EC501">
+         <itemName>Engine Computer (Box 1)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$414.59</itemPrice>
+      </item>
+      <item itemID="OP460">
+         <itemName>Oil Pump (Box 20)</itemName>
+         <itemQty>3</itemQty>
+         <itemPrice>$214.95</itemPrice>
+      </item>
+      <item itemID="SP300">
+         <itemName>Standard Spark Plugs (Box 100)</itemName>
+         <itemQty>10</itemQty>
+         <itemPrice>$114.45</itemPrice>
+      </item>
+      <item itemID="SP310">
+         <itemName>Delux Spark Plugs (Box 100)</itemName>
+         <itemQty>10</itemQty>
+         <itemPrice>$139.95</itemPrice>
+      </item>
+      <item itemID="TB261">
+         <itemName>Timing Belt (Box 40)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$94.90</itemPrice>
+      </item>
+      <item itemID="TR301">
+         <itemName>Transmission (Box 1)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$310.95</itemPrice>
+      </item>
+      <item itemID="BA105">
+         <itemName>Standard Batteries (Box 12)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$495.40</itemPrice>
+      </item>
+      <item itemID="BA205">
+         <itemName>Security Batteries (Box 4)</itemName>
+         <itemQty>3</itemQty>
+         <itemPrice>$289.95</itemPrice>
+      </item>
+      <item itemID="BA115">
+         <itemName>Delux Batteries (Box 12)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$525.95</itemPrice>
+      </item>
+      <item itemID="SF305">
+         <itemName>Standard Air Filters (Box 16)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$148.25</itemPrice>
+      </item>
+      <item itemID="FI372">
+         <itemName>Fulel Injection Kits (Box 1)</itemName>
+         <itemQty>15</itemQty>
+         <itemPrice>$129.95</itemPrice>
+      </item>
+      <item itemID="BRK681">
+         <itemName>Brake Line Kit (Box 1)</itemName>
+         <itemQty>25</itemQty>
+         <itemPrice>$29.95</itemPrice>
+      </item>
+      <item itemID="CF401">
+         <itemName>Cooling Fans (Box 20)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$34.41</itemPrice>
+      </item>
+      <item itemID="ALT561">
+         <itemName>Chrome-plated Alternators (Box 5)</itemName>
+         <itemQty>3</itemQty>
+         <itemPrice>$105.95</itemPrice>
+      </item>
+      <item itemID="ALT610">
+         <itemName>Alternator Case Kit (Box 1)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$69.95</itemPrice>
+      </item>
+      <item itemID="CC310">
+         <itemName>Catalytic Converters (Box 5)</itemName>
+         <itemQty>3</itemQty>
+         <itemPrice>$121.59</itemPrice>
+      </item>
+      <item itemID="CC315">
+         <itemName>Universal Catalytic Converters (Box 5)</itemName>
+         <itemQty>5</itemQty>
+         <itemPrice>$68.95</itemPrice>
+      </item>
+   </manifest>
+</delivery>

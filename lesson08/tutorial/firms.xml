@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Tutorial Case
+
+   List of firms
+
+   Filename:         firms.xml
+
+-->
+
+<firms>
+   <firm id="f101">
+      <name>Acer Realty</name>
+      <street>400 Hawthorne Avenue</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53700</zip>
+      <phone>(608) 555-9092</phone>
+      <web>http://www.acerrealty.com</web>
+   </firm>
+   <firm id="f102">
+      <name>Toffer Realty</name>
+      <street>311 Allen Court</street>
+      <city>Bartlett</city>
+      <state>WI</state>
+      <zip>55910</zip>
+      <phone>(414) 555-5081</phone>
+      <web>http://www.tofferrealty.com</web>
+   </firm>
+   <firm id="f103">
+      <name>Carson Homes</name>
+      <street>981 Frontage Road</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53720</zip>
+      <phone>(608) 555-0912</phone>
+      <web>http://www.carsonhomes.com</web>
+   </firm>
+   <firm id="f104">
+      <name>The Rawlings Company</name>
+      <street>678 Grimble Street</street>
+      <city>Hilton</city>
+      <state>WI</state>
+      <zip>58912</zip>
+      <phone>(414) 555-6780</phone>
+      <web>http://www.rawlingscompany.com</web>
+   </firm>
+   <firm id="f105">
+      <name>Premier Realty</name>
+      <street>87 Crawford Court</street>
+      <city>Padua</city>
+      <state>WI</state>
+      <zip>53705</zip>
+      <phone>(608) 555-8915</phone>
+      <web>http://www.premierrealty.com</web>
+   </firm>
+</firms>

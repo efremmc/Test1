@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Case Problem 4
+
+   Tour Scotland Tour Descriptions
+   Author: 
+   Date:   
+
+   Filename:         tour.xml
+   Supporting Files: 
+-->
+
+<tours>
+   <tour>
+      <description>
+<p><i>Travel Scotland!</i> goes south to England and the Lake District.
+The tour leaves departs from London, taking an overnight train to Windemere,
+your gateway to the Lake District. Take some time to peruse the local
+shops or hike the mountains, following in the footsteps of William
+Wordsworth. With a week in the Lake District, you'll have plenty of time
+to discover all of its charms and wonders.</p>
+<p>From the Lake District, we go to York for two fun-filled days. Tour the
+awesome York Minster, one of the most beautiful cathedrals in Europe. York
+is also home to underground ruins of one of the earliest Roman settlements
+in Britain.</p>
+<p>The tour concludes with two days of sight-seeing and fun in London.</p>
+      </description>
+      <tourName>The Lake District</tourName>
+      <tourPhoto>Lake.jpg</tourPhoto>
+      <tourGuide>Mary Taylor</tourGuide>
+      <tdEmail>mailto:mtaylor@tscotland.com</tdEmail>
+      <tourStart>6/15/2003</tourStart>
+      <tourEnd>6/19/2003</tourEnd>
+      <itinerary>
+         <day>
+            <dayNumber>1</dayNumber>
+            <plan>London arrival</plan>
+         </day>
+         <day>
+            <dayNumber>2</dayNumber>
+            <plan>Train to Windemere</plan>
+         </day>
+         <day>
+            <dayNumber>3</dayNumber>
+            <plan>Second day in Windemere</plan>
+         </day>
+         <day>
+            <dayNumber>4</dayNumber>
+            <plan>Trip to Ambleside</plan>
+         </day>
+         <day>
+            <dayNumber>5</dayNumber>
+            <plan>Hiking tour to Grasmere</plan>
+         </day>
+         <day>
+            <dayNumber>6</dayNumber>
+            <plan>Boating trip on Lake Windemere</plan>
+         </day>
+         <day>
+            <dayNumber>7</dayNumber>
+            <plan>Free day</plan>
+         </day>
+         <day>
+            <dayNumber>8</dayNumber>
+            <plan>Trip to Keswick and Honister Pass</plan>
+         </day>
+         <day>
+            <dayNumber>9</dayNumber>
+            <plan>Return to Ambleside</plan>
+         </day>
+         <day>
+            <dayNumber>10</dayNumber>
+            <plan>Train to York</plan>
+         </day>
+         <day>
+            <dayNumber>11</dayNumber>
+            <plan>Second day in York</plan>
+         </day>
+         <day>
+            <dayNumber>12</dayNumber>
+            <plan>Train to London</plan>
+         </day>
+         <day>
+            <dayNumber>13</dayNumber>
+            <plan>Second day in London</plan>
+         </day>
+         <day>
+            <dayNumber>14</dayNumber>
+            <plan>London departure</plan>   
+         </day>
+      </itinerary>   
+   </tour>
+   <tour>
+     <description>
+<p>Join <i>Travel Scotland!</i> for a two-week tour of the Hebrides. The trip
+takes you to four of the beautiful Hebridean islands, including Fingal's
+Cave, featured in Medelssohn's <i>The Hebrides</i> Overture.</p>
+<p>The tour starts with a train tour of the Highlands from Glasgow to Fort
+William. After an overnight stay in Fort William, we leave by train and ferry
+to the Isle of Skye. While there, you'll have a chance to tour Dunvegan
+Castle and visit the Black Cullins in southern Skye. A boat trip to Mallaig
+follows and tour through Moidart where we'll visit the most western point in
+Great Britain.</p>
+<p>No tour of the Hebrides can be complete with a visit to Iona and Fingal's
+Cave. Plenty of time will be available for touring the abbey at Iona and 
+touring the ruins. Pay your respects at the grave of St. Columba who, as
+the legends tell it, was a disciple of St. Patrick and brought Christianity
+to the Highlands.</p>
+<p>You'll spend the next three days in Oban and on the Isle of Jura. Be sure
+to take some time to sample its world-famous scotch! The
+trip concludes with two days in Glasgow.</p>
+      </description>
+      <tourName>The Hebrides</tourName>
+      <tourPhoto>Hebrides.jpg</tourPhoto>
+      <tourGuide>Alan Simpson</tourGuide>
+      <tdEmail>mailto:asimpson@tscotland.com</tdEmail>
+      <tourStart>7/02/2003</tourStart>
+      <tourEnd>7/16/2003</tourEnd>
+      <itinerary>
+         <day>
+            <dayNumber>1</dayNumber>
+            <plan>Glasgow arrival</plan>
+         </day>
+         <day>
+            <dayNumber>2</dayNumber>
+            <plan>Train to Fort William</plan>
+         </day>
+         <day>
+            <dayNumber>3</dayNumber>
+            <plan>Train and boat ferry to the Isle of Skye</plan>
+         </day>
+         <day>
+            <dayNumber>4</dayNumber>
+            <plan>Tour of Skye</plan>
+         </day>
+         <day>
+            <dayNumber>5</dayNumber>
+            <plan>Boat trip to Mallaig, bus tour through Moidart</plan>
+         </day>
+         <day>
+            <dayNumber>6</dayNumber>
+            <plan>Boat trip to the Isle of Mull</plan>
+         </day>
+         <day>
+            <dayNumber>7</dayNumber>
+            <plan>Free day</plan>
+         </day>
+         <day>
+            <dayNumber>8</dayNumber>
+            <plan>Tour of Iona and Fingal's Cave</plan>
+         </day>
+         <day>
+            <dayNumber>9</dayNumber>
+            <plan>Boat trip to Oban</plan>
+         </day>
+         <day>
+            <dayNumber>10</dayNumber>
+            <plan>Bus and boat tour to Jura</plan>
+         </day>
+         <day>
+            <dayNumber>11</dayNumber>
+            <plan>Second day on Jura</plan>
+         </day>
+         <day>
+            <dayNumber>12</dayNumber>
+            <plan>Bus tour to Glasgow</plan>
+         </day>
+         <day>
+            <dayNumber>13</dayNumber>
+            <plan>Second day in Glasgow</plan>
+         </day>
+         <day>
+            <dayNumber>14</dayNumber>
+            <plan>Glasgow departure</plan>   
+         </day>
+      </itinerary>   
+   </tour>
+   <tour>
+     <description>
+<p>The <i>Highlands Tour</i> continues to be our most popular tour. This
+two-week excursion takes you to some of the most awe-inspiring
+scenery in Scotland; yet provides plenty of shopping time and sight-seeing
+in the beautiful city of Edinburgh.</p>
+<p>The trip begins with two days in Glencoe, the site of the famous
+massacre of the MacDonald clan by the Stewarts. Take some time to go hiking.
+Several movies have been filmed in Glencoe, including <i>Braveheart</i> and
+<i>Highlander</i>. Maybe you'll get a chance to be an extra in this year's
+production!</p>
+<p>From Glencoe, the tour travels north, following the trail of Bonnie
+Prince Charlie to Glenfinnan. You'll also take a boat trip to view castle
+ruins along the Kyle of Lochalsh. A trip to Loch Ness follows. Perhaps
+you'll see Nessie!</p>
+<p>For city-dwellers, you'll enjoy the next three days in Edinburgh. Do some
+shopping along the Royal Mile, or climb Arthur's Seat for a awesome view of
+the city. If you love castles, visit Edinburgh castle and Sterling castle too.</p>
+<p>The tour concludes with a trip to Glasgow.</p>
+      </description>
+      <tourName>The Highlands</tourName>
+      <tourPhoto>Highland.jpg</tourPhoto>
+      <tourGuide>Geoff Rawlings</tourGuide>
+      <tdEmail>mailto:grawlings@tscotland.com</tdEmail>
+      <tourStart>7/07/2003</tourStart>
+      <tourEnd>7/21/2003</tourEnd>
+      <itinerary>
+         <day>
+            <dayNumber>1</dayNumber>
+            <plan>Glasgow arrival</plan>
+         </day>
+         <day>
+            <dayNumber>2</dayNumber>
+            <plan>Train to Glencoe</plan>
+         </day>
+         <day>
+            <dayNumber>3</dayNumber>
+            <plan>Second day in Glencoe</plan>
+         </day>
+         <day>
+            <dayNumber>4</dayNumber>
+            <plan>Train to Fort William and Glenfinnan</plan>
+         </day>
+         <day>
+            <dayNumber>5</dayNumber>
+            <plan>Boat ride through the Kyle of Lochalsh</plan>
+         </day>
+         <day>
+            <dayNumber>6</dayNumber>
+            <plan>Train to Loch Ness and Fort William</plan>
+         </day>
+         <day>
+            <dayNumber>7</dayNumber>
+            <plan>Free day</plan>
+         </day>
+         <day>
+            <dayNumber>8</dayNumber>
+            <plan>Trip to Aviemore and Pitlochry</plan>
+         </day>
+         <day>
+            <dayNumber>9</dayNumber>
+            <plan>Train to Edinburgh</plan>
+         </day>
+         <day>
+            <dayNumber>10</dayNumber>
+            <plan>Second day in Edinburgh</plan>
+         </day>
+         <day>
+            <dayNumber>11</dayNumber>
+            <plan>Third day in Edinburgh</plan>
+         </day>
+         <day>
+            <dayNumber>12</dayNumber>
+            <plan>Trip to Sterling</plan>
+         </day>
+         <day>
+            <dayNumber>13</dayNumber>
+            <plan>Train to Glasgow</plan>
+         </day>
+         <day>
+            <dayNumber>14</dayNumber>
+            <plan>Glasgow departure</plan>   
+         </day>
+      </itinerary>   
+   </tour>
+   <tour>
+     <description>
+<p>Do you like castles? The <i>Castles of Scotland Tour</i> is for you. The
+tour visits 15 differents castles in central and northern Scotland. The tour
+starts with the famous Edinburgh Castle, and <i>Travel Scotland!</i> has a
+special arrangement to visit parts of the castle normally closed to the
+public.</p>
+<p>From Edinburgh you travel to Stirling Castle with breathtaking views of
+the River Forth as it divides Scotland's Highlands and Lowlands. Inverness
+is next on the Itinerary with a side trip to Culloden to view where the
+campaign of Bonnie Prince Charlie came to an end.</p>
+<p>Look for Nessie from Castle Urquhart on the banks of Loch Ness. From there
+goes into the heart of the Highlands with trips to Fort William and Oban. We've
+made special plans to picnic by Castle Stalker near Glencoe.</p>
+<p>No castle tour would be complete with a trip to Balmacara Castle on the
+Isle of Skye. While on Skye, we'll have a boat trip along the feet of the
+Black Cullins.</p>
+<p>The tour concludes with two days back in Edinburgh for shopping, additional
+site-seeing, or just rest and relaxation.</p>
+      </description>
+      <tourName>Castles of Scotland</tourName>
+      <tourPhoto>Castles.jpg</tourPhoto>
+      <tourGuide>Alice Arthur</tourGuide>
+      <tdEmail>mailto:aarthur@tscotland.com</tdEmail>
+      <tourStart>8/01/2003</tourStart>
+      <tourEnd>8/15/2003</tourEnd>
+      <itinerary>
+         <day>
+            <dayNumber>1</dayNumber>
+            <plan>Edinburgh arrival</plan>
+         </day>
+         <day>
+            <dayNumber>2</dayNumber>
+            <plan>Tour of Edinburgh Castle</plan>
+         </day>
+         <day>
+            <dayNumber>3</dayNumber>
+            <plan>Trip to Sterling Castle</plan>
+         </day>
+         <day>
+            <dayNumber>4</dayNumber>
+            <plan>Trip to Inverness</plan>
+         </day>
+         <day>
+            <dayNumber>5</dayNumber>
+            <plan>Second day in Inverness</plan>
+         </day>
+         <day>
+            <dayNumber>6</dayNumber>
+            <plan>Trip to Loch Ness and Fort William</plan>
+         </day>
+         <day>
+            <dayNumber>7</dayNumber>
+            <plan>Free day</plan>
+         </day>
+         <day>
+            <dayNumber>8</dayNumber>
+            <plan>Trip to Castle Stalker and Oban</plan>
+         </day>
+         <day>
+            <dayNumber>9</dayNumber>
+            <plan>Trip to Glenfinnan, boat ride to the Isle of Skye</plan>
+         </day>
+         <day>
+            <dayNumber>10</dayNumber>
+            <plan>Second day on Skye. Trip to Balmacara Castle</plan>
+         </day>
+         <day>
+            <dayNumber>11</dayNumber>
+            <plan>Train to Perth</plan>
+         </day>
+         <day>
+            <dayNumber>12</dayNumber>
+            <plan>Train to Edinburgh</plan>
+         </day>
+         <day>
+            <dayNumber>13</dayNumber>
+            <plan>Second day in Edinburgh</plan>
+         </day>
+         <day>
+            <dayNumber>14</dayNumber>
+            <plan>Edinburgh departure</plan>   
+         </day>
+      </itinerary>   
+   </tour>
+</tours>

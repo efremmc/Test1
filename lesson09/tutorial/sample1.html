@@ -1,0 +1,90 @@
+	
+
+    <html>
+    <head>
+    <!--
+      New Perspectives on XML
+      Tutorial 9
+      Case Problem 1
+     
+      AutoMaze Shipping Manifest
+      Author:
+      Date:  
+     
+      Filename:         am.htm
+      Supporting Files: amstyles.css, autoord.xml
+     
+    -->
+       <title>AutoMaze Shipping Manifest</title>
+       <link href="amstyles.css" rel="stylesheet" type="text/css" />
+       <xml id="orderInfo" src="autoord.xml"></xml>
+    </head>
+     
+    <body>
+       <h1>AutoMaze</h1>
+       <h2>Shipping Manifest</h1>
+     
+       <table id="shipData">
+       <tr>
+          <th>Order Date</th>
+          <td><span datasrc="#orderInfo" datafld="orderDate">Order Date</span></td>
+       </tr>
+       <tr>
+          <th>Date Received</th>
+          <td><span datasrc="#orderInfo" datafld="recvDate">Received Date</span></td>
+       </tr>
+       <tr>
+          <th>Received By</th>
+          <td><span datasrc="#orderInfo" datafld="recvBy">By</span></td>
+       </tr>
+       <tr>
+          <th>Shipping Cost</th>
+          <td><span datasrc="#orderInfo" datafld="sCost">Cost</span></td>
+       </tr>
+       <tr>
+          <th>Warehouse</th>
+          <td><span datasrc="#orderInfo" datafld="wName">Name</span></td>
+       </tr>
+       <tr>
+          <th>Warehouse Contact</th>
+          <td><span datasrc="#orderInfo" datafld="wContact">Contact</span></td>
+       </tr>
+       </table>
+     
+       <table datasrc="#orderInfo" datafld="manifest" id="itemList">
+       <tr>
+          <th rowspan="3">
+             <button onClick="orders.dataPageSize=999999; orders.firstPage()">Show All</button>  <!--the book is stupid, this must be 'dataPageSize' and not 'datapagesize' to work-->
+             <br />
+             <button onClick="orders.dataPageSize=6">Show Pages</button>
+          </th>
+          <th colspan="4">
+             <button onClick="orders.firstPage()">|&lt; First</button>
+             <button onClick="orders.previousPage()">&lt; Previous Page </button>
+             <button onClick="orders.nextPage()">Next Page &gt;</button>
+             <button onClick="orders.lastPage()">Last &gt;|</button>
+          </th>
+       </tr>
+       <tr>
+          <th class="col1">PID</th>
+          <th class="col2">Item</th>
+          <th class="col3">Qty</th>
+          <th class="col4">Price</th>
+       </tr>
+       <tr>
+          <td colspan="4" style="padding: 0px">
+             <table id="orders" datasrc="#orderInfo" datafld="item" datapagesize="6">
+             <tr>
+                <td class="col1"><span datafld="itemID"></span></td>
+                <td class="col2"><span datafld="itemName"></span></td>
+                <td class="col3" style="text-align: right"><span datafld="itemQty"></span></td>
+                <td class="col4" style="text-align: right"><span datafld="itemPrice"></span></td>
+             </tr>
+             </table>
+          </td>
+       </tr>
+       </table>
+     
+    </body>
+    </html>
+

@@ -1,0 +1,86 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Case Problem 1
+
+   AutoMaze Shipping Manifest
+   Author: 
+   Date:   
+
+   Filename:         am.htm
+   Supporting Files: amstyles.css, autoord.xml
+
+-->
+   <title>AutoMaze Shipping Manifest</title>
+   <link href="amstyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <h1>AutoMaze</h1>
+   <h2>Shipping Manifest</h1>
+
+   <table id="shipData">
+   <tr>
+      <th>Order Date</th>
+      <td><span>Order Date</span></td>
+   </tr>
+   <tr>
+      <th>Date Received</th>
+      <td><span>Received Date</span></td>
+   </tr>
+   <tr>
+      <th>Received By</th>
+      <td><span>By</span></td>
+   </tr>
+   <tr>
+      <th>Shipping Cost</th>
+      <td><span>Cost</span></td>
+   </tr>
+   <tr>
+      <th>Warehouse</th>
+      <td><span>Name</span></td>
+   </tr>
+   <tr>
+      <th>Warehouse Contact</th>
+      <td><span>Contact</span></td>
+   </tr>
+   </table>
+
+   <table id="itemList">
+   <tr>
+      <th rowspan="3">
+         <button>Show All</button>
+         <br />
+         <button>Show Pages</button>
+      </th>
+      <th colspan="4">
+         <button>|&lt; First</button>
+         <button>&lt; Previous Page </button>
+         <button>Next Page &gt;</button>
+         <button>Last &gt;|</button>
+      </th>
+   </tr>
+   <tr>
+      <th class="col1">PID</th>
+      <th class="col2">Item</th>
+      <th class="col3">Qty</th>
+      <th class="col4">Price</th>
+   </tr>
+   <tr>
+      <td colspan="4" style="padding: 0px">
+         <table>
+         <tr>
+            <td class="col1"><span>ID</span></td>
+            <td class="col2"><span>Name</span></td>
+            <td class="col3" style="text-align: right"><span>Qty</span></td>
+            <td class="col4" style="text-align: right"><span>Price</span></td>
+         </tr>
+         </table>
+      </td>
+   </tr>
+   </table>
+
+</body>
+</html>

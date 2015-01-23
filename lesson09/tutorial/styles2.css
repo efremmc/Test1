@@ -1,0 +1,36 @@
+/*
+   New Perspectives on XML
+   Tutorial 9
+   Tutorial Case
+
+   Freezing Point Cascading Style Sheet for Table Data
+
+   Filename:         styles2.css
+   Supporting Files: 
+*/
+
+body          {background-color:rgb(255,255,192)}
+#pageData     {width: 500px}
+#pageTitle    {font-family:Arial, Helvetica, sans-serif;font-size:24pt;
+               font-weight:bold; color:blue}
+#pageSubtitle {font-family:Arial, Helvetica, sans-serif; font-style:italic; 
+               color:blue; border-bottom: 1px solid brown}
+#pageText     {color:brown}
+#pageAuthor   {color:brown; border-bottom: 1px solid brown; margin-bottom:20px; 
+               padding-bottom: 10px}
+p             {text-align: center}
+p button      {background-color: blue; color: yellow; font-weight: bold; 
+               margin: 5px; letter-spacing: 2px}
+
+a             {color:blue}
+
+table         {width: 500px; border: 4px outset blue}
+th, td        {vertical-align: top; border: 1px solid blue}
+td            {background-color: white; font-size: 8pt}
+
+th            {font-family:Arial, Helvetica, sans-serif; color:white; font-size:8pt;
+               font-weight:normal; background-color: blue}
+.th1          {width: 100px}
+.th2          {width: 80px}
+.th3          {width: 30px}
+.th4          {width: 50px}

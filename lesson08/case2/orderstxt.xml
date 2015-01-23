@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Case Problem 2
+
+   WebFlowers Order Data
+   Author: 
+   Date:   
+
+   Filename:         orders.xml
+   Supporting Files: flowers.xsl
+-->
+
+<orders>
+   <order date="June-15-2008" item="F101" qty="1" customer="C28901" />
+   <order date="June-16-2008" item="F114" qty="1" customer="C28902" />
+   <order date="June-16-2008" item="F135" qty="1" customer="C28906" />
+   <order date="June-17-2008" item="F108" qty="1" customer="C28908" />
+   <order date="June-15-2008" item="F108" qty="1" customer="C28910" />
+   <order date="June-16-2008" item="F118" qty="4" customer="C28914" />
+   <order date="June-15-2008" item="F105" qty="5" customer="C28915" />
+   <order date="June-17-2008" item="F120" qty="2" customer="C28919" />
+   <order date="June-16-2008" item="F131" qty="1" customer="C28920" />
+</orders>

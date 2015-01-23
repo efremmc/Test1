@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Review Assignment
+
+   List of Refrigerator models
+
+   Filename:         refg1.xml
+
+-->
+<inventory>
+   <model mType="Cabinet">
+      <name>fpc2000</name>
+      <price>$1499</price>
+      <capacity>20.7</capacity>
+      <dimensions>67 1/2" x 35 3/4" x 26 1/4"</dimensions>      
+      <energy>Yes</energy>
+      <freezer>Side-by-Side</freezer>
+      <photo>fpc2000.jpg</photo>
+   </model>
+   <model mType="Cabinet">
+      <name>fpc2020</name>
+      <price>$1599</price>
+      <capacity>20.9</capacity>
+      <dimensions>67 1/2" x 35 3/4" x 26 5/8"</dimensions>      
+      <energy>Yes</energy>
+      <freezer>Side-by-Side</freezer>
+      <photo>fpc2020.jpg</photo>
+   </model>
+   <model mType="Cabinet">
+      <name>fpc2050</name>
+      <price>$1799</price>
+      <capacity>21.1</capacity>
+      <dimensions>67 1/2" x 35 3/4" x 26 5/8"</dimensions>      
+      <energy>Yes</energy>
+      <freezer>Side-by-Side</freezer>
+      <photo>fpc2050.jpg</photo>
+   </model>
+   <model mType="Freestanding">
+      <name>fpc3000</name>
+      <price>$1029</price>
+      <capacity>23.7</capacity>
+      <dimensions>68 5/8" x 35 5/8" x 29"</dimensions>      
+      <energy>No</energy>
+      <freezer>Side-by-Side</freezer>
+      <photo>fpc3000.jpg</photo>
+   </model>
+   <model mType="Freestanding">
+      <name>fpc3050</name>
+      <price>$1199</price>
+      <capacity>25.8</capacity>
+      <dimensions>68 5/8" x 35 5/8" x 30 3/4"</dimensions>      
+      <energy>No</energy>
+      <freezer>Side-by-Side</freezer>
+      <photo>fpc3050.jpg</photo>
+   </model>
+   <model mType="Freestanding">
+      <name>fpc3070</name>
+      <price>$1399</price>
+      <capacity>25.8</capacity>
+      <dimensions>68 5/8" x 35 5/8" x 30 3/4"</dimensions>      
+      <energy>Yes</energy>
+      <freezer>Side-by-Side</freezer>
+      <photo>fpc3070.jpg</photo>
+   </model>
+   <model mType="Freestanding">
+      <name>fpc3090</name>
+      <price>$1799</price>
+      <capacity>26.2</capacity>
+      <dimensions>68 5/8" x 35 5/8" x 33 3/8"</dimensions>      
+      <energy>No</energy>
+      <freezer>Side-by-Side</freezer>
+      <photo>fpc3090.jpg</photo>
+   </model>
+   <model mType="Cabinet">
+      <name>fpc1000</name>
+      <price>$599</price>
+      <capacity>18.2</capacity>
+      <dimensions>68 5/8" x 29 5/8" x 29 7/8"</dimensions>      
+      <energy>No</energy>
+      <freezer>Top</freezer>
+      <photo>fpc1000.jpg</photo>
+   </model>
+   <model mType="Cabinet">
+      <name>fpc1020</name>
+      <price>$679</price>
+      <capacity>20.6</capacity>
+      <dimensions>68 3/16" x 29 5/8" x 31 3/4"</dimensions>      
+      <energy>No</energy>
+      <freezer>Top</freezer>
+      <photo>fpc1020.jpg</photo>
+   </model>
+   <model mType="Cabinet">
+      <name>fpc1050</name>
+      <price>$799</price>
+      <capacity>21.0</capacity>
+      <dimensions>68 3/8" x 29 5/8" x 29 7/8"</dimensions>      
+      <energy>Yes</energy>
+      <freezer>Top</freezer>
+      <photo>fpc1050.jpg</photo>
+   </model>
+   <model mType="Freestanding">
+      <name>fpc1070</name>
+      <price>$899</price>
+      <capacity>21.2</capacity>
+      <dimensions>68 3/16" x 29 5/8" x 31 3/4"</dimensions>      
+      <energy>No</energy>
+      <freezer>Top</freezer>
+      <photo>fpc1070.jpg</photo>
+   </model>
+   <model mType="Freestanding">
+      <name>fpc1090</name>
+      <price>$999</price>
+      <capacity>21.6</capacity>
+      <dimensions>68 3/16" x 29 5/8" x 31 3/4"</dimensions>      
+      <energy>Yes</energy>
+      <freezer>Top</freezer>
+      <photo>fpc1090.jpg</photo>
+   </model>
+</inventory>

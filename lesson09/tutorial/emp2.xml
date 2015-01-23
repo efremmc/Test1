@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Tutorial Case
+
+   List of employees grouped by department
+
+   Filename:         emp2.xml
+
+-->
+
+<staff>
+  <department>
+    <deptName>Accounting</deptName>
+    <employee status="Part-time">
+       <name>Alice Ashman</name>
+       <position>Administrative Assistant</position>
+       <phone>555-4580 ext. 581</phone>
+       <years>5</years>
+       <photo>ashman.jpg</photo>
+     </employee>
+    <employee status="Full-time">
+       <name>Tom Forrest</name>
+       <position>Accounts Manager</position>
+       <phone>555-4580 ext. 582</phone>
+       <years>14</years>
+       <photo>forrest.jpg</photo>
+     </employee>
+    <employee status="Part-time">
+       <name>Diane Kerkman</name>
+       <position>Administrative Assistant</position>
+       <phone>555-4580 ext. 473</phone>
+       <years>8</years>
+       <photo>kerkman.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Mary Oneil</name>
+       <position>Accounts Manager</position>
+       <phone>555-4580 ext. 619</phone>
+       <years>11</years>
+       <photo>oneil.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Donald Watkins</name>
+       <position>Vice President</position>
+       <phone>555-4580 ext. 243</phone>
+       <years>15</years>
+       <photo>watkins.jpg</photo>
+     </employee>
+  </department>
+  <department>
+    <deptName>Sales</deptName>
+    <employee status="Full-time">
+       <name>Jeff Bester</name>
+       <position>Sales Manager</position>
+       <phone>555-4580 ext. 411</phone>
+       <years>3</years>
+       <photo>bester.jpg</photo>
+    </employee>
+    <employee status="Part-time">
+       <name>Pete DuMont</name>
+       <position>Salesperson</position>
+       <phone>555-4580 ext. 990</phone>
+       <years>1</years>
+       <photo>dumont.jpg</photo>
+    </employee>  
+    <employee status="Full-time">
+       <name>Linda Howard</name>
+       <position>Sales Coordinator</position>
+       <phone>555-4580 ext. 518</phone>
+       <years>3</years>
+       <photo>howard.jpg</photo>
+    </employee>
+    <employee status="Part-time">
+       <name>Julie Nelson</name>
+       <position>Sales Assistant</position>
+       <phone>555-4580 ext. 610</phone>
+       <years>1</years>
+       <photo>nelson.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Maria Pauley</name>
+       <position>Salesperson</position>
+       <phone>555-4580 ext. 611</phone>
+       <years>2</years>
+       <photo>pauley.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Paul Staford</name>
+       <position>Salesperson</position>
+       <phone>555-4580 ext. 319</phone>
+       <years>6</years>
+       <photo>staford.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Shirley Winston</name>
+       <position>Salesperson</position>
+       <phone>555-4580 ext. 105</phone>
+       <years>5</years>
+       <photo>winston.jpg</photo>
+    </employee>
+  </department>
+  <department>
+    <deptName>Manufacturing</deptName>
+    <employee status="Full-time">
+       <name>Richard Brown</name>
+       <position>Shop Manager</position>
+       <phone>555-4580 ext. 193</phone>
+       <years>15</years>
+       <photo>brown.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>John Jacobs</name>
+       <position>Plant Coordinator</position>
+       <phone>555-4580 ext. 203</phone>
+       <years>13</years>
+       <photo>jacobs.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Linda Laurence</name>
+       <position>Manufacturing Executive</position>
+       <phone>555-4580 ext. 472</phone>
+       <years>12</years>
+       <photo>laurence.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Ian Tompkins</name>
+       <position>Shop Steward</position>
+       <phone>555-4580 ext. 539</phone>
+       <years>9</years>
+       <photo>tompkins.jpg</photo>
+    </employee>
+  </department>
+  <department>
+     <deptName>Advertising</deptName>
+    <employee status="Full-time">
+       <name>Maureen Charnas</name>
+       <position>Advertising Executive</position>
+       <phone>555-4580 ext. 804</phone>
+       <years>1</years>
+       <photo>charnas.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Robert Kuhlman</name>
+       <position>Advertising Executive</position>
+       <phone>555-4580 ext. 941</phone>
+       <years>10</years>
+       <photo>kuhlman.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Steve Lawson</name>
+       <position>Media Officer</position>
+       <phone>555-4580 ext. 111</phone>
+       <years>1</years>
+       <photo>lawson.jpg</photo>
+    </employee>
+    <employee status="Full-time">
+       <name>Paul Unwin</name>
+       <position>Media Manager</position>
+       <phone>555-4580 ext. 150</phone>
+       <years>3</years>
+       <photo>unwin.jpg</photo>
+    </employee>
+  </department>
+</staff>
