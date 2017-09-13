@@ -1,0 +1,19 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 2
+
+   List of news article files
+   Author: Efrem McCrimon
+   Date:   2-6-2011
+   Filename:         articles.dtd
+   Supporting Files: 
+-->
+
+<!NOTATION HTM SYSTEM "text/html">
+<!ENTITY news801 SYSTEM "article801.html" NDATA HTM>
+<!ENTITY news802 SYSTEM "article802.html" NDATA HTM>
+<!ENTITY news803 SYSTEM "article803.html" NDATA HTM>
+<!ENTITY news804 SYSTEM "article804.html" NDATA HTM>
+<!ENTITY news805 SYSTEM "article805.html" NDATA HTM>
+

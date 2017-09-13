@@ -1,0 +1,95 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Case Problem 1
+
+   AutoMaze Shipping Manifest
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         amindex.html  (I used a different name so that I could find it.)
+   Supporting Files: amstyles.css, autoord.xml
+
+
+   Data island:
+    <xml id="shipInfo" src="autoord.xml"></xml>
+
+-->
+   <title>AutoMaze Shipping Manifest</title>
+   <link href="amstyles.css" rel="stylesheet" type="text/css" />
+   <xml id="shipInfo" src="autoord.xml"></xml>
+
+</head>
+
+<body>
+   <h1>AutoMaze</h1>
+   <h2>Shipping Manifest</h2>
+
+   <table id="shipData" datasrc="#shipInfo">
+       <tr>
+          <th>Order Date</th>
+          <td><span datasrc="#shipInfo" datafld="orderDate"></span></td>
+       </tr>
+       <tr>
+          <th>Date Received</th>
+          <td><span datasrc="#shipInfo" datafld="recvDate"></span></td>
+       </tr>
+       <tr>
+          <th>Received By</th>
+          <td><span datasrc="#shipInfo" datafld="recvBy"></span></td>
+       </tr>
+       <tr>
+          <th>Shipping Cost</th>
+          <td><span datasrc="#shipInfo" datafld="sCost"></span></td>
+       </tr>
+       <tr>
+          <th>Warehouse</th>
+          <td><span datasrc="#shipInfo" datafld="wName"></span></td>
+       </tr>
+       <tr>
+          <th>Warehouse Contact</th>
+          <td><span datasrc="#shipInfo" datafld="wContact"></span></td>
+       </tr>
+   </table>
+
+   <table id="itemList" datasrc="#shipInfo"  datafld="manifest"   >
+   <tr>
+      <th rowspan="3">
+         <button  onclick="orders.dataPageSize=999999; orders.firstPage()">Show All</button>
+         <br />
+         <button  onclick="orders.dataPageSize=6; orders.firstPage()">Show Pages</button>
+      </th>
+      <th colspan="4">
+         <button onclick="orders.firstPage()">|&lt; First</button>
+         <button onclick="orders.previousPage(); if (orders.BOF) orders.lastPage()">&lt; Previous Page </button>
+         <button onclick="orders.nextPage(); if (orders.EOF) orders.firstPage()">Next Page &gt;</button>
+         <button onclick="orders.lastPage()">Last &gt;|</button>
+      </th>
+   </tr>
+   <tr>
+      <th class="col1">PID</th>
+      <th class="col2">Item</th>
+      <th class="col3">Qty</th>
+      <th class="col4">Price</th>
+   </tr>
+   <tr>
+       <!--
+       Setting the datapagesize to 999999 shows all the records.  
+       -->
+      <td colspan="4" style="padding: 0px">
+         <table id="orders" datasrc="#shipInfo"  datafld="item" dataPageSize="6"  >
+         <tr>
+            <td class="col1"><span datasrc="#shipInfo" datafld="itemID"></span></td>
+            <td class="col2"><span datasrc="#shipInfo" datafld="itemName"></span></td>
+            <td class="col3" style="text-align: right"><span datasrc="#shipInfo" datafld="itemQty"></span></td>
+            <td class="col4" style="text-align: right"><span datasrc="#shipInfo" datafld="itemPrice"></span></td>
+         </tr>
+         </table>
+      </td>
+   </tr>
+   </table>
+
+</body>
+</html>

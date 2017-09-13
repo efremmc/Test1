@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 5
+   Case Problem 3
+
+   Cutler Convention Center
+   Author: 
+   date:   
+
+   Filename:         schedule.xml
+   Supporting Files: schedule.css
+ 
+-->
+
+<reservations xmlns:html="http://www.w3.org/1999/xhtml">
+
+   <html:h1>Cutler Convention Center</html:h1>
+   <date>Monday, October 11th 2008</date>
+
+   <times>
+      <hour class="roomname">Room</hour>
+      <hour>7 am</hour>
+      <hour>8 am</hour>
+      <hour>9 am</hour>
+      <hour>10 am</hour>
+      <hour>11 am</hour>
+      <hour>12 pm</hour>
+      <hour>1 pm</hour>
+      <hour>2 pm</hour>
+      <hour>3 pm</hour>
+      <hour>4 pm</hour>
+      <hour>5 pm</hour>
+   </times>
+
+   <rooms>
+      <usage hour="" class="roomname">Sunrise Room</usage>
+      <usage hour="7 am" class="yes">used</usage>
+      <usage hour="8 am" class="yes">used</usage>
+      <usage hour="9 am" class="yes">used</usage>
+      <usage hour="10 am" class="yes">used</usage>
+      <usage hour="11 am" class="yes">used</usage>
+      <usage hour="12 pm" class="no">free</usage>
+      <usage hour="1 pm" class="no">free</usage>
+      <usage hour="2 pm" class="no">free</usage>
+      <usage hour="3 pm" class="no">free</usage>
+      <usage hour="4 pm" class="yes">used</usage>
+      <usage hour="5 pm" class="yes">used</usage>
+   </rooms>
+   <rooms>
+      <usage hour="" class="roomname">Granger Hall</usage>
+      <usage hour="7 am" class="no">free</usage>
+      <usage hour="8 am" class="no">free</usage>
+      <usage hour="9 am" class="no">free</usage>
+      <usage hour="10 am" class="no">free</usage>
+      <usage hour="11 am" class="yes">used</usage>
+      <usage hour="12 pm" class="yes">used</usage>
+      <usage hour="1 pm" class="yes">used</usage>
+      <usage hour="2 pm" class="yes">used</usage>
+      <usage hour="3 pm" class="yes">used</usage>
+      <usage hour="4 pm" class="yes">used</usage>
+      <usage hour="5 pm" class="yes">used</usage>
+   </rooms>
+   <rooms>
+      <usage hour="" class="roomname">Canyon View</usage>
+      <usage hour="7 am" class="yes">used</usage>
+      <usage hour="8 am" class="yes">used</usage>
+      <usage hour="9 am" class="yes">used</usage>
+      <usage hour="10 am" class="yes">used</usage>
+      <usage hour="11 am" class="yes">used</usage>
+      <usage hour="12 pm" class="yes">used</usage>
+      <usage hour="1 pm" class="yes">used</usage>
+      <usage hour="2 pm" class="yes">used</usage>
+      <usage hour="3 pm" class="yes">used</usage>
+      <usage hour="4 pm" class="yes">used</usage>
+      <usage hour="5 pm" class="yes">used</usage>
+   </rooms>
+   <rooms>
+      <usage hour="" class="roomname">Hillstadt Room</usage>
+      <usage hour="7 am" class="no">free</usage>
+      <usage hour="8 am" class="no">free</usage>
+      <usage hour="9 am" class="yes">used</usage>
+      <usage hour="10 am" class="yes">used</usage>
+      <usage hour="11 am" class="no">free</usage>
+      <usage hour="12 pm" class="no">free</usage>
+      <usage hour="1 pm" class="no">free</usage>
+      <usage hour="2 pm" class="no">free</usage>
+      <usage hour="3 pm" class="no">free</usage>
+      <usage hour="4 pm" class="yes">used</usage>
+      <usage hour="5 pm" class="yes">used</usage>
+   </rooms>
+   <rooms>
+      <usage hour="" class="roomname">Alcove</usage>
+      <usage hour="7 am" class="no">free</usage>
+      <usage hour="8 am" class="no">free</usage>
+      <usage hour="9 am" class="no">free</usage>
+      <usage hour="10 am" class="no">free</usage>
+      <usage hour="11 am" class="no">free</usage>
+      <usage hour="12 pm" class="yes">used</usage>
+      <usage hour="1 pm" class="yes">used</usage>
+      <usage hour="2 pm" class="no">free</usage>
+      <usage hour="3 pm" class="no">free</usage>
+      <usage hour="4 pm" class="no">free</usage>
+      <usage hour="5 pm" class="no">free</usage>
+   </rooms>
+   <rooms>
+      <usage hour="" class="roomname">Mountain View</usage>
+      <usage hour="7 am" class="yes">used</usage>
+      <usage hour="8 am" class="yes">used</usage>
+      <usage hour="9 am" class="no">free</usage>
+      <usage hour="10 am" class="no">free</usage>
+      <usage hour="11 am" class="no">free</usage>
+      <usage hour="12 pm" class="no">free</usage>
+      <usage hour="1 pm" class="yes">used</usage>
+      <usage hour="2 pm" class="yes">used</usage>
+      <usage hour="3 pm" class="yes">used</usage>
+      <usage hour="4 pm" class="yes">used</usage>
+      <usage hour="5 pm" class="yes">used</usage>
+   </rooms>
+   <rooms>
+      <usage hour="" class="roomname">Douglas Hall</usage>
+      <usage hour="7 am" class="no">free</usage>
+      <usage hour="8 am" class="no">free</usage>
+      <usage hour="9 am" class="yes">used</usage>
+      <usage hour="10 am" class="yes">used</usage>
+      <usage hour="11 am" class="yes">used</usage>
+      <usage hour="12 pm" class="no">free</usage>
+      <usage hour="1 pm" class="no">free</usage>
+      <usage hour="2 pm" class="no">free</usage>
+      <usage hour="3 pm" class="no">free</usage>
+      <usage hour="4 pm" class="no">free</usage>
+      <usage hour="5 pm" class="no">free</usage>
+   </rooms>
+
+</reservations>

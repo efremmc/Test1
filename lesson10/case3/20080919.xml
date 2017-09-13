@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 3
+
+   Lab Schedule for 9/19/2008
+
+   Filename:         20080919.xml
+   Supporting Files: 
+-->
+
+<labs date="9/19/2008">
+   <lab name="Lab A">
+      <slot time="9:00 am">CS 204</slot>
+      <slot time="10:00 am">free</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">free</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">Writing Workshop</slot>
+      <slot time="4:00 pm">Writing Workshop</slot>
+   </lab>
+   <lab name="Lab B">
+      <slot time="9:00 am">CS 204</slot>
+      <slot time="10:00 am">free</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">free</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">Writing Workshop</slot>
+      <slot time="4:00 pm">Writing Workshop</slot>
+   </lab>
+   <lab name="Lab C">
+      <slot time="9:00 am">CS 204</slot>
+      <slot time="10:00 am">EC 990 Seminar</slot>
+      <slot time="11:00 am">EC 990 Seminar</slot>
+      <slot time="12:00 pm">EC 990 Seminar</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">free</slot>
+      <slot time="4:00 pm">free</slot>
+   </lab>
+   <lab name="Lab D">
+      <slot time="9:00 am">CS 310</slot>
+      <slot time="10:00 am">free</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">CS 512</slot>
+      <slot time="1:00 pm">CS 512</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">free</slot>
+      <slot time="4:00 pm">free</slot>
+   </lab>
+   <lab name="Lab E">
+      <slot time="9:00 am">CS 310</slot>
+      <slot time="10:00 am">free</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">free</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">Writing Workshop</slot>
+      <slot time="4:00 pm">Writing Workshop</slot>
+   </lab>
+   <lab name="Lab F">
+      <slot time="9:00 am">free</slot>
+      <slot time="10:00 am">CS 100, Discussion A</slot>
+      <slot time="11:00 am">CS 100, Discussion B</slot>
+      <slot time="12:00 pm">free</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">CS 100, Discussion C</slot>
+      <slot time="3:00 pm">Writing Workshop</slot>
+      <slot time="4:00 pm">Writing Workshop</slot>
+   </lab>
+</labs>

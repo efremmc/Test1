@@ -1,0 +1,102 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 3
+
+   Lab Room Scheduler
+   Author: 
+   Date:   
+
+   Filename:         lab.htm
+   Supporting Files: 20080919.xml, 20080920.xml, 20080921.xml,
+                     20080922.xml, 20080923.xml, lab.css,
+                     lab.xsl, library.js
+
+-->
+   <title>Computer Lab Registration</title>
+   <link href="lab.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <form name="signup">
+   <h1>Computer Lab Registration</h1>
+
+   <table id="signup">
+   <tr>
+      <td>
+         1) Select a date file
+      </td>
+      <td colspan="3">
+         <input name="datefile" type="file" size="40" />       
+      </td>
+   </tr>
+   <tr>
+      <td colspan="4">
+         2) <input type="button" value="Display Schedule" />
+      </td>
+   </tr>
+   <tr>
+      <td rowspan="2">
+         3) Choose a lab
+      </td>
+      <td>
+         <input type="radio" name="lab" /> Lab A
+      </td>
+      <td>
+         <input type="radio" name="lab" /> Lab B
+      </td>
+      <td>
+         <input type="radio" name="lab" /> Lab C
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <input type="radio" name="lab" /> Lab D
+      </td>
+      <td>
+         <input type="radio" name="lab" /> Lab E
+      </td>
+      <td>
+         <input type="radio" name="lab" /> Lab F
+      </td>
+   </tr>
+   <tr>
+      <td>
+         4) Choose a time
+      </td>
+      <td colspan="3">
+         <select name="time">
+            <option>9:00 am</option>
+            <option>10:00 am</option>
+            <option>11:00 am</option>
+            <option>12:00 pm</option>
+            <option>1:00 pm</option>
+            <option>2:00 pm</option>
+            <option>3:00 pm</option>
+            <option>4:00 pm</option>
+         </select>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         5) Enter your group name
+      </td>
+      <td colspan="3">
+         <input name="group" size="35" />
+      </td>
+   </tr>
+   <tr>
+      <td colspan="4">
+         6) <input type="button" value="Submit Request" />
+      </td>
+   </tr>
+   </table>
+
+   <div id="labtable"></div>
+
+   </form>
+</body>
+
+</html>

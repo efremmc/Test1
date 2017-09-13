@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Tutorial Case
+
+   Jackson Electronics Order Report
+   Author: Efrem McCrimon
+   Date:   1-30-2011
+
+   Filename:         order.xml
+   Supporting Files: model.css, parts.css
+-->
+
+<?xml-stylesheet type="text/css" href="parts.css" ?>
+<?xml-stylesheet type="text/css" href="model.css" ?>
+
+<mod:model id="pr205"  xmlns:mod="http://jacksonelect.com/models"
+                   xmlns:pa="http://jacksonelect.com/parts" >
+   <mod:title>Laser4C (PR205)</mod:title>
+   <mod:description>Entry level color laser printer</mod:description>
+   <mod:type>color laser</mod:type>
+   <mod:ordered>320</mod:ordered>
+   <mod:parts list="chx201,fa100-5,eng005-2,cbx-450V4,tn01-53" />
+
+   <pa:parts>
+      <pa:part id="chx201">
+         <pa:title>Chassis and Roller Kit</pa:title>
+         <pa:description>PR205 chassis and rollers</pa:description>
+         <pa:instock>512</pa:instock>
+      </pa:part>
+
+      <pa:part id="fa100-5">
+         <pa:title>Fuser Assembly</pa:title>
+         <pa:description>Fuser assembly/JE series</pa:description>
+         <pa:instock>1253</pa:instock>
+      </pa:part>
+
+      <pa:part id="eng005-2">
+         <pa:title>Engine Kit</pa:title>
+         <pa:description>Printer engine kit/JE series</pa:description>
+         <pa:instock>3895</pa:instock>
+      </pa:part>
+
+      <pa:part id="cbx-450V4">
+         <pa:title>Controller board</pa:title>
+         <pa:description>PR205 printer controller board</pa:description>
+         <pa:instock>483</pa:instock>
+      </pa:part>
+
+      <pa:part id="tn01-53">
+         <pa:title>Toner Kit</pa:title>
+         <pa:description>PR205 toner kit (b,m,c,y)</pa:description>
+         <pa:instock>812</pa:instock>
+      </pa:part>
+   </pa:parts>
+
+</mod:model>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Review Assignment
+
+   University Hospital Cancer Grant
+   Author: 
+   Date:   
+
+   Filename:         grant.xml
+   Supporting Files: grant.xsd, slist.xsd
+-->
+
+<grant grantNum="NIHCCC-4481-05" funding="federal government">
+
+   <title>NIH Clinical Cancer Basic Research Grant</title>
+   <agency>National Institute of Health</agency>
+   <department>University Hospital Clinical Cancer Center</department>
+   <summary>Basic NIH support funding for current and future Phase 1 through
+            Phase 3 cancer clinical trials.</summary>
+   <initiated>2006-07-01</initiated>
+   <expires>2010-06-30</expires>
+   <coordinator>Alice Walters</coordinator>
+
+</grant>

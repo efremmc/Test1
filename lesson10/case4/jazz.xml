@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="jw.css" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 4
+
+   Jazz Warehouse Data File
+
+   Filename:         jazz.xml
+   Supporting Files: 
+-->
+
+<specials>
+   <cd>Kind of Blue
+      <artist>Miles Davis</artist>
+      <price>$11.99</price>
+      <track length="9:22">So What</track>
+      <track length="9:46">Freddie Freeloader</track>
+      <track length="5:37">Blue in Green</track>
+      <track length="11:33">All Blues</track>
+      <track length="9:26">Flamenco Sketches</track>
+   </cd>
+   <cd>Cookin'
+      <artist>Miles Davis</artist>
+      <price>$7.99</price>
+      <track length="5:57">My Funny Valentine</track>
+      <track length="9:53">Blues by Five</track>
+      <track length="4:22">Airegin</track>
+      <track length="13:03">Tune-Up</track>
+   </cd>
+   <cd>Blue Train
+      <artist>John Coltrane</artist>
+      <price>$8.99</price>
+      <track length="10:39">Blue Train</track>
+      <track length="9:06">Moment's Notice</track>
+      <track length="7:11">Locomotion</track>
+      <track length="7:55">I'm Old Fashioned</track>
+      <track length="7:03">Lazy Bird</track>
+   </cd>
+</specials>

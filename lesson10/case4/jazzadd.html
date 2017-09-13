@@ -1,0 +1,165 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 4
+
+   Lab Room Scheduler
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         jazz.html
+   Supporting Files:
+                     jazz.css, jw.css
+                     jazz.xsl, library.js
+   Menu files:
+        music.html
+        search.html
+        promotion.html
+
+From Chapter 01:
+<?xml-stylesheet type="text/css" href="jw.css" ?>
+
+
+-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   <title>The Jazz Warehouse</title>
+   <link href="jw.css" rel="stylesheet" type="text/css" />
+   <link href="jazz.css" rel="stylesheet" type="text/css" />
+
+   <script type="text/javascript" src="library.js"></script>
+   
+
+   <script type="text/javascript">
+       
+       var IE = window.ActiveXObject ? true:false;
+       var MOZ = document.implementation.createDocument ? true:false;
+
+       var xmlFile = "jazz.xml";  // Source XML document is xmlFile
+       var xsltFile = "jazz.xsl";  // Start with the basic JAZZ.XSL file
+       
+       var xmlDoc;
+       var xsltDoc; 
+       var xmlDoc2;   // Temporary structure XML document for buildind the new titile and track
+       var xsltDoc2;  // Temporary structure XSLT    
+       
+       var xmlDocSave;  
+       var xTemplate;
+       var xProcessor;
+       var titleElem = document.getElementById("titlelist");
+       var trackElem = document.getElementById("tracklist");       
+       var newtitle;  // Global temporary structure
+
+        var masterTitle;   // Track the master Title list from the root node
+        var masterCD;  // Track the master Title list from the CD element 
+        var masterTitleclone;  // Track the master Title list from the root node as  clone
+        var masterCDclone;  // Track the master Title list from the CD element as a clone
+        
+        
+       
+    </script>   
+   
+</head>
+
+<body onload="myinit()">
+  <div id="container">
+  <div id="logo">
+
+      <a href="#">  <img src="images/jazzlogo.jpg"  alt="Jazz(sem)" /></a>  
+      <h1>The Jazz Warehouse</h1>
+
+  </div>
+
+  <div id="leftcolumn">
+      <ul class="navBar">
+          <li><a class="navBar" href="jazz.html">Home</a></li>
+          <li><a class="navBar" href="javascript:void(0)">Titles</a></li>
+      </ul>
+  </div>
+      
+   <form name="dataform" id="dataform">     
+  <div id="rightcolumn">
+
+
+   <table cellspacing="0" cellpadding="2">
+   <div id="data_entry">
+
+      <h3 style="margin: 0px">Enter a new CD</h3>
+      
+      <tr>
+         <td>CD Title</td>
+         <td><input name="title" id="title" size="40" /></td>
+      </tr>
+      <tr>
+         <td>Artist</td>
+         <td><input name="artist" id="artist" size="40"  /></td>
+      </tr>
+      <tr>
+         <td>Price</td>
+         <td><input name="amount" id="famount" size="7"  /></td>
+      </tr>
+     
+      <tr>
+         <td colspan="2" align="center"><br />
+             <input type="button" value="Add CD Title" onclick="addCDTitle();"/>
+         </td>
+      </tr>
+   </table>
+  
+  <table>
+       <tr>
+          <td colspan="4">
+             Add CD Tracks
+          </td>
+       </tr>
+      <tr>
+         <td>Track</td>
+         <td><input name="track1" id="track1" size="40"  /></td>
+      </tr>
+      <tr>
+         <td>Length</td>
+         <td><input name="tracklen" id="trklen" size="6"   /></td>
+      </tr>   
+      <tr>
+         <td colspan="2" align="center"><br />
+             <input type="button" value="Add CD Track" onclick="addCDTrack();"/>
+         </td>
+      </tr>   
+          <tr><td>
+                  <button name="submit" onclick="mergeCD();">Submit to Specials</button>
+              </td>>
+           
+          </tr>
+   </table>
+ 
+   <!--
+   was here
+    Show current CD Title and Tracks
+   -->
+   
+
+   </div>
+   </form>
+  
+   <div id="titlelist" class="">
+       <button id="showall" onclick="showAll();">Show Special CD Titles</button>
+   </div>
+   <div id="tracklist" class=""></div>
+
+   <!--
+    End of report
+   -->
+    <div id="footer">
+                    Last updated: December 14, 2011&nbsp;
+          Copyright&nbsp;&copy;&nbsp;2011<br />
+      <a href="mailto:ste2144887@maricopa.edu">efremmc2@gmail.com</a><br />
+    </div>
+          
+
+
+</div> 
+
+</body>
+
+</html>

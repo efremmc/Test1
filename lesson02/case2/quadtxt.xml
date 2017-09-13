@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 2
+
+   MathWeb: The Quadratic Formula
+
+   Author:  
+   Date:    
+
+   Filename:         quad.xml
+   Supporting Files: back.jpg, logo.jpg, math.css, side.jpg
+-->
+
+
+<html>
+<head>
+   <title>Solving the Quadratic Equations</title>
+</head>
+
+<body>
+<div id="logo"><img src="logo.jpg" alt="MathWeb" /></div>
+<div id="links"><img src="side.jpg" alt="" /></div>
+
+<div id="main">
+   <h1>Solving the Quadratic Equation</h1>
+   <p>A <b>quadratic equation</b> is a polynomial equation of the second degree, having 
+   the general form:</p>
+
+   <p id="eq1">
+   </p>
+
+   <p>The letters a, b and c are called coefficients: a is the coefficient of 
+   <i>x</i><sup>2</sup>, b is the coefficient of <i>x</i>, and c is the constant coefficient. 
+   A quadratic equation has two complex roots (i.e., solutions for the unknown term <i>x</i>.) 
+   In some cases, these roots can have the same value. The roots can also belong to the realm 
+   of <b>complex numbers</b>. The values of the roots can be computed using the <b>quadratic 
+   formula</b> as shown below:</p>
+
+   <p id="eq2">
+   </p>
+
+    <p>For example, the roots of the quadratic equation</p>
+
+   <p id="eq3">
+   </p>
+
+   <p>can be determined by first substituting 2 for a, -14 for b, and 20 for c</p>
+
+   <p id="eq4">
+   </p>
+
+   <p>and then solving the expression, which gives the roots of the equation as either <i>x</i> = 5 or <i>x</i> = 2.</p>
+
+   <p id="note">Created using MathML and XHTML</p>
+</div>
+
+</body>
+</html> 

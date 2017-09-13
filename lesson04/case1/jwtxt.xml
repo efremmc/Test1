@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Jazz Warehouse Vintage Albums
+   Author: 
+   Date:   
+
+   Filename:         jw.xml
+   Supporting Files: music.xsd
+ 
+-->
+
+<inventory>
+   <album category="Modern Jazz" albumID="JW001305">
+      <title>Kind of Blue</title>
+      <artist>Miles Davis</artist>
+      <artist>John Coltrane</artist>
+      <tracks length="0:45:44">
+         <track length="0:9:22">So What</track>
+         <track length="0:9:46">Freddie Freeloader</track>
+         <track length="0:5:37">Blue in Green</track>
+         <track length="0:11:33">All Blues</track>
+         <track length="0:9:26">Flamenco Sketches</track>
+      </tracks>
+   </album>
+   <album category="Bebop" albumID="JW001312">
+      <title>Cookin'</title>
+      <artist>Miles Davis</artist>
+      <tracks length="0:35:13">
+         <track length="0:5:57">My Funny Valentine</track>
+         <track length="0:9:53">Blues by Five</track>
+         <track length="0:4:22">Airegin</track>
+         <track length="0:13:03">Tune-Up</track>
+      </tracks>
+   </album>
+   <album category="Modern" albumID="JW-015011">
+      <TITLE>Blue Train</TITLE>
+      <artist>John Coltrane</artist>
+      <tracks length="0:41:54">
+         <track length="0:10:39">Blue Train</track>
+         <track length="0:9:06">Moment's Notice</track>
+         <track length="0:7:11">Locomotion</track>
+         <track length="0:7:55">I'm Old Fashioned</track>
+         <track length="0:7:03">Lazy Bird</track>
+      </tracks>
+   </album>
+   <album category="Modern" albumID="JW002210">
+      <title>Sarah Vaughan</title>
+      <artist>Sarah Vaughan</artist>
+      <artist>Clifford Brown</artist>
+      <tracks length="45:30">
+         <track length="0:3:58">Lullaby of Birdland</track>
+         <track length="0:6:18">April in Paris</track>
+         <track length="0:4:10">He's My Guy</track>
+         <track length="0:5:49">Jim</track>
+         <track length="0:4:41">You're not the Kind</track>
+         <track length="0:4:48">Embraceable You</track>
+         <track length="0:5:08">I'm Glad there is You</track>
+         <track length="0:5:43">September Song</track>
+         <track length="0:4:55">It's Crazy</track>
+      </tracks>
+   </album>
+   <album category="Swing" albumID="JW014501">
+      <title>Ellington at Newport</title>
+      <artist>Duke Ellington</artist>
+      <tracks length="1:25:50">
+         <track length="0:1:10">The Star Spangled Banner</track>
+         <track length="0:3:36">Introduction</track>
+         <track length="0:6:21">Black and Tan Fantasy</track>
+         <track length="0:3:34">Tea for Two</track>
+         <track length="0:4:27">Take the A Train</track>
+         <track length="0:8:10">Festival Junction</track>
+         <track length="0:7:09">Blues to be There</track>
+         <track length="0:5:33">Newport Up</track>
+         <track length="0:3:52">Sophisticated Lady</track>
+         <track length="0:3:50">Day In, Day Out</track>
+         <track length="0:14:20">Dimuendo in Blue/Crescendo in Blue</track>
+         <track length="0:0:44">Annoucements, Pandemonium</track>
+         <track length="0:3:38">I Got it Bad (and That Ain't Good)</track>
+         <track length="0:4:46">Jeep's Blues</track>
+         <track length="0:2:49">Tulip or Turnip</track>
+         <track length="0:1:08">Riot Prevention</track>
+         <track length="0:9:13">Skin Deep</track>
+         <track length="0:1:30">Mood Indigo</track>
+      </tracks>
+   </album>
+   <album category="Modern" albumID="JW024181">
+      <title>Saxophone Colossus</title>
+      <artist>Sonny Rollins</artist>
+      <tracks length="0:39:51">
+         <track length="0:6:46">St. Thomas</track>
+         <track length="0:6:28">You Don't Know What Love Is</track>
+         <track length="0:5:13">Strode Rode</track>
+         <track length="0:10:06">Moritat</track>
+         <track length="0:11:18">Blue 7</track>
+      </tracks>
+   </album>
+   <album category="Bebop" albumID="JW031031">
+      <title>The Cole Porter Songbook</title>
+      <artist>Charlie Parker</artist>
+      <artist>Cole Porter</artist>      
+      <tracks length="0:38:56">
+         <track length="0:3:24">Easy to Love</track>
+         <track length="0:3:10">Begin the Beguine</track>
+         <track length="0:2:45">Night and Day</track>
+         <track length="0:2:38">What is This Thing Called Love</track>
+         <track length="0:3:18">In the Still of the Night</track>
+         <track length="0:3:31">I Get a Kick Out of You</track>
+         <track length="0:2:39">Just One of Those Things</track>
+         <track length="0:3:17">My Heart Belongs to Daddy</track>
+         <track length="0:3:31">I've Got You Under My Skin</track>
+         <track length="0:5:33">Love for Sale</track>
+         <track length="0:5:10">I Love Paris</track>
+      </tracks>
+   </album>   
+   <album category="Modern" albumID="JW061051">
+      <title>The Sound of Jazz</title>
+      <artist>Billie Holiday</artist>
+      <artist>Count Basie</artist>
+      <artist>Red Allen</artist>
+      <artist>Lester Young</artist>
+      <artist>Coleman Hawkins</artist>  
+      <tracks length="0:41:41">
+         <track length="0:4:46">Wild Man Blues</track>
+         <track length="0:4:57">Rosetta</track>
+         <track length="0:6:19">Fine and Mellow</track>
+         <track length="0:6:53">Blues</track>
+         <track length="0:4:27">I Left my Baby</track>
+         <track length="0:4:43">The Train and the River</track>
+         <track length="0:3:43">Nervous</track>
+         <track length="0:5:53">Dickie's Dream</track>
+      </tracks>
+   </album>
+</inventory>

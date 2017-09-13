@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Review Assignment
+
+   Grant List
+
+   Filename:         grants.xml
+   Supporting Files: 
+-->
+
+<grants>
+   <grant>
+      <title>Jasper Food Pantry</title>
+      <street>45 Hilltop Drive</street>
+      <city>Jasper</city>
+      <state>KY</state>
+      <zip>89381</zip>
+      <amount>1000</amount>
+      <date>2008-10-05</date>
+      <category>Human Services</category>
+   </grant>
+   <grant>
+      <title>Boy's Club of Central Kentucky</title>
+      <street>500 Jackson Avenue</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>88802</zip>
+      <amount>750</amount>
+      <date>2008-10-10</date>
+      <category>Human Services</category>
+   </grant>
+   <grant>
+      <title>Girl's Club of Central Kentucky</title>
+      <street>500 Jackson Avenue</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>88802</zip>
+      <amount>750</amount>
+      <date>2008-10-10</date>
+      <category>Human Services</category>
+   </grant>
+   <grant>
+      <title>Children's Cancer Assocation</title>
+      <street>1400 Allen Drive</street>
+      <city>Wheaton</city>
+      <state>KY</state>
+      <zip>88877</zip>
+      <amount>1500</amount>
+      <date>2008-10-20</date>
+      <category>Human Services</category>
+   </grant>
+   <grant>
+      <title>Housing Hope</title>
+      <street>4100 West Oak Street</street>
+      <city>Youngston</city>
+      <state>KY</state>
+      <zip>88870</zip>
+      <amount>1000</amount>
+      <date>2008-10-21</date>
+      <category>Human Services</category>
+   </grant>
+   <grant>
+      <title>Appalachian Charities</title>
+      <street>2900 Wilton Lane</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>88802</zip>
+      <amount>3500</amount>
+      <date>2008-10-24</date>
+      <category>Human Services</category>
+   </grant>
+   <grant>
+      <title>Interfaith Ministry</title>
+      <street>45 Grover Avenue</street>
+      <city>Wheaton</city>
+      <state>KY</state>
+      <zip>88871</zip>
+      <amount>750</amount>
+      <date>2008-10-24</date>
+      <category>Human Services</category>
+   </grant>
+   <grant>
+      <title>CareNet</title>
+      <street>90 Main Street</street>
+      <city>Jasper</city>
+      <state>KY</state>
+      <zip>89831</zip>
+      <amount>1500</amount>
+      <date>2008-10-24</date>
+      <category>Human Services</category>
+   </grant>
+   <grant>
+      <title>Boone and Crockett Club</title>
+      <street>300 Elm Street</street>
+      <city>Jasper</city>
+      <state>KY</state>
+      <zip>89381</zip>
+      <amount>500</amount>
+      <date>2008-10-03</date>
+      <category>Education</category>
+   </grant>
+   <grant>
+      <title>Drake Middle School</title>
+      <street>87 Midtown Lane</street>
+      <city>Drake</city>
+      <state>KY</state>
+      <zip>89411</zip>
+      <amount>500</amount>
+      <date>2008-10-05</date>
+      <category>Education</category>
+   </grant>
+   <grant>
+      <title>Discovery Institute</title>
+      <street>2400 Lindon Lane</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>89015</zip>
+      <amount>800</amount>
+      <date>2008-10-12</date>
+      <category>Education</category>
+   </grant>
+   <grant>
+      <title>Ecotrust</title>
+      <street>100 Circuit Court</street>
+      <city>Wheaton</city>
+      <state>KY</state>
+      <zip>89211</zip>
+      <amount>1300</amount>
+      <date>2008-10-20</date>
+      <category>Education</category>
+   </grant>
+   <grant>
+      <title>Youngston Children's Museum</title>
+      <street>1500 West Oak Avenue</street>
+      <city>Youngston</city>
+      <state>KY</state>
+      <zip>89314</zip>
+      <amount>1000</amount>
+      <date>2008-10-24</date>
+      <category>Education</category>
+   </grant>
+   <grant>
+      <title>Kentucky Ballet</title>
+      <street>150 Lindon Lane</street>
+      <city>Drake</city>
+      <state>KY</state>
+      <zip>89405</zip>
+      <amount>850</amount>
+      <date>2008-10-01</date>
+      <category>Culture</category>
+   </grant>
+   <grant>
+      <title>Delphi Boychoir</title>
+      <street>1500 Upton Avenue</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>88790</zip>
+      <amount>500</amount>
+      <date>2008-10-08</date>
+      <category>Culture</category>
+   </grant>
+   <grant>
+      <title>Wheaton Theater</title>
+      <street>1000 Arts Avenue</street>
+      <city>Wheaton</city>
+      <state>KY</state>
+      <zip>88877</zip>
+      <amount>1200</amount>
+      <date>2008-10-15</date>
+      <category>Culture</category>
+   </grant>
+   <grant>
+      <title>Children's Theatre of Kentucky</title>
+      <street>200 Longview Lane</street>
+      <city>Jasper</city>
+      <state>KY</state>
+      <zip>89810</zip>
+      <amount>525</amount>
+      <date>2008-10-21</date>
+      <category>Culture</category>
+   </grant>
+   <grant>
+      <title>Youngston Center</title>
+      <street>1500 Elm Street</street>
+      <city>Youngton</city>
+      <state>KY</state>
+      <zip>89300</zip>
+      <amount>1500</amount>
+      <date>2008-10-29</date>
+      <category>Culture</category>
+   </grant>
+</grants>

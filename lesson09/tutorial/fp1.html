@@ -1,0 +1,82 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Tutorial Case
+
+   Freezing Point Refrigerators Staff Report
+   Author:   Efrem McCrimon
+   Date:   
+
+   Filename:         fp1.htm
+   Supporting Files: emp1.xml, fpinfo.xml, styles1.css, + multiple jpg image files
+
+-->
+   <title>Freezing Point Refrigerators</title>
+   <link href="styles1.css" rel="stylesheet" type="text/css" />
+   <xml id="pageInfo" src="fpinfo.xml" >
+   </xml>
+   
+   <!--
+   
+   The id in used in the 'div' block, the same reference
+   This is the staffInfo data island
+   -->
+   <xml id="staffInfo" src="emp1.xml"></xml>
+   
+</head>
+
+<body>
+   <div id="pageTitle" datasrc="#pageInfo" datafld="title" ></div>
+   <div id="pageSubtitle" datasrc="#pageInfo" datafld="subtitle"></div>
+   <div id="pageText" datasrc="#pageInfo" datafld="purpose"></div>
+   <div id="pageAuthor">For more information, contact: 
+        <div id="staffemail" datasrc="#pageInfo" datafld="authorEmail" dataformatas="html" >
+          <span datasrc="#pageInfo" datafld="author"></span>
+        </div>
+   </div>
+
+   <table cellpadding="2">
+      <tr>
+         <td rowspan="5" id="photo">
+            <img datasrc="#staffInfo" datafld="photo" alt="" /><br />
+            <span  datasrc="#staffInfo" datafld="name"></span>
+         </td>
+         <th>Department</th>
+         <td><span datasrc="#staffInfo" datafld="department"></span></td>
+      </tr>
+      <tr>
+         <th>Position</th>
+         <td><span datasrc="#staffInfo" datafld="position"></span></td>
+      </tr>
+      <tr>
+         <th>Phone</th>
+         <td><span datasrc="#staffInfo" datafld="phone"></span></td>
+      </tr>
+      <tr>
+         <th>Years Employed</th>
+         <td><span datasrc="#staffInfo" datafld="years"></span></td>
+      </tr>
+      <tr>
+         <th>Status</th>
+         <td><span datasrc="#staffInfo" datafld="status">g</span></td>
+      </tr>
+   </table>
+
+   <p>
+      <button>
+         |&lt; First
+      </button>
+      <button>
+         &lt; Back
+      </button>
+      <button>
+         Forward &gt;
+      </button>
+      <button>
+         Last &gt;|
+      </button>
+   </p>
+</body>
+</html>

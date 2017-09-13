@@ -1,0 +1,31 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 4
+   Filename: agents.css
+
+   Author: 
+   Date:   
+
+
+   This file contains styles used with agent information
+
+*/
+
+
+agent 
+   {display: block; font-family: Arial, Helvetica, sans-serif; margin-top: 10px}
+
+name  
+   {display: block; font-size: 14pt; letter-spacing: 4; color: blue}
+
+phone 
+   {display: block; font-size: 10pt}
+
+email 
+   {display: block; font-size: 10pt}
+
+
+/* place namespace escape style below */
+
+

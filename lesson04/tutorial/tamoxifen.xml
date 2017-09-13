@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial Case
+
+   Tamoxifen Breast Cancer Compound Document
+   Author: Efrem McCrimon
+   Date:   2-15-2011
+
+   Filename:         tamoxifen.xml
+   Supporting Files: patvb.xsd, study.xsd
+-->
+
+<std:study studyID="TBC-080-5"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:std="http://uhosp/studies/ns"
+           xsi:schemaLocation="http://uhosp/studies/ns study.xsd">
+
+   <name>
+      <title>Tamoxifen Breast Cancer Study</title>
+      <subtitle>Randomized Phase 3 Clinical Trial</subtitle>
+   </name>
+   <pi>Dr. Diane West</pi>
+
+</std:study>

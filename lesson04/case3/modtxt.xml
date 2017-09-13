@@ -1,0 +1,78 @@
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 3
+
+   GrillRite Grill Models
+   Author: 
+   Date:   
+
+   Filename:         models.xml
+   Supporting Files: 
+-->
+
+<grillModels>
+   <model modelID="STD150">
+      <modelName>Standard</modelName>
+      <modelPrice>$96.50</modelPrice>
+      <onOrder>302</onOrder>
+      <partList>
+         <part partID="bur100" qty="1" />
+         <part partID="chs100" qty="1" />
+         <part partID="ctr120" qty="1" />
+         <part partID="tub920" qty="1" />
+         <part partID="ign150" qty="1" />
+         <part partID="rac220" qty="1" />
+         <part partID="stn100" qty="1" />
+      </partList>
+   </model>
+   <model modelID="dlx200">
+      <modelName>Deluxe</modelName>
+      <modelPrice>$105.15</modelPrice>
+      <onOrder>299</onOrder>
+      <partList>
+         <part partID="bur100" qty="1" />
+         <part partID="chs100" qty="1" />
+         <part partID="ctr120" qty="2" />
+         <part partID="tub920" qty="1" />
+         <part partID="ign150" qty="1" />
+         <part partID="rac220" qty="1" />
+         <part partID="tra240" qty="1" />
+         <part partID="stn100" qty="1" />
+      </partList>
+   </model>
+   <model modelID="dlg320">
+      <modelName>Dual</modelName>
+      <modelPrice>$155.20</modelPrice>
+      <onOrder>100</onOrder>
+      <partList>
+         <part partID="bur100" qty="1" />
+         <part partID="sbu120" qty="1" />
+         <part partID="ech250" qty="1" />
+         <part partID="ctr120" qty="2" />
+         <part partID="tub920" qty="2" />
+         <part partID="ign150" qty="2" />
+         <part partID="rac220" qty="1" />
+         <part partID="sra240" qty="1" />
+         <part partID="tra240" qty="2" />
+         <part partID="stn100" qty="1" />
+      </partList>
+   </model>
+   <model modelID="ext500">
+      <modelName>Extended</modelName>
+      <modelPrice>$178.00</modelPrice>
+      <onOrder>311.00</onOrder>
+      <partList>
+         <part partID="bur100" qty="1" />
+         <part partID="sbu120" qty="2" />
+         <part partID="ech250" qty="1" />
+         <part partID="ctr120" qty="3" />
+         <part partID="tub920" qty="3" />
+         <part partID="ign150" qty="3" />
+         <part partID="rac220" qty="1" />
+         <part partID="sra240" qty="2" />
+         <part partID="tra240" qty="2" />
+         <part partID="stn100" qty="1" />
+      </partList>
+   </model>
+</grillModels>

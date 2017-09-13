@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Tutorial Case
+
+   Contribution List
+
+   Filename:         clist.xml
+   Supporting Files: 
+-->
+
+<persons>
+   <person>
+      <first_name>Jane</first_name>
+      <last_name>Whitney</last_name>
+      <street>87 Hilltop Drive</street>
+      <city>Jasper</city>
+      <state>KY</state>
+      <zip>89381</zip>
+      <amount>50</amount>
+      <date>2008-08-22</date>
+   </person>
+   <person>
+      <first_name>Andrew</first_name>
+      <last_name>Sanchez</last_name>
+      <street>891 Lindon Lane</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>89011</zip>
+      <amount>50</amount>
+      <date>2008-08-22</date>
+   </person>
+   <person>
+      <first_name>Gary</first_name>
+      <last_name>Windt</last_name>
+      <street>55 Hawking Street</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>89011</zip>
+      <amount>1000</amount>
+      <date>2008-08-22</date>
+   </person>
+   <person>
+      <first_name>Cynthia</first_name>
+      <last_name>Browne</last_name>
+      <street>71 Circuit Court</street>
+      <city>Wheaton</city>
+      <state>KY</state>
+      <zip>89321</zip>
+      <amount>50</amount>
+      <date>2008-08-23</date>
+   </person>
+   <person>
+      <first_name>Howard</first_name>
+      <last_name>Li</last_name>
+      <street>4312 East Oak Avenue</street>
+      <city>Youngston</city>
+      <state>KY</state>
+      <zip>89318</zip>
+      <amount>250</amount>
+      <date>2008-08-23</date>
+   </person>
+   <person>
+      <first_name>Uma</first_name>
+      <last_name>Thu</last_name>
+      <street>25 Longton Lane</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>89011</zip>
+      <amount>100</amount>
+      <date>2008-08-23</date>
+   </person>
+   <person>
+      <first_name>Alan</first_name>
+      <last_name>Wilkes</last_name>
+      <street>321 Ashburn</street>
+      <city>Jasper</city>
+      <state>KY</state>
+      <zip>89831</zip>
+      <amount>150</amount>
+      <date>2008-08-23</date>
+   </person>
+   <person>
+      <first_name>Steve</first_name>
+      <last_name>Bones</last_name>
+      <street>900 Lawton Street</street>
+      <city>Wheaton</city>
+      <state>KY</state>
+      <zip>89211</zip>
+      <amount>50</amount>
+      <date>2008-08-25</date>
+   </person>
+   <person>
+      <first_name>Jeri</first_name>
+      <last_name>White</last_name>
+      <street>Hawkes Lane</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>89211</zip>
+      <amount>150</amount>
+      <date>2008-08-25</date>
+   </person>
+   <person>
+      <first_name>Tom</first_name>
+      <last_name>Thomas</last_name>
+      <street>Rigel Avenue</street>
+      <city>Drake</city>
+      <state>KY</state>
+      <zip>89411</zip>
+      <amount>100</amount>
+      <date>2008-08-27</date>
+   </person>
+   <person>
+      <first_name>Hugh</first_name>
+      <last_name>Warren</last_name>
+      <street>585 Lindon Court</street>
+      <city>Wheaton</city>
+      <state>KY</state>
+      <zip>88877</zip>
+      <amount>50</amount>
+      <date>2008-08-28</date>
+   </person>
+   <person>
+      <first_name>Lynwood</first_name>
+      <last_name>Ingersoll</last_name>
+      <street>723 Jackson Avenue</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>88802</zip>
+      <amount>500</amount>
+      <date>2008-08-30</date>
+   </person>
+   <person>
+      <first_name>Petronila</first_name>
+      <last_name>Damico</last_name>
+      <street>44 Stewart Street</street>
+      <city>Drake</city>
+      <state>KY</state>
+      <zip>88604</zip>
+      <amount>250</amount>
+      <date>2008-08-30</date>
+   </person>
+   <person>
+      <first_name>Livia</first_name>
+      <last_name>Mckinnon</last_name>
+      <street>557 Ivy Avenue</street>
+      <city>Jasper</city>
+      <state>KY</state>
+      <zip>88960</zip>
+      <amount>50</amount>
+      <date>2008-08-31</date>
+   </person>
+   <person>
+      <first_name>Kris</first_name>
+      <last_name>Levesque</last_name>
+      <street>542 Upton Avenue</street>
+      <city>Delphi</city>
+      <state>KY</state>
+      <zip>88793</zip>
+      <amount>100</amount>
+      <date>2008-08-31</date>
+   </person>
+   <person>
+      <first_name>Basilia</first_name>
+      <last_name>Lu</last_name>
+      <street>851 Flad Court</street>
+      <city>Jasper</city>
+      <state>KY</state>
+      <zip>88633</zip>
+      <amount>500</amount>
+      <date>2008-09-02</date>
+   </person>
+   <person>
+      <first_name>Genny</first_name>
+      <last_name>Rainey</last_name>
+      <street>657 Dawson Lane</street>
+      <city>Youngston</city>
+      <state>KY</state>
+      <zip>88873</zip>
+      <amount>50</amount>
+      <date>2008-09-03</date>
+   </person>
+</persons>

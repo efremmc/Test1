@@ -1,0 +1,28 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Tutorial Case
+   Filename: parts.css
+
+   Author: 
+   Date:   
+
+   This file contains styles used in the parts.xml file.
+
+*/
+
+
+parts  
+       {font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+
+part   
+       {display: block; width: 500px; margin: 15px; padding: 5px;
+        border-top: 1px dashed black; border-left: 1px dashed black}
+
+title, description, instock
+       {display: list-item; list-style-type: circle; 
+        padding-left: 10px; margin-left: 15px}
+
+
+/* Insert CSS namespace escape styles here */
+

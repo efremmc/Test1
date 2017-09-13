@@ -1,0 +1,67 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on XML
+   Tutorial 10
+   Tutorial Case
+
+   parseError Demo
+   Author: Patrick Carey
+   Date:   3/1/2006
+
+   Filename:         demo_mozillaerror.htm
+   Supporting files: demo.gif
+-->
+<title>Mozilla Error Demo</title>
+<style>
+   body {background-color:white; font-family: Arial, Helvetica, sans-serif}
+   h2 {color:yellow; background-image: url(demo.gif); letter-spacing: 1em;
+       font-size: 1.5em; padding: 10px; margin-bottom: 0px; text-align: right}
+   p {font-size: 0.8em; padding: 10 30 10 30; border: solid 1px black; margin-top:0; background-color: ivory}
+
+   address {text-align: center; font-size: 8pt; border-top: 1px solid black; clear:left; font-style: normal;
+            margin-top: 15px}
+   span.btitle {font-style: italic}
+
+   #webform {float: left; font-size: 10pt; margin-right: 20px; font-family: Courier New, monospace}
+   #output  {float:left}
+   textarea {width: 600px; height: 200px; font-size: 9pt; font-family: Courier New, monospace}
+</style>
+<script type="text/javascript">
+
+var XMLDoc=document.implementation.createDocument("","",null);
+
+
+function loadXML(file) {
+   XMLDoc.async=false;
+   XMLDoc.load(file);
+   var Xserial = new XMLSerializer();
+   var Xstr = Xserial.serializeToString(XMLDoc);
+   document.getElementById("domOutput").value=Xstr;
+}
+</script>
+</head>
+
+<body>
+<h2>The Error Document</h2>
+<p>Click the radio buttons below to open different XML documents using Mozilla. The contents of
+the error document will be displayed in the accompanying textarea box.</p>
+<div id="webform">
+   <form>
+      <input type="radio" name="XMLfile" onClick="loadXML('error1.xml')" /> error1.xml <br />
+      <input type="radio" name="XMLfile" onClick="loadXML('error2.xml')" /> error2.xml <br />
+   </form>
+</div>
+<div id="output">
+   <span style="font-size: 9pt">Contents of the error document:</span><br />
+   <form>
+      <textarea id="domOutput"></textarea>
+</div>
+
+<address>
+Carey, P.
+<span class="btitle">New Perspectives on XML</span>,
+Course Technology: Boston, 2006.
+</address>
+</body>
+</html>    

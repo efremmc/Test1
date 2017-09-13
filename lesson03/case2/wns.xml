@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 2
+
+   WNS news feed
+   Author: Efrem McCrimon
+   Date:   2-6-2011
+
+   Filename:         wns.xml
+   Supporting Files: articles.dtd, headlines.xml, images.dtd, news.dtd
+ 
+-->
+<!DOCTYPE news_feed
+[
+
+<!ELEMENT news_feed (story+)>
+<!ENTITY % articles SYSTEM "articles.dtd">
+<!ENTITY % images SYSTEM "images.dtd">
+<!ENTITY % news SYSTEM "news.dtd">
+
+
+
+%articles;
+%images;
+%news;
+<!ENTITY headlines SYSTEM "headlines.xml">
+
+]>
+
+<news_feed>
+%headlines;
+
+</news_feed>

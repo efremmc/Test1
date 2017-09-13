@@ -1,0 +1,73 @@
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 3
+
+   GrillRite Grill Parts
+   Author: 
+   Date:   
+
+   Filename:         parts.xml
+   Supporting Files: 
+-->
+
+<grillParts>
+
+   <part partID="bur100" usedIn="std150 dlx200 dlg320 ext500">
+      <partName>Main Burner</partName>
+      <cost>$12.15</cost>
+      <inStock>1411</inStock>
+   </part>
+   <part partID="sbu120" usedIn="dlg320 ext500">
+      <partName>Side Burner</partName>
+      <cost>$8.25</cost>
+      <inStock>957</inStock>
+   </part>
+   <part partID="chs100" usedIn="std150 dlx200 dlg320 ext500">
+      <partName>Standard Chassis</partName>
+      <cost>$35.50</cost>
+      <inStock>877</inStock>
+   </part>
+   <part partID="ech250" usedIn="dlg320 ext500">
+      <partName>Extended Chassis</partName>
+      <cost>$65.25</cost>
+      <inStock>781</inStock>
+   </part>
+   <part partID="ctr120" usedIn="std150 dlx200 dlg320 ext500">
+      <partName>Controls</partName>
+      <cost>$2.50</cost>
+      <inStock>2671</inStock>
+   </part>
+   <part partID="tub920" usedIn="std150 dlx200 dlg320 ext500">
+      <partName>Gas Tubing</partName>
+      <cost>$3.50</cost>
+      <inStock>2321</inStock>
+   </part>
+   <part partID="ign150" usedIn="std150 dlx200 dlg320 ext500">
+      <partName>Igniter</partName>
+      <cost>$2.25</cost>
+      <inStock>2217</inStock>
+   </part>
+   <part partID="rac220" usedIn="std150 dlx200 dlg320 EXT500">
+      <partName>Main Rack</partName>
+      <cost>$10.30</cost>
+      <inStock>1417</inStock>
+   </part>
+   <part partID="sra240" usedIn="dlg320 ext500">
+      <partName>Side Rack</partName>
+      <cost>$6.30</cost>
+      <inStock>723</inStock>
+   </part>
+   <part partID="tra240" usedIn="dlx200 dlg320 ext500">
+      <partName>Top Rack</partName>
+      <cost>$7.50</cost>
+      <inStock>688</inStock>
+   </part>
+   <part partID="stn100" usedIn="std150 dlx200 dlg320 ext500">
+      <partName>Stand</partName>
+      <cost>$25.10</cost>
+      <inStock>1388</inStock>
+   </part>
+
+</grillParts>
+

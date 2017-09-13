@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 7
+   Case Problem 1
+
+   Election Results
+   Author: 
+   Date:   
+
+   Filename:         polls.xml
+   Supporting Files: polls.xsl
+-->
+
+<polls>
+   <race>
+      <title>1st Congressional District</title>
+      <candidate>
+         <name>Sarah Carlson</name>
+         <party>D</party>
+         <votes>45125</votes>
+      </candidate>
+      <candidate>
+         <name>Pete deJesus</name>
+         <party>R</party>
+         <votes>44498</votes>
+      </candidate>
+      <candidate>
+         <name>Alan Tompkins</name>
+         <party>I</party>
+         <votes>5143</votes>
+      </candidate>
+   </race>
+   <race>
+      <title>2nd Congressional District</title>
+      <candidate>
+         <name>Gary Griffin</name>
+         <party>D</party>
+         <votes>69505</votes>
+      </candidate>
+      <candidate>
+         <name>Frank Brown</name>
+         <party>R</party>
+         <votes>78133</votes>
+      </candidate>
+      <candidate>
+         <name>Roland Washington</name>
+         <party>G</party>
+         <votes>8109</votes>
+      </candidate>
+      <candidate>
+         <name>Karen Reese</name>
+         <party>L</party>
+         <votes>13004</votes>
+      </candidate>
+   </race>
+   <race>
+      <title>3rd Congressional District</title>
+      <candidate>
+         <name>Anne Sanchez</name>
+         <party>D</party>
+         <votes>65203</votes>
+      </candidate>
+      <candidate>
+         <name>Cynthia Thomas</name>
+         <party>R</party>
+         <votes>51289</votes>
+      </candidate>
+   </race>
+   <race>
+      <title>4th Congressional District</title>
+      <candidate>
+         <name>Jerry Wilkes</name>
+         <party>D</party>
+         <votes>49201</votes>
+      </candidate>
+      <candidate>
+         <name>Barry Mitchell</name>
+         <party>R</party>
+         <votes>58414</votes>
+      </candidate>
+      <candidate>
+         <name>Paula Wellton</name>
+         <party>I</party>
+         <votes>3901</votes>
+      </candidate>
+   </race>
+   <race>
+      <title>5th Congressional District</title>
+      <candidate>
+         <name>Pete Grimbold</name>
+         <party>D</party>
+         <votes>42105</votes>
+      </candidate>
+      <candidate>
+         <name>Carol Ives</name>
+         <party>R</party>
+         <votes>43349</votes>
+      </candidate>
+      <candidate>
+         <name>Michael Dorn</name>
+         <party>G</party>
+         <votes>1401</votes>
+      </candidate>
+   </race>
+</polls>

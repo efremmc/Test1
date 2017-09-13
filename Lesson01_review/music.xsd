@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Jazz Warehouse Vintage Albums Schema
+   Author: 
+   Date: 
+
+   Filename:         music.xsd
+   Supporting Files: 
+   
+   
+ 
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   
+    <xs:element name="inventory">
+       <xs:complexType>
+          <xs:sequence>
+             <xs:element name="album" type="xs:string" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="title" type="xs:string"/>
+                        <xs:element name="artist" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                        <xs:element name="tracks" type="xs:string"/>
+                        <xs:element name="category" type="xs:string">						
+                            <xs:simpleType name="jazzType">
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="New Orleans"/>
+                                    <xs:enumeration value="Swing"/>
+                                    <xs:enumeration value="Bebop"/>
+                                    <xs:enumeration value="Modern"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="albumID">
+                           <xs:simpleType name="albumIDType">
+                                <xs:restriction base="xs:ID">
+                                   <xs:pattern value="JW\d(5}"/>
+                                </xs:restriction> 
+                            </xs:simpleType> 
+                        </xs:element>
+                        <xs:element name="tracks" type="xs:string" minOccurs="1" maxOccurs="unbounded">
+                           <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="track" type="xs:string"/>
+                                <xs:element name="length" type="xs:time"/>
+                              </xs:sequence>
+                           </xs:complexType>							   
+                        </xs:element>	
+                    </xs:sequence>
+                    </xs:complexType>
+                </xs:element>		
+            </xs:sequence>
+            <xs:attribute name="albumID" type="xs:ID" use="required"/>   
+            <xs:attribute name="jazzType" type="xs:string" use="restricted"/>
+            <xs:attribute name="length" type="xs:time" use="optional"/>
+        </xs:complexType>
+    </xs:element>	
+	
+</xs:schema>

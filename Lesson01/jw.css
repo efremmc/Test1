@@ -1,0 +1,36 @@
+/*
+   New Perspectives on XML
+   Tutorial 1
+   Tutorial Case
+   Filename: jw.css
+
+   This file contains styles used in the jazz.xml file.
+
+*/
+
+message          {display:block; width:400px; color:blue; text-align: center;
+                  font-size: 10pt; font-family: Arial, Helvetica, sans-serif;
+                  border: 3px solid blue; background-color: ivory;
+                  margin: 10px; padding: 15px}
+
+item             {display:block; font-size:14pt; color:red; 
+                  font-family: Arial, Helvetica, Sans-serif; 
+                  margin: 20px}
+
+title            {display:block; font-size: 16pt; color:blue; 
+                  font-weight:bold;
+                  font-family: Arial, Helvetica, sans-serif}
+
+priceus, priceuk {color:black; font-size: 12pt; font-weight: bold;
+                  font-family: Times New Roman, Times, Serif;
+                  margin-left: 20px;}
+
+artist           {display:block; font-size: 12pt; color:black; 
+                  font-style:italic; font-weight: bold;
+                  font-family: Times New Roman, Times, Serif; 
+                  margin-left: 20px}
+
+track            {display:list-item; font-size: 9pt; color: black; 
+                  list-style-type: circle;
+                  font-family: Arial, Helvetica, sans-serif;
+                  margin-left: 35px}

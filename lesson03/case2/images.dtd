@@ -1,0 +1,19 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 2
+
+   List of news image files
+   Author: Efrem McCrimon
+   Date:   2-6-2011
+
+   Filename:         stories.dtd
+   Supporting Files: 
+-->
+
+<!NOTATION JPG SYSTEM "image/jpg">
+<!ENTITY img2071 SYSTEM "img2071.jpg" NDATA JPG>
+<!ENTITY img2072 SYSTEM "img2072.jpg" NDATA JPG>
+<!ENTITY img2073 SYSTEM "img2073.jpg" NDATA JPG>
+<!ENTITY img2074 SYSTEM "img2074.jpg" NDATA JPG>
+<!ENTITY img2075 SYSTEM "img2075.jpg" NDATA JPG>

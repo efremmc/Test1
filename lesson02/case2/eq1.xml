@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 2
+
+   First MathML Equation
+
+   Filename:         eq1.xml
+   Supporting Files: math.css
+-->
+<?xml-stylesheet type="text/css" href="math.css" ?>
+
+   <mrow>
+     <mrow>
+       <mn>a</mn>
+       <msup>
+         <mi>x</mi>
+         <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <mrow>
+         <mn>b</mn>
+         <mi>x</mi>
+       </mrow>
+       <mo>+</mo>
+       <mn>c</mn>
+     </mrow>
+     <mo>=</mo>
+     <mn>0</mn>
+   </mrow>

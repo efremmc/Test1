@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Review Assignment
+
+   Clinical Cancer Center Studies
+   Author: 
+   Date:   
+
+   Filename:         studies.xml
+   Supporting Files: slist.xsd
+ 
+-->
+
+   <studies>
+      <study studyID="CCC-501-24">
+         <title>Treatment of Radiation Firbrosis</title>
+         <summary>This study is investigating whether two drugs, vitamin E(Alpha-tocopherol),
+                  and Oxpentifylline, may help to heal body tissues damaged by radiotheraphy.
+         </summary>
+         <pi>Richard Tunney</pi>
+         <startDate>2006-08-15</startDate>
+         <stopDate>2008-01-22</stopDate>
+         <enrollment>24</enrollment>
+         <gender>female</gender>
+         <phase>3rd</phase>
+         <site>University Hospital</site>
+      </study>
+
+      <study studyID="CCC-510-43">
+         <title>Tamoxifen for Early Stage Breast Cancer</title>
+         <summary>This study is to discover whether taking Tamoxifen for longer than five 
+                  years will reduce the risk of recurrence without additional side effects.
+         </summary>
+         <pi>Alice Walters</pi>
+         <startDate>12/1/2006</startDate>
+         <stopDate>11/30/2012</stopDate>
+         <enrollment>100</enrollment>
+         <gender>female</gender>
+         <phase>3</phase>
+         <site>University Hospital</site>
+         <site>St. Thomas Vianney Hospital</site>
+         <site>Ohio Cancer Clinic</site>
+      </study>
+
+      <study studyID="CCC-510-48">
+         <title>Taxoprexin for Advanced Breast Cancer</title>
+         <summary>This study seeks to dicover the effacy of of Taxoprexin in treating 
+                  advanced stage breast cancer, to determine the side effects of 
+                  Taxoprexin, and to determine how quickly the body gets rid of Taxoprexin.
+         </summary>
+         <pi>Chandaskar Rao</pi>
+         <startDate>2006-04-15</startDate>
+         <stopDate>2007-04-15</stopDate>
+         <enrollment>15</enrollment>
+         <gender>female</gender>
+         <phase>2</phase>
+         <site>University Hospital</site>
+      </study>
+
+      <study studyID="CCC-425-08">
+         <title>CT Scanning in Early Stage Testicular Cancer</title>
+         <summary>This study tests whether giving CT scans more often will detect 
+                  the recurrence of testicular cancer earlier.
+         </summary>
+         <pi>Dennis Lehman</pi>
+         <startDate>2006-11-15</startDate>
+         <stopDate>2009-11-14</stopDate>
+         <enrollment>48</enrollment>
+         <gender>woman</gender>
+         <phase>3</phase>
+         <site>University Hospital</site>
+         <site>Ohio Cancer Clinic</site>
+      </study>
+
+      <study studyID="CCC-805-88">
+         <title>Chemotheraphy with Cisplatin and Irintecan in Advanced Pancreatic Cancer</title>
+         <summary>This study test whether giving patients of combination of chemotheraphy 
+                  with Cisplatin and Irinotecan will control the symptons of advanced 
+                  pancreatic cancer.
+         </summary>
+         <pi>Michael Siudzinski</pi>
+         <startDate>2006-09-01</startDate>
+         <stopDate>2009-05-31</stopDate>
+         <enrollment>12</enrollment>
+         <gender>all</gender>
+         <phase>2</phase>
+         <site>Unversity Hospital</site>
+      </study>
+
+      <study studyID="CCC-718-14">
+         <title>Encrecolomab in Post-Surgical Colon Cancer</title>
+         <pi>Linda Sanchez</pi>
+         <startDate>2007-01-15</startDate>
+         <stopDate>2012-12-31</stopDate>
+         <enrollment>1000</enrollment>
+         <gender>all</gender>
+         <phase>3</phase>
+         <site>Univeristy Hospital</site>
+         <site>Ohio Cancer Clinic</site>
+         <site>St. Thomas Vianney Hospital</site>
+         <site>Midwest Cancer Center</site>
+         <site>Methodist Hospital</site>
+      </study>
+
+      <study studyID="CCC 330 21">
+         <title>Cisplatin in the Treatment of Mesothelioma</title>
+         <summary>This study examines the effacy of Cisplatin in the treatment of
+                  mesothelioma using a standard randomized clinical trial.
+         </summary>
+         <pi>Karen Cho</pi>
+         <startDate>2006-07-01</startDate>
+         <stopDate>2009-03-31</stopDate>
+         <enrollment>240 patients</enrollment>
+         <gender>all</gender>
+         <phase>3</phase>
+         <site>University Hospital</site>
+         <site>Ohio Cancer Clinic</site>
+      </study>
+   </studies>

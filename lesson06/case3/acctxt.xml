@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 6
+   Case Problem 3
+
+   Homestead School Checking Account
+   Author: 
+   Date:   
+
+   Filename:         account.xml
+   Supporting Files: checks.xsl
+-->
+
+<account>
+   <deposit type="direct">
+      <from  category="tuition">Roger Falkes</from>
+      <amount>1240.50</amount>
+      <date>8/24/2008</date>
+      <description>Tuition payment</description>
+   </deposit>
+
+   <payment type="check" checknum="C1210">
+      <to category="other">Hank's Hardware</to>
+      <amount>29.15</amount>
+      <date>8/24/2008</date>
+      <description>Drill kit</description>
+   </payment>
+
+   <payment type="check" checknum="C1211">
+      <to category="supplies">Office World</to>
+      <amount>149.51</amount>
+      <date>8/25/2008</date>
+      <description>Whiteboard Supplies</description>
+   </payment>
+
+   <payment type="check" checknum="C1212">
+      <to category="other">Citgo</to>
+      <amount>22.50</amount>
+      <date>8/25/2008</date>
+      <description>Gasoline</description>
+   </payment>
+
+   <payment type="check" checknum="C1213">
+      <to category="books">Text International</to>
+      <amount>233.24</amount>
+      <date>8/28/2008</date>
+      <description>Algebra I textbooks</description>
+   </payment>
+
+   <payment type="check" checknum="C1214">
+      <to category="utilities">Central Electric</to>
+      <amount>94.85</amount>
+      <date>8/29/2008</date>
+      <description>Electric Bill</description>
+   </payment>
+
+   <payment type="withdrawal">
+      <to category="cash">cash</to>
+      <amount>200.00</amount>
+      <date>8/29/2008</date>
+      <description>Petty cash</description>
+   </payment>
+
+   <payment type="check" checknum="C1215">
+      <to category="books">Text International</to>
+      <amount>372.50</amount>
+      <date>8/30/2008</date>
+      <description>Latin II textbooks</description>
+   </payment>
+
+   <payment type="check" checknum="C1216">
+      <to category="supplies">Office World</to>
+      <amount>179.50</amount>
+      <date>8/30/2008</date>
+      <description>Laser Printer toner</description>
+   </payment>
+
+   <deposit type="transfer">
+      <from category="savings">Saving Account</from>
+      <amount>300.00</amount>
+      <date>9/1/2008</date>
+   </deposit>
+
+   <payment type="check" checknum="C1217">
+      <to category="entertainment">Ticket Source</to>
+      <amount>415.95</amount>
+      <date>9/3/2008</date>
+      <description>Tickets for the Jazz Concert</description>
+   </payment>
+</account>

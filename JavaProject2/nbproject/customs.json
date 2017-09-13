@@ -1,0 +1,54 @@
+{
+    "elements": {
+        "authorEmail": {},
+        "deptName": {},
+        "itemQty": {},
+        "purpose": {},
+        "title": {},
+        "employee": {
+            "attributes": {
+                "status": {}
+            }
+        },
+        "inventory": {},
+        "type": {},
+        "years": {},
+        "capacity": {},
+        "itemName": {},
+        "wName": {},
+        "sCost": {},
+        "xml": {},
+        "price": {},
+        "model": {
+            "attributes": {
+                "mType": {}
+            }
+        },
+        "recvBy": {},
+        "department": {},
+        "recvDate": {},
+        "energy": {},
+        "delivery": {},
+        "item": {
+            "attributes": {
+                "itemID": {}
+            }
+        },
+        "author": {},
+        "manifest": {},
+        "photo": {},
+        "staff": {},
+        "mType": {},
+        "wContact": {},
+        "phone": {},
+        "subtitle": {},
+        "name": {},
+        "freezer": {},
+        "information": {},
+        "itemPrice": {},
+        "position": {},
+        "orderDate": {},
+        "dimensions": {}
+    },
+    "attributes": {}
+}

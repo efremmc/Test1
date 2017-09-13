@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/bike.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE document SYSTEM "bike.dtd">
+
+    <document>
+    ...
+    </document>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT document (models|subtitle|title|date|author)*>
+<!ATTLIST document
+    xmlns:html CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT author (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT date (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT title (html:img)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT html:img EMPTY>
+<!ATTLIST html:img
+    alt CDATA #IMPLIED
+    src CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT subtitle (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT models (model)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT model (features|description|name|html:img)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+    class CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT description (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT features (feature)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT feature (#PCDATA|fName)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fName (#PCDATA)>

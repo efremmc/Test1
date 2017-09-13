@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 3
+
+   Sports Blog
+
+   Author:  
+   Date:    
+
+   Filename:         sblogger.xml
+   Supporting Files: home.css, links.jpg, news.css, sblogger.jpg
+-->
+
+<rss version="2.0"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <channel>
+    <title>Current Headlines</title>
+    <link>http://www.sbloggersports.com/sblogger.htm</link>
+    <description>Sports News Feed</description>
+    <dc:language>en-us</dc:language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <sy:updateBase>2005-01-01T12:00+00:00</sy:updateBase>
+
+    <item>
+      <title>Carson leads PGA</title>
+      <link>http:www.sportsnewslinks.com/pga/pga238.html</link>
+      <description>Brett Carson took a three stroke lead into the final
+      round of the PGA Championship at Whistling Straits with a birdie on
+      the final hole.</description>
+      <dc:subject>golf</dc:subject>
+      <dc:date>2008-08-11T19:00:00+09:00</dc:date>
+    </item>
+
+    <item>
+      <title>Groveney Signs Deal</title>
+      <link>http:www.sportsnewslinks.com/nhl/nhl38891.html</link>
+      <description>New York signed leading defenseman Steve Groveny to a 2-year
+      contract on Thursday.</description>
+      <dc:subject>NHL</dc:subject>
+      <dc:date>2008-08-11T19:00:00+09:00</dc:date>
+    </item>
+
+    <item>
+      <title>Olson Out for Two Weeks</title>
+      <link>http:www.sportsnewslinks.com/nfl/nfl8771.html</link>
+      <description>Kansas City QB Drew Olson will miss two weeks
+      of practice due to a sprained knee, team officials announced
+      this morning.</description>
+      <dc:subject>NFL</dc:subject>
+      <dc:date>2008-08-11T19:00:00+09:00</dc:date>
+    </item>
+
+    <item>
+      <title>Soccer Season Delayed</title>
+      <link>http:www.sportsnewslinks.com/soccer/soc8700.html</link>
+      <description>The start of Spain's soccer season will be delayed for
+      two weeks because of financial problems and fallout from a league-wide
+      drug scandal.</description>
+      <dc:subject>soccer</dc:subject>
+      <dc:date>2008-08-11T19:00:00+09:00</dc:date>
+    </item>
+
+    <item>
+      <title>Gregg Called Up</title>
+      <link>http:www.sportsnewslinks.com/mlb/mlb81808.html</link>
+      <description>Steve Gregg was recalled to the majors
+      after allowing two hits in six innings in his third start 
+      for Triple-A Akron.</description>
+      <dc:subject>MLB</dc:subject>
+      <dc:date>2008-08-11T19:00:00+09:00</dc:date>
+    </item>
+
+  </channel>
+
+</rss>

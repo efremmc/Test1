@@ -1,0 +1,122 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Tutorial Case
+
+   The Lighthouse Charitable Trust
+   Author: 
+   Date:   
+
+   Filename:         clist.htm
+   Supporting Files: clist.css, clist.xml, clist.xsl, library.js, logo.jpg 
+
+-->
+   <title>Contributors List</title>
+   <link href="clist.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <form name="webform" id="webform">
+
+   <div id="title">
+      <img src="logo.jpg" alt="The Lighthouse" />
+      The Lighthouse<br />
+      543 Oak Street<br />
+      Delphi, KY &nbsp;&nbsp;89011<br/>
+      (542) 555-7511
+   </div>
+
+   <div id="data_entry">
+      <h3 style="margin-top: 0px">Enter a New Contributor</h3>
+
+      <table>
+      <tr>
+         <td>First Name</td>
+         <td><input name="name" id="first" size="20"  /></td>
+      </tr>
+      <tr>
+         <td>Last Name</td>
+         <td><input name="last" id="last" size="20" /></td>
+      </tr>
+      <tr>
+         <td>Street</td><td>
+         <input name="street" id="street" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>City</td>
+         <td><input name="city" id="city" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>State</td>
+         <td><input name="state" id="state" size="2" /></td>
+      </tr>
+      <tr>
+         <td>Zip</td>
+         <td><input name="zip" id="fzip" size="5"  /></td>
+      </tr>
+      <tr>
+         <td>Amount</td>
+         <td><input name="amount" id="famount" size="7"  /></td>
+      </tr>
+      <tr>
+         <td>Date</td>
+         <td><input name="date" id="fdate" size="10" /></td>
+      </tr>
+      <tr>
+         <td colspan="2" class="buttoncell">
+            <input type="button" value="Add Contributor" />
+         </td>
+      </tr>
+      </table>
+
+      <h3>Sort the Contributor List</h3>
+
+      <table>
+      <tr>
+         <td><input type="radio" name="sort" /></td>
+         <td>Last Name</td>
+         <td><input type="radio" name="sort" /></td>
+         <td>City</td>
+      </tr>
+      <tr>
+         <td><input type="radio" name="sort" /></td>
+         <td>Amount</td>
+         <td>
+            <input type="radio" name="sort" checked="checked" />
+         </td>
+         <td>Date</td>
+      </tr>
+      <tr>
+         <td colspan="4" class="buttoncell">
+            Ascending: 
+             <input type="radio" name="order" />
+            Descending: 
+            <input type="radio" name="order" checked="checked" />
+         </td>
+      </tr>
+      </table>
+
+      <h3>Filter the Contributor List</h3>
+
+      <table>
+      <tr>
+         <td>
+            <p>Text strings should be placed in single quotes. 
+               Leave the input box blank to show all contributions.</p>
+            <p style="text-align: center">
+               <textarea name="filter" id="filter" rows="4" cols="14"></textarea><br />
+               <input type="button" value="Filter" />
+            </p>
+         </td>
+      </tr>
+      </table>
+   </div>
+
+   <div id="ctable">
+   </div>
+
+   </form>
+</body>
+</html>

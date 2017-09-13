@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 6
+   Case Problem 2
+
+   SciTimes RSS News Feed
+   Author: 
+   Date:   
+
+   Filename:         rss2.xml
+   Supporting Files: home.htm, nasa.htm, neptune.htm, sci.xsl, vm.htm, whales.htm
+-->
+
+<rss version="2.0"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  
+                    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+
+                    xmlns:admin="http://webns.net/mvcb/"
+  
+                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+
+
+<channel>
+   <title>SciTimes News</title>
+   <link>home.htm</link>
+
+   <description>SciTimes delivers up-to-the-minute news and information on
+   the latest stories from the world of science and technology.</description>
+
+   <dc:language>en-us</dc:language>
+   
+<dc:date>2008-03-24T12:22:54+09:00</dc:date>
+   
+<sy:updatePeriod>hourly</sy:updatePeriod>
+
+   <sy:updateFrequency>1</sy:updateFrequency>
+
+   <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+
+
+   <image>
+      <title>SciTimes.com</title>
+      <link>home.htm</link>
+      <url>scitimes.jpg</url>
+      <width>620</width>
+      <height>96</height>
+      <description>SciTimes delivers up-to-the-minute news and information on
+      the latest stories from the world of science and technology.
+      </description>
+   </image>
+
+   <item>
+      <title>Visual Memory</title>
+      <link>vm.htm</link>
+      <description>BOULDER, Colorado - The ability to retain memory about the 
+      details of a natural scene is unaffected by the distraction of another 
+      activity and this information is retained in "working memory" according 
+      to researchers at the University of Colorado School of Medicine. These 
+      results reinforce the notion that humans maintain useful information about 
+      previous fixations in long-term working memory rather than the 
+      limited capacity of visual short-term memory (VSTM). 
+      </description>
+      <dc:pubDate>Mon, 24 Mar 2008 12:17:37 EST</dc:pubDate>
+      <dc:subject>Biology</dc:subject>
+
+   </item>
+
+   <item>
+      <title>Neptune probe launches</title>
+      <link>neptune.htm</link>
+      <description>CAPE CANAVERAL, Florida - The fastest spacecraft ever launched 
+      began the first full day of its 2-billion mile journey to Neptune, where it 
+      will study the gas giant and provide close-up images of its rings. The Neptune 5 
+      spacecraft blasted off aboard an Atlas V rocket Sunday evening in a spectacular 
+      start to the $900 million mission. The spacecraft can reach 38,000 mph, taking 6 
+      years to reach Neptune and the outer reaches of the Solar System.
+      </description>
+      <dc:pubDate>Mon, 24 Mar 2008 12:11:44 EST</dc:pubDate>
+      <dc:subject>Space</dc:subject>
+
+   </item>
+
+   <item>
+      <title>Whale numbers in decline</title>
+      <link>whales.htm</link>
+      <description>ANCHORAGE, Alaska - A survey of beluga whales in Cook Inlet finds 
+      that their numbers remain stagnant and could be declining despite efforts to get 
+      the white whale population to rebound. Biologists with the NOAA conducted an aerial 
+      survey southwest of Anchorage early last summer to count the belugas. An analysis 
+      of the survey data indicates there were an estimated 324 beluga whales in Cook Inlet 
+      in 2007, down from 376 the year before.
+      </description>
+      <dc:pubDate>Mon, 24 Mar 2008 12:05:12 EST</dc:pubDate>
+      <dc:subject>Biology</dc:subject>
+
+   </item>
+
+   <item>
+      <title>Satellite goes silent</title>
+      <link>nasa.htm</link>
+      <description>LOS ANGELES, California - A NASA satellite studying the Earth's Van 
+      Allen Belt has stopped operating after three years, the space agency announced 
+      over the weekend. The satellite, launched in 2004, successfully completed its 
+      two-year primary mission, according to a NASA news release. It made observations 
+      until last month when engineers discovered that its power supply had failed.
+      </description>
+      <dc:pubDate>Mon, 24 Mar 2008 12:03:31 EST</dc:pubDate>
+      <dc:subject>Space</dc:subject>
+
+   </item>
+
+</channel>
+</rss>

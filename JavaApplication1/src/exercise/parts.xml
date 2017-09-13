@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="partstxt.css" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Tutorial Case
+
+   Jackson Electronics Laser4C Printer Parts List
+
+   Filename:         parts.xml
+   Supporting Files: parts.css
+-->
+
+<?xml-stylesheet type="text/css" href="parts.css" ?>
+
+   <parts>
+      <part id="chx201">
+         <title>Chassis and Roller Kit</title>
+         <description>PR205 chassis and rollers</description>
+         <instock>512</instock>
+      </part>
+
+      <part id="fa100-5">      
+         <title>Fuser Assembly</title>
+         <description>Fuser assembly/JE series</description>
+         <instock>1253</instock>      
+      </part>
+
+      <part id="eng005-2">      
+         <title>Engine Kit</title>
+         <description>Printer engine kit/JE series</description>
+         <instock>3895</instock>     
+      </part>
+
+      <part id="cbx-450V4">      
+         <title>Controller board</title>
+         <description>PR205 printer controller board</description>
+         <instock>483</instock>     
+      </part>
+
+      <part id="tn01-53">    
+         <title>Toner Kit</title>
+         <description>PR205 toner kit (b,m,c,y)</description>
+         <instock>812</instock>   
+      </part>
+   </parts>
+
+

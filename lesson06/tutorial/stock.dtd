@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/stock.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE portfolio SYSTEM "stock.dtd">
+
+    <portfolio>
+    ...
+    </portfolio>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT portfolio (stock|time|date|author)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT author (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT date (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT time (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT stock (five_day|today|link|category|description|sName)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sName (#PCDATA)>
+<!ATTLIST sName
+    symbol CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT description (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT category (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT link (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT today EMPTY>
+<!ATTLIST today
+    vol CDATA #IMPLIED
+    current CDATA #IMPLIED
+    low CDATA #IMPLIED
+    high CDATA #IMPLIED
+    open CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT five_day (day)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT day (#PCDATA)>
+<!ATTLIST day
+    date CDATA #IMPLIED
+    vol CDATA #IMPLIED
+    close CDATA #IMPLIED
+    low CDATA #IMPLIED
+    high CDATA #IMPLIED
+    open CDATA #IMPLIED
+  >

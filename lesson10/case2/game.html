@@ -1,0 +1,158 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 2
+
+   Game Statistics
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         game.html
+   Supporting Files: boxscore.xsl, game.css, game.xml, gamelog.xsl
+                     library.js, scoring.xsl, title.xsl
+
+-->
+   <title>Texas vs. Wisconsin Box Score</title>
+   <link href="game.css" rel="stylesheet" type="text/css"  />
+   <script type="text/javascript" src="library.js"></script>
+   
+   <script type="text/javascript">
+       
+       var IE = window.ActiveXObject ? true:false;
+       var MOZ = document.implementation.createDocument ? true:false;
+       // var MOZ = window.XMLHttpRequest ? true:false;
+       // var reqObj = new XMLHttpRequest();
+
+       var xmlFile = "game.xml";    // Register data file sources
+       var xsltFile1 = "title.xsl";  // Stylesheet processing and definitions
+       var xsltFile2 = "scoring.xsl";
+       var xsltFile3 = "boxscore.xsl";
+       var xsltFile4 = "gamelog.xsl";
+       
+       var xmlDoc;      // Source documents for processing
+       var xsltDoc1;
+       var xsltDoc2;
+       var xsltDoc3;
+       var xsltDoc4;
+
+       /*
+        * The purpose of this function is to create and load an XML or XSLT file
+        * into a document
+        * 
+       */
+        function createXDoc(xFile, PID) {
+            
+            var xDoc;
+            
+            if (IE) {
+                xDoc = new ActiveXObject(getPID(PID));
+            }
+            else if (MOZ) {  // for Mozilla Firefox
+                xDoc = document.implementation.createDocument("","",null);
+            }
+            loadDoc(xDoc, xFile);
+            return xDoc;
+        }
+        
+        /*
+         * 
+         * This function transform source documents and returns the result document as text
+         */
+        function runTransform(xDoc, xsltDoc) {
+            
+            var resultStr;
+            var resultDoc;
+            
+            if (IE) {  // Internet Explorer            
+                resultStr = xDoc.transformNode(xsltDoc);
+            } else if (MOZ) {  // Mozilla Firefox
+                
+                var xProcessor = new XSLTProcessor();
+                xProcessor.importStylesheet(xsltDoc);
+                resultDoc = xProcessor.transformToDocument(xDoc);
+                var xSerial = new XMLSerializer();
+                resultStr = xSerial.serializeToString(resultDoc);
+            }
+            return resultStr;
+        }
+        
+        /*
+         * 
+         * Inis is the main initialization of the application of the Web page.
+         */
+        function init() {
+            
+            var titleElem = document.getElementById("title");
+            var scoringElem = document.getElementById("scoring");
+            var boxscoreElem = document.getElementById("boxscore");
+            var gamelogElem = document.getElementById("gamelog");
+	
+            xmlDoc = createXDoc(xmlFile, DOMPID);   // Create source documents
+            xsltDoc1 = createXDoc(xsltFile1, DOMPID);
+            xsltDoc2 = createXDoc(xsltFile2, DOMPID);
+            xsltDoc3 = createXDoc(xsltFile3, DOMPID);
+            xsltDoc4 = createXDoc(xsltFile4, DOMPID);
+              
+            // Store for processing the results
+            titleElem.innerHTML = runTransform(xmlDoc, xsltDoc1);
+            scoringElem.innerHTML = runTransform(xmlDoc, xsltDoc2);
+            boxscoreElem.innerHTML = runTransform(xmlDoc, xsltDoc3);
+            gamelogElem.innerHtml = runTransform(xmlDoc, xsltDoc4);
+            
+        }
+        
+        /*
+         * This function updates the contents of the source documents by adding
+         * the new play specified by the user
+         * 
+         */
+        function addPlay() {
+            
+           var boxscoreElem = document.getElementById("boxscore");
+           var gamelogElem = document.getElementById("gamelog");
+           var newPlay = xmlDoc.createElement("play");
+           
+           var minIndex = document.sForm.min.selectedIndex;
+           var secIndex = document.sForm.sec.selectedIndex;
+           var actIndex = document.sForm.action.selectedIndex;
+           var playerIndex = document.sForm.player.selectedIndex;
+           var minute = document.sForm.min[minIndex].firstChild.nodeValue;
+            
+           var second = document.sForm.sec[secIndex].firstChild.nodeValue;
+           var time = minute+":"+second;  // minute:seecond, minIndex.secIndex;
+           var player = document.sForm.player[playerIndex].firstChild.nodeValue;
+           // Get the Team name
+           var team = document.sForm.player[playerIndex].value;  
+           var action = document.sForm.action[actIndex].firstChild.nodeValue;
+
+           //  Write out the plays into newPlay template for the gamelog
+           newPlay.setAttribute("time", time);
+           newPlay.setAttribute("player", player);
+           newPlay.setAttribute("team", team);
+           newPlay.setAttribute("action", action);
+           xmlDoc.getElementsByTagName("plays")[0].appendChild(newPlay); 
+           //plays.appendChild(newPlay);
+            
+           boxscoreElem.innerHTML = runTransform(xmlDoc,xsltDoc3);
+           gamelogElem.innerHTML = runTransform(xmlDoc,xsltDoc4);
+        }
+        
+        
+    </script>
+   
+</head>
+
+<body onload="init()">
+   <form name="sForm">
+       
+       <div id="title"></div>
+       <div id="boxscore"></div>
+       <div id="scoring"></div>
+       <div id="gamelog"></div>
+       
+   </form>
+</body>
+
+</html>

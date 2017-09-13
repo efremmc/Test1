@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/elements-safari.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE all_elements SYSTEM "elements-safari.dtd">
+
+    <all_elements>
+    ...
+    </all_elements>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT all_elements (ch_element|heading3|heading2|heading)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT heading (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT heading2 (#PCDATA)>
+<!ATTLIST heading2
+    class CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT heading3 (#PCDATA)>
+<!ATTLIST heading3
+    class CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ch_element (wgt|symbol|number)*>
+<!ATTLIST ch_element
+    id CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT number (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT symbol (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT wgt (#PCDATA)>

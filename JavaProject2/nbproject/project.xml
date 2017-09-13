@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+   <type>org.netbeans.modules.java.j2seproject</type>
+   <configuration>
+      <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+         <name>JavaProject2</name>
+         <explicit-platform explicit-source-supported="true"/>
+         <source-roots>
+            <root id="src.dir"/>
+            <root id="src.dir"/>
+            <root id="lesson03.dir"/>
+            <root id="lesson03.dir"/>
+            <root id="src.Lesson01_review.dir"/>
+            <root id="lesson04.dir"/>
+            <root id="lesson05.dir"/>
+            <root id="lesson06.dir"/>
+            <root id="lesson07.dir"/>
+            <root id="lesson08.dir"/>
+            <root id="lesson09.dir"/>
+            <root id="lesson10.dir"/>
+         </source-roots>
+         <test-roots/>
+      </data>
+   </configuration>
+</project>

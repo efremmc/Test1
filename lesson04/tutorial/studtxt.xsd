@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial Case
+
+   Study information schema
+   Author: 
+   Date:   
+
+   Filename:         study.xsd
+   Supporting Files: patvb.xsd
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://uhosp/studies/ns"
+            targetNamespace="http://uhosp/studies/ns">
+
+   <xs:element name="study">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="name">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="title" />
+                     <xs:element name="subtitle" />
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+            <xs:element name="pi" type="xs:string" />
+         </xs:sequence>
+         <xs:attribute name="studyID" type="xs:ID" />
+      </xs:complexType>
+   </xs:element>
+
+</xs:schema>

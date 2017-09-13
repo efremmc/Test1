@@ -1,0 +1,29 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Review Assignment
+   Filename: je.css
+
+
+   This file contains styles used in the pr205 report
+
+*/
+
+body        {margin: 0px}
+
+#logo       {width: 100%; height: 85px; background-color: black}
+
+#img        {position: absolute; left: 300px}
+
+h1          {font-family: Arial, Helvetica, sans-serif; font-size: 18pt;
+             margin: 15px; border-top: 1px solid black}
+
+#filetitles {margin: 15px; position: relative; top: 0px; left: 0px;
+             font-weight: bold; font-size: 8pt;
+             font-family: Arial, Helvetica, sans-serif}
+
+#col1       {display: inline}
+#col2       {display: inline; position: absolute; left: 170px}
+#col3       {display: inline; position: absolute; left: 260px}
+#col4       {display: inline; position: absolute; left: 320px}
+#col5       {display: inline; position: absolute; left: 400px}

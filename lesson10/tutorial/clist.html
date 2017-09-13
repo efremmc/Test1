@@ -1,0 +1,314 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Tutorial Case
+
+   The Lighthouse Charitable Trust
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         clist.htm
+   Supporting Files: clist.css, clist.xml, clist.xsl, library.js, logo.jpg 
+
+-->
+   <title>Contributors List</title>
+   <link href="clist.css" rel="stylesheet" type="text/css" />
+   
+   <script type="text/javascript" src="library.js"></script>      
+
+   <script type="text/javascript">
+       var IE = window.ActiveXObject ? true:false;
+       var MOZ = document.implementation.createDocument ? true:false;
+       // var MOZ = window.XMLHttpRequest ? true:false;
+       // var reqObj = new XMLHttpRequest();
+       
+       var XMLdoc;  // Source XML document
+       var XSLTdoc; // XSLT style sheet document
+       var XSLTemp;  // IE template document
+       var XSLTProc;  // IE template document
+     
+       
+       function loadDoc(docObj, url) {
+           docObj.async=false;
+           docObj.load(url);
+       }
+ 
+           function loadDoc2(docObj, url) {
+           docObj.async=true;
+           docObj.load(url);
+       }
+       
+       /*
+        * 
+        * @param {type} XSLTProc
+        * @returns {undefined}
+        */
+        function loadXML(file) {
+           XMLDoc.async=false;
+           XMLDoc.load(file);
+           var Xserial = new XMLSerializer();
+           var Xstr = Xserial.serializeToString(XMLDoc);
+           document.getElementById("domOutput").value=Xstr;
+        }       
+
+    
+           /*
+        * 
+        * We will do a select statement that will so out filter in XSL
+        */
+       function filterList(XSLTProc) {
+           
+               var filterStr=document.webform.filter.value;
+               
+               if (filterStr=="") filter="//person";
+               else filter="//person["+filterStr+"]";
+               
+               if (IE) {
+                   var xNodes = XMLdoc.selectNodes(filter);
+                   
+                   XSLTProc.addParameter("group", xNodes);  // This is for processor
+               } else if (MOZ) {
+                   var xEval = new XPathEvaluator();
+                   var xNodes = xEval.evaluate(filter, XMLdoc, null, 0, null);
+                   // XSLTProc.setParameter(uri, filter, value);
+                   XSLTProc.setParameter(null, "group", xNodes);
+               }
+           
+       }  
+       
+       /*
+        * Function:  doTransform()
+        * Purpose:
+        * 
+        * @returns {undefined}
+        */
+    
+       function doTransform() {
+           
+           var contTable = document.getElementById("ctable");
+           
+           sortList();   // Sort selection, default is by date
+           if (IE) {
+               XSLTemp.stylesheet=XSLTdoc;
+               XSLTProc = XSLTemp.createProcessor();
+               XSLTProc.input = XMLdoc;
+               
+               filterList(XSLTProc);  // set the style sheet parameter value
+               XSLTProc.transform();
+               
+               contTable.innerHTML = XSLTProc.output;
+           }
+           else if (MOZ) { // if (MOZ)
+
+               //var XSLTProc= new XSLTProcessor();  // new XSLTProcessor();
+               // We know we can use XMLHttpRequest() to transform XSLT
+               var XSLTProc = new XSLTProcessor(); 
+            //   var XSLTProc = Components.classes["@mozilla.org/document-transformer;1?type=xslt"]
+            //              .createInstance(Components.interfaces.nsIXSLTProcessor);
+               XSLTProc.importStylesheet(XSLTdoc);  // Import XSL doc, for DOM Node
+                 
+               filterList(XSLTProc);  // set the style sheet parameter value
+               var Resultdoc = XSLTProc.transformToFragment(XMLdoc, document);
+               
+               var Xserial = new XMLSerializer();
+               var Xstr = Xserial.serializeToString(Resultdoc);     // XMLdoc, Resultdoc
+
+               contTable.innerHTML = Xstr;
+               
+               
+           }
+       }
+       
+       /*
+        *  Add function to add a new record by using a cloning method
+        * 
+        */
+       function addRecord() {
+           
+           var old=XMLdoc.getElementsByTagName("person")[0];
+           var clone=old.cloneNode(true);
+                      
+           removeWhiteSpaceNodes(clone);
+           for (i=0; i<=7; i++) {
+               clone.childNodes[i].firstChild.nodeValue=document.webform.elements[i].value;
+           }
+           XMLdoc.documentElement.appendChild(clone);
+           doTransform();
+           resetForm();
+       }
+              
+       /*
+     
+        *  Sort list by selected checkbox
+        *  IE specific if IE is interpeted 
+        *  Mozilla code is pending....
+        *  We use the XSLT URI for the XSLT namespace
+        *  We act on the button action to sort
+        *  
+        *  onclick="doTransform()"
+        */
+       function sortList() {
+           if (IE) {
+               
+               XSLTdoc = new ActiveXObject(getPID(FreeThreadPID));
+               loadDoc(XSLTdoc, "clist.xsl");
+               var sortNode=XSLTdoc.getElementsByTagName("xsl:sort")[0];
+           } else if (MOZ) {
+               // pending code
+               var xNS="http://www.w3.org/1999/XSL/Transform";
+               var sortNode=XSLTdoc.getElementsByTagNameNS(xNS, "sort")[0];
+           }
+           
+           // Upon selection, sort by selected option
+           if (document.webform.sort[0].checked) select="last_name";
+           else if (document.webform.sort[1].checked) select="city";
+           else if (document.webform.sort[2].checked) select="amount";
+           else select="date";
+           
+           if (document.webform.sort[2].checked) datatype="number";
+           else datatype="text";
+           
+           if (document.webform.order[0].checked) order="ascending";
+           else order="descending";
+           
+           sortNode.setAttribute("select", select);
+           sortNode.setAttribute("data-type", datatype);
+           sortNode.setAttribute("order", order);
+       }       
+       
+
+       /*
+        *  Function:  myinit()
+        * 
+        */
+       function myinit() {
+           if (IE) {
+               XMLdoc = new ActiveXObject(getPID(DOMPID));
+               XSLTdoc = new ActiveXObject(getPID(FreeThreadPID));  
+               XSLTemp = new ActiveXObject(getPID(TemplatePID));
+           }
+           else if (MOZ) {  //if (MOZ)
+               XSLTdoc = document.implementation.createDocument("","",null);
+               XMLdoc = document.implementation.createDocument("","",null);
+               
+               
+           }
+           loadDoc(XMLdoc, "clist.xml");
+           loadDoc(XSLTdoc, "clist.xsl");  
+           
+           doTransform(); // Apply transformation
+         
+       }
+       
+
+      
+   </script>
+   
+   
+</head>
+<body onload="myinit()">
+    
+   <form name="webform" id="webform">
+
+   <div id="title">
+      <img src="logo.jpg" alt="The Lighthouse" />
+      The Lighthouse<br />
+      543 Oak Street<br />
+      Delphi, KY &nbsp;&nbsp;89011<br/>
+      (542) 555-7511
+   </div>
+
+   <div id="data_entry">
+      <h3 style="margin-top: 0px">Enter a New Contributor</h3>
+
+      <table>
+      <tr>
+         <td>First Name</td>
+         <td><input name="name" id="first" size="20"  /></td>
+      </tr>
+      <tr>
+         <td>Last Name</td>
+         <td><input name="last" id="last" size="20" /></td>
+      </tr>
+      <tr>
+         <td>Street</td><td>
+         <input name="street" id="street" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>City</td>
+         <td><input name="city" id="city" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>State</td>
+         <td><input name="state" id="state" size="2" /></td>
+      </tr>
+      <tr>
+         <td>Zip</td>
+         <td><input name="zip" id="fzip" size="5"  /></td>
+      </tr>
+      <tr>
+         <td>Amount</td>
+         <td><input name="amount" id="famount" size="7"  /></td>
+      </tr>
+      <tr>
+         <td>Date</td>
+         <td><input name="date" id="fdate" size="10" /></td>
+      </tr>
+      <tr>
+         <td colspan="2" class="buttoncell">
+             <input type="button" value="Add Contributor" onclick="addRecord()" />
+         </td>
+      </tr>
+      </table>
+
+      <h3>Sort the Contributor List</h3>
+
+      <table>
+      <tr>
+         <td><input type="radio" name="sort" onclick="doTransform()"/></td>
+         <td>Last Name</td>
+         <td><input type="radio" name="sort" onclick="doTransform()"/></td>
+         <td>City</td>
+      </tr>
+      <tr>
+         <td><input type="radio" name="sort"onclick=" doTransform()" /></td>
+         <td>Amount</td>
+         <td>
+            <input type="radio" name="sort" checked="checked" onclick="doTransform()"/>
+         </td>
+         <td>Date</td>
+      </tr>
+      <tr>
+         <td colspan="4" class="buttoncell">
+            Ascending: 
+             <input type="radio" name="order" onclick="doTransform()"/>
+            Descending: 
+            <input type="radio" name="order" checked="checked" onclick="doTransform()"/>
+         </td>
+      </tr>
+      </table>
+
+      <h3>Filter the Contributor List</h3>
+
+      <table>
+      <tr>
+         <td>
+            <p>Text strings should be placed in single quotes. 
+               Leave the input box blank to show all contributions.</p>
+            <p style="text-align: center">
+               <textarea name="filter" id="filter" rows="4" cols="14"></textarea><br />
+               <input type="button" value="Filter" onclick="doTransform()" />
+            </p>
+         </td>
+      </tr>
+      </table>
+   </div>
+
+   <div id="ctable">
+   </div>
+
+   </form>
+</body>
+</html>

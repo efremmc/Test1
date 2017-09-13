@@ -1,0 +1,49 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Review Assignment
+
+   List of hardware products
+   Author: 
+   Date:   
+
+   Filename:         hwlist.xml
+   Supporting Files: 
+-->
+<hlist>
+   <hardware>
+      <model MID="DCT5" category="Camera">Digital Camera 5 Mpx</model>
+      <manufacturer>Tapan Inc.</manufacturer>
+      <mPrice>599.95</mPride>
+   </hardware>
+   <hardware>
+      <model MID="DCT7" category="Camera" sBundle="PS50W">Digital Camera 7 Mpx</model>
+      <manufacturer>Tapan Inc.</manufacturer>
+      <mPrice>749.50</mPrice>
+   </hardware>
+   <hardware>
+      <model MID="DCT5Z" category="Camera">Digital Camera 5 Mpx -zoom</model>
+      <manufacturer>Tapan Inc.</manufacturer>
+      <mPrice>699.95</mPrice>
+   </hardware>
+   <hardware>
+      <model MID="DCT7Z" category="Camera" sBundle="PA80W">Digital Camera 7 Mpx -zoom</model>
+      <manufacturer>Tapan Inc.</manufacturer>
+      <mPrice>889.50</mPrice>
+   </hardware>
+   <hardware>
+      <model MID="SCL4C" category="Scanner" sBundle="SMT30W">Flatbed Scanner 4C</model>
+      <manufacturer>Linton Inc.</manufacturer>
+      <mPrice>177.99</mPrice>
+   </hardware>
+   <hardware>
+      <model MID="SCL4CII" category="Scanners" sBundle="SMT30W">Flatbed Scanner 4CII</model>
+      <manufacturer>Linton Inc.</manufacturer>
+      <mPrice>228.29</mPrice>
+   </hardware>
+   <hardware>
+      <model MID="LDT" category="Tablet">Digital Tablet</model>
+      <manufacturer>Linton Inc.</manufacturer>
+      <mPrice>129.50</mPrice>
+   </hardware>
+</hlist>

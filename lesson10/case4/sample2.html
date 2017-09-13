@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>The Sample</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script type="text/javascript">
+            // "file:///C:/Users/Spock/Documents/CIS/CIS234/lesson10/case4/jazz.xml"
+            // var url = "file:///C:/Users/Spock/Documents/CIS/CIS234/lesson10/case4/jazz.xml";
+            //  // "jazz.xml";
+            //var url = "file:///C:/Users/Spock/Documents/CIS/CIS234/lesson10/case4/jazz.xml";
+            
+            var url = "jazz.xml"; // "cd_catalog.xml";
+            
+function loadXMLDoc(url)
+{
+var xmlhttp;
+var txt,xx,x,i;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 )  // && xmlhttp.status==200
+    {
+    txt="<table border='1'><tr><th>Title</th><th>Artist</th></tr>";
+    x=xmlhttp.responseXML.documentElement.getElementsByTagName("cd");
+    for (i=0;i<x.length;i++)
+      {
+      txt=txt + "<tr>";
+      xx=x[i].firstChild.nodeValue;
+        {
+        try
+          {
+          txt=txt + "<td>" + xx + "</td>";
+          }
+        catch (er)
+          {
+          txt=txt + "<td>&nbsp;</td>";
+          }
+        }
+    xx=x[i].getElementsByTagName("artist");
+      {
+        try
+          {
+          txt=txt + "<td>" + xx[0].firstChild.nodeValue + "</td>";
+          }
+        catch (er)
+          {
+          txt=txt + "<td>&nbsp;</td>";
+          }
+        }
+      txt=txt + "</tr>";
+      }
+    txt=txt + "</table>";
+    document.getElementById('myDiv').innerHTML=txt;
+    }
+  };
+xmlhttp.open("GET",url,true);
+xmlhttp.send();
+
+}            
+        </script>        
+        
+    </head>
+    <body>
+        <h2>My CD Collection:</h2>
+        <div id="myDiv"></div>
+        <button type="button" onclick="loadXMLDoc('jazz.xml')">Get my CD collection</button>
+ 
+    </body>
+</html>

@@ -1,0 +1,59 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 2
+   Filename: math.css
+
+   Author: Efrem McCrimon
+   Date:   2-1-2011
+
+
+   This file contains styles used in the MathWeb Web site
+
+*/
+
+@namespace m url(http://www.w3.org/1998/Math/MathML);
+
+m|html {background: white url(back.jpg) repeat-y; margin: 0px}
+
+m|logo {position: absolute; top: 0px; left: 0px; width: 100%; background-color: white;
+       border-bottom: 1px solid black; padding: 0px; margin: 0px}
+
+m|links {position: absolute; top: 85px; left: 0px; width: 118px}
+
+m|h1 {font-family: Arial, Helvetica, sans-serif; letter-spacing: 10px; margin: 0px}
+
+m|main {position:absolute; top: 90px; margin-left: 188px; padding: 15px;
+       border-left: 1px solid black }
+
+m|main p {text-align: justify}
+
+m|p#eq1, p#eq2, p#eq3, p#eq4 {text-align: center}
+
+m|p#note {margin-top: 50px; border-top: 1px solid black; font-size: 9pt;
+        text-align: center; font-style: italic}
+
+/*
+<!---     comment ---!>
+*/
+
+
+m\:html {background: white url(back.jpg) repeat-y; margin: 0px}
+
+m\:#logo {position: absolute; top: 0px; left: 0px; width: 100%; background-color: white;
+       border-bottom: 1px solid black; padding: 0px; margin: 0px}
+
+m\:#links {position: absolute; top: 85px; left: 0px; width: 118px}
+
+m\:h1 {font-family: Arial, Helvetica, sans-serif; letter-spacing: 10px; margin: 0px}
+
+m\:#main {position:absolute; top: 90px; margin-left: 188px; padding: 15px;
+       border-left: 1px solid black}
+
+m\:#main p {text-align: justify}
+
+m\:p#eq1, m\:p#eq2, m\:p#eq3, m\:p#eq4 {text-align: center}
+
+m\:p#note {margin-top: 50px; border-top: 1px solid black; font-size: 9pt;
+        text-align: center; font-style: italic}
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 2
+
+   EPAC-MO Contribution Report
+   Author: 
+   Date:   
+
+   Filename:         report.xml
+   Supporting Files: clist.xsd
+-->
+
+<canvassers>
+
+   <canvasser id="a01" list="c001 c002 c004">
+      <name>
+         <firstName>Beverly</firstName>
+         <lastName>Kaufmann</lastName>
+      </name>
+      <address>
+         <street>400 Main St.</street>
+         <city>Jackson</city>
+         <state>MO</state>
+         <zip>31901</zip>
+      </address>
+      <phone>555-0015</phone>
+      <phone>555-0016</phone>
+      <phone>555-2182</phone>
+      <collected>325</collected>
+      <contributions>
+      </contributions>
+   </canvasser>
+   <canvasser id="a02" list="c003 c005 c006">
+      <name>
+         <firstName>Kevin</firstName>
+         <lastName>Yates</lastName>
+      </name>
+      <address>
+         <street>25 Apple Ln.</street>
+         <city>Newton</city>
+         <state>MO</state>
+         <zip>38981</zip>
+      </address>
+      <phone>555-2158</phone>
+      <collected>375</collected>
+      <contributions>
+      </contributions>
+   </canvasser>
+
+</canvassers>

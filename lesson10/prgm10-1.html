@@ -1,0 +1,130 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 1
+
+   Hardin Financial Stock Reporter
+   Author: Rebecca Alvarez
+   Date:   April 27, 2011
+
+   Filename:         report.htm
+   Supporting Files: current.xsl, down.gif, fiveday.xsl, heading.xsl,
+                     library.js, overview.xsl, same.gif, stock.css,
+                     stock.xml, up.gif, yearly.xsl
+
+-->
+   <title>Stock Reporter</title>
+   <link href="stock.css" rel="stylesheet" type="text/css" />
+   
+   <script type="text/javascript" src="library.js"></script>
+   
+   <script type="text/javascript">
+   var IE = window.ActiveXObject ? true:false;
+   var MOZ = document.implementation.createDocument ? true: false;
+
+   var xmlDoc;
+   var xsltDoc;
+   
+   function createXDoc(xFile, PID) {
+	   if (IE) {
+		   XDoc=new ActiveXObject(getPID(PID));
+	   }
+	   else if (MOZ) {
+		   XDoc=document.implementation.createDocument("","",null);
+	   }
+	   
+	   loadDoc(XDoc,xFile);
+	   
+	   return XDoc;
+   }
+   
+   function init() {
+	   headingElem = document.getElementById("heading");
+	   
+	   xmlDoc = createXDoc("stocks.xml", DOMPID);
+	   xsltDoc = createXDoc("heading.xsl", DOMPID);
+	   
+	   if (IE) {
+		   headingElem.innerHTML=xmlDoc.transformNode(xsltDoc);
+	   }
+	   else if (MOZ){
+		   xProcessor = new XSLTProcessor();
+		   xProcessor.importStylesheet(xsltDoc);
+		   resultFragment = xProcessor.transformToFragment(xmlDoc, document);
+		   headingElem.appendChild(resultFragment);
+   		} 	   
+   }
+   
+   function chooseReport() {
+	   var xsltFile="";
+	   
+	   if (document.stockform.reports[0].checked) xsltFile="overview.xsl";
+	   else if (document.stockform.reports[1].checked) xsltFile="current.xsl";
+	   else if (document.stockform.reports[2].checked) xsltFile="fiveday.xsl";
+	   else if (document.stockform.reports[3].checked) xsltFile="yearly.xsl";
+	   
+	   return xsltFile;	   
+   }
+   
+   function chooseStock(){
+	   var sIndex = document.stockform.symbol.selectedIndex;
+	   var stockSymbol = document.stockform.symbol[sIndex].value;
+	   
+	   if (stockSymbol=="all_stocks") filterStr="//stock";
+	   else filterStr="//stock[name/@symbol='"+stockSymbol+"']";
+	   
+	   return filterStr;
+   }
+   
+   function showReport() {
+	   var reportElem = document.getElementById("stock_report");
+	   var reportFile = chooseReport();
+	   var stock = chooseStock();
+	   
+	   if (reportFile=="" || stock=="") {
+		   reportElem.innerHTML=""
+	   }
+	   else {
+		   var reportXSLT = createXDoc(reportFile, FreeThreadPID);
+		   
+		   if (IE){
+			   xTemplate = new ActiveXObject(getPID(TemplatePID));
+			   xTemplate.stylesheet = reportXSLT; 
+			   
+			   xProcessor = xTemplate.createProcessor();
+			   xProcessor.input = xmlDoc;
+			   xProcessor.addParameter("stocklist", xmlDoc.selectNodes(stock));
+			   
+			   xProcessor.transform();
+			   
+			   reportElem.innerHTML = xProcessor.output;
+		   }
+		   else if (MOZ) {
+			   xProcessor = new XSLTProcessor();
+			   xProcessor.importStylesheet(reportXSLT);
+			   xEval = new XPathEvaluator();
+			   xNodes = xEval.evaluate(stock,xmlDoc,null,0,null);
+			   xProcessor.setParameter(null,"stocklist",xNodes);
+			   
+			   resultDoc = xProcessor.transformToDocument(xmlDoc);
+			   
+			   var xSerial = new XMLSerializer();
+			   var xStr = xSerial.serializeToString(resultDoc);
+			   
+			   reportElem.innerHTML = xStr;
+		   }
+   		}
+   }
+   
+   </script>
+
+</head>
+
+<body onLoad="init()">
+   <div id="heading"></div>
+   <div id="stock_report"></div>
+</body>
+
+</html>

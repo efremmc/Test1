@@ -1,0 +1,34 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 2
+   Filename: math.css
+
+   Author: 
+   Date:   
+
+
+   This file contains styles used in the MathWeb Web site
+
+*/
+
+
+html {background: white url(back.jpg) repeat-y; margin: 0px}
+
+#logo {position: absolute; top: 0px; left: 0px; width: 100%; background-color: white; 
+       border-bottom: 1px solid black; padding: 0px; margin: 0px}
+
+#links {position: absolute; top: 85px; left: 0px; width: 118px}
+
+h1 {font-family: Arial, Helvetica, sans-serif; letter-spacing: 10; margin: 0px}
+
+#main {position:absolute; top: 90px; margin-left: 188px; padding: 15px; 
+       border-left: 1px solid black}
+
+#main p {text-align: justify}
+
+p#eq1, p#eq2, p#eq3, p#eq4 {text-align: center}
+
+p#note {margin-top: 50px; border-top: 1px solid black; font-size: 9pt; 
+        text-align: center; font-style: italic}
+

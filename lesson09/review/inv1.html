@@ -1,0 +1,101 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Review Assignment
+
+   Freezing Point Refrigerators Product Report
+   Author:      Efrem McCrimon
+   Date:        
+
+   Filename:         inv1.html
+   Supporting Files:  refg1.xml, sinfo.xml, styles1.css, + multiple jpg image files
+
+-->
+   <title>Freezing Point Refrigerators</title>
+   <link href="styles1.css" rel="stylesheet" type="text/css" />
+   
+   <xml id="pageInfo" src="sinfo.xml"></xml>
+   <xml id="inventoryInfo" src="refg1.xml"></xml>
+   
+   
+</head>
+
+<body>
+
+    <div id="pageData">
+       <div id="pageTitle"  datasrc="#pageInfo" datafld="title">Page Title</div>
+       <div id="pageSubtitle"  datasrc="#pageInfo" datafld="subtitle">Page Subtitle</div>
+       <div id="pageText"  datasrc="#pageInfo" datafld="purpose">Purpose</div>
+       <div id="pageAuthor">For more information, contact: 
+            <a datasrc="#pageInfo" datafld="authorEmail">
+                <span datasrc="#pageInfo" datafld="author"></span>
+            </a>.
+       </div>
+        
+    </div>
+
+   <table>
+     <tr><td rowspan="5" style="text-align: center; width: 110px">
+           <img datasrc="#inventoryInfo" datafld="photo" alt="" />
+         </td>
+         <th>Model Type</th>
+         <td>
+           <span datasrc="#inventoryInfo" datafld="mType"></span>
+         </td>
+     </tr>
+     <tr>
+         <th>Price</th>
+         <td>
+           <span datasrc="#inventoryInfo" datafld="price"></span>
+         </td>
+     </tr>
+     <tr>
+         <th>Capacity</th>
+         <td>
+           <span datasrc="#inventoryInfo" datafld="capacity"></span>
+         </td>
+     </tr>
+     <tr>
+         <th>Dimensions</th>
+         <td>
+           <span datasrc="#inventoryInfo" datafld="dimensions"></span>
+         </td>
+     </tr>
+     <tr>
+         <th>Energy Efficient</th>
+         <td>
+           <span datasrc="#inventoryInfo" datafld="energy"></span>
+         </td>
+     </tr>
+     <tr>
+         <td style="text-align: center">
+           <span id="mName" datasrc="#inventoryInfo" datafld="name"></span>
+         </td>
+         <th>Freezer</th>
+         <td>
+           <span datasrc="#inventoryInfo" datafld="freezer"></span>
+         </td>
+     </tr>
+     <tr>
+        <td colspan="3" style="text-align: center">
+           <button  onclick="inventoryInfo.recordset.moveFirst()">
+              |&lt; First
+           </button>
+           <button  onclick="inventoryInfo.recordset.movePrevious();
+               if (inventoryInfo.recordset.BOF) inventoryInfo.recordset.moveLast()">
+              &lt; Back
+           </button>
+           <button  onclick="inventoryInfo.recordset.moveNext();
+               if (inventoryInfo.recordset.EOF) inventoryInfo.recordset.moveFirst()">
+              Forward &gt;
+           </button>
+           <button  onclick="inventoryInfo.recordset.moveLast()">
+              Last &gt;|
+           </button>
+        </td>
+     </tr>
+  </table>
+</body>
+</html>

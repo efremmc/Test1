@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 5
+   Case Problem 1
+
+   Hardin Financial
+   Author: 
+   date:   
+
+   Filename:         nasdaq.xml
+   Supporting Files: nasdaq.css
+ 
+-->
+
+<!DOCTYPE quotes
+[
+   <!ELEMENT quotes (heading, subHeading, dateTime, titles, stocks)>
+   <!ELEMENT heading (#PCDATA)>
+   <!ELEMENT subHeading (#PCDATA)>
+   
+   <!ELEMENT dateTime (date, time)>
+   <!ELEMENT date (#PCDATA)>
+   <!ELEMENT time (#PCDATA)>
+
+   <!ELEMENT titles (column, column, column, column, column, column)>
+   <!ELEMENT column (#PCDATA)>
+   <!ATTLIST column id ID #REQUIRED>
+
+   <!ELEMENT stocks (stock+)>
+   <!ELEMENT stock (symbol, company, lastSale, netChange, pChange, volume)>
+   <!ATTLIST stock class CDATA #REQUIRED>
+   <!ELEMENT symbol (#PCDATA)>
+   <!ELEMENT company (#PCDATA)>
+   <!ELEMENT lastSale (#PCDATA)>
+   <!ELEMENT netChange (#PCDATA)>
+   <!ELEMENT pChange (#PCDATA)>
+   <!ELEMENT volume (#PCDATA)>
+]>
+
+	
+<quotes>
+
+   <heading>NASDAQ 100</heading>
+   <subHeading>Current quotes</subHeading>
+   <dateTime>
+      <date>11/01/2008</date>
+      <time>11:45:05</time>
+   </dateTime>
+
+   <titles>
+      <column id="c1">Symbol</column>
+      <column id="c2">Name</column>
+      <column id="c3">Last Sale</column>
+      <column id="c4">Net Change</column>
+      <column id="c5">% Change</column>
+      <column id="c6">Volume</column>
+   </titles>
+
+   <stocks>
+      <stock class="down">
+         <symbol>AAPL</symbol>
+         <company>Apple Computer, Inc.</company>
+         <lastSale>$15.26</lastSale>
+         <netChange>-0.17</netChange>
+         <pChange>-1.10%</pChange>
+         <volume>5.548</volume>
+      </stock>
+      <stock class="up">
+         <symbol>ABGX</symbol>
+         <company>Abgenix, Inc.</company>
+         <lastSale>$9.22</lastSale>
+         <netChange>0.06</netChange>
+         <pChange>0.66%</pChange>
+         <volume>1.396</volume>
+      </stock>
+      <stock class="down">
+         <symbol>ADBE</symbol>
+         <company>Adobe Systems Inc.</company>
+         <lastSale>$23.96</lastSale>
+         <netChange>-0.98</netChange>
+         <pChange>-3.93%</pChange>
+         <volume>4.432</volume>
+      </stock>
+      <stock class="down">
+         <symbol>ADCT</symbol>
+         <company>ADC Telecommunications, Inc.</company>
+         <lastSale>$1.80</lastSale>
+         <netChange>-0.16</netChange>
+         <pChange>-8.16%</pChange>
+         <volume>5.980</volume>
+      </stock>
+      <stock class="up">
+         <symbol>ADRX</symbol>
+         <company>Andrx Group</company>
+         <lastSale>$22.19</lastSale>
+         <netChange>1.05</netChange>
+         <pChange>4.97%</pChange>
+         <volume>2.401</volume>
+      </stock>
+      <stock class="down">
+         <symbol>ALTR</symbol>
+         <company>Altera Corp.</company>
+         <lastSale>$11.83</lastSale>
+         <netChange>-0.49</netChange>
+         <pChange>-3.98%</pChange>
+         <volume>6.993</volume>
+      </stock>
+      <stock class="down">
+         <symbol>AMAT</symbol>
+         <company>Applied Materials, Inc.</company>
+         <lastSale>$14.87</lastSale>
+         <netChange>-0.83</netChange>
+         <pChange>-5.29%</pChange>
+         <volume>27.627</volume>
+      </stock>
+      <stock class="down">
+         <symbol>AMCC</symbol>
+         <company>Applied Micro Circuits Corp.</company>
+         <lastSale>$4.61</lastSale>
+         <netChange>-0.13</netChange>
+         <pChange>-2.74%</pChange>
+         <volume>4.126</volume>
+      </stock>
+      <stock class="up">
+         <symbol>AMGN</symbol>
+         <company>Amgen Inc.</company>
+         <lastSale>$45.64</lastSale>
+         <netChange>0.15</netChange>
+         <pChange>0.33%</pChange>
+         <volume>33.644</volume>
+      </stock>
+      <stock class="down">
+         <symbol>AMZN</symbol>
+         <company>Amazon.com, Inc.</company>
+         <lastSale>$14.46</lastSale>
+         <netChange>-0.31</netChange>
+         <pChange>-2.11%</pChange>
+         <volume>3.802</volume>
+      </stock>
+      <stock class="down">
+         <symbol>APOL</symbol>
+         <company>Apollo Group, Inc.</company>
+         <lastSale>$39.25</lastSale>
+         <netChange>-0.05</netChange>
+         <pChange>-0.13%</pChange>
+         <volume>2.166</volume>
+      </stock>
+      <stock class="up">
+         <symbol>ATML</symbol>
+         <company>Atmel Corp.</company>
+         <lastSale>$3.14</lastSale>
+         <netChange>0.25</netChange>
+         <pChange>7.37%</pChange>
+         <volume>8.349</volume>
+      </stock>
+      <stock class="down">
+         <symbol>BBBY</symbol>
+         <company>Bed Bath and Beyond Inc.</company>
+         <lastSale>$31.00</lastSale>
+         <netChange>-1.66</netChange>
+         <pChange>-5.08%</pChange>
+         <volume>6.928</volume>
+      </stock>
+      <stock class="down">
+         <symbol>BEAS</symbol>
+         <company>BEA Systems, Inc.</company>
+         <lastSale>$5.55</lastSale>
+         <netChange>-0.52</netChange>
+         <pChange>-8.57%</pChange>
+         <volume>14.196</volume>
+      </stock>
+      <stock class="down">
+         <symbol>BGEN</symbol>
+         <company>Biogen, Inc.</company>
+         <lastSale>$35.97</lastSale>
+         <netChange>-0.22</netChange>
+         <pChange>-0.61%</pChange>
+         <volume>3.700</volume>
+      </stock>
+      <stock class="up">
+         <symbol>BMET</symbol>
+         <company>Biomet, Inc.</company>
+         <lastSale>$25.93</lastSale>
+         <netChange>0.42</netChange>
+         <pChange>1.65%</pChange>
+         <volume>1.659</volume>
+      </stock>
+      <stock class="down">
+         <symbol>BRCD</symbol>
+         <company>Brocade Communications Systems, Inc.</company>
+         <lastSale>$18.75</lastSale>
+         <netChange>-1.14</netChange>
+         <pChange>-5.73%</pChange>
+         <volume>10.285</volume>
+      </stock>
+      <stock class="down">
+         <symbol>BRCM</symbol>
+         <company>Broadcom Corp.</company>
+         <lastSale>$18.76</lastSale>
+         <netChange>-0.89</netChange>
+         <pChange>-4.53%</pChange>
+         <volume>10.100</volume>
+      </stock>
+      <stock class="down">
+         <symbol>CDWC</symbol>
+         <company>CDW Computer Centers, Inc.</company>
+         <lastSale>$47.80</lastSale>
+         <netChange>-2.22</netChange>
+         <pChange>-4.44%</pChange>
+         <volume>1.755</volume>
+      </stock>
+      <stock class="up">
+         <symbol>CEFT</symbol>
+         <company>Concord EFS, Inc.</company>
+         <lastSale>$19.50</lastSale>
+         <netChange>2.65</netChange>
+         <pChange>11.96%</pChange>
+         <volume>45.162</volume>
+      </stock>
+      <stock class="up">
+         <symbol>CEPH</symbol>
+         <company>Cephalon, Inc.</company>
+         <lastSale>$48.00</lastSale>
+         <netChange>2.36</netChange>
+         <pChange>5.17%</pChange>
+         <volume>3.385</volume>
+      </stock>
+      <stock class="unchanged">
+         <symbol>CHIR</symbol>
+         <company>Chiron Corp.</company>
+         <lastSale>$33.74</lastSale>
+         <netChange>0.00</netChange>
+         <pChange>0.00%</pChange>
+         <volume>3.011</volume>
+      </stock>
+      <stock class="down">
+         <symbol>CHKP</symbol>
+         <company>Check Point Software Technologies Ltd.</company>
+         <lastSale>$16.78</lastSale>
+         <netChange>-0.69</netChange>
+         <pChange>-3.95%</pChange>
+         <volume>5.390</volume>
+      </stock>
+      <stock class="down">
+         <symbol>CHTR</symbol>
+         <company>Charter Communications, Inc.</company>
+         <lastSale>$3.60</lastSale>
+         <netChange>-0.22</netChange>
+         <pChange>-5.76%</pChange>
+         <volume>4.403</volume>
+      </stock>
+      <stock class="up">
+         <symbol>CIEN</symbol>
+         <company>CIENA Corp.</company>
+         <lastSale>$4.03</lastSale>
+         <netChange>0.18</netChange>
+         <pChange>4.28%</pChange>
+         <volume>9.381</volume>
+      </stock>
+      <stock class="down">
+         <symbol>CMCSK</symbol>
+         <company>Comcast Corp.</company>
+         <lastSale>$20.90</lastSale>
+         <netChange>-0.27</netChange>
+         <pChange>-1.28%</pChange>
+         <volume>12.006</volume>
+      </stock>
+      <stock class="up">
+         <symbol>CMVT</symbol>
+         <company>Comverse Technology, Inc.</company>
+         <lastSale>$7.96</lastSale>
+         <netChange>0.36</netChange>
+         <pChange>4.32%</pChange>
+         <volume>1.465</volume>
+      </stock>
+      <stock class="down">
+         <symbol>CNXT</symbol>
+         <company>Conexant Systems, Inc.</company>
+         <lastSale>$2.03</lastSale>
+         <netChange>-0.05</netChange>
+         <pChange>-2.40%</pChange>
+         <volume>6.970</volume>
+      </stock>
+      <stock class="down">
+         <symbol>COST</symbol>
+         <company>Costco Wholesale Corp.</company>
+         <lastSale>$34.87</lastSale>
+         <netChange>-0.27</netChange>
+         <pChange>-0.77%</pChange>
+         <volume>4.568</volume>
+      </stock>
+      <stock class="up">
+         <symbol>CPWR</symbol>
+         <company>Compuware Corp.</company>
+         <lastSale>$3.71</lastSale>
+         <netChange>0.34</netChange>
+         <pChange>8.42%</pChange>
+         <volume>2.734</volume>
+      </stock>
+      <stock class="up">
+         <symbol>CSCO</symbol>
+         <company>Cisco Systems, Inc.</company>
+         <lastSale>$13.19</lastSale>
+         <netChange>0.15</netChange>
+         <pChange>1.12%</pChange>
+         <volume>79.357</volume>
+      </stock>
+      <stock class="up">
+         <symbol>CTAS</symbol>
+         <company>Cintas Corp.</company>
+         <lastSale>$43.89</lastSale>
+         <netChange>0.19</netChange>
+         <pChange>0.43%</pChange>
+         <volume>1.015</volume>
+      </stock>
+      <stock class="up">
+         <symbol>CTXS</symbol>
+         <company>Citrix Systems, Inc.</company>
+         <lastSale>$5.51</lastSale>
+         <netChange>0.55</netChange>
+         <pChange>9.08%</pChange>
+         <volume>2.602</volume>
+      </stock>
+      <stock class="down">
+         <symbol>CYTC</symbol>
+         <company>Cytyc Corp.</company>
+         <lastSale>$8.61</lastSale>
+         <netChange>-0.23</netChange>
+         <pChange>-2.60%</pChange>
+         <volume>1.113</volume>
+      </stock>
+      <stock class="down">
+         <symbol>DELL</symbol>
+         <company>Dell Computer Corp.</company>
+         <lastSale>$24.93</lastSale>
+         <netChange>-0.16</netChange>
+         <pChange>-0.64%</pChange>
+         <volume>23.676</volume>
+      </stock>
+      <stock class="up">
+         <symbol>DISH</symbol>
+         <company>EchoStar Communications Corp.</company>
+         <lastSale>$16.31</lastSale>
+         <netChange>0.12</netChange>
+         <pChange>0.74%</pChange>
+         <volume>2.395</volume>
+      </stock>
+      <stock class="down">
+         <symbol>DLTR</symbol>
+         <company>Dollar Tree Stores, Inc.</company>
+         <lastSale>$31.20</lastSale>
+         <netChange>-0.19</netChange>
+         <pChange>-0.60%</pChange>
+         <volume>1.760</volume>
+      </stock>
+      <stock class="down">
+         <symbol>EBAY</symbol>
+         <company>eBay Inc.</company>
+         <lastSale>$57.09</lastSale>
+         <netChange>-1.21</netChange>
+         <pChange>-2.08%</pChange>
+         <volume>8.829</volume>
+      </stock>
+      <stock class="unchanged">
+         <symbol>ERICY</symbol>
+         <company>LM Ericsson Telephone company</company>
+         <lastSale>$0.96</lastSale>
+         <netChange>0.00</netChange>
+         <pChange>0.00%</pChange>
+         <volume>14.956</volume>
+      </stock>
+      <stock class="up">
+         <symbol>ERTS</symbol>
+         <company>Electronic Arts Inc.</company>
+         <lastSale>$60.18</lastSale>
+         <netChange>1.38</netChange>
+         <pChange>2.24%</pChange>
+         <volume>4.109</volume>
+      </stock>
+      <stock class="down">
+         <symbol>ESRX</symbol>
+         <company>Express Scripts, Inc.</company>
+         <lastSale>$52.00</lastSale>
+         <netChange>-2.00</netChange>
+         <pChange>-4.00%</pChange>
+         <volume>1.942</volume>
+      </stock>
+      <stock class="up">
+         <symbol>FISV</symbol>
+         <company>Fiserv, Inc.</company>
+         <lastSale>$34.41</lastSale>
+         <netChange>0.19</netChange>
+         <pChange>0.56%</pChange>
+         <volume>2.327</volume>
+      </stock>
+      <stock class="up">
+         <symbol>FLEX</symbol>
+         <company>Flextronics International Ltd.</company>
+         <lastSale>$7.92</lastSale>
+         <netChange>0.01</netChange>
+         <pChange>0.13%</pChange>
+         <volume>7.566</volume>
+      </stock>
+      <stock class="up">
+         <symbol>GENZ</symbol>
+         <company>Genzyme General</company>
+         <lastSale>$22.78</lastSale>
+         <netChange>0.37</netChange>
+         <pChange>1.60%</pChange>
+         <volume>5.126</volume>
+      </stock>
+      <stock class="up">
+         <symbol>GILD</symbol>
+         <company>Gilead Sciences, Inc.</company>
+         <lastSale>$30.47</lastSale>
+         <netChange>0.98</netChange>
+         <pChange>3.32%</pChange>
+         <volume>4.873</volume>
+      </stock>
+      <stock class="up">
+         <symbol>GMST</symbol>
+         <company>Gemstar-TV Guide International Inc.</company>
+         <lastSale>$3.77</lastSale>
+         <netChange>0.13</netChange>
+         <pChange>3.33%</pChange>
+         <volume>2.037</volume>
+      </stock>
+      <stock class="up">
+         <symbol>HGSI</symbol>
+         <company>Human Genome Sciences, Inc.</company>
+         <lastSale>$17.33</lastSale>
+         <netChange>0.11</netChange>
+         <pChange>0.64%</pChange>
+         <volume>2.919</volume>
+      </stock>
+      <stock class="up">
+         <symbol>ICOS</symbol>
+         <company>ICOS Corp.</company>
+         <lastSale>$24.46</lastSale>
+         <netChange>0.42</netChange>
+         <pChange>1.69%</pChange>
+         <volume>2.258</volume>
+      </stock>
+      <stock class="down">
+         <symbol>IDPH</symbol>
+         <company>IDEC Pharmaceuticals Corp.</company>
+         <lastSale>$44.59</lastSale>
+         <netChange>-0.59</netChange>
+         <pChange>-1.34%</pChange>
+         <volume>5.265</volume>
+      </stock>
+      <stock class="up">
+         <symbol>IDTI</symbol>
+         <company>Integrated Device Technology, Inc.</company>
+         <lastSale>$12.80</lastSale>
+         <netChange>1.22</netChange>
+         <pChange>8.70%</pChange>
+         <volume>2.274</volume>
+      </stock>
+      <stock class="up">
+         <symbol>IMCL</symbol>
+         <company>ImClone Systems Incorporated</company>
+         <lastSale>$7.11</lastSale>
+         <netChange>0.02</netChange>
+         <pChange>0.28%</pChange>
+         <volume>1.328</volume>
+      </stock>
+      <stock class="up">
+         <symbol>INTC</symbol>
+         <company>Intel Corp.</company>
+         <lastSale>$18.79</lastSale>
+         <netChange>0.18</netChange>
+         <pChange>0.95%</pChange>
+         <volume>54.133</volume>
+      </stock>
+      <stock class="down">
+         <symbol>INTU</symbol>
+         <company>Intuit Inc.</company>
+         <lastSale>$43.98</lastSale>
+         <netChange>-0.74</netChange>
+         <pChange>-1.65%</pChange>
+         <volume>2.666</volume>
+      </stock>
+      <stock class="down">
+         <symbol>ITWO</symbol>
+         <company>i2 Technologies, Inc.</company>
+         <lastSale>$0.85</lastSale>
+         <netChange>-0.14</netChange>
+         <pChange>-14.14%</pChange>
+         <volume>17.527</volume>
+      </stock>
+      <stock class="down">
+         <symbol>IVGN</symbol>
+         <company>Invitrogen Corp.</company>
+         <lastSale>$34.85</lastSale>
+         <netChange>-0.04</netChange>
+         <pChange>-0.11%</pChange>
+         <volume>1.328</volume>
+      </stock>
+      <stock class="up">
+         <symbol>JDSU</symbol>
+         <company>JDS Uniphase Corp.</company>
+         <lastSale>$2.53</lastSale>
+         <netChange>0.03</netChange>
+         <pChange>1.20%</pChange>
+         <volume>30.508</volume>
+      </stock>
+      <stock class="up">
+         <symbol>JNPR</symbol>
+         <company>Juniper Networks, Inc.</company>
+         <lastSale>$8.00</lastSale>
+         <netChange>0.48</netChange>
+         <pChange>5.66%</pChange>
+         <volume>12.866</volume>
+      </stock>
+      <stock class="up">
+         <symbol>KLAC</symbol>
+         <company>KLA-Tencor Corp.</company>
+         <lastSale>$39.39</lastSale>
+         <netChange>0.95</netChange>
+         <pChange>2.36%</pChange>
+         <volume>16.352</volume>
+      </stock>
+      <stock class="up">
+         <symbol>LLTC</symbol>
+         <company>Linear Technology Corp.</company>
+         <lastSale>$27.08</lastSale>
+         <netChange>1.24</netChange>
+         <pChange>4.37%</pChange>
+         <volume>7.360</volume>
+      </stock>
+      <stock class="down">
+         <symbol>LNCR</symbol>
+         <company>Lincare Holdings Inc.</company>
+         <lastSale>$31.38</lastSale>
+         <netChange>-0.78</netChange>
+         <pChange>-2.55%</pChange>
+         <volume>1.054</volume>
+      </stock>
+      <stock class="down">
+         <symbol>MCHP</symbol>
+         <company>Microchip Technology Incorporated</company>
+         <lastSale>$22.02</lastSale>
+         <netChange>-0.20</netChange>
+         <pChange>-0.90%</pChange>
+         <volume>3.170</volume>
+      </stock>
+      <stock class="down">
+         <symbol>MEDI</symbol>
+         <company>MedImmune, Inc.</company>
+         <lastSale>$29.74</lastSale>
+         <netChange>-0.15</netChange>
+         <pChange>-0.51%</pChange>
+         <volume>5.652</volume>
+      </stock>
+      <stock class="down">
+         <symbol>MERQ</symbol>
+         <company>Mercury Interactive Corp.</company>
+         <lastSale>$25.62</lastSale>
+         <netChange>-0.88</netChange>
+         <pChange>-3.32%</pChange>
+         <volume>3.723</volume>
+      </stock>
+      <stock class="up">
+         <symbol>MLNM</symbol>
+         <company>Millennium Pharmaceuticals, Inc.</company>
+         <lastSale>$12.42</lastSale>
+         <netChange>0.22</netChange>
+         <pChange>1.80%</pChange>
+         <volume>5.061</volume>
+      </stock>
+      <stock class="up">
+         <symbol>MOLX</symbol>
+         <company>Molex Incorporated</company>
+         <lastSale>$29.18</lastSale>
+         <netChange>0.36</netChange>
+         <pChange>1.22%</pChange>
+         <volume>1.883</volume>
+      </stock>
+      <stock class="down">
+         <symbol>MSFT</symbol>
+         <company>Microsoft Corp.</company>
+         <lastSale>$47.95</lastSale>
+         <netChange>-0.15</netChange>
+         <pChange>-0.31%</pChange>
+         <volume>47.276</volume>
+      </stock>
+      <stock class="down">
+         <symbol>MXIM</symbol>
+         <company>Maxim Integrated Products, Inc.</company>
+         <lastSale>$35.18</lastSale>
+         <netChange>-1.67</netChange>
+         <pChange>-4.53%</pChange>
+         <volume>7.876</volume>
+      </stock>
+      <stock class="up">
+         <symbol>NTAP</symbol>
+         <company>Network Appliance, Inc.</company>
+         <lastSale>$8.46</lastSale>
+         <netChange>0.33</netChange>
+         <pChange>3.75%</pChange>
+         <volume>6.559</volume>
+      </stock>
+      <stock class="up">
+         <symbol>NVDA</symbol>
+         <company>NVIDIA Corp.</company>
+         <lastSale>$11.07</lastSale>
+         <netChange>5.15</netChange>
+         <pChange>31.75%</pChange>
+         <volume>40.346</volume>
+      </stock>
+      <stock class="up">
+         <symbol>NVLS</symbol>
+         <company>Novellus Systems, Inc.</company>
+         <lastSale>$26.99</lastSale>
+         <netChange>1.40</netChange>
+         <pChange>4.93%</pChange>
+         <volume>7.292</volume>
+      </stock>
+      <stock class="down">
+         <symbol>NXTL</symbol>
+         <company>Nextel Communications, Inc.</company>
+         <lastSale>$5.73</lastSale>
+         <netChange>-0.62</netChange>
+         <pChange>-9.76%</pChange>
+         <volume>24.683</volume>
+      </stock>
+      <stock class="down">
+         <symbol>ORCL</symbol>
+         <company>Oracle Corp.</company>
+         <lastSale>$10.01</lastSale>
+         <netChange>-0.14</netChange>
+         <pChange>-1.41%</pChange>
+         <volume>43.405</volume>
+      </stock>
+      <stock class="up">
+         <symbol>PAYX</symbol>
+         <company>Paychex, Inc.</company>
+         <lastSale>$26.31</lastSale>
+         <netChange>0.30</netChange>
+         <pChange>1.15%</pChange>
+         <volume>3.152</volume>
+      </stock>
+      <stock class="down">
+         <symbol>PCAR</symbol>
+         <company>PACCAR Inc.</company>
+         <lastSale>$38.35</lastSale>
+         <netChange>-0.85</netChange>
+         <pChange>-2.17%</pChange>
+         <volume>0.879</volume>
+      </stock>
+      <stock class="up">
+         <symbol>PDLI</symbol>
+         <company>Protein Design Labs, Inc.</company>
+         <lastSale>$13.59</lastSale>
+         <netChange>0.24</netChange>
+         <pChange>1.80%</pChange>
+         <volume>2.178</volume>
+      </stock>
+      <stock class="down">
+         <symbol>PMCS</symbol>
+         <company>PMC - Sierra, Inc.</company>
+         <lastSale>$9.55</lastSale>
+         <netChange>-0.59</netChange>
+         <pChange>-5.82%</pChange>
+         <volume>4.756</volume>
+      </stock>
+      <stock class="up">
+         <symbol>PSFT</symbol>
+         <company>PeopleSoft, Inc.</company>
+         <lastSale>$17.98</lastSale>
+         <netChange>0.49</netChange>
+         <pChange>2.65%</pChange>
+         <volume>6.544</volume>
+      </stock>
+      <stock class="down">
+         <symbol>QCOM</symbol>
+         <company>QUALCOMM Incorporated</company>
+         <lastSale>$27.48</lastSale>
+         <netChange>-0.10</netChange>
+         <pChange>-0.36%</pChange>
+         <volume>9.678</volume>
+      </stock>
+      <stock class="down">
+         <symbol>QLGC</symbol>
+         <company>QLogic Corp.</company>
+         <lastSale>$40.75</lastSale>
+         <netChange>-1.20</netChange>
+         <pChange>-2.86%</pChange>
+         <volume>13.303</volume>
+      </stock>
+      <stock class="down">
+         <symbol>RATL</symbol>
+         <company>Rational Software Corp.</company>
+         <lastSale>$6.72</lastSale>
+         <netChange>-1.00</netChange>
+         <pChange>-12.95%</pChange>
+         <volume>3.154</volume>
+      </stock>
+      <stock class="up">
+         <symbol>RFMD</symbol>
+         <company>RF Micro Devices, Inc.</company>
+         <lastSale>$6.66</lastSale>
+         <netChange>0.33</netChange>
+         <pChange>4.72%</pChange>
+         <volume>3.348</volume>
+      </stock>
+      <stock class="up">
+         <symbol>SANM</symbol>
+         <company>Sanmina-SCI Corp.</company>
+         <lastSale>$4.07</lastSale>
+         <netChange>0.04</netChange>
+         <pChange>0.97%</pChange>
+         <volume>8.746</volume>
+      </stock>
+      <stock class="down">
+         <symbol>SBUX</symbol>
+         <company>Starbucks Corp.</company>
+         <lastSale>$19.63</lastSale>
+         <netChange>-0.09</netChange>
+         <pChange>-0.46%</pChange>
+         <volume>3.869</volume>
+      </stock>
+      <stock class="up">
+         <symbol>SEBL</symbol>
+         <company>Siebel Systems, Inc.</company>
+         <lastSale>$9.40</lastSale>
+         <netChange>0.51</netChange>
+         <pChange>5.15%</pChange>
+         <volume>10.949</volume>
+      </stock>
+      <stock class="up">
+         <symbol>SEPR</symbol>
+         <company>Sepracor Inc.</company>
+         <lastSale>$6.75</lastSale>
+         <netChange>0.77</netChange>
+         <pChange>12.88%</pChange>
+         <volume>3.836</volume>
+      </stock>
+      <stock class="up">
+         <symbol>SIAL</symbol>
+         <company>Sigma-Aldrich Corp.</company>
+         <lastSale>$47.92</lastSale>
+         <netChange>0.82</netChange>
+         <pChange>1.74%</pChange>
+         <volume>0.702</volume>
+      </stock>
+      <stock class="up">
+         <symbol>SNPS</symbol>
+         <company>Synopsys, Inc.</company>
+         <lastSale>$42.77</lastSale>
+         <netChange>0.31</netChange>
+         <pChange>0.72%</pChange>
+         <volume>1.013</volume>
+      </stock>
+      <stock class="up">
+         <symbol>SPLS</symbol>
+         <company>Staples, Inc.</company>
+         <lastSale>$16.69</lastSale>
+         <netChange>0.60</netChange>
+         <pChange>3.47%</pChange>
+         <volume>4.317</volume>
+      </stock>
+      <stock class="down">
+         <symbol>SPOT</symbol>
+         <company>PanAmSat Corp.</company>
+         <lastSale>$22.70</lastSale>
+         <netChange>-0.02</netChange>
+         <pChange>-0.09%</pChange>
+         <volume>0.633</volume>
+      </stock>
+      <stock class="down">
+         <symbol>SSCC</symbol>
+         <company>Smurfit-Stone Container Corp.</company>
+         <lastSale>$14.42</lastSale>
+         <netChange>-0.22</netChange>
+         <pChange>-1.50%</pChange>
+         <volume>3.044</volume>
+      </stock>
+      <stock class="down">
+         <symbol>SUNW</symbol>
+         <company>Sun Microsystems, Inc.</company>
+         <lastSale>$3.92</lastSale>
+         <netChange>-0.06</netChange>
+         <pChange>-1.51%</pChange>
+         <volume>60.857</volume>
+      </stock>
+      <stock class="up">
+         <symbol>SYMC</symbol>
+         <company>Symantec Corp.</company>
+         <lastSale>$33.54</lastSale>
+         <netChange>2.57</netChange>
+         <pChange>7.12%</pChange>
+         <volume>8.280</volume>
+      </stock>
+      <stock class="down">
+         <symbol>TLAB</symbol>
+         <company>Tellabs, Inc.</company>
+         <lastSale>$5.73</lastSale>
+         <netChange>-0.22</netChange>
+         <pChange>-3.70%</pChange>
+         <volume>3.343</volume>
+      </stock>
+      <stock class="down">
+         <symbol>TMPW</symbol>
+         <company>TMP Worldwide Inc.</company>
+         <lastSale>$15.44</lastSale>
+         <netChange>-0.67</netChange>
+         <pChange>-4.16%</pChange>
+         <volume>1.680</volume>
+      </stock>
+      <stock class="down">
+         <symbol>USAI</symbol>
+         <company>USA Interactive</company>
+         <lastSale>$22.05</lastSale>
+         <netChange>-0.01</netChange>
+         <pChange>-0.04%</pChange>
+         <volume>4.419</volume>
+      </stock>
+      <stock class="down">
+         <symbol>VRSN</symbol>
+         <company>VeriSign, Inc.</company>
+         <lastSale>$6.40</lastSale>
+         <netChange>-0.08</netChange>
+         <pChange>-1.23%</pChange>
+         <volume>3.047</volume>
+      </stock>
+      <stock class="up">
+         <symbol>VRTS</symbol>
+         <company>VERITAS Software Corp.</company>
+         <lastSale>$16.83</lastSale>
+         <netChange>2.18</netChange>
+         <pChange>11.47%</pChange>
+         <volume>15.094</volume>
+      </stock>
+      <stock class="up">
+         <symbol>VTSS</symbol>
+         <company>Vitesse Semiconductor Corp.</company>
+         <lastSale>$2.42</lastSale>
+         <netChange>0.26</netChange>
+         <pChange>9.70%</pChange>
+         <volume>1.959</volume>
+      </stock>
+      <stock class="down">
+         <symbol>XLNX</symbol>
+         <company>Xilinx, Inc.</company>
+         <lastSale>$19.19</lastSale>
+         <netChange>-1.32</netChange>
+         <pChange>-6.44%</pChange>
+         <volume>8.528</volume>
+      </stock>
+      <stock class="up">
+         <symbol>YHOO</symbol>
+         <company>Yahoo! Inc.</company>
+         <lastSale>$13.17</lastSale>
+         <netChange>0.22</netChange>
+         <pChange>1.64%</pChange>
+         <volume>7.203</volume>
+      </stock>
+   </stocks>
+
+</quotes>

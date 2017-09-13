@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<persons>
+<person>
+   <first_name>Jane</first_name>
+   <last_name>Whitney</last_name>
+   <street>87 Hilltop Drive</street>
+   <city>Jasper</city>
+   <state>KY</state>
+   <zip>89381</zip>
+   <amount>50</amount>
+   <date>2005-08-22</date>
+</person>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 2
+
+   Game and Team Information
+
+   Filename:         game.xml
+   Supporting Files: 
+-->
+
+<game>
+   <team name="Texas">
+      <player name="Miles, Trent" position="F" />
+      <player name="Mitchell, Kevin" position="F" />
+      <player name="Carson, Carl" position="G" />
+      <player name="Deans, Sam" position="G" />
+      <player name="Ursa, Uba" position="C" />
+      <player name="Laws, Howard" position="F" />
+      <player name="Jackson, Danny" position="F" />
+      <player name="Sharif, Muhammed" position="G" />
+      <player name="Lee, Arlando" position="G" />
+      <player name="Penney, Ron" position="C" />
+      <player name="Booner, Bob" position="F" />
+      <player name="Paulson, Patrick" position="G" />
+   </team>
+   <team name="Wisconsin">
+      <player name="Bryson, John" position="F" />
+      <player name="Carrol, James" position="F" />
+      <player name="Fleming, Jody" position="G" />
+      <player name="Waltman, Adam" position="G" />
+      <player name="Lopez, Jarold" position="C" />
+      <player name="Casey, John" position="F" />
+      <player name="Kelm, Ken" position="F" />
+      <player name="Woodworth, Greg" position="F" />
+      <player name="Thompson, Chad" position="G" />
+      <player name="Kyle, Percy" position="G" />
+      <player name="Everett, Lloyd" position="F" />
+      <player name="Woods, Joel" position="G" />
+   </team>
+   <plays>
+   </plays>
+</game>

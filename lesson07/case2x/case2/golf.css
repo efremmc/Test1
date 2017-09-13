@@ -1,0 +1,28 @@
+/*
+   New Perspectives on XML
+   Tutorial 7
+   Case Problem 2
+
+   Golf Score Cascading Style Sheet
+
+   Filename:         golf.css
+   Supporting Files: 
+*/
+
+body                    {width: 650px; font-family:Arial, Helvetica,sans-serif}
+h1                      {margin-bottom: -25px}
+h3                      {margin-bottom: -15px}
+p                       {border-bottom: 1px solid darkblue}
+table#scorecard         {border: 1px solid darkblue; width: 650px; margin-bottom: 10px}
+th                      {text-align: left; font-size: 9pt}
+td                      {text-align: right; width:20px; font-size: 9pt}
+td.sub                  {background-color: lightyellow; font-size: 10pt}
+th.sub                  {background-color: lightyellow}
+td.final, th.final      {background-color: yellow ; font-weight:bold; font-size: 10pt}
+td.low                  {background-color: red; color:white}
+td.high                 {background-color: green; color:white}
+tr.holeList th          {border-bottom: 1px solid darkblue; text-align: center}
+tr.title                {background-color: darkblue; color: white}
+tr.title th             {text-align: right; letter-spacing: 5px}
+tr.par, tr.runningTotal {background-color: silver}
+tr.scores               {background-color: rgb(224, 224, 224)}

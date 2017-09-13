@@ -1,0 +1,38 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Review Assignment
+   Filename: files.css
+
+   Author: 
+   Date:   
+
+
+   This file contains styles used with information on downloadable files
+
+*/
+
+
+file
+           {display: block; width: 650px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; 
+            margin: 15px; position: relative; top: 0px; left: 0px}
+
+
+name 
+           {display: inline}
+
+date 
+           {display: inline; position: absolute; left: 170px}
+
+size 
+           {display: inline; position: absolute; left: 260px}
+
+rev 
+           {display: inline; position: absolute; left: 320px}
+
+item
+           {display: inline; position: absolute; left: 400px}
+
+
+/* Place namespace escape styles below */
+

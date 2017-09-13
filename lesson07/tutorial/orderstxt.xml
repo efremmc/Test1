@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 7
+   Tutorial Case
+
+   Wizard Works Order Data
+   Author: 
+   Date:   
+
+   Filename:         works.xml
+   Supporting Files: works.xsl
+
+-->
+
+<customers>
+
+  <customer CID="C101">
+    <cName><fName>Rachel</fName><lName>Wilson</lName></cName>
+    <street>8502 Nighthawk Lane</street>
+    <city>Darby</city>
+    <state>NH</state>
+    <postalCode>80021</postalCode>
+    <phone>(410) 555-2920</phone>
+    <orders>
+      <order OID="OR10311" date="6/16/2008">
+        <items>
+          <item price="19.95" qty="1">Long Sparklers (box 20)</item>
+          <item price="29.95" qty="2">Goblin Fountain</item>
+          <item price="25.50" qty="2">Dragon Fountain</item>
+          <item price="29.95" qty="1">Nighteyes (box 10)</item>
+          <item price="19.95" qty="1">Assorted items Box #1</item>
+        </items>
+      </order>
+      <order OID="OR09114" date="6/11/2007">
+        <items>
+          <item price="29.95" qty="1">Assorted items Box #2</item>
+          <item price="34.42" qty="2">Phoenix Fountain</item>
+          <item price="7.50" qty="4">Firecracker 80 Strings of 16</item>
+          <item price="13.99" qty="5">Bottle rockets with stars and report (box 20)</item>
+        </items>
+      </order>
+    </orders>
+  </customer>
+
+  <customer CID="C102">
+    <cName><fName>Kevin</fName><lName>Kemper</lName></cName>
+    <street>25 Maple Avenue</street>
+    <city>Cutler</city>
+    <state>KY</state>
+    <postalCode>20401</postalCode>
+    <phone>(611) 555-4033</phone>
+    <orders>
+      <order OID="OR10899" date="5/14/2008">
+        <items>
+          <item price="14.52" qty="5">Moon Rockets 12 packs of 12</item>
+          <item price="7.50" qty="5">Firecracker 80 Strings of 16</item>
+          <item price="19.95" qty="2">Crackling Balls (box 16)</item>
+          <item price="19.95" qty="1">Long Sparklers (box 20)</item>
+          <item price="29.95" qty="4">Goblin Fountain</item>
+        </items>
+      </order>
+      <order OID="OR09916" date="6/21/2007">
+        <items>
+          <item price="42.50" qty="1">Time Bomb</item>
+          <item price="14.50" qty="1">Bucket of Fireworks</item>
+          <item price="19.95" qty="1">Crackling Balls (box 16)</item>
+          <item price="19.95" qty="1">Long Sparklers (box 20)</item>
+          <item price="29.95" qty="2">Nightair Fountain</item>
+          <item price="7.50" qty="5">Firecracker 80 Strings of 16</item>
+        </items>
+      </order>
+      <order OID="OR08892" date="6/11/2006">
+        <items>
+          <item price="29.95" qty="1">Nightair Fountain</item>
+          <item price="7.50" qty="5">Firecracker 80 Strings of 16</item>
+          <item price="19.95" qty="1">Crackling Balls (box 16)</item>
+        </items>
+      </order>
+    </orders>
+  </customer>
+
+  <customer CID="B101">
+    <cName><lName>Miller Foods</lName></cName>
+    <street>800 Oak Street</street>
+    <city>Creighton</city> 
+    <state>UT</state>
+    <postalCode>98712</postalCode>
+    <phone>(251) 555-7756</phone>
+    <orders>
+      <order OID="OR10211" date="5/31/2008">
+        <items>
+          <item price="109.99" qty="1">Rock The Sky Rocket (case)</item>
+          <item price="95.99" qty="1">Tracer Fire Rockets (case)</item>
+        </items>
+      </order>
+    </orders>
+  </customer>
+  <customer CID="B102">
+    <cName><lName>Greenbush County</lName></cName>
+    <street>414 Allen Lane</street>
+    <city>Ashton</city> 
+    <state>MO</state>
+    <postalCode>53919</postalCode>
+    <phone>(303) 555-8771</phone>
+    <orders>
+      <order OID="OR11560" date="6/11/2008">
+        <items>
+          <item price="122.50" qty="2">Electric Reactor (case)</item>
+          <item price="95.99" qty="2">Tracer Fire Rockets (case)</item>
+          <item price="142.50" qty="1">Gold Ring With Tail (case)</item>
+          <item price="142.50" qty="1">Blue Ring With Tail (case)</item>
+          <item price="137.50" qty="1">Red Ring Shell (case)</item>
+          <item price="137.50" qty="1">Green Ring Shell (case)</item>
+          <item price="133.50" qty="1">Midnight Barrage (case)</item>
+          <item price="121.50" qty="1">Blue Palm w\Tail (case)</item>
+          <item price="121.50" qty="1">Red Palm w\Tail (case)</item>
+          <item price="121.50" qty="1">Gold Palm w\Tail (case)</item>
+          <item price="93.50" qty="2">Whistling Artillery (case)</item>
+        </items>
+      </order>
+      <order OID="OR09917" date="6/15/2007">
+        <items>
+          <item price="143.99" qty="1">Star Cruiser (case)</item>
+          <item price="121.50" qty="1">Strobing Night Parachute (case)</item>
+          <item price="142.50" qty="1">Gold Ring With Tail (case)</item>
+          <item price="142.50" qty="1">Blue Ring With Tail (case)</item>
+          <item price="137.50" qty="1">Red Ring Shell (case)</item>
+          <item price="137.50" qty="1">Green Ring Shell (case)</item>
+          <item price="141.50" qty="1">Palm Party (case)</item>
+          <item price="138.50" qty="1">Bootlegger Bomb (case)</item>
+          <item price="163.50" qty="3">Assorted Box: Green, Blue, Gold, Ring  W/Palm</item>
+          <item price="93.50" qty="2">Whistling Artillery (case)</item>
+        </items>
+      </order>
+      <order OID="OR08715" date="6/18/2006">
+        <items>
+          <item price="147.83" qty="1">Double Break Finale (case)</item>
+          <item price="122.50" qty="2">Electric Reactor (case)</item>
+          <item price="142.50" qty="1">Gold Ring With Tail (case)</item>
+          <item price="142.50" qty="1">Blue Ring With Tail (case)</item>
+          <item price="137.50" qty="1">Red Ring Shell (case)</item>
+          <item price="137.50" qty="1">Green Ring Shell (case)</item>
+          <item price="133.50" qty="1">Midnight Barrage (case)</item>
+          <item price="163.50" qty="3">Assorted Box: Green, Blue, Gold, Ring  W/Palm</item>
+          <item price="93.50" qty="2">Whistling Artillery (case)</item>
+        </items>
+      </order>
+    </orders>
+  </customer>
+
+  <customer CID="C103">
+    <cName><fName>Uwe</fName><lName>Lungren</lName></cName>
+    <street>5 East Main Street</street>
+    <city>Lawrence</city>
+    <state>IL</state>
+    <postalCode>67815</postalCode>
+    <phone>(351) 555-9014</phone>
+    <orders>
+      <order OID="OR10115" date="6/24/2008">
+        <items>
+          <item price="19.95" qty="1">Long Sparklers (box 20)</item>
+          <item price="39.95" qty="1">Assorted items Box #3</item>
+          <item price="59.95" qty="1">Pyro blast Assortment</item>
+          <item price="29.95" qty="2">Firecracker  40 Strings of 16</item>
+        </items>
+      </order>
+    </orders>
+  </customer>
+  <customer CID="C104">
+    <cName><fName>Bernard</fName><lName>Adams</lName></cName>
+    <street>55 Miller Avenue</street>
+    <city>Eaton</city>
+    <state>IA</state>
+    <postalCode>89715</postalCode>
+    <phone>(781) 555-4390</phone>
+    <orders>
+      <order OID="OR11058" date="6/17/2008">
+        <items>
+          <item price="79.95" qty="1">Pyro blast Assortment #2</item>
+          <item price="29.95" qty="2">Screaming Dragons</item>
+          <item price="93.50" qty="2">Whistling Artillery (case)</item>
+        </items>
+      </order>
+    </orders>
+  </customer>
+
+</customers>

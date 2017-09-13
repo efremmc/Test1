@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="modtxt.css" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Tutorial Case
+
+   Jackson Electronics Laser4C Printer Information
+
+   Filename:         model.xml
+   Supporting Files: model.css
+-->
+
+<?xml-stylesheet type="text/css" href="model.css" ?>
+
+<model id="pr205">
+   <title>Laser4C (PR205)</title>
+   <description>Entry level color laser printer</description>
+   <type>color laser</type>
+   <ordered>320</ordered>
+   <parts list="chx201,fa100-5,eng005-2,cbx-450V4,tn01-53" />
+</model>

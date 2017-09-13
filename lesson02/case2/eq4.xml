@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 2
+
+   Fourth MathML Equation
+
+   Filename:         eq4.xml
+   Supporting Files: math.css
+-->
+
+<?xml-stylesheet type="text/css" href="math.css" ?>
+
+   <mrow>
+     <mi>x</mi>
+     <mo>=</mo>
+     <mfrac>
+        <mrow>
+         <mrow>
+           <mi>14</mi>
+         </mrow>
+         <mo>&#177;</mo>
+         <msqrt>
+           <mrow>
+             <msup>
+               <mi>(-14)</mi>
+               <mn>2</mn>
+             </msup>
+              <mo>-</mo>
+             <mrow>
+               <mn>4</mn>
+               <mi>(2)</mi>
+               <mi>(20)</mi>
+             </mrow>
+            </mrow>
+         </msqrt>
+       </mrow>
+       <mrow>
+         <mn>2</mn>
+         <mi>(2)</mi>
+       </mrow>
+     </mfrac>
+   </mrow>

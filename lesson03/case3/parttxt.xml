@@ -1,0 +1,56 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 3
+
+   Jackson Electronics Warehouse Summary
+   Author: 
+   Date:   
+
+   Filename:         parts.xml
+   Supporting Files: 
+-->
+
+<parts>
+   <part pid="chx201" model="pr205 pr105">
+      <title>Chassis and Roller Kit</title>
+      <description>JChassis and rollers/JE series</description>
+      <in_stock>817</in_stock>
+   </part>
+
+   <part pid="fa100-5" model="pr205 pr105">      
+      <title>Fuser Assembly</title>
+      <description>Fuser assembly/JE series</description>
+      <instock>1253</instock>      
+   </part>
+
+   <part pid="eng005-2" model="pr205 pr105">      
+      <title>Engine Kit</title>
+      <description>Printer engine kit/JE series</description>
+      <instock>3895</instock>     
+   </part>
+
+   <part pid="cbx-450V4" model="pr205">      
+      <title>Controller board</title>
+      <description>PR205 printer controller board</description>
+      <instock>412</instock>     
+   </part>
+
+   <part pid="tn01-53" model="pr205">    
+      <title>Toner Kit</title>
+      <description>PR205 toner kit (b,m,c,y)</description>
+      <instock>397</instock>   
+   </part>
+
+   <part pid="cbx-050V4" model="pr105">      
+      <title>Controller board</title>
+      <description>PR105 printer controller board</description>
+      <instock>278</instock>     
+   </part>
+
+   <part pid="tn01-003" model="pr105">    
+      <title>Toner Kit</title>
+      <description>PR105 toner kit (b,m,c,y)</description>
+      <instock>198</instock>   
+   </part>
+</parts>

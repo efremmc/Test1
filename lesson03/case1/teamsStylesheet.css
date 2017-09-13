@@ -1,0 +1,8 @@
+/* Cascade style sheet based on teams.dtd DTD */
+League { display: block }
+Team { display: block }
+Team_Name { display: block }
+City { display: block }
+Logo { display: block }
+Players { display: block }
+Player { display: block }

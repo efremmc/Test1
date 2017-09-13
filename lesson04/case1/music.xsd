@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Jazz Warehouse Vintage Albums Schema
+   Author: Efrem McCrimon
+   Date:   2-15-2011
+
+   Filename:         music.xsd
+   Supporting Files: 
+ 
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://"
+            targetNamespace="http:///ns">
+
+
+   <xsd:complexType name="catType">
+      <xsd:group ref="childElements" />
+      <xsd:attributeGroup ref="albumAtt" />
+   </xsd:complexType>
+
+   <xsd:group name="childElements">
+      <xsd:sequence>
+         <xsd:element name="title" type="xsd:string" />
+         <xsd:element name="artist" type="xsd:string" minOccurs="1" maxOccurs="unbounded"  />
+
+         <xsd:element name="track" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
+         // <xsd:element name="performance" type="perfComplex" />
+      </xsd:sequence>
+   </xsd:group>
+
+   <xsd:attributeGroup name="albumAtt">
+       <xsd:attribute name="category" type="categoryType" />
+       <xsd:attribute name="albumID" type="albumType" />
+   </xsd:attributeGroup>
+ 
+
+   <xsd:simpleType name="albumIDType">
+      <xsd:restriction base="xsd:ID">
+         <xsd:pattern value="JW\d{6}" />
+      </xsd:restriction>
+   </xsd:simpleType>
+
+   <xsd:simpleType name="jazzType">
+      <xsd:restriction base="xsd:string">
+         <xsd:enumeration value="New Orleans" />
+         <xsd:enumeration value="Swing" />
+         <xsd:enumeration value="Bebop" />
+         <xsd:enumeration value="Modern" />
+      </xsd:restriction>
+   </xsd:simpleType>
+   
+   <xsd:element name="inventory">
+      <xsd:complexType>
+         <xsd:sequence>
+             <xsd:element name="album" type="xsd:string" minOccurs="1" maxOccurs="unbounded">
+                 <xsd:element name="title" type="xsd:string"/>
+                 <xsd:element name="artist"  type="xsd:string"/>
+                 <xsd:element name="tracks"  type="xsd:string"/>
+
+                                  
+                <xs:element name="tracks" minOccurs="1" >
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xsd:time">
+                                <xs:attribute ref="length" use="optional" />
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>                 
+                                         
+             </xsd:element>
+         </xsd:sequence>
+         <xsd:attribute name="category" type="jazzType" use="required">
+         <xsd:attribute name="albumID" type="albumIDType" use="required">
+      </xsd:complexType>
+   </xsd:element>   
+   
+
+</xsd:schema>
+

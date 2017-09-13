@@ -1,0 +1,90 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Review Assignment
+
+   Freezing Point Refrigerators Product Report Hierarchical Table
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         inv3.html
+   Supporting Files: refg2.xml, sInfo.xml, styles3.css, + multiple jpg image files
+   Information about Freezing Point Refrigerators
+
+   Filename:         sinfo.xml
+
+   I created an data island to support this assignment.
+ <xml id="inventoryInfo" src="sinfo.xml"></xml>
+ <xml id="inventoryInfo" src="refg2.xml"></xml>
+
+
+
+-->
+   <title>Freezing Point Refrigerators</title>
+   <link href="styles3.css" rel="stylesheet" type="text/css" />
+   
+   <xml id="pageInfo" src="sinfo.xml"></xml>
+   <xml id="inventoryInfo" src="refg2.xml"></xml>
+   
+</head>
+
+
+<body>
+   <div id="pageData">
+
+   <div id="pageTitle"  datasrc="#pageInfo" datafld="title">Page Title</div>
+   <div id="pageSubtitle"  datasrc="#pageInfo" datafld="subtitle">Page Subtitle</div>
+   <div id="pageText"  datasrc="#pageInfo" datafld="purpose">Purpose</div>
+   <div id="pageAuthor">For more information, contact: 
+        <a datasrc="#pageInfo" datafld="authorEmail">
+            <span datasrc="#pageInfo" datafld="author"></span>
+        </a>.
+   </div>
+   
+   <!--
+   
+   Check input on the event selection to either display the first or last record in the recordset.
+   -->
+     <p>
+         <input onclick="inventoryInfo.recordset.moveFirst()"  type="radio" name="modelType" value="Cabinet" checked  />
+     <label >Cabinet Refrigerators</label>
+     <input onclick="inventoryInfo.recordset.moveLast()"  type="radio" name="modelType" value="Freestanding" />
+     <label>Freestanding Refrigerators</label>
+     </p>
+   </div>
+
+   <table datasrc="#inventoryInfo" datafld="model" datapagesize=1>
+     <thead>
+        <tr>
+           <th colspan="4">
+              <span datasrc="#inventoryInfo" datafld="mType"></span>
+           </th>
+        <tr>
+           <th>Product</th>
+           <th>Capacity/Dimensions</th>
+           <th>Energy Efficient</th>
+           <th>Freezer</th>
+        </tr>
+     </thead>
+     <tr><td style="text-align: center">
+           <img datasrc="#inventoryInfo" datafld="photo" width="70" height="74" alt="" /><br />
+           <span datasrc="#inventoryInfo" datafld="name"></span>
+           (<span datasrc="#inventoryInfo" datafld="price"></span>)
+         </td>
+         <td>
+           <span datasrc="#inventoryInfo" datafld="capacity"></span><br>
+           <span datasrc="#inventoryInfo" datafld="dimensions"></span>
+         </td>
+         <td>
+           <span datasrc="#inventoryInfo" datafld="energy"></span>
+         </td>         
+         <td>
+           <span datasrc="#inventoryInfo" datafld="freezer"></span>
+         </td>
+     </tr>
+   </table>
+
+</body>
+</html>

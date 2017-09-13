@@ -1,0 +1,49 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Review Assignment
+
+   List of software products
+   Author: 
+   Date:   
+
+   Filename:         swlist.xml
+   Supporting Files: 
+-->
+<slist>
+   <software>
+      <title SID="SMT30W" OS="Windows">ScanMagic 3.0</title>
+      <company>Tapan Inc.</company>
+      <sPrice>49.95</sPrice>
+   </software>
+   <software>
+      <title SID="PS50M" OS="Macintosh">Picture Shop 5.0</title>
+      <company>PD software Inc.</company>
+      <sPrice>149.50</sPrice>
+   </software>
+   <software>
+      <title SID="PS50W" OS="Windows">Picture Shop 5.0</title>
+      <company>PD software Inc.</company>
+      <sPrice>149.50</sPrice>
+   </software>
+   <software>
+      <title SID="PA80W" OS="Windows">Pro Artist 8.0</title>
+      <company>Attac software Inc.</company>
+      <sPrice>299.95</sPrice>
+   </software>
+   <software>
+      <title SID="PAS20W" OS="Windows">Pro Artist Studio 2.0</title>
+      <company>Attac software Inc.</company>
+      <sPrice>149.50</sPrice>
+   </software>
+   <software>
+      <title SID="FB50W" OS="Mac">Fotobook 5.0</title>
+      <company>BG Sofware Inc.</company>
+      <sPrice>29.50</sPrice>
+   </software>
+   <software>
+      <title SID="PS20U" OS="UNIX">Picture Shop 2.0</title>
+      <company>PD software Inc.</company>
+      <sPrice>149.50</sPrice>
+   </software>
+</slist>

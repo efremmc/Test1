@@ -1,0 +1,128 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Case Problem 2
+
+   Central High Class of 1959
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         slist.html
+   Supporting Files: bwills.jpg, chlist.xml, chstyles.css, czims.jpg,
+                     emcd.jpg, photo.jpg, rshapiro.jpg, taaron.jpg,
+                     tdavis.jpg
+
+   This is a fun problem to work with because it has some practical usage for me.
+-->
+   <title>Central High Class of 1959</title>
+   <link href="chstyles.css" rel="stylesheet" type="text/css" />
+   
+   <xml id="studInfo" src="chlist.xml"></xml>
+
+   
+</head>
+
+<body>
+   <h1 id="mainTitle">Central High Class of 1959</h1>
+
+   <div id="leftBox" datasrc="#studInfo" datafld="Class">
+       <div id="myStudent" datasrc="#studInfo" datafld="Student" >
+      <div id="sName" datasrc="#studInfo" datafld="Name" ></div>
+         <p><img datasrc="#studInfo" datafld="Photo" alt="" /></p>
+         
+             <table id="AddressList" datasrc="#studInfo" datafld="Address">
+            <tr>
+               <td><span datasrc="#studInfo" datafld="Street"></span><br>
+                   <span datasrc="#studInfo" datafld="City"></span>, 
+                   <span datasrc="#studInfo" datafld="State"></span>&nbsp;&nbsp;
+                   <span datasrc="#studInfo" datafld="ZIP"></span>
+               </td>
+            </tr>
+            </table>
+         
+         <div id="spouse">
+            <b>Spouse</b>: <span datasrc="#studInfo" datafld="Spouse"></span>
+         </div> 
+       </div>
+       
+         <table id="cTable" datasrc="#studInfo" datafld="Student"> 
+         <tr>
+            <th>Children</th>
+            <th>Birthdate(s)</th>
+         </tr>
+
+         <tr>
+            <td colspan="2">
+               <table datasrc="#studInfo" datafld="Children">
+               <tr>
+                  <td>
+                     <table id="cList" datasrc="#studInfo" datafld="Child">
+                     <tr>
+                        <td><span datasrc="#studInfo" datafld="CName"></span></td>
+                        <td><span datasrc="#studInfo" datafld="CBirth"></span></td>
+                     </tr>
+                     </table>
+                  </td>
+               </tr>
+               </table>
+            </td>
+         </tr>
+         </table>
+      </div>
+
+      <div id="rightBox">
+         <h2 id="subTitle">School Activities</h2>
+         <table>
+         <tr>
+            <td>Drama</td>
+            <td><input type="checkbox" datasrc="#studInfo" datafld="Drama"/></td>
+            <td>Football</td>
+            <td><input type="checkbox" datasrc="#studInfo" datafld="Football" /></td>
+         </tr>
+         <tr>
+            <td>Art Club</td>
+            <td><input type="checkbox" datasrc="#studInfo" datafld="Art" /></td>
+            <td>Baseball</td>
+            <td><input type="checkbox" datasrc="#studInfo" datafld="Baseball" /></td>
+         </tr>
+         <tr>
+            <td>Debate</td>
+            <td><input type="checkbox" datasrc="#studInfo" datafld="Debate"/></td>
+            <td>Basketball</td>
+            <td><input type="checkbox" datasrc="#studInfo" datafld="Basketball"/></td>
+         </tr>
+         <tr>
+            <td>Forensics</td>
+            <td><input type="checkbox" datasrc="#studInfo" datafld="Forensics" /></td>
+            <td>Track</td>
+            <td><input type="checkbox" datasrc="#studInfo" datafld="Track" /></td>
+         </tr>
+         </table>
+
+         <h2 id="subTitle">Notes</h2>
+         <textarea cols="50" rows="7" datasrc="#studInfo" datafld="Notes" ></textarea>
+
+
+         <p>
+            <button onclick="studInfo.recordset.moveFirst()">
+               |&lt; First
+            </button>
+            <button  onclick="studInfo.recordset.movePrevious();
+               if (studInfo.recordset.BOF) studInfo.recordset.moveLast()">
+               &lt; Back
+            </button>
+            <button  onclick="studInfo.recordset.moveNext();
+               if (studInfo.recordset.EOF) studInfo.recordset.moveFirst()">
+               Forward &gt;
+            </button>
+            <button  onclick="studInfo.recordset.moveLast()">
+               Last &gt;|
+            </button>
+         </p>
+
+      </div>
+   </body>
+
+</html>

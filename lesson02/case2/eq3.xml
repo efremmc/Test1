@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 2
+
+   Third MathML Equation
+
+   Filename:         eq3.xml
+   Supporting Files: math.css
+-->
+<?xml-stylesheet type="text/css" href="math.css" ?>
+
+   <mrow>
+     <mrow>
+       <mn>2</mn>
+       <msup>
+         <mi>x</mi>
+         <mn>2</mn>
+       </msup>
+       <mo>-</mo>
+       <mrow>
+         <mn>14</mn>
+         <mi>x</mi>
+       </mrow>
+       <mo>+</mo>
+       <mn>20</mn>
+     </mrow>
+     <mo>=</mo>
+     <mn>0</mn>
+   </mrow>

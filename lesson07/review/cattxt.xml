@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 7
+   Review Assignment
+
+   Wizard Works Product Catalog
+   Author: 
+   Date:   
+
+   Filename:         catalog.xml
+   Supporting Files: items.xsl
+
+-->
+
+<catalog>
+   <group type="Assorted">
+      <product>
+         <pName>Assorted Items Box #1</pName>
+         <order OID="OR10311" date="6/16/2008" qty="1" price="19.95" />
+      </product>
+      <product>
+         <pName>Assorted Items Box #2</pName>
+         <order OID="OR09114" date="6/11/2007" qty="1" price="29.95" />
+      </product>
+      <product>
+         <pName>Assorted ItemsBox #3</pName>
+         <order OID="OR10115" date="6/24/2008" qty="1" price="39.95" />
+      </product>
+      <product>
+         <pName>Assorted Box: Green, Blue, Gold, Ring w/ Palm</pName>
+         <order OID="OR09917" date="6/15/2007" qty="3" price="163.50" />
+         <order OID="OR08715" date="6/18/2006" qty="3" price="159.95" />
+      </product>
+   </group>
+   <group type="Fireworks">
+      <product>
+         <pName>Firecracker 80 Strings of 16</pName>
+         <order OID="OR09114" date="6/11/2007" qty="4" price="6.95" />
+         <order OID="OR10899" date="5/14/2008" qty="5" price="7.50" />
+         <order OID="OR09916" date="6/21/2007" qty="5" price="6.95" />
+         <order OID="OR08892" date="6/11/2006" qty="5" price="6.75" />
+         <order OID="OR10115" date="6/24/2008" qty="2" price="7.50" />
+      </product>
+      <product>
+         <pName>Crackling Balls (box 16)</pName>
+         <order OID="OR10899" date="5/14/2008" qty="2" price="19.95" />
+         <order OID="OR09916" date="6/21/2007" qty="1" price="19.95" />
+         <order OID="OR08892" date="6/11/2006" qty="1" price="18.95" />
+      </product>
+      <product>
+         <pName>Bucket of Fireworks</pName>
+         <order OID="OR09916" date="6/21/2007" qty="1" price="14.50" />
+      </product>
+      <product>
+         <pName>Pyro blast Assortment</pName>
+         <order OID="OR10115" date="6/24/2008" qty="1" price="59.95" />
+      </product>
+      <product>
+         <pName>Pyro blast Assortment #2</pName>
+         <order OID="OR11058" date="6/17/2008" qty="1" price="79.95" />
+      </product>
+      <product>
+         <pName>Bootlegger Bomb (case)</pName>
+         <order OID="OR09917" date="6/15/2007" qty="1" price="138.50" />
+      </product>
+      <product>
+         <pName>Time Bomb</pName>
+         <order OID="OR09916" date="6/21/2007" qty="1" price="42.50" />
+      </product>
+   </group>
+
+   <group type="Fountains">
+      <product>
+         <pName>Long Sparklers (box 20)</pName>
+         <order OID="OR10311" date="6/16/2008" qty="1" price="19.95" />
+         <order OID="OR10899" date="5/14/2008" qty="1" price="19.95" />
+         <order OID="OR09916" date="6/21/2007" qty="1" price="19.95" />
+         <order OID="OR10115" date="6/24/2008" qty="1" price="19.95" />
+      </product>
+      <product>
+         <pName>Goblin Fountain</pName>
+         <order OID="OR10311" date="6/16/2008" qty="2" price="29.95" />
+         <order OID="OR10899" date="5/14/2008" qty="4" price="29.95" />
+      </product>
+      <product>
+         <pName>Dragon Fountain</pName>
+         <order OID="OR10311" date="6/16/2008" qty="1" price="25.50" />
+      </product>
+      <product>
+         <pName>Phoenix Fountain</pName>
+         <order OID="OR09114" date="6/11/2007" qty="2" price="34.42" />
+      </product>
+      <product>
+         <pName>Nightair Fountain</pName>
+         <order OID="OR09916" date="6/21/2007" qty="2" price="29.95" />
+         <order OID="OR08892" date="6/11/2006" qty="1" price="29.95" />
+      </product>
+      <product>
+         <pName>Nighteyes (box 10)</pName>
+         <order OID="OR10311" date="6/16/2008" qty="1" price="29.95" />
+      </product>
+      <product>
+         <pName>Electric Reactor (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="2" price="122.50" />
+         <order OID="OR08715" date="6/18/2006" qty="2" price="105.15" />
+      </product>
+      <product>
+         <pName>Strobing Night Parachute (case)</pName>
+         <order OID="OR09917" date="6/15/2007" qty="1" price="121.50" />
+      </product>
+   </group>
+
+   <group type="Palms">
+      <product>
+         <pName>Blue Palm w/ Tail (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="1" price="121.50" />
+      </product>
+      <product>
+         <pName>Red Palm w/ Tail (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="1" price="121.50" />
+      </product>
+      <product>
+         <pName>Gold Palm w/ Tail (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="1" price="121.50" />
+         <order OID="OR08715" date="6/18/2006" qty="1" price="108.75" />
+      </product>
+      <product>
+         <pName>Palm Party (case)</pName>
+         <order OID="OR09917" date="6/15/2007" qty="1" price="141.50" />
+      </product>
+   </group>
+
+   <group type="Rings">
+      <product>
+         <pName>Gold Ring with Tail (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="1" price="142.50" />
+         <order OID="OR09917" date="6/15/2007" qty="1" price="135.99" />
+      </product>
+      <product>
+         <pName>Blue Ring with Tail (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="1" price="142.50" />
+         <order OID="OR09917" date="6/15/2007" qty="1" price="135.99" />
+         <order OID="OR08715" date="6/18/2006" qty="1" price="135.99" />
+      </product>
+      <product>
+         <pName>Red Ring Shell (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="1" price="137.50" />
+         <order OID="OR09917" date="6/15/2007" qty="1" price="129.99" />
+         <order OID="OR08715" date="6/18/2006" qty="1" price="129.99" />
+      </product>
+      <product>
+         <pName>Green Ring Shell (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="1" price="137.50" />
+         <order OID="OR09917" date="6/15/2007" qty="1" price="129.99" />
+         <order OID="OR08715" date="6/18/2006" qty="1" price="129.99" />
+      </product>
+   </group>
+
+   <group type="Rockets">
+      <product>
+         <pName>Bottle rockets with stars and report (box 20)</pName>
+         <order OID="OR09114" date="6/11/2007" qty="5" price="13.99" />
+      </product>
+      <product>
+         <pName>Moon Rockets 12 packs of 12</pName>
+         <order OID="OR10899" date="5/14/2008" qty="5" price="14.52" />
+      </product>
+      <product>
+         <pName>Rock The Sky Rocket</pName>
+         <order OID="OR10211" date="5/31/2008" qty="1" price="109.99" />
+      </product>
+      <product>
+         <pName>Tracer Fire Rockets (case)</pName>
+         <order OID="OR10211" date="5/31/2008" qty="1" price="95.99" />
+         <order OID="OR11560" date="6/11/2008" qty="2" price="95.99" />
+      </product>
+      <product>
+         <pName>Midnight Barrage (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="1" price="133.50" />
+         <order OID="OR08715" date="6/18/2006" qty="1" price="117.95" />
+      </product>
+      <product>
+         <pName>Whistling Artillery (case)</pName>
+         <order OID="OR11560" date="6/11/2008" qty="2" price="93.50" />
+         <order OID="OR09917" date="6/15/2007" qty="2" price="89.95" />
+         <order OID="OR08715" date="6/18/2006" qty="2" price="89.95" />
+         <order OID="OR11058" date="6/17/2008" qty="2" price="93.50" />
+      </product>
+      <product>
+         <pName>Screaming Dragons</pName>
+         <order OID="OR11058" date="6/17/2008" qty="2" price="29.95" />
+      </product>
+      <product>
+         <pName>Star Cruiser (case)</pName>
+         <order OID="OR09917" date="6/15/2007" qty="1" price="143.99" />
+      </product>
+      <product>
+         <pName>Double Break Finale (case)</pName>
+         <order OID="OR08715" date="6/18/2006" qty="1" price="147.83" />
+      </product>
+   </group>
+</catalog>

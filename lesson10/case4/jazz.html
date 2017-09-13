@@ -1,0 +1,107 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 4
+
+   Lab Room Scheduler
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         jazz.html
+   Supporting Files:
+                     jazz.css, jw.css
+                     jazz.xsl, library.js
+   Menu files:
+        music.html
+        search.html
+        promotion.html
+
+From Chapter 01:
+<?xml-stylesheet type="text/css" href="jw.css" ?>
+
+
+-->
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   <title>The Jazz Warehouse</title>
+   <link href="jw.css" rel="stylesheet" type="text/css" />
+   <link href="jazz.css" rel="stylesheet" type="text/css" />
+
+   <script type="text/javascript" src="library.js" />
+   
+
+   <script type="text/javascript">
+       
+       var IE = window.ActiveXObject ? true:false;
+       var MOZ = document.implementation.createDocument ? true:false;
+
+       var xmlFile = "jazz.xml";  // Source XML document is xmlFile
+       var xsltFile = "jazz.xsl";  // Start with the basic JAZZ.XSL file
+       var xmlFile;
+       var xsltFile;
+       var xmlDoc;
+       var xsltDoc; 
+       
+       var xmlDocSave;
+      
+       var selectValue  = "showall";   // selection value for Show all Specials 
+       var currentSelect = "showall";   // selection value for Show all Specials
+       var currentView = "showall";  // Sort direction for ascending or descending
+        
+    </script>
+   
+</head>
+
+<body onload="myinit()">
+  <div id="container">
+  <div id="logo">
+
+      <a href="#">  <img src="images/jazzlogo.jpg"  alt="Jazz(sem)" /></a>  
+      <h1>The Jazz Warehouse</h1>
+
+  </div>
+
+  <div id="leftcolumn">
+      <ul class="navBar">
+          <li><a class="navBar" href="javascript:void(0)">Home</a></li>
+          <li><a class="navBar" href="jazzadd.html">Titles</a></li>
+
+      </ul>
+  </div>
+      
+  <div id="rightcolumn">
+      <p>The first Friday night each month at the Jazz Warehouse is a special night.<br />
+      Join us from 8pm to 11pm for some music you won't want to miss!</p>
+      <h3>January</h3>
+      <p class="content"><a href="#" onmouseover="alert('Concerts sell out quickly so act fast!');">Melanie Morris entertains with her melodic folk style.<img src="images/melaniethumb.jpg" alt="Melanie" align="right" width="100" height="97" /></a>
+      <br />
+      Check out the podcast!<br />
+      CDs are now available.<br />
+      </p>
+      <br />
+
+      <h3>February</h3>
+      <p class="content"><a href="#" onmouseover="alert('Concerts sell out quickly so act fast!');">Tahoe Miles back from his tour.<img src="images/milesthumb.jpg" alt="Miles D" align="right"  width="99" height="96" /></a>
+          <br />
+          New songs<br />
+          New stories<br />
+          CDs are now available.<br />
+          <button id="showall" onclick="showAll();">Show Special CD Titles</button>
+      </p>
+      
+
+    </div>
+      <div id="demo" />
+      <div id="tracklist" /> 
+      
+    <div id="footer">
+                    Last updated: December 14, 2011&nbsp;
+          Copyright&nbsp;&copy;&nbsp;2011<br />
+      <a href="mailto:ste2144887@maricopa.edu">efremmc2@gmail.com</a><br />
+    </div>
+
+</div>
+</body>
+
+</html>

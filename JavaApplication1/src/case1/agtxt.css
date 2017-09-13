@@ -1,0 +1,26 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 1
+   Filename: agents.css
+
+   Author: 
+   Date:
+
+   This file contains styles used in the EPAC contribution report for agent names
+
+*/
+
+
+agent 
+      {display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12pt; 
+       font-weight: bold; letter-spacing: 3; margin-left: 15px; 
+       border-top: 1px solid black; padding: 5px}
+
+amount 
+      {background-color: rgb(0,128,0); color: yellow}
+
+
+/* Place namespace escape styles below */
+
+

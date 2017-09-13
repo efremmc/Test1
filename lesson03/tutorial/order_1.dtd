@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/order_1.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE customers SYSTEM "order_1.dtd">
+
+    <customers>
+    ...
+    </customers>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT customers (customer)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT customer (name|address|phone|email|orders)*>
+<!ATTLIST customer
+    custID CDATA #IMPLIED
+    custType CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+    title CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT address (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT phone (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT email (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT orders (order)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT order (orderDate|items)*>
+<!ATTLIST order
+    orderID CDATA #IMPLIED
+    orderBy CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT orderDate (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT items (item)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+    itemPrice CDATA #IMPLIED
+    itemQty CDATA #IMPLIED
+  >

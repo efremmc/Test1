@@ -1,0 +1,87 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Review Assignment
+
+   Freezing Point Refrigerators Product Report Table
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         inv2.html
+   Supporting Files: refg1.xml, sinfo.xml, styles2.css, + multiple jpg image files
+
+   <xml id="pageInfo" src="sinfo.xml"></xml>
+   <xml id="inventoryInfo" src="refg1.xml"></xml>
+
+-->
+   <title>Freezing Point Refrigerators</title>
+   <link href="styles2.css" rel="stylesheet" type="text/css" />
+ 
+   <xml id="pageInfo" src="sinfo.xml"></xml>
+   <xml id="inventoryInfo" src="refg1.xml"></xml>   
+   
+   
+   
+</head>
+
+<body>
+   <div id="pageData">
+
+   <div id="pageTitle"  datasrc="#pageInfo" datafld="title">Page Title</div>
+   <div id="pageSubtitle"  datasrc="#pageInfo" datafld="subtitle">Page Subtitle</div>
+   <div id="pageText"  datasrc="#pageInfo" datafld="purpose">Purpose</div>
+   <div id="pageAuthor">For more information, contact: 
+        <a datasrc="#pageInfo" datafld="authorEmail">
+            <span datasrc="#pageInfo" datafld="author"></span>
+        </a>.
+   </div>
+
+   <p>
+     <button onclick="refTable.dataPageSize=999999; refTable.firstPage()">Show All</button>
+     <button  onclick="refTable.dataPageSize=4;  refTable.firstPage()">Show Pages</button>
+   </p>
+   </div>
+
+   <table id="refTable" datasrc="#inventoryInfo" dataPageSize="4">
+     <thead>
+     <tr>
+        <th colspan="5">
+           <button onclick="refTable.firstPage()">|&lt; First</button>
+           <button onclick="refTable.previousPage(); if (refTable.BOF) refTable.lastPage()">&lt; Previous Page </button>
+           <button onclick="refTable.nextPage(); if (refTable.EOF) refTable.firstPage()">Next Page &gt;</button>
+           <button onclick="refTable.lastPage()">Last &gt;|</button>
+        </th>
+     </tr>
+     <tr>
+         <th>Product</th>
+         <th>Model Type</th>
+         <th>Capacity/Dimensions</th>
+         <th>Energy Efficient</th>
+         <th>Freezer</th>
+     </tr>
+     </thead>
+     <tr><td>
+           <img datasrc="#inventoryInfo" datafld="photo" alt="" width="70" height="74" /><br />
+           <span class="celltext" datasrc="#inventoryInfo" datafld="name"></span>
+           (<span class="celltext" datasrc="#inventoryInfo" datafld="price"></span>)
+         </td>
+         <td>
+           <span  class="celltext" datasrc="#inventoryInfo" datafld="mType"></span>
+         </td>
+         <td>
+           <span  class="celltext" datasrc="#inventoryInfo" datafld="capacity"></span><br />
+           <span  class="celltext" datasrc="#inventoryInfo" datafld="dimensions"></span>
+         </td>       
+         <td>
+           <span  class="celltext" datasrc="#inventoryInfo" datafld="energy"></span>
+         </td>
+         <td>
+           <span  class="celltext" datasrc="#inventoryInfo" datafld="freezer"></span>
+         </td>
+     </tr>
+   </table>
+
+</body>
+</html>

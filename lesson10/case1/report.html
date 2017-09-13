@@ -1,0 +1,185 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 1
+
+   Hardin Financial Stock Reporter
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         report.html
+   Supporting Files: current.xsl, down.gif, fiveday.xsl, heading.xsl,
+                     library.js, overview.xsl, same.gif, stock.css,
+                     stock.xml, up.gif, yearly.xsl
+
+-->
+   <title>Stock Reporter</title>
+   <link href="stock.css" rel="stylesheet" type="text/css" />
+
+
+   <script type="text/javascript" src="library.js"></script>
+   
+   <script type="text/javascript">
+       var IE = window.ActiveXObject ? true:false;
+       var MOZ = document.implementation.createDocument ? true: false;
+       
+       var xmlDoc;  // Source XML document, XMLdoc is now xmlDoc
+       var xsltDoc;  // XSLT style sheet document, XSLTdoc is now xsltDoc
+    //   var xmlFile = "grants.xml";  // Source XML document is xmlFile
+    //   var xsltFile = "grants.xsl"; // XSLT style sheet document is xsltFile
+       
+
+       var xTemplate;  // IE template document, XSLTemp is now xTemplate
+       var xProcessor;  // IE processed document, XSLTProc is now xProcessor
+       
+      // var selectValue  = "date";   // selection value for sort 
+      // var currentSelect = "date";   // selection value for sort 
+      // var currentDataType = "text";  // selection of datatype for text, numeric, alpha
+      // var currentOrder = "descending";  // Sort direction for ascending or descending
+ 
+    
+       /*
+        * 
+        * @returns {undefined}
+        */
+       function createXDoc(xFile, PID) {
+           
+           var XDoc;
+           
+           if (IE) {
+                   XDoc=new ActiveXObject(getPID(PID));
+           }
+           else if (MOZ) {  // for Mozilla / Firefox
+                   XDoc=document.implementation.createDocument("","",null);
+           }
+           loadDoc(XDoc,xFile);
+           
+           return XDoc;
+       }
+       
+       /*
+        * 
+        * 
+        */
+       function init() {
+           
+           var headingElem = document.getElementById("heading");
+           
+           xmlDoc = createXDoc("stocks.xml", DOMPID);
+           xsltDoc = createXDoc("heading.xsl", DOMPID);
+           
+           if (IE) {
+                   headingElem.innerHTML=xmlDoc.transformNode(xsltDoc);
+           }
+           else if (MOZ){        
+/*
+ * 
+ *                
+               var xProcessor = new XSLTProcessor();
+               xProcessor.importStylesheet(xsltDoc);  // Import XSL doc, for DOM Node
+               filterGrants(xProcessor);  // set the style sheet parameter value
+               var resultDoc = xProcessor.transformToFragment(xmlDoc, document);
+               var Xserial = new XMLSerializer();
+               var Xstr = Xserial.serializeToString(resultDoc);     // xmlDoc, resultDoc
+               
+               grantTable.innerHTML = Xstr;
+
+ * @returns {String}
+ */               
+               xProcessor = new XSLTProcessor();
+               xProcessor.importStylesheet(xsltDoc);
+               var resultFragment = xProcessor.transformToFragment(xmlDoc, document);
+               headingElem.appendChild(resultFragment);
+           }
+           
+       }
+       
+       /*
+        * The purpose of this function is to determine which style sheet to "use" in the stock report
+        * Return:  the option selected report
+        */
+       function chooseReport() {
+           var xsltFile="";
+           
+           if (document.stockform.reports[0].checked) xsltFile="overview.xsl";
+           else if (document.stockform.reports[1].checked) xsltFile="current.xsl";
+           else if (document.stockform.reports[2].checked) xsltFile="fiveday.xsl";
+           else if (document.stockform.reports[3].checked) xsltFile="yearly.xsl";
+           
+           return xsltFile;  
+       }
+       
+       /*
+        * The purpose of this function is to determine which style sheet to "display" in the stock report
+        * Return:  the filter value
+        */
+       function chooseStock(){
+           
+           var filterStr;
+           var sIndex = document.stockform.symbol.selectedIndex;
+           var stockSymbol = document.stockform.symbol[sIndex].value;
+           
+           if (stockSymbol == "all_stocks") filterStr="//stock";
+           else filterStr="//stock[name/@symbol='"+stockSymbol+"']";
+           
+           return filterStr;
+       }
+        
+       /*
+        * The purpose of this function is to run the selected report and
+        * run the transformation and show results for a selected stock report
+        * 
+        * 
+        */
+       function showReport() {
+           var reportElem = document.getElementById("stock_report");
+           var reportFile = chooseReport();
+           var stock = chooseStock();
+           
+           if (reportFile=="" || stock=="") {
+               reportElem.innerHTML="";  // Clear out the output
+           }
+           else {
+               
+               var reportXSLT = createXDoc(reportFile, FreeThreadPID);
+               
+               if (IE){
+                   xTemplate = new ActiveXObject(getPID(TemplatePID));
+                   xTemplate.stylesheet = reportXSLT; 
+                   
+                   xProcessor = xTemplate.createProcessor();
+                   xProcessor.input = xmlDoc;
+                   xProcessor.addParameter("stocklist", xmlDoc.selectNodes(stock));
+                   
+                   xProcessor.transform();
+                   
+                   reportElem.innerHTML = xProcessor.output;
+               }
+               else if (MOZ) {   // for Mozilla
+                   xProcessor = new XSLTProcessor();
+                   xProcessor.importStylesheet(reportXSLT);
+                   xEval = new XPathEvaluator();
+                   xNodes = xEval.evaluate(stock,xmlDoc,null,0,null);
+                   xProcessor.setParameter(null,"stocklist",xNodes);
+                   
+                   resultDoc = xProcessor.transformToDocument(xmlDoc);
+                   var xSerial = new XMLSerializer();
+                   var xStr = xSerial.serializeToString(resultDoc);
+                   
+                   reportElem.innerHTML = xStr;
+               }
+            }  //else main 
+        }  // showreport
+   
+   </script>
+   
+</head>
+
+<body  onload="init()">
+   <div id="heading"></div>
+   <div id="stock_report"></div>
+</body>
+
+</html>

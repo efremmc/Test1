@@ -1,0 +1,23 @@
+/*
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 3
+
+   Lab Report Cascading Style Sheet
+
+   Filename:         lab.css
+   Supporting Files: 
+*/
+
+body                {background-color: rgb(255,243,207); color:blue}
+td, th              {vertical-align: top}
+table#labs          {font-size: 8pt; font-family: monospace; margin-top:10px}
+table#labs th, table#labs td 
+                    {width: 80px}
+table#labs th.title {width: 720px}
+table#labs th       {border: 1px solid blue; background-color:white}
+td.free             {background-color:green; color:white}
+td.reserved         {background-color:red; color:white}
+table#signup        {width: 650px}
+th, h1              {font-family: Arial, Helvetia, sans-serif}
+#labtable           {border-top: 1px solid blue; width: 720px}

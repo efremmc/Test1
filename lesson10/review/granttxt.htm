@@ -1,0 +1,114 @@
+<html>
+<head>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Review Assignment
+
+   The Lighthouse Charitable Trust
+   Author: 
+   Date:   
+
+   Filename:         grants.htm
+   Supporting Files: grants.css, grants.xml, grants.xsl, library.js, logo.jpg 
+
+-->
+   <title>Grant List</title>
+   <link href="grants.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <form name="dataform" id="dataform">
+
+   <div id="logo">
+      <img src="logo.jpg" alt="The Lighthouse" />
+      The Lighthouse<br />
+      543 Oak Street<br />
+      Delphi, KY &nbsp;&nbsp;89011<br/>
+      (542) 555-7511
+   </div>
+
+   <div id="gtable">
+      <table cellspacing="0" cellpadding="2">
+      <thead>
+      <tr><th colspan="5">List of Grants</th></tr>
+      <tr><th colspan="5" align="right">
+             <input id="filter" name="filter" size="60" />
+             <input type="button" value="Filter" />
+          </th>
+      </tr>
+      <tr>
+         <th width="100">
+            <a href="#">Category</a>
+         </th>
+         <th width="70">
+            <a href="#">Date</a>
+         </th>
+         <th width="100">
+            <a href="#">Title</a>
+         </th>
+         <th width="130">
+            <a href="#">Address</a>
+         </th>
+         <th width="70">
+            <a href="#">Amount</a>
+         </th>
+      </tr>
+      </thead>
+      </table>
+
+      <div id="gRows"></div>
+
+    </div>
+
+   <div id="data_entry">
+
+      <h3 style="margin: 0px">Enter a Grant</h3>
+      <table width="100%">
+      <tr>
+         <td>Date</td>
+         <td><input name="date" id="fdate" size="10" /></td>
+      </tr>
+      <tr>
+         <td>Title</td>
+         <td><input name="title" id="title" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>Category</td>
+         <td><input type="radio" name="category" /> Culture<br />
+             <input type="radio" name="category" /> Education<br />
+             <input type="radio" name="category" /> Human Services
+         </td>
+      </tr>
+      <tr>
+         <td>Amount</td>
+         <td><input name="amount" id="famount" size="7"  /></td>
+      </tr>
+      <tr>
+         <td>Street</td>
+         <td><input name="street" id="street" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>City</td>
+         <td><input name="city" id="city" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>State</td>
+         <td><input name="state" id="state" size="2" /></td>
+      </tr>
+      <tr>
+         <td>Zip</td>
+         <td><input name="zip" id="fzip" size="5"  /></td>
+      </tr>
+      <tr>
+         <td colspan="2" align="center"><hr />
+             <input type="button" value="Add Grant" />
+         </td>
+      </tr>
+      </table>
+   </div>
+
+</form>
+</body>
+
+</html>

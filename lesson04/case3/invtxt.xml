@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 3
+
+   GrillRite Grills Inventory Report
+   Author: 
+   Date:   
+
+   Filename:         inventory.xml
+   Supporting Files: inventory.xsd, models.xml, models.xsd, parts.xml, parts.xsd
+-->
+
+
+<inventory>
+
+</inventory>

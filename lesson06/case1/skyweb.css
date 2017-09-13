@@ -1,0 +1,22 @@
+/*
+   New Perspectives on XML
+   Tutorial 6
+   Case Problem 1
+
+   SkyWeb Cascading Style Sheet
+
+   Filename:         skyweb.css
+   Supporting Files: 
+*/
+
+body    {width: 640px}
+h1, h2  {font-family: sans-serif; width: 640px}
+h1      {text-align: center; margin: -10px; padding: 0px}
+h2      {margin-top: -5px}
+div     {width: 640px; border: 1px solid black; margin: 10px; padding: 10px;
+         background-color: rgb(245,245,245)}
+p img   {width: 200px; float: left; margin: 0px 15px 0px 0px}
+p       {text-align: justify}
+table   {width: 640px; clear: left; background-color: white}
+th      {font-family: sans-serif; color: white; background-color: rgb(102,102,102)}
+td      {text-align: right}

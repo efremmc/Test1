@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial Case
+
+   Tamoxifen Breast Cancer Patient List
+   Author: 
+   Date:   
+
+   Filename:         patients.xml
+   Supporting Files: pschema.xsd, patvb.xsd
+-->
+
+<patients>
+   <patient patID="MR890-041-02" onStudy="TBC-080-5">
+      <lastName>Dibbs</lastName>
+      <firstName>Cynthia</firstName>
+      <dateOfBirth>1945-05-22</dateOfBirth>
+      <age>62</age>
+      <stage>II</stage>
+      <performance scale="Karnofsky">0.81</performance>
+   </patient>
+   <patient patID="MR771-121-10" onStudy="TBC-080-5">
+      <lastName>Wilkes</lastName>
+      <firstName>Karen</firstName>
+      <dateOfBirth>1959-02-24</dateOfBirth>
+      <age>48</age>
+      <stage>II</stage>
+      <comment>Dropped out of study.</comment>
+      <performance scale="Karnofsky">0.84</performance>
+   </patient>
+   <patient patID="MR701-891-05" onStudy="TBC-080-5">
+      <lastName>Sanchez</lastName>
+      <firstName>Olivia</firstName>
+      <dateOfBirth>1958-08-14</dateOfBirth>
+      <age>49 years old</age>
+      <stage>II</stage>
+      <comment>Possibly stage I/II</comment>
+      <comment>Karnofsky performance rating unavailable.</comment>
+      <performance scale="Bell">0.89</performance>
+   </patient>
+   <patient patID="MR805-891-08" onStudy="TBC-080-5">
+      <lastName>Russell</lastName>
+      <firstName>Alice</firstName>
+      <dateOfBirth>1952-9-14</dateOfBirth>
+      <age>55</age>
+      <stage>II</stage>
+      <performance scale="Karnofsky">1.76</performance>
+   </patient>
+   <patient patID="mr815-741-03" onStudy="tbc-080-5">
+      <lastName>Browne</lastName>
+      <firstName>Brenda</firstName>
+      <dateOfBirth>1964-04-25</dateOfBirth>
+      <age>39</age>
+      <stage>I</stage>
+      <performance scale="Karnosfky">0.88</performance>
+   </patient>
+</patients>

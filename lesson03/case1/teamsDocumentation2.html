@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>DTD Grammar Documentation</title>
+<meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
+</head>
+
+<!-- Generated on Jan 27, 2015 by NetBeans XML module. -->
+<body>
+
+<hr />
+<h2>Element Index</h2>
+<ul><li><tt><a href="#City">City</a></tt></li>
+<li><tt><a href="#League">League</a></tt></li>
+<li><tt><a href="#Logo">Logo</a></tt></li>
+<li><tt><a href="#Player">Player</a></tt></li>
+<li><tt><a href="#Players">Players</a></tt></li>
+<li><tt><a href="#Team">Team</a></tt></li>
+<li><tt><a href="#Team_Name">Team_Name</a></tt></li>
+</ul>
+
+<hr />
+<h2>Element Details</h2>
+
+
+<hr />
+<h2><a name="League"></a>League</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#REQUIRED CDATA LName</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>(<a href="#Team">Team</a>)+</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt></tt></p>
+
+
+<hr />
+<h2><a name="Team"></a>Team</h2>
+
+<p><b>Element Content Model</b></p>
+<p><tt>(<a href="#Team_Name">Team_Name</a>&nbsp;| <a href="#City">City</a>&nbsp;| <a href="#Logo">Logo</a>&nbsp;| <a href="#Players">Players</a>)*</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#League">League</a></tt></p>
+
+
+<hr />
+<h2><a name="Team_Name"></a>Team_Name</h2>
+
+<p><b>Element Content Model</b></p>
+<p><tt>(#PCDATA)*</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#Team">Team</a></tt></p>
+
+
+<hr />
+<h2><a name="City"></a>City</h2>
+
+<p><b>Element Content Model</b></p>
+<p><tt>(#PCDATA)*</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#Team">Team</a></tt></p>
+
+
+<hr />
+<h2><a name="Logo"></a>Logo</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#REQUIRED CDATA Source</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>EMPTY</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#Team">Team</a></tt></p>
+
+
+<hr />
+<h2><a name="Players"></a>Players</h2>
+
+<p><b>Element Content Model</b></p>
+<p><tt>(<a href="#Player">Player</a>)*</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#Team">Team</a></tt></p>
+
+
+<hr />
+<h2><a name="Player"></a>Player</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#REQUIRED ENUMERATION ( Center | Forward | Guard ) Position</tt></li>
+<li><tt>#IMPLIED CDATA PPG</tt></li>
+<li><tt>#IMPLIED CDATA RPG</tt></li>
+<li><tt>#IMPLIED CDATA Assists</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>(#PCDATA)*</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#Players">Players</a></tt></p>
+</body></html>

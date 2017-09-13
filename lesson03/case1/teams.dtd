@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 1
+
+   EDL team rosters
+   Author: 
+   Date:   
+
+   Filename:         teams.dtd
+-->
+
+
+<!ELEMENT League (Team)+>
+<!ATTLIST League LName CDATA #REQUIRED>
+
+<!ELEMENT Team (Team_Name,City,Logo?,Players)+>
+<!ELEMENT Team_Name (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+
+<!ELEMENT Logo EMPTY>
+<!ATTLIST Logo Source CDATA #REQUIRED>
+
+<!ELEMENT Players (Player, Player, Player, Player, Player)>
+<!--
+
+<!ELEMENT Players (Player)*> or use fixed number of Players ...
+I noticed the last entry for the team "m" should not match, 
+has six (6) Players.
+
+<!ELEMENT Players (Player, Player, Player, Player, Player)>
+<!ATTLIST Player Position (Center | Forward | Guard) #REQUIRED>
+
+-->
+<!ELEMENT Player (#PCDATA)>
+<!ATTLIST Player Position (Center|Forward|Guard) #REQUIRED>
+<!ATTLIST Player PPG CDATA #IMPLIED>
+<!ATTLIST Player RPG CDATA #IMPLIED>
+<!ATTLIST Player Assists CDATA #IMPLIED>
+
+<!NOTATION BMP SYSTEM "image/bmp">
+
+<!--
+Use Unparsed Data:  1. Declaration of the notation  2. Create an unparsed entity that references 
+  specific items
+
+<!NOTATION notation SYSTEM "uri">
+<!NOTATION notation PUBLIC "id" "uri">
+
+<!ENTITY entity SYSTEM "uri" NDATA notation>
+<!ENTITY entity PUBLIC "id" "uri" NDATA notation>
+
+-->

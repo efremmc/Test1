@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Demographics:demographics xmlns:Demographics="http://www.zillow.com/static/xsd/Demographics.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.zillow.com/static/xsd/Demographics.xsd http://www.zillowstatic.com/vstatic/3c57147337494135ffafab2cd741b20e/static/xsd/Demographics.xsd">
+
+    <request>
+        
+        
+            <state>AZ</state>
+        
+        
+            <city>Mesa</city>
+        
+        
+            <neighborhood>Mesa</neighborhood>
+        
+             
+    </request>
+
+    <message>
+        <text>Request successfully processed</text>
+        <code>0</code>
+        
+    </message>
+
+
+    
+        <response>
+            <region>
+                <id>19331</id>
+                
+                    <state>Arizona</state>
+                
+                
+                    <city>Mesa</city>
+                
+                
+                             
+                <latitude>33.395498</latitude>
+                <longitude>-111.737758</longitude>
+                
+                    <zmmrateurl>http://www.zillow.com/mortgage-rates/az/mesa/</zmmrateurl>
+                
+            </region>
+            <links>
+                <main>http://www.zillow.com/local-info/AZ-Mesa/r_19331/</main>
+                <affordability>http://www.zillow.com/local-info/AZ-Mesa-home-value/r_19331/</affordability>
+                <homesandrealestate>http://www.zillow.com/local-info/AZ-Mesa-homes/r_19331/</homesandrealestate>
+                <people>http://www.zillow.com/local-info/AZ-Mesa-people/r_19331/</people>
+                <forSale>http://www.zillow.com/homes/for_sale/Mesa-AZ/</forSale>
+                <forSaleByOwner>http://www.zillow.com/homes/fsbo/Mesa-AZ/</forSaleByOwner>
+                <foreclosures>http://www.zillow.com/homes/for_sale/Mesa-AZ/fore_lt/0_mmm/</foreclosures>
+                <recentlySold>http://www.zillow.com/homes/recently_sold/Mesa-AZ/</recentlySold>
+            </links>
+            <charts>
+                <chart>
+                    <name>Median Condo Value</name>
+                    <url>http://www.zillow.com/app?chartType=affordability_avgCondoValue&amp;graphType=barChart&amp;regionId=19331&amp;regionType=6&amp;service=chart</url>
+                </chart>
+                <chart>
+                    <name>Median Home Value</name>
+                    <url>http://www.zillow.com/app?chartType=affordability_avgHomeValue&amp;graphType=barChart&amp;regionId=19331&amp;regionType=6&amp;service=chart</url>
+                </chart>
+                <chart>
+                    <name>Dollars Per Square Feet</name>
+                    <url>http://www.zillow.com/app?chartType=affordability_pricePerSqft&amp;graphType=barChart&amp;regionId=19331&amp;regionType=6&amp;service=chart</url>
+                </chart>
+                <chart>
+                    <name deprecated="true">Zillow Home Value Index Distribution</name>
+                    <url>http://www.zillow.com/app?chartType=affordability_ZindexByDistribution&amp;graphType=barChart&amp;regionId=19331&amp;regionType=6&amp;service=chart</url>
+                </chart>
+                <chart>
+                    <name>Home Type</name>
+                    <url>http://www.zillow.com/app?chartType=home_homeType&amp;graphType=barChart&amp;regionId=19331&amp;regionType=6&amp;service=chart</url>
+                </chart>
+                <chart>
+                    <name deprecated="true">Owners vs. Renters</name>
+                    <url>http://www.zillow.com/app?chartType=home_ownVsRent&amp;graphType=barChart&amp;regionId=19331&amp;regionType=6&amp;service=chart</url>
+                </chart>
+                <chart>
+                    <name>Home Size in Square Feet</name>
+                    <url>http://www.zillow.com/app?chartType=home_homeSize&amp;graphType=barChart&amp;regionId=19331&amp;regionType=6&amp;service=chart</url>
+                </chart>
+                <chart>
+                    <name>Year Built</name>
+                    <url>http://www.zillow.com/app?chartType=home_yearBuilt&amp;graphType=barChart&amp;regionId=19331&amp;regionType=6&amp;service=chart</url>
+                </chart>
+            </charts>
+            
+            
+   		<market deprecated="true">
+   			
+   		</market>        
+            
+        <pages>               
+ 		
+            <page>
+            <name>Affordability</name>
+ 			<tables>
+ 			
+			<table>   
+			<name>Affordability Data</name>
+			<data>
+			          
+	            
+	                  <attribute>                  
+						<name>Zillow Home Value Index</name>                     
+	                      <values>                       
+	                      
+	                              
+	                                  <city>
+	                                      <value type="USD">119800</value>
+	                                  </city>
+	                              
+	                     
+	                              
+	                                  <nation>
+	                                      <value type="USD">175200</value>
+	                                  </nation>
+	                              
+	                     
+	                      </values>                                         
+	                  </attribute>
+	              
+	                  <attribute>                  
+						<name>Median Single Family Home Value</name>                     
+	                      <values>                       
+	                      
+	                              
+	                                  <city>
+	                                      <value type="USD">129400</value>
+	                                  </city>
+	                              
+	                     
+	                              
+	                                  <nation>
+	                                      <value type="USD">177700</value>
+	                                  </nation>
+	                              
+	                     
+	                      </values>                                         
+	                  </attribute>
+	              
+	                  <attribute>                  
+						<name>Median Condo Value</name>                     
+	                      <values>                       
+	                      
+	                              
+	                                  <city>
+	                                      <value type="USD">67500</value>
+	                                  </city>
+	                              
+	                     
+	                              
+	                                  <nation>
+	                                      <value type="USD">157600</value>
+	                                  </nation>
+	                              
+	                     
+	                      </values>                                         
+	                  </attribute>
+	              
+	                  <attribute>                  
+						<name>Median 2-Bedroom Home Value</name>                     
+	                      <values>                       
+	                      
+	                              
+	                                  <city>
+	                                      <value type="USD">79400</value>
+	                                  </city>
+	                              
+	                     
+	                              
+	                                  <nation>
+	                                      <value type="USD">131100</value>
+	                                  </nation>
+	                              
+	                     
+	                      </values>                                         
+	                  </attribute>
+	              
+	                  <attribute>                  
+						<name>Median 3-Bedroom Home Value</name>                     
+	                      <values>                       
+	                      
+	                              
+	                                  <city>
+	                                      <value type="USD">113300</value>
+	                                  </city>
+	                              
+	                     
+	                              
+	                                  <nation>
+	                                      <value type="USD">160900</value>
+	                                  </nation>
+	                              
+	                     
+	                      </values>                                         
+	                  </attribute>
+	              
+	                  <attribute>                  
+						<name>Median 4-Bedroom Home Value</name>                     
+	                      <values>                       
+	                      
+	                              
+	                                  <city>
+	                                      <value type="USD">160000</value>
+	                                  </city>
+	                              
+	                     
+	                              
+	                                  <nation>
+	                                      <value type="USD">252700</value>
+	                                  </nation>
+	                              
+	                     
+	                      </values>                                         
+	                  </attribute>
+	                                        
+                                                                                   
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Percent Homes Decreasing</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value type="percent">0.927</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value type="percent">0.69</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Percent Listing Price Reduction</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value type="percent">0.379</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value type="percent">0.245</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Median List Price Per Sq Ft</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value type="USD">75</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value type="USD">105</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Median List Price</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value type="USD">117900</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value type="USD">189000</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Median Sale Price</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value type="USD">133400</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value type="USD">193400</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Homes For Sale</name>
+	                       <values>
+	                       
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Homes Recently Sold</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value>1178</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value>284949</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Property Tax</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value type="USD">960</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value type="USD">2198</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Turnover (Sold Within Last Yr.)</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value type="percent">0.077</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value type="percent">0.037</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+	              	
+	              
+	              	
+	                   <attribute>                   
+	                       <name>Median Value Per Sq Ft</name>
+	                       <values>
+	                       
+	                       
+	                               
+	                                   <city>
+	                                       <value type="USD">73</value>
+	                                   </city>
+	                               
+	                       
+	                               
+	                                   <nation>
+	                                       <value type="USD">105</value>
+	                                   </nation>
+	                               
+	                       
+	                       </values>                      
+	                   </attribute>
+	                  
+	              
+                                                                    
+				<attribute>                   
+	            	<name>1-Yr. Change</name>
+	                <values>
+	                       
+	                 
+	                 	 
+	                     	<city>
+	                        	<value type="percent">-0.119</value>                                     
+	                    	</city>
+	                	
+	                 
+	                 	 
+	                     	<nation>
+	                        	<value type="percent">-0.059</value>                                     
+	                    	</nation>
+	                	
+	                 
+	                 </values>                      
+	            </attribute>
+	          
+	 			<attribute>                   
+	            	<name>>Homes For Sale By Owner</name>
+	                <values>	                       
+	                 
+	                 	 
+	                     <city>	
+	                        	<value>8</value> 
+	                     </city>                               	
+	                	
+	                 
+	                 	 
+	                     <nation>	
+	                        	<value>7071</value> 
+	                     </nation>                               	
+	                	
+	                 
+	                 </values>                      
+	            </attribute>
+            
+	  			<attribute>                   
+	            	<name>>New Construction</name>
+	                <values>	                       
+	                 
+	                 	 
+	                     <city>	
+	                        	<value>135</value> 
+	                     </city>                               	
+	                	
+	                 
+	                 	 
+	                     <nation>	
+	                        	<value>71228</value> 
+	                     </nation>                               	
+	                	
+	                 
+	                 </values>                      
+	            </attribute>
+            
+	   			<attribute>                   
+	            	<name>>Foreclosures</name>
+	                <values>	                       
+	                 
+	                 	 
+	                     <city>	
+	                        	<value>3815</value> 
+	                     </city>                               	
+	                	
+	                 
+	                 	 
+	                     <nation>	
+	                        	<value>546643</value> 
+	                     </nation>                               	
+	                	
+	                 
+	                 </values>                      
+	            </attribute>           
+            
+         
+	            </data>      
+	            </table>
+	            </tables>             
+	            </page>
+                       
+             
+             
+	            <page>
+	                <name>Homes &amp; Real Estate</name>
+	                <tables>
+	                    <table>
+	                        <name>Homes &amp; Real Estate Data</name>
+	                        
+<data>
+
+	<attribute>
+		<name>Owners</name>
+		<values>
+			
+			
+			
+				<city>
+	<value type="percent">0.66528329</value>
+
+
+</city>
+			
+			
+			
+			
+				<nation>
+	<value type="percent">0.66268764</value>
+
+
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Renters</name>
+		<values>
+			
+			
+			
+				<city>
+	<value type="percent">0.33471671</value>
+
+
+</city>
+			
+			
+			
+			
+				<nation>
+	<value type="percent">0.33731236</value>
+
+
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Median Home Size (Sq. Ft.)</name>
+		<values>
+			
+			
+			
+				<city>
+
+
+	<value>1542</value>
+</city>
+			
+			
+			
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Avg. Year Built</name>
+		<values>
+			
+			
+			
+				<city>
+
+
+	<value>1984</value>
+</city>
+			
+			
+			
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Single-Family Homes</name>
+		<values>
+			
+			
+			
+				<city>
+	<value type="percent">0.7015080107106</value>
+
+
+</city>
+			
+			
+			
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Condos</name>
+		<values>
+			
+			
+			
+				<city>
+	<value type="percent">0.1582552615008</value>
+
+
+</city>
+			
+			
+			
+			
+			
+		</values>
+	</attribute>
+
+</data>
+
+	                    </table>
+	                    
+	                    <table>
+	                        <name>BuiltYear</name>
+	                        <data>
+	                        
+	                            
+	                            <attribute>
+	                                <name>&lt;1900</name>
+	                                
+	<value type="percent">1.274303995E-4</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>&gt;2000</name>
+	                                
+	<value type="percent">0.1741638218388</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>1900-1919</name>
+	                                
+	<value type="percent">6.773931764E-4</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>1920-1939</name>
+	                                
+	<value type="percent">0.0036753609969</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>1940-1959</name>
+	                                
+	<value type="percent">0.0452176712429</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>1960-1979</name>
+	                                
+	<value type="percent">0.294652618024</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>1980-1999</name>
+	                                
+	<value type="percent">0.4814857043212</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                        </data>
+	                    </table>
+	                    
+	                    <table>
+	                        <name>Census Summary-HomeSize</name>
+	                        <data>
+	                        
+	                            
+	                            <attribute>
+	                                <name>&lt;1000sqft</name>
+	                                
+	<value type="percent">0.1005393318472</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>&gt;3600sqft</name>
+	                                
+	<value type="percent">0.0324935132512</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>1000-1400sqft</name>
+	                                
+	<value type="percent">0.2904657098858</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>1400-1800sqft</name>
+	                                
+	<value type="percent">0.2756006834818</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>1800-2400sqft</name>
+	                                
+	<value type="percent">0.1921413654166</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>2400-3600sqft</name>
+	                                
+	<value type="percent">0.1083374937593</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                        </data>
+	                    </table>
+	                    
+	                    <table>
+	                        <name>Census Summary-HomeType</name>
+	                        <data>
+	                        
+	                            
+	                            <attribute>
+	                                <name>Condo</name>
+	                                
+	<value type="percent">0.1582552615008</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Other</name>
+	                                
+	<value type="percent">1.0091239725930998</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>SingleFamily</name>
+	                                
+	<value type="percent">0.7015080107106</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                        </data>
+	                    </table>
+	                    
+	                    <table>
+	                        <name>Census Summary-Occupancy</name>
+	                        <data>
+	                        
+	                            
+	                            <attribute>
+	                                <name>Own</name>
+	                                
+	<value type="percent">0.66528329</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Rent</name>
+	                                
+	<value type="percent">0.33471671</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                        </data>
+	                    </table>
+	                    
+	                </tables>
+	            </page>
+	            <page>
+	                <name>People</name>
+	                <tables>
+	                    <table>
+	                        <name>People Data</name>
+	                        
+<data>
+
+	<attribute>
+		<name>Median Household Income</name>
+		<values>
+			
+			
+			
+				<city>
+
+	<value currency="USD">42817</value>
+
+</city>
+			
+			
+			
+			
+				<nation>
+
+	<value currency="USD">44512.0130806292</value>
+
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Single Males</name>
+		<values>
+			
+			
+			
+				<city>
+	<value type="percent">0.144092096251462</value>
+
+
+</city>
+			
+			
+			
+			
+				<nation>
+	<value type="percent">0.146462187349365</value>
+
+
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Single Females</name>
+		<values>
+			
+			
+			
+				<city>
+	<value type="percent">0.11402907992227</value>
+
+
+</city>
+			
+			
+			
+			
+				<nation>
+	<value type="percent">0.124578258618535</value>
+
+
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Median Age</name>
+		<values>
+			
+			
+			
+				<city>
+
+
+	<value>34</value>
+</city>
+			
+			
+			
+			
+				<nation>
+
+
+	<value>36</value>
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Homes With Kids</name>
+		<values>
+			
+			
+			
+				<city>
+	<value type="percent">0.313197000681663</value>
+
+
+</city>
+			
+			
+			
+			
+				<nation>
+	<value type="percent">0.313623902816284</value>
+
+
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Average Household Size</name>
+		<values>
+			
+			
+			
+				<city>
+
+
+	<value>2.68</value>
+</city>
+			
+			
+			
+			
+				<nation>
+
+
+	<value>2.58883240001203</value>
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+	<attribute>
+		<name>Average Commute Time (Minutes)</name>
+		<values>
+			
+			
+			
+				<city>
+
+
+	<value>27.40524995480023</value>
+</city>
+			
+			
+			
+			
+				<nation>
+
+
+	<value>26.375545725891282</value>
+</nation>
+			
+			
+		</values>
+	</attribute>
+
+</data>
+
+	                    </table>
+	                    
+	                    <table>
+	                        <name>Census Summary-AgeDecade</name>
+	                        <data>
+	                        
+	                            
+	                            <attribute>
+	                                <name>&gt;=70s</name>
+	                                
+	<value type="percent">0.0993970519743716</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>0s</name>
+	                                
+	<value type="percent">0.157650139093438</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>10s</name>
+	                                
+	<value type="percent">0.144397870171066</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>20s</name>
+	                                
+	<value type="percent">0.164671525496268</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>30s</name>
+	                                
+	<value type="percent">0.146633435293229</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>40s</name>
+	                                
+	<value type="percent">0.130146142517277</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>50s</name>
+	                                
+	<value type="percent">0.091096761199854</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>60s</name>
+	                                
+	<value type="percent">0.0660070742544969</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                        </data>
+	                    </table>
+	                    
+	                    <table>
+	                        <name>Census Summary-CommuteTime</name>
+	                        <data>
+	                        
+	                            
+	                            <attribute>
+	                                <name>&lt;10min</name>
+	                                
+	<value type="percent">0.103089405170855</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>&gt;=60min</name>
+	                                
+	<value type="percent">0.0599970620141023</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>10-20min</name>
+	                                
+	<value type="percent">0.281820647260893</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>20-30min</name>
+	                                
+	<value type="percent">0.226716461760984</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>30-45min</name>
+	                                
+	<value type="percent">0.199404492858434</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>45-60min</name>
+	                                
+	<value type="percent">0.128971930934732</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                        </data>
+	                    </table>
+	                    
+	                    <table>
+	                        <name>Census Summary-Household</name>
+	                        <data>
+	                        
+	                            
+	                            <attribute>
+	                                <name>NoKids</name>
+	                                
+	<value type="percent">0.686802999318337</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>WithKids</name>
+	                                
+	<value type="percent">0.313197000681663</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                        </data>
+	                    </table>
+	                    
+	                    <table>
+	                        <name>Census Summary-RelationshipStatus</name>
+	                        <data>
+	                        
+	                            
+	                            <attribute>
+	                                <name>Divorced-Female</name>
+	                                
+	<value type="percent">0.0597655648366917</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Divorced-Male</name>
+	                                
+	<value type="percent">0.0460546796915706</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Married-Female</name>
+	                                
+	<value type="percent">0.285444637058058</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Married-Male</name>
+	                                
+	<value type="percent">0.287781123938668</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Single-Female</name>
+	                                
+	<value type="percent">0.11402907992227</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Single-Male</name>
+	                                
+	<value type="percent">0.144092096251462</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Widowed-Female</name>
+	                                
+	<value type="percent">0.0504294482548442</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                            
+	                            <attribute>
+	                                <name>Widowed-Male</name>
+	                                
+	<value type="percent">0.0124033700464348</value>
+
+
+
+	                            </attribute>
+	                            
+	                        
+	                        </data>
+	                    </table>
+	                    
+	                </tables>
+	                
+	                
+	                    <segmentation>
+	                        
+	                            
+	                                <liveshere>
+	                                    <title>Stable Nuclears</title>
+	                                    <name>Higher-income urban family.</name>
+	                                    <description>Middle-age couples with children, pulling in combined household incomes nearing six figures. Most own their own homes. Some have a college education and work in a variety of occupations, including management-level positions.</description>
+	                                </liveshere>
+	                            
+	                                <liveshere>
+	                                    <title>Home of the Brave</title>
+	                                    <name>Military veterans. These people have served in the armed forces.</name>
+	                                    <description>People who are military veterans.</description>
+	                                </liveshere>
+	                            
+	                                <liveshere>
+	                                    <title>Golden Years</title>
+	                                    <name>Seniors over 65 who live in the city.</name>
+	                                    <description>Most own their own home and have a low to moderate income. Most have a high school education or lower, while some have a college education.</description>
+	                                </liveshere>
+	                            
+	                                <liveshere>
+	                                    <title>Suburban Retirees</title>
+	                                    <name>Seniors over 65 who live in the suburbs.</name>
+	                                    <description>These seniors are living out their retirement years in suburbia. Most own their homes, and some have college degrees.</description>
+	                                </liveshere>
+	                            
+	                                <liveshere>
+	                                    <title>Wide Open Foyers</title>
+	                                    <name>Suburban families living in large houses.</name>
+	                                    <description>These well-off married couples with children own their own homes, and the homes are bigger than average. Age ranges from the mid-30s to the upper 50s. Most are highly educated professionals, many with advanced degrees.</description>
+	                                </liveshere>
+	                             
+	                        
+	                    </segmentation>
+	                
+	                
+	                
+	                    <uniqueness>
+	                        
+	                            <category type="Education">
+	                                
+	                                    <characteristic>Associate degrees</characteristic>
+	                                
+	                                    <characteristic>Bachelor's degrees</characteristic>
+	                                
+	                                    <characteristic>Did not complete college</characteristic>
+	                                
+	                                    <characteristic>High school graduates</characteristic>
+	                                 
+	                            </category>
+	                        
+	                            <category type="Employment">
+	                                
+	                                    <characteristic>Work in sales and related occupations</characteristic>
+	                                 
+	                            </category>
+	                        
+	                            <category type="Income">
+	                                
+	                                    <characteristic>High rent compared to income</characteristic>
+	                                 
+	                            </category>
+	                        
+	                            <category type="People &amp; Culture">
+	                                
+	                                    <characteristic>Born in the Midwest</characteristic>
+	                                
+	                                    <characteristic>Retirees</characteristic>
+	                                
+	                                    <characteristic>Widowed females</characteristic>
+	                                 
+	                            </category>
+	                        
+	                            <category type="Transportation">
+	                                
+	                                    <characteristic>Drive to work alone</characteristic>
+	                                 
+	                            </category>
+	                        
+	                    </uniqueness>
+	                
+	            </page>
+	            
+	            
+            </pages>
+            
+        </response>
+    
+</Demographics:demographics><!-- H:120  T:229ms  S:36696  R:Thu Feb 24 04:15:38 PST 2011  B:3.0.104745.20110223.055158-comp_rel_b -->

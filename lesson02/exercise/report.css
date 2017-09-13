@@ -1,0 +1,27 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Tutorial Case
+   Filename: report.css
+
+
+   This file contains styles used in the product report page
+
+*/
+
+h1 
+     {text-decoration: underline}
+
+h1, h2   
+     {font-family: Arial, Helvetica, sans-serif}
+
+span 
+     {text-decoration: underline; margin-right: 10px}
+
+table 
+     {width: 600px}
+
+tr   
+     {text-align: left; font-family: Arial, Helvetica, sans-serif}
+
+

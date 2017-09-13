@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 3
+
+   Lab Schedule for 9/21/2008
+
+   Filename:         20080921.xml
+   Supporting Files: 
+-->
+
+<labs date="9/21/2008">
+   <lab name="Lab A">
+      <slot time="9:00 am">Math 100, Discussion 101</slot>
+      <slot time="10:00 am">Math 100, Discussion 102</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">free</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">Math 100 Discussion 103</slot>
+      <slot time="4:00 pm">Writing Workshop</slot>
+   </lab>
+   <lab name="Lab B">
+      <slot time="9:00 am">free</slot>
+      <slot time="10:00 am">free</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">free</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">free</slot>
+      <slot time="4:00 pm">Writing Workshop</slot>
+   </lab>
+   <lab name="Lab C">
+      <slot time="9:00 am">free</slot>
+      <slot time="10:00 am">free</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">free</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">Math 100 Discussion 104</slot>
+      <slot time="3:00 pm">Math 100 Discussion 105</slot>
+      <slot time="4:00 pm">free</slot>
+   </lab>
+   <lab name="Lab D">
+      <slot time="9:00 am">CS 998 Seminar</slot>
+      <slot time="10:00 am">CS 998 Seminar</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">free</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">free</slot>
+      <slot time="4:00 pm">free</slot>
+   </lab>
+   <lab name="Lab E">
+      <slot time="9:00 am">free</slot>
+      <slot time="10:00 am">free</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">MWU Tutoring Service</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">free</slot>
+      <slot time="4:00 pm">Writing Workshop</slot>
+   </lab>
+   <lab name="Lab F">
+      <slot time="9:00 am">free</slot>
+      <slot time="10:00 am">free</slot>
+      <slot time="11:00 am">free</slot>
+      <slot time="12:00 pm">MWU Tutoring Service</slot>
+      <slot time="1:00 pm">free</slot>
+      <slot time="2:00 pm">free</slot>
+      <slot time="3:00 pm">free</slot>
+      <slot time="4:00 pm">Writing Workshop</slot>
+
+   </lab>
+</labs>

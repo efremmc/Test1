@@ -1,0 +1,44 @@
+/*
+   New Perspectives on XML
+   Tutorial 7
+   Tutorial Case
+
+   Wizard Works Cascading Style Sheet
+
+   Filename:         works.css
+   Supporting Files: 
+*/
+
+body                      {width: 620px}
+th, h1                    {font-family:Arial, Helvetica,sans-serif}
+h1                        {border-bottom: 3px solid blue; color:blue; letter-spacing: 4px;
+                           margin-bottom: -30px; width: 620px}
+td, th                    {vertical-align: top}
+
+table.summary             {font-size:8pt; position:absolute; top:5px; left:450px; 
+                           background-color: rgb(212, 212, 255);width: 180px}
+th#summtitle              {text-align: center; background-color: white; width: 180px}
+table.summary th          {text-align: left; width: 60px}
+table.summary td          {background-color: white; text-align: right; width: 120px}
+
+table.custinfo            {position:relative; left: 320px; margin-top:40px; font-size: 9pt; 
+                          width: 300px}
+table.custinfo th         {text-align: left; vertical-align: top}
+
+table.orderinfo           {font-size: 9pt; width: 620px}
+table.orderinfo th        {background-color: rgb(254, 235, 80)}
+table.orderinfo td        {text-align: right}
+
+table.orderinfo td.grand  {font-weight: bold; text-align: right;
+                           background-color: rgb(96, 99, 220); color: white; font-size: 12pt}
+table.orderinfo th.grand  {font-weight: bold; text-align: right;
+                           background-color: rgb(96, 99, 220); color: white; font-size: 12pt; 
+                           letter-spacing: 2px}
+
+table.orderinfo td.sub    {text-align: right; background-color: rgb(212, 212, 255)}
+table.orderinfo th.sub    {text-align: right; background-color: rgb(212, 212, 255)}
+
+table.orderinfo td.tdtext {text-align: left}
+
+
+

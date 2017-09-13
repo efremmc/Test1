@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 2
+
+   EPAC-MO List of Contributors
+
+   Filename:         contrib.xml
+   Supporting Files: 
+-->
+
+      <contributions>
+         <contributor id="c001" canvasser="a01">
+            <name>
+               <firstName>David</firstName>
+               <lastName>Lee</lastName>
+            </name>
+            <address>
+               <street>212 West Advent St.</street>
+               <city>Cutler</city>
+               <state>MO</state>
+               <zip>32815</zip>
+            </address>
+            <phone>555-7812</phone>
+            <donated>150</donated>
+         </contributor>
+         <contributor id="c002" canvasser="a01">
+            <name>
+               <firstName>Karen</firstName>
+               <lastName>Belaska</lastName>
+            </name>
+            <address>
+               <street>500 Maple Ln.</street>
+               <city>Cutler</city>
+               <state>MO</state>
+               <zip>32817</zip>
+            </address>
+            <phone>555-3219</phone>
+            <donated>$50.00</donated>
+         </contributor>
+         <contributor id="c003" canvasser="a02">
+            <name>
+               <firstName>Alice</firstName>
+               <lastName>Sanchez</lastName>
+            </name>
+            <address>
+               <street>5 North St.</street>
+               <city>Davidton</city>
+               <state>Missouri</state>
+               <zip>39810</zip>
+            </address>
+            <donated>225</donated>
+         </contributor>
+         <contributor id="c004" canvasser="a01">
+            <name>
+               <firstName>Allen</firstName>
+               <lastName>Chmurutra</lastName>
+            </name>
+            <address>
+               <street>400 Main St.</street>
+               <city>Davidton</city>
+               <state>MO</state>
+               <zip>39112</zip>
+            </address>
+            <donated>125</donated>
+         </contributor>
+         <contributor id="c005" canvasser="a02">
+            <name>
+               <firstName>Cynthia</firstName>
+               <lastName>Whyte</lastName>
+            </name>
+            <address>
+               <street>657 Hemisphere Dr.</street>
+               <city>Cutler</city>
+               <state>MO</state>
+               <zip>31287</zip>
+            </address>
+            <phone>555-0923</phone>
+            <donated>50</donated>
+         </contributor>
+         <contributor id="c006" canvasser="a-02">
+            <name>
+               <firstName>Alison</firstName>
+               <lastName>Heart</lastName>
+            </name>
+            <address>
+               <street>622 Hemisphere Dr.</street>
+               <city>Cutler</city>
+               <state>MO</state>
+               <zip>31287</zip>
+            </address>
+            <phone>555-0923</phone>
+            <phone>555-9099</phone>
+            <donated>100</donated>
+         </contributor>
+      </contributions>

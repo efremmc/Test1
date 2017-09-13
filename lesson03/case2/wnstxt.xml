@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 2
+
+   WNS news feed
+   Author: 
+   Date:   
+
+   Filename:         wns.xml
+   Supporting Files: articles.dtd, headlines.xml, images.dtd, news.dtd
+ 
+-->
+
+<news_feed>
+
+</news_feed>

@@ -1,0 +1,371 @@
+<html>
+    <head>
+ <!--
+   New Perspectives on XML
+   Tutorial 10
+   Review Assignment
+
+   The Lighthouse Charitable Trust
+   Author:      Efrem McCrimon
+   Date:   
+
+   Filename:         grants.html
+   Supporting Files: grants.css, grants.xml, grants.xsl, library.js, logo.jpg 
+
+ -->
+ 
+   <title>Grant List</title>
+   <link href="grants.css" rel="stylesheet" type="text/css"/>
+   
+    <script type="text/javascript" src="library.js"></script>      
+
+    <script type="text/javascript">
+       var IE = window.ActiveXObject ? true:false;
+       var MOZ = document.implementation.createDocument ? true:false;
+       // var MOZ = window.XMLHttpRequest ? true:false;
+       // var reqObj = new XMLHttpRequest();
+       
+       var xmlFile = "grants.xml";  // Source XML document is xmlFile
+       var xsltFile = "grants.xsl"; // XSLT style sheet document is xsltFile
+       
+       var xmlDoc;  // Source XML document, XMLdoc is now xmlDoc
+       var xsltDoc; // XSLT style sheet document, XSLTdoc is now xsltDoc
+       var xTemplate;  // IE template document, XSLTemp is now xTemplate
+       var xProcessor;  // IE processed document, XSLTProc is now xProcessor
+       
+       var selectValue  = "date";   // selection value for sort 
+       var currentSelect = "date";   // selection value for sort 
+       var currentDataType = "text";  // selection of datatype for text, numeric, alpha
+       var currentOrder = "descending";  // Sort direction for ascending or descending
+     
+       /*
+        * Function:  loadDoc(docObj, url)
+        * This functions loads the document object from external files.
+        * 
+        * @param {type} document - Object name
+        * @param {type} file - filename
+        * @returns {undefined}
+        */
+       function loadDoc(document, file) {
+           document.async=false;
+           document.load(file);
+       }
+ 
+        function myFunction2() {
+            document.getElementById("demo").innerHTML = "selectValue is "+selectValue;
+        }
+       
+       /*
+        * Function:  load Mozilla/Firefox file, specific to browser support
+        * @param {type} XSLTProc
+        * @returns {undefined}
+        */
+        function loadXML(file) {
+           XMLDoc.async=false;
+           XMLDoc.load(file);
+           var Xserial = new XMLSerializer();
+           var Xstr = Xserial.serializeToString(XMLDoc);
+           document.getElementById("domOutput").value=Xstr;
+        }       
+
+    
+           /*
+        * 
+        * We will do a select statement that will so out filter in XSL
+        */
+       function filterGrants(xProcessor) {
+           
+             //  var filterStr=document.dataform.filter.value;
+             var currentFilter;
+               
+               if (document.dataform.filter.value == "") currentFilter="//grant";
+               else currentFilter="//grant["+document.dataform.filter.value+"]";
+               
+               if (IE) {
+                   var xNodes = xmlDoc.selectNodes(currentFilter);
+                   
+                   xProcessor.addParameter("group", xNodes);  // This is for processor
+               } else if (MOZ) {
+                   var xEval = new XPathEvaluator();
+                   var xNodes = xEval.evaluate(currentFilter, xmlDoc, null, 0, null);
+                   // XSLTProc.setParameter(uri, filter, value);
+                   xProcessor.setParameter(null, "group", xNodes);
+               }
+           
+       }  
+       
+       /*
+        * Function:  TransformDoc()
+        * Purpose:
+        * 
+        * @returns {undefined}
+        */
+    
+       function TransformDoc() {
+           
+           var grantTable = document.getElementById("gRows");
+           
+           sortGrants();   // Sort selection, default is by date
+           if (IE) {
+               xTemplate.stylesheet=xsltDoc;
+               xProcessor = xTemplate.createProcessor();
+               //  xProcessor.input = xmlDoc; //was here
+               xProcessor.input = xmlDoc;
+               filterGrants(xProcessor);  // set the style sheet parameter value
+              // xProcessor.input = xmlDoc;
+               xProcessor.transform();
+               
+               grantTable.innerHTML = xProcessor.output;
+           }
+           else if (MOZ) { // if (MOZ)
+
+               //var XSLTProc= new XSLTProcessor();  // new XSLTProcessor();
+               // We know we can use XMLHttpRequest() to transform XSLT
+               var xProcessor = new XSLTProcessor();
+               
+               xProcessor.importStylesheet(xsltDoc);  // Import XSL doc, for DOM Node
+                 
+              // filterGrants(xsltDoc);  // set the style sheet parameter value
+               filterGrants(xProcessor);  // set the style sheet parameter value
+               var resultDoc = xProcessor.transformToFragment(xmlDoc, document);
+               
+               var Xserial = new XMLSerializer();
+               var Xstr = Xserial.serializeToString(resultDoc);     // xmlDoc, resultDoc
+               
+               grantTable.innerHTML = Xstr;
+      
+               // document.writeln("<p>MOZ is " + MOZ + "</p>");
+               // document.writeln("<p>IE is " + IE + "</p>");
+
+           }
+       }
+       
+       /*
+        * Function:  addGrant()
+        *  Add function to add a new Grant record into the source document
+        *  by using a cloning method
+        * 
+        */
+       function addGrant() {
+           
+           var oldGrant=xmlDoc.getElementsByTagName("grant")[0];
+           var clone=oldGrant.cloneNode(true);
+           var tempCategory = "";
+                      
+           removeWhiteSpaceNodes(clone);
+           //  Capture values from the user's input 
+           clone.childNodes[0].firstChild.nodeValue=document.dataform.title.value;
+           clone.childNodes[1].firstChild.nodeValue=document.dataform.street.value;
+           clone.childNodes[2].firstChild.nodeValue=document.dataform.city.value;
+           clone.childNodes[3].firstChild.nodeValue=document.dataform.state.value;
+           clone.childNodes[4].firstChild.nodeValue=document.dataform.zip.value;
+           clone.childNodes[5].firstChild.nodeValue=document.dataform.amount.value;
+           clone.childNodes[6].firstChild.nodeValue=document.dataform.date.value;
+           
+           // Upon selection, sort by selected option
+           /*
+            *
+            * name="category" /> Culture<br />
+              name="category" /> Education<br />
+              name="category" /> Human Services
+            */
+           if (document.dataform.category[0].checked) tempCategory="Culture";
+           else if (document.dataform.category[1].checked) tempCategory="Education";
+           else if (document.wdataform.category[2].checked) tempCategory="Human Services";
+           clone.childNodes[7].firstChild.nodeValue=tempCategory;
+                     
+           xmlDoc.documentElement.appendChild(clone);
+           TransformDoc();
+           resetForm();
+       }
+              
+       /*
+     
+        *  Sort list by selected checkbox
+        *  IE specific if IE is interpeted 
+        *  Mozilla code is pending....
+        *  We use the XSLT URI for the XSLT namespace
+        *  We act on the button action to sort
+        *  
+        *  onclick="TransformDoc()"
+        */
+       function sortGrants() {
+           
+           if (IE) {
+               
+               xsltDoc = new ActiveXObject(getPID(FreeThreadPID));
+               loadDoc(xsltDoc, xsltFile);
+               var sortNode=xsltDoc.getElementsByTagName("xsl:sort")[0];
+           } else if (MOZ) {
+               // pending code
+               var xNS="http://www.w3.org/1999/XSL/Transform";
+               var sortNode=xsltDoc.getElementsByTagNameNS(xNS, "sort")[0];
+           }
+           
+           /*
+            * 
+           // Upon selection, sort by selected option
+           // We need to use as a toggle for ascending and descending
+           var selectValue  = "date";   // selection value for sort 
+           var currentSelect = "date";   // selection value for sort 
+           var currentDataType = "text";  // selection of datatype for text, numeric, alpha
+           var currentOrder = "descending";  // Sort direction for ascending or descending
+           
+           I created logic for the variable setting of selectValue using Event 
+           execution when the user clicks the title heading.
+        
+           */
+          
+           if (selectValue == currentSelect) {
+               if (currentOrder == "ascending") currentOrder = "descending";
+               else currentOrder="ascending";
+           } else if (selectValue != currentSelect) currentSelect = selectValue;
+           
+           if (currentSelect == "amount") currentDataType = "number";
+           else currentDataType = "text";
+          
+           //  Set sorting attributes            
+           //  sortNode.setAttribute("select", select);
+           sortNode.setAttribute("select", currentSelect);
+           sortNode.setAttribute("data-type", currentDataType);
+           sortNode.setAttribute("order", currentOrder);
+           
+       }       
+       
+
+       /*
+        *  Function:  init()
+        * 
+        */
+       function myinit() {
+           if (IE) {
+               xmlDoc = new ActiveXObject(getPID(DOMPID));
+               xsltDoc = new ActiveXObject(getPID(FreeThreadPID));  
+               xTemplate = new ActiveXObject(getPID(TemplatePID));
+           }
+           else if (MOZ) {  //if (MOZ)
+               
+               xmlDoc = document.implementation.createDocument("","",null);
+               xsltDoc = document.implementation.createDocument("","",null);
+               
+           }
+           loadDoc(xmlDoc, xmlFile);
+           loadDoc(xsltDoc, xsltFile);  
+           
+           TransformDoc(); // Apply transformation
+         
+       }
+
+   </script>
+   
+</head>
+   
+
+
+
+<body onload="myinit()">
+<form name="dataform" id="dataform">
+
+<div id="logo">
+  <img src="logo.jpg" alt="The Lighthouse" />
+  The Lighthouse<br />
+  543 Oak Street<br />
+  Delphi, KY &nbsp;&nbsp;89011<br/>
+  (542) 555-7511
+</div>
+
+<div id="gtable">
+  <table cellspacing="0" cellpadding="2">
+  <thead>
+  <tr><th colspan="5">List of Grants</th></tr>
+  <tr><th colspan="5" align="right">
+     <input id="filter" name="filter" size="60" />
+
+     <!--   Set filter on button below  onclick="TransformDoc()"
+     code is working, I created a sample testing tool and <div id="demo"> </div>
+     Calling myfunction2() to show "hello world"
+
+     Sample for testing:
+     <a href="javascript:void(0)" onclick="selectValue='category';myFunction2()">Category</a>
+
+     -->
+     <input type="button" value="Filter" onclick="TransformDoc()" />
+      </th>
+  </tr>
+  <tr>
+     <th width="100">
+        <a href="javascript:void(0)" onclick="selectValue='category';TransformDoc()">Category</a>
+     </th>
+     <th width="70">
+        <a href="javascript:void(0)" onclick="selectValue='date';TransformDoc()">Date</a>
+     </th>
+     <th width="100">
+        <a href="javascript:void(0)" onclick="selectValue='title';TransformDoc()">Title</a>
+     </th>
+     <th width="130">
+        <a href="javascript:void(0)" onclick="selectValue='address';TransformDoc()">Address</a>
+     </th>
+     <th width="70">
+        <a href="javascript:void(0)" onclick="selectValue='amount';TransformDoc()">Amount</a>
+     </th>
+  </tr>
+  </thead>
+  </table>
+
+  <div id="demo"></div>
+
+  <div id="gRows"></div>
+
+</div>
+
+   <div id="data_entry">
+
+      <h3 style="margin: 0px">Enter a Grant</h3>
+      <table width="100%">
+      <tr>
+         <td>Date</td>
+         <td><input name="date" id="fdate" size="10" /></td>
+      </tr>
+      <tr>
+         <td>Title</td>
+         <td><input name="title" id="title" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>Category</td>
+         <td><input type="radio" name="category" /> Culture<br />
+             <input type="radio" name="category" /> Education<br />
+             <input type="radio" name="category" /> Human Services
+         </td>
+      </tr>
+      <tr>
+         <td>Amount</td>
+         <td><input name="amount" id="famount" size="7"  /></td>
+      </tr>
+      <tr>
+         <td>Street</td>
+         <td><input name="street" id="street" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>City</td>
+         <td><input name="city" id="city" size="30"  /></td>
+      </tr>
+      <tr>
+         <td>State</td>
+         <td><input name="state" id="state" size="2" /></td>
+      </tr>
+      <tr>
+         <td>Zip</td>
+         <td><input name="zip" id="fzip" size="5"  /></td>
+      </tr>
+      <tr>
+         <td colspan="2" align="center"><hr />
+             <input type="button" value="Add Grant" onclick="addGrant();"/>
+         </td>
+      </tr>
+      </table>
+   </div>
+
+</form>
+</body>
+
+</html>

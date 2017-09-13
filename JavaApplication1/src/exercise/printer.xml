@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Review Assignment
+
+   Laser4C Printer Description
+
+   Filename:         printer.xml
+   Supporting Files: 
+-->
+
+<printer id="pr205">
+   <name>JE Laser4C</name>
+   <description>
+   With a price appropriate for the home-office budget, the Jackson Electronics Laser4C
+   is color laserjet printer suited for a high-end business. You'll enjoy the compact design
+   that fits anywhere on your desktop and with a first page print speed of less than
+   20 seconds (in full color!) you won't be caught waiting for your latest flyer or
+   business report. 
+   </description>
+   <price>$399.95</price>
+   <specs>
+      <item>BW Print Speed: 8 ppm</item>
+      <item>Color Print Speed: 8 ppm</item>
+      <item>BW Print Resolution: 600 x 600 dpi</item>
+      <item>Color Print Resolution: 600 x 600 dpi</item>
+      <item>Connectivity: 1 USB, 1 Ethernet</item>
+      <item>Dimensions: 16 x 17.8 x 14.6 in</item>
+   </specs>
+</printer>

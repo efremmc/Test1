@@ -1,0 +1,77 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 1
+   Filename: agents.css
+
+   Author: Efrem McCrimon
+   Date:   2-1-2011
+
+
+   This file contains styles used in the EPAC contribution report for agent names
+
+*/
+
+@namespace cont url(http://www.epacmo.org/contrib);
+
+cont|contributor
+      {display: block; margin: 10px 0px 10px 30px; width: 600px;
+       border: 1px dashed black; padding: 5px; 
+       background-color: rgb(233,244,233)}
+
+cont|first, last
+      {font-weight: bold}
+
+cont|address
+      {display: block; margin-left: 10px;
+      font-weight: normal}
+
+cont|street
+      {display: block;
+      font-weight: normal}
+
+cont|zip
+      {padding-left: 5px;
+      font-weight: normal}
+
+cont|phone
+      {display: block;
+      font-weight: normal}
+
+cont|amount
+      {display: block;
+      font-weight: normal}
+
+
+
+/* Place namespace escape styles below */
+
+
+cont\:contributor
+      {display: block; margin: 10px 0px 10px 30px; width: 600px;
+       border: 1px dashed black; padding: 5px;
+       background-color: rgb(233,244,233)}
+
+cont\:first, last
+      {font-weight: bold}
+
+cont\:address
+      {display: block; margin-left: 10px;
+      font-weight: normal}
+
+cont\:street
+      {display: block;
+      font-weight: normal}
+
+cont\:zip
+      {padding-left: 5px;
+      font-weight: normal}
+
+cont\:phone
+      {display: block;
+      font-weight: normal}
+
+cont\:amount
+      {display: block;
+      font-weight: normal}
+

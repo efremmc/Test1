@@ -1,0 +1,39 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 3
+   Filename: home.css
+
+   Author: 
+   Date:   
+
+
+   This file contains styles used in the sblogger home page
+
+*/
+
+
+div#heading 
+   {width: 100%; background-color: white; border-bottom: 1px solid rgb(81,105,165) }
+
+div#links 
+   {float: left; width: 100px}
+
+div#main 
+   {float: left; width: 430px; padding: 7px}
+
+h1 
+   {font-family: Arial, Helvetica, sans-serif; font-size: 14pt; 
+    color: rgb(81,105,165); letter-spacing: 3}
+
+p 
+   {font-size: 9pt; text-align: justify}
+
+
+div#newsfeed 
+   {float: left; width: 190px; font-size: 8pt; font-family: Courier New;
+    padding-left: 5px; background-color: rgb(255,255,192); margin-left: 15px}
+
+
+/* Place namespace escape styles below */
+

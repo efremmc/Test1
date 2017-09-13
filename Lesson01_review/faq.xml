@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="faq.css" ?>
+
+<!--
+    Document   : faq.xml
+    Created on : January 21, 2015
+    Author     : Efrem McCrimon
+    Description:
+        Purpose of the document follows.
+-->
+
+<faq>
+    <title>Jackson Electronics Products</title>
+    <subtitle>Frequently Asked Questions</subtitle>
+    <product>The ScanMaster
+        <question>How do I scan slides?</question>
+        <answer>You can scan slides using the JE Transparency Adapter (part number STA8901) available from
+Jackson Electronics.</answer>
+        <question>Where can I find the latest drivers for my ScanMaster?</question>
+        <answer>You can download the latest software drivers from the Jackson Electronics Web page.</answer>
+        <question>What is the largest sheet that I can scan?</question>
+        <answer>8.5 x 14 inches (216 x 356 mm).</answer>
+        <question>How do I fax with my ScanMaster?</question>
+        <answer>You can turn your scanner into a fax machine by purchasing the FaxRight add-on component
+(part number STA4500) available from Jackson Electronics.</answer>
+
+    </product>
+    <product>DigiCam
+        <question>What is the difference between optical and digital zoom?</question>
+        <answer>With optical zoom, the Digicam's lens physically moves inside the camera; with digital zoom, the
+camera's processor zooms the image electronically. If you zoom too much, your image will become
+pixelated.</answer>
+        <question>What sort of batteries should I use with the DigiCam?</question>
+        <answer>Nickel metal hydride (NiMH) batteries work the best and have the longest lifetime. Nickel-cadium
+batteries also work very well, as do alkaline batteries. Do not use lithium batteries.</answer>
+        <question>What resolution should I use for 4x6-inch photos?</question>
+        <answer>We recommend 640x480 for 4x6-inch images, 1024x768 for 5x7-inch photos, and 1600x1200 for 8x10-inch
+photos.</answer>
+        <question>Can the DigiCam be harmed by airport X-ray machines?</question>
+        <answer>No, there is no evidence that X-ray machines can affect the performance of the DigiCam or the quality of
+DigiCam photos.</answer>
+    </product>
+
+</faq>

@@ -1,0 +1,70 @@
+<!--
+Efrem McCrimon
+CIS233DA
+Assignment 12
+music.html
+
+
+JavaScript was added in the music.html file to add mouseover alerts messages.
+JavaScript was added to display the last modified date on every page for the JavaJam site.
+
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+   <link href="jw.css" rel="stylesheet" type="text/css" />
+   <link href="jazz.css" rel="stylesheet" type="text/css" />      
+   <script type="text/javascript" src="library.js" />
+   
+
+   <script type="text/javascript">
+       
+       var IE = window.ActiveXObject ? true:false;
+       var MOZ = document.implementation.createDocument ? true:false;
+
+       var xmlFile;
+       var xsltFile;
+       var xmlDoc;
+       var xsltDoc; 
+       
+    </script>
+  </head>
+    
+    <body id="container">
+
+  <div id="logo">
+
+      <a href="#">  <img src="images/jazzlogo.jpg"  alt="Jazz(sem)" /></a>  
+      <h1>The Jazz Warehouse</h1>
+
+  </div>
+
+    <div id="leftcolumn">
+      <ul class="navBar">
+          <li><a class="navBar" href="jazz.html">Home</a></li>
+          <li><a class="navBar" href="jazzadd.html">Titles</a></li>
+          <li><a class="navBar" href="javascript:void(0)">Music</a></li>
+          <li><a class="navBar" href="gear.html">Gear</a></li>
+      </ul>
+    </div>       
+        
+    <div id="rightcolumn">
+
+        <div>
+            <button name="runreport" onclick="initReport()">Show CD Titles</button>
+        </div>
+
+        <div id="cd_report"/>
+
+    </div>
+    <div id="footer">
+                    Last updated: December 14, 2011&nbsp;
+          Copyright&nbsp;&copy;&nbsp;2011<br />
+      <a href="mailto:ste2144887@maricopa.edu">efremmc2@gmail.com</a><br />
+    </div>
+
+  </body>
+</html>

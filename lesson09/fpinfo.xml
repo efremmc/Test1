@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 9
+   Tutorial Case
+
+   Freezing Point Information
+
+   Filename:         fpinfo.xml
+
+-->
+
+<information>
+   <title>Freezing Point Refrigerators</title>
+   <subtitle>Staff Information Page</subtitle>
+   <purpose>
+      This page contains information on the staff of Freezing Point 
+      Refrigerators. Staff members are divided into four groups: Accounting, 
+      Sales, Manufacturing, and Advertising. Each employee's name, department, 
+      position, phone number, years employed, and job status (full- or 
+      part-time) is reported.
+   </purpose>
+   <author>Catherine Davis</author>
+   <authorEmail>mailto:cdavis@freezingpoint.com</authorEmail>
+</information>

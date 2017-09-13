@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial Case
+
+   Patient list schema - Venetian Blind Design
+   Author: 
+   Date:   
+
+   Filename:         patvb.xsd
+   Supporting Files: 
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+   <xs:element name="patients">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="patient" type="pType" minOccurs="1" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:complexType name="pType">
+      <xs:group ref="childElements" />
+      <xs:attributeGroup ref="patientAtt" />
+   </xs:complexType>
+
+   <xs:group name="childElements">
+      <xs:sequence>
+         <xs:element name="lastName" type="xs:string" />
+         <xs:element name="firstName" type="xs:string" />
+         <xs:element name="dateOfBirth" type="xs:date" />
+         <xs:element name="age" type="ageType" />
+         <xs:element name="stage" type="stageType" />
+         <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+         <xs:element name="performance" type="perfComplex" />
+      </xs:sequence>
+   </xs:group>
+
+   <xs:attributeGroup name="patientAtt">
+      <xs:attribute name="patID" type="mrType" />
+      <xs:attribute name="onStudy" type="studyType" />
+   </xs:attributeGroup>
+ 
+   <xs:complexType name="perfComplex">
+      <xs:simpleContent>
+         <xs:extension base="perfType">
+            <xs:attribute name="scale" type="scaleType" use="required" />
+         </xs:extension>
+      </xs:simpleContent>
+   </xs:complexType>
+
+   <xs:simpleType name="mrType">
+      <xs:restriction base="xs:ID">
+         <xs:pattern value="MR\d{3}-\d{3}-\d{2}" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="studyType">
+      <xs:restriction base="xs:string">
+         <xs:pattern value="[A-Z]{3}-\d{3}-\d" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="ageType">
+      <xs:restriction base="xs:integer">
+         <xs:minInclusive value="21"/>
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="stageType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="I" />
+         <xs:enumeration value="II" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="scaleType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="Bell" />
+         <xs:enumeration value="Karnofsky" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="perfType">
+      <xs:restriction base="xs:decimal">
+         <xs:minExclusive value="0" />
+         <xs:maxExclusive value="1" />
+      </xs:restriction>
+   </xs:simpleType>
+
+</xs:schema>

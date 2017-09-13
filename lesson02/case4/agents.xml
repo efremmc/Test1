@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 4
+
+   MidWest Homes Agents
+
+   Filename:         agents.xml
+   Supporting Files: agents.css
+-->
+
+<?xml-stylesheet type="text/css" href="agents.css"?>
+<agents>
+   <agent id="a2140">
+      <name>Karen Fawkes</name>
+      <phone>(608) 555-3414</phone>
+      <email>karen_fawkes@tofferrealty.com</email>
+   </agent>
+   <agent id="a2141">
+      <name>Linda DeJesus</name>
+      <phone>(608) 555-4140</phone>
+      <email>ldejesus@carsonhomes.com</email>
+   </agent>
+   <agent id="a2142">
+      <name>Lawrence Rao</name>
+      <phone>(414) 555-8580</phone>
+      <email>lkrao@rawlingscompany.com</email>
+   </agent>
+</agents>

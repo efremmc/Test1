@@ -1,0 +1,32 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 3
+
+   Jackson Electronics Model Orders
+   Author: 
+   Date:   
+
+   Filename:         models.xml
+   Supporting Files: 
+-->
+
+<models>
+
+   <model mid="pr205" 
+          parts="CHX201 fa100-5 eng005-2 cbx-450V4 tn01-53"
+          type="color_laser">
+      <title>Laser4C (PR205)</title>
+      <description>Entry level color laser printer</description>
+      <ordered>220</ordered>
+   </model>
+
+   <model mid="pr105" 
+          parts="chx201 fa100-5 eng005-2 cbx-050V4 tn01-003"
+          type="bw_laser">
+      <title>Laser I (PR105)</title>
+      <description>Workgroup BW Laser Printer</description>
+      <order>116</order>
+   </model>
+
+</models>

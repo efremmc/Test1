@@ -1,0 +1,117 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on XML
+   Tutorial 10
+   Tutorial Case
+
+   parseError Demo
+   Author: Patrick Carey
+   Date:   3/1/2006
+
+   Filename:         demo_parseerror.htm
+   Supporting files: demo.gif
+-->
+<title>parseError Object Demo</title>
+<style>
+   body {background-color:white; font-family: Arial, Helvetica, sans-serif}
+   h2 {color:yellow; background-image: url(demo.gif); letter-spacing: 1em;
+       font-size: 1.5em; padding: 10px; margin-bottom: 0px; text-align: right}
+   p {font-size: 0.8em; padding: 10 30 10 30; border: solid 1px black; margin-top:0; background-color: ivory}
+
+   address {text-align: center; font-size: 8pt; border-top: 1px solid black; clear:left; font-style: normal;
+            margin-top: 15px}
+   span.btitle {font-style: italic}
+
+   #webform {float: left; font-size: 10pt; margin-right: 20px; font-family: Courier New, monospace}
+   #output  {float:left; font-size: 10pt; width: 470px}
+   table    {font-family: Courier New, monospace; font-size: 10pt; width: 470px}
+   th       {text-align: left; font-weight: normal; width: 150px; vertical-align: top}
+   td       {width: 300px; vertical-align: top}
+</style>
+<script type="text/javascript">
+var PID = ["MSXML4.DOMDocument","MSXML3.DOMDocument",
+           "MSXML2.DOMDocument","MSXML.DOMDocument",
+           "Microsoft.XmlDom"];
+
+var XMLDoc=new ActiveXObject(getPID(PID));
+
+function getPID(pArray) {
+   var PIDStr = "";
+   var PIDFound = false;
+   for (i=0; i<pArray.length && !PIDFound; i++) {
+      try {
+         var objectXML=new ActiveXObject(pArray[i]);
+         PIDStr=pArray[i];
+         PIDFound=true;
+      } catch (objException) {
+      }
+   }
+   return PIDStr;
+}
+
+function loadXML(file) {
+   XMLDoc.async=false;
+   XMLDoc.load(file);
+
+   document.getElementById("ecode").innerHTML=XMLDoc.parseError.errorCode;
+   document.getElementById("fpos").innerHTML=XMLDoc.parseError.filepos;
+   document.getElementById("line").innerHTML=XMLDoc.parseError.line;
+   document.getElementById("linepos").innerHTML=XMLDoc.parseError.linepos;
+   document.getElementById("reason").innerHTML=XMLDoc.parseError.reason;
+   document.getElementById("srctext").innerHTML=XMLDoc.parseError.srcText;
+   document.getElementById("url").innerHTML=XMLDoc.parseError.url;
+}
+</script>
+</head>
+
+<body>
+<h2>The parseError Object</h2>
+<p>Click the radio buttons below to open different XML documents using MSXML. Any errors opening
+the document will be displayed using properties of the parseError object.</p>
+<div id="webform">
+   <form>
+      <input type="radio" name="XMLfile" onClick="loadXML('error1.xml')" /> error1.xml <br />
+      <input type="radio" name="XMLfile" onClick="loadXML('error2.xml')" /> error2.xml <br />
+   </form>
+</div>
+<div id="output">
+<table border="2" width="470">
+   <tr>
+   <th>parseError.errorCode</th>
+   <td><span id="ecode">&nbsp;</span></td>
+   </tr>
+   <tr>
+   <th>parseError.filepos</th>
+   <td><span id="fpos">&nbsp;</span></td>
+   </tr>
+   <tr>
+   <th>parseError.line</th>
+   <td><span id="line">&nbsp;</span></td>
+   </tr>
+   <tr>
+   <th>parseError.linepos</th>
+   <td><span id="linepos">&nbsp;</span></td>
+   </tr>
+   <tr>
+   <th>parseError.reason</th>
+   <td><span id="reason">&nbsp;</span></td>
+   </tr>
+   <tr>
+   <th>parseError.srcText</th>
+   <td><span id="srctext">&nbsp;</span></td>
+   </tr>
+   <tr>
+   <th>parseError.url</th>
+   <td><span id="url">&nbsp;</span></td>
+   </tr>
+</table>
+</div>
+
+<address>
+Carey, P.
+<span class="btitle">New Perspectives on XML</span>,
+Course Technology: Boston, 2006.
+</address>
+</body>
+</html>    

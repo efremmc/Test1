@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 3
+
+   Jackson Electronics Warehouse Summary
+   Author: 
+   Date:   
+
+   Filename:         warehouse.xml
+   Supporting Files: models.dtd, parts.dtd, parts.xml, printers.xml
+-->
+
+
+<warehouse_list>
+
+
+</warehouse_list>

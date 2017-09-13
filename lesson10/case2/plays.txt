@@ -1,0 +1,23 @@
+
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 2
+
+   Sample Game Events
+=======================================================
+
+[19:43]Miles, Trent [Texas] misses 2-pt shot
+[19:41]Lopez, Jarold [Wisconsin] grabs defensive rebound
+[19:13]Bryson, John [Wisconsin] makes 3-pt shot
+[19:13]Carrol, James [Wisconsin] assists
+[18:55]Mitchell, Kevin [Texas] misses 2-pt shot
+[18:55]Ursa, Uba [Texas] grabs offensive rebound
+[18:53]Ursa, Uba [Texas] makes 2-pt shot
+[18:53]Lopez, Jarold [Wisconsin] commits personal foul
+[18:52]Ursa, Uba [Texas] makes free throw
+[18:35]Fleming, Jody [Wisconsin] makes 2-pt shot
+[18:10]Miles, Trent [Texas] misses 2-pt shot
+[18:09]Lopez, Jarold [Wisconsin] grabs defensive rebound
+[18:01]Bryson, John [Wisconsin] commits turn-over
+[17:42]Miles, Trent [Texas] makes 2-pt shot
+

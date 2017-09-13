@@ -1,0 +1,39 @@
+/*
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 3
+   Filename: news.css
+
+   Author: 
+   Date:   
+
+
+   This file contains styles used in the sblogger RSS newsfeed
+
+*/
+
+
+channel title 
+   {display: block; font-size: 14pt; font-weight: bold; color: rgb(81,105,165)}
+
+channel description 
+   {display: none}
+
+link 
+   {display: none}
+
+item 
+   {display: block; margin: 10px 0px; padding: 3px}
+
+item description 
+   {display: block; font-size: 8pt}
+
+item title 
+   {display: block; font-size: 8pt; font-weight: bold; text-decoration: underline}
+
+
+
+/* Place namespace escape styles below */
+
+
+

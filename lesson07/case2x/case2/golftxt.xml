@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 7
+   Case Problem 2
+
+   Golf Score Data
+   Author: 
+   Date:   
+
+   Filename:         golf.xml
+   Supporting Files: golf.xsl
+-->
+
+<tournament>
+
+<name>Westfield Open</name>
+<date>5/28/2008 - 5/31/2008</date>
+<location>Westfield Golf Club</location>
+
+<course>
+   <par holeNumber="1">4</par>
+   <par holeNumber="2">4</par>
+   <par holeNumber="3">5</par>
+   <par holeNumber="4">3</par>
+   <par holeNumber="5">4</par>
+   <par holeNumber="6">4</par>
+   <par holeNumber="7">5</par>
+   <par holeNumber="8">3</par>
+   <par holeNumber="9">4</par>
+   <par holeNumber="10">4</par>
+   <par holeNumber="11">5</par>
+   <par holeNumber="12">4</par>
+   <par holeNumber="13">3</par>
+   <par holeNumber="14">4</par>
+   <par holeNumber="15">5</par>
+   <par holeNumber="16">4</par>
+   <par holeNumber="17">3</par>
+   <par holeNumber="18">4</par>
+</course>
+
+<golfer>
+   <name>Brett Bierson</name>
+   <round roundNumber="1">
+      <score holeNumber="1">4</score>
+      <score holeNumber="2">4</score>
+      <score holeNumber="3">5</score>
+      <score holeNumber="4">2</score>
+      <score holeNumber="5">4</score>
+      <score holeNumber="6">4</score>
+      <score holeNumber="7">5</score>
+      <score holeNumber="8">4</score>
+      <score holeNumber="9">4</score>
+      <score holeNumber="10">4</score>
+      <score holeNumber="11">3</score>
+      <score holeNumber="12">4</score>
+      <score holeNumber="13">3</score>
+      <score holeNumber="14">4</score>
+      <score holeNumber="15">5</score>
+      <score holeNumber="16">5</score>
+      <score holeNumber="17">3</score>
+      <score holeNumber="18">3</score>
+   </round>
+   <round roundNumber="2">
+      <score holeNumber="1">3</score>
+      <score holeNumber="2">4</score>
+      <score holeNumber="3">5</score>
+      <score holeNumber="4">3</score>
+      <score holeNumber="5">4</score>
+      <score holeNumber="6">4</score>
+      <score holeNumber="7">5</score>
+      <score holeNumber="8">3</score>
+      <score holeNumber="9">4</score>
+      <score holeNumber="10">4</score>
+      <score holeNumber="11">4</score>
+      <score holeNumber="12">4</score>
+      <score holeNumber="13">3</score>
+      <score holeNumber="14">4</score>
+      <score holeNumber="15">6</score>
+      <score holeNumber="16">4</score>
+      <score holeNumber="17">4</score>
+      <score holeNumber="18">4</score>
+   </round>
+   <round roundNumber="3">
+      <score holeNumber="1">3</score>
+      <score holeNumber="2">4</score>
+      <score holeNumber="3">6</score>
+      <score holeNumber="4">3</score>
+      <score holeNumber="5">4</score>
+      <score holeNumber="6">4</score>
+      <score holeNumber="7">5</score>
+      <score holeNumber="8">2</score>
+      <score holeNumber="9">4</score>
+      <score holeNumber="10">4</score>
+      <score holeNumber="11">4</score>
+      <score holeNumber="12">3</score>
+      <score holeNumber="13">3</score>
+      <score holeNumber="14">5</score>
+      <score holeNumber="15">4</score>
+      <score holeNumber="16">4</score>
+      <score holeNumber="17">2</score>
+      <score holeNumber="18">4</score>
+   </round>
+   <round roundNumber="4">
+      <score holeNumber="1">4</score>
+      <score holeNumber="2">4</score>
+      <score holeNumber="3">5</score>
+      <score holeNumber="4">2</score>
+      <score holeNumber="5">3</score>
+      <score holeNumber="6">5</score>
+      <score holeNumber="7">5</score>
+      <score holeNumber="8">4</score>
+      <score holeNumber="9">3</score>
+      <score holeNumber="10">5</score>
+      <score holeNumber="11">5</score>
+      <score holeNumber="12">4</score>
+      <score holeNumber="13">6</score>
+      <score holeNumber="14">5</score>
+      <score holeNumber="15">5</score>
+      <score holeNumber="16">3</score>
+      <score holeNumber="17">3</score>
+      <score holeNumber="18">4</score>
+   </round>
+</golfer>
+
+</tournament>

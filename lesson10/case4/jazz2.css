@@ -1,0 +1,240 @@
+/* 
+    Document   : jazz.css
+    Created on : Mar 21, 2011, 5:00:15 AM
+    Author     : Efrem
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    background-color: #ccaa66; color: #000000; text-align: center;
+}
+
+h2 {
+    color: #000000; text-align: left;
+}
+
+h3 {
+    text-transform: uppercase;
+    background-color: #ffffcc;
+    color: #663300;
+    font-size: 20px;
+    border-bottom: 1px solid #000000;
+    margin-right: 5%;
+    font-weight: bold;
+
+
+}
+
+logo {
+    
+}
+.content {
+
+    /*  Adjusted the margins to look better for presentation.
+    padding-left: 20%; padding-right: 20%;
+        top, right, bottom, left ] for below settings 
+    
+    padding: 20px 80px 0 60px;
+    
+    */
+   
+     padding-left: 20%; padding-right: 20%;
+}
+
+img {
+    border: 0;
+}
+
+#nav {
+    text-align: center;
+}
+
+#footer {
+    background-color: #ccaa66; color: #000000;
+    font-size: .60em;
+    font-style: italic; text-align: center;
+    border-top: 2px double #000000;
+    padding-bottom: 5%;
+
+}
+
+/*
+This is a Jello design as noted on Ch. 5, pg 190.
+
+*/
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 700px;
+    background: #e8d882;
+    color: #000000;
+    border: 2px double #000000;
+}
+
+div.mysection {
+    clear: right;
+    width: 80%;
+    padding-right: 2px;
+    margin-right: 1px;
+}
+
+
+/* added for column support into the boxes by floating left and using margins
+#e8d882
+background-color: #f1e8b0;
+*/
+
+#leftcolumn { float: left;
+	      width:2%;
+              
+              
+}
+
+#rightcolumn { margin-left:20%;
+               background-color:#f1e8b0;
+               color:#000000;
+               padding: 10px;
+}
+
+/* Center our logo and align using the latest attribute for center */
+
+#logo { background-color:#ccaa66;
+       color: #000000;
+       text-align: center;
+       font-size:x-large;
+       border-bottom: 2px double #000000;
+
+}
+
+.floatright {padding-left:40px;
+             float:right;
+}
+
+/*
+text-decoration:none;    list-style-type:none;
+*/
+
+.navBar {
+    text-decoration:none;
+    list-style-type:none;
+    margin-top: 5%;
+    font-size: 12pt;
+}
+
+/* Used colors like in the reference section #cc66cc
+background-color:#e8d882; - Dont use
+*/
+
+a.navBar:link {color:#000000;
+           
+}
+a.navBar:visited {color:#330000;
+           
+}
+a.navBar:hover {color:#cc66cc;
+            
+}
+
+
+table {border:0px solid #5c743d;
+       width:75%;
+       margin:auto;
+       border-collapse: separate;
+       text-align: center;
+       
+}
+
+td { padding:10px;
+         font-weight: normal;
+         text-align: left;
+
+}
+
+th {
+    padding: 10px;
+}
+
+/* Color each alternate row with our chosen color.  Looks neat and
+   makes the table easier to read.
+*/
+
+.altrow {
+    background-color: #ccaa66;
+
+}
+
+/*
+This was used in one of the practice examples.  I wanted to see what it does for the UI.
+
+#myForm {
+   border: 3px solid #000000;
+   padding: 10px;
+   margin: 10px;
+   min-width: 500px;
+
+}
+
+*/
+
+
+.myRow {
+    height: 30px;
+}
+
+.mySubmit {
+    margin: 10px;
+
+}
+
+.labelCol {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+h3, th, #data_entry, dataform, trackform  {font-family: Arial, Helvetica, sans-serif}
+
+h3                   {margin-bottom: 10px; text-align:center; font-weight: normal;
+                      letter-spacing: 5px;
+                      border-bottom: 1px solid rgb(232,182,130); 
+                      border-top: 1px solid rgb(232,182,130);
+                      background-color:rgb(135,206,255)}
+
+td                   {vertical-align: top}
+
+#logo                {width: 730px; text-align:right; color: rgb(192,142,90); 
+                      border-bottom: 1px solid rgb(232,182,130); 
+                      font-size: 10pt; height: 85px}
+#logo img            {float: left}
+
+#famount             {text-align:right}
+
+#container              {width: 480px; position: absolute; top: 110px; left: 5px}
+#container .total       {background-color:white; text-align:right; font-weight:normal}
+#container table        {width: 480px; border: 1px solid rgb(135,206,255)}
+#container th           {background-color: rgb(135,206,255); font-size:8pt; 
+                      border: 1px solid rgb(255,255,255); letter-spacing: 3px}
+#container td           {font-size: 8pt; border: 1px solid rgb(135,206,255); 
+                      background-color:rgb(255,255,227)}
+
+#data_entry          {width:250px; position: absolute; top: 110px; left: 490px;
+                      border: 1px solid rgb(135,206,255); background-color:white}
+#data_entry td       {font-size:9pt}
+#data_entry table    {margin: 0px}
+#data_entry input    {font-size:9pt}
+

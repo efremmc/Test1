@@ -1,0 +1,34 @@
+   New Perspectives on XML
+   Tutorial 10
+   Case Problem 4
+
+   Jazz Warehouse New Data
+==========================
+
+
+Title: Dinah Jams
+Artist: Dinah Washington
+Price: $9.95
+Tracks:
+   Lover Come Back to Me (9:44)
+   Ballad Medley (7:12)
+   No More (3:10)
+   I've Got You Under My Skin (5:12)
+   There is No Greater Love (2:10)
+   You Go to My Head (11:00)
+   Darn that Dream (5:16)
+   Crazy He Calls Me (4:45)
+   I'll Remember April (11:48)
+
+Title: Clifford Brown
+Artist: Clifford Brown
+Price: $10.95
+Tracks:
+   Deliah (8:03)
+   Parisian Thoroughfare (7:15)
+   Daahoud (4:01)
+   Joy Sprng (6:48)
+   Jordu (7:42)
+   The Blues Walk (6:44)
+   What am I Here For? (3:08)
+   These Foolish Things (3:39)

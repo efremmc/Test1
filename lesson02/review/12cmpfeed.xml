@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+12cmpfeed.xml
+
+1-2 Computer Services LLC, Inc. (c) 2014 - All rights reserved.
+
+the editor.
+
+
+    <channel>
+        <title></title>
+        <link></link>
+        <description></description>
+    </channel>
+    
+    
+-->
+
+
+<rss version="2.0">
+
+    <channel>
+      <title>W3Schools Home Page</title>
+      <link>http://www.w3schools.com</link>
+      <description>Free web building tutorials</description>
+      <item>
+        <title>RSS Tutorial</title>
+        <link>http://www.w3schools.com/rss</link>
+        <description>New RSS tutorial on W3Schools</description>
+      </item>        
+
+    </channel>
+    <channel>
+      <title>1-2 Computer Services on VIPRE</title>
+      <link>http://www.12computers.com/#page3</link>
+      <description>VIPRE Security</description>
+      <item>
+        <title>VIPRE Mobile Security</title>
+        <link>http://www.12computers.com/#page3</link>
+        <description>VIPRE Mobile Security brings award-winning antivirus and security software to the mobile market. Protect your Android devices from hackers, malicious software, and loss. Advanced features are available for Backup, Monitoring, Lost Device, and Activity Monitoring</description>
+      </item>        
+
+    </channel>    
+
+</rss>

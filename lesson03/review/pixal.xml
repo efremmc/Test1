@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Review Assignment
+
+   Products from Pixal Inc.
+   Author: 
+   Date:   
+
+   Filename:         pixal.xml
+   Supporting Files: hw.dtd, hwlist.xml, sw.dtd, swlist.xml
+ 
+-->
+
+<product_list>
+
+</product_list>

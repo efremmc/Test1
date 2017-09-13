@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/modtxt1.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE models SYSTEM "modtxt1.dtd">
+
+    <models>
+    ...
+    </models>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT models (model)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT model (order|ordered|description|title)*>
+<!ATTLIST model
+    type CDATA #IMPLIED
+    parts CDATA #IMPLIED
+    mid CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT title (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT description (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ordered (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT order (#PCDATA)>

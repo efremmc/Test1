@@ -1,0 +1,43 @@
+/*
+   New Perspectives on XML
+   Tutorial 10
+   Review Assignment
+
+   The Lighthouse Cascading Style Sheet
+
+   Filename:         grants.css
+   Supporting Files: 
+*/
+
+
+h3, th, #data_entry  {font-family: Arial, Helvetica, sans-serif}
+
+h3                   {margin-bottom: 10px; text-align:center; font-weight: normal; letter-spacing: 5px;
+                      border-bottom: 1px solid rgb(232,182,130); 
+                      border-top: 1px solid rgb(232,182,130);
+                      background-color:rgb(135,206,255)}
+
+td                   {vertical-align: top}
+
+#logo                {width: 730px; text-align:right; color: rgb(192,142,90); 
+                      border-bottom: 1px solid rgb(232,182,130); 
+                      font-size: 10pt; height: 85px}
+#logo img            {float: left}
+
+#famount             {text-align:right}
+
+#gtable              {width: 480px; position: absolute; top: 110px; left: 5px}
+#gtable .total       {background-color:white; text-align:right; font-weight:normal}
+#gtable table        {width: 480px; border: 1px solid rgb(135,206,255)}
+#gtable th           {background-color: rgb(135,206,255); font-size:8pt; 
+                      border: 1px solid rgb(255,255,255); letter-spacing: 3px}
+#gtable td           {font-size: 8pt; border: 1px solid rgb(135,206,255); 
+                      background-color:rgb(255,255,227)}
+
+#data_entry          {width:250px; position: absolute; top: 110px; left: 490px;
+                      border: 1px solid rgb(135,206,255); background-color:white}
+#data_entry td       {font-size:9pt}
+#data_entry table    {margin: 0px}
+#data_entry input    {font-size:9pt}
+
+a, a:link, a:visited {color: black; text-decoration: none}

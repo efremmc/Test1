@@ -1,0 +1,17 @@
+/*
+   New Perspectives on XML
+   Tutorial 7
+   Case Problem 3
+
+   Datalia Cascading Style Sheet
+
+   Filename:         fill.css
+   Supporting Files: 
+*/
+
+h1, h2, h3, th {font-family: Arial, Helvetica, sans-serif}
+h1             {color: red}
+th             {background-color: lightyellow; font-size: 10pt}
+th.row         {background-color: red; color:white; text-align:right}
+h1             {margin-bottom: -25px}
+td             {font-size: 9pt; text-align: right}

@@ -1,0 +1,2955 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RegionPostings:regionPostings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.zillow.com/static/xsd/RegionPostings.xsd http://www.zillowstatic.com/vstatic/3c57147337494135ffafab2cd741b20e/static/xsd/RegionPostings.xsd" xmlns:RegionPostings="http://www.zillow.com/static/xsd/RegionPostings.xsd">
+
+	<request>
+		
+		
+			<zipcode>85331</zipcode>
+		
+		
+		
+		
+	</request>
+	
+	<message>
+		<text>Request successfully processed</text>
+		<code>0</code>
+		
+	</message>
+	
+	
+		<response>
+			
+				<regionId>94907</regionId>
+			
+			<links>
+				<forSale>http://www.zillow.com/homes/for_sale/Cave-Creek-AZ-85331/</forSale>
+				<forSaleByOwner>http://www.zillow.com/homes/fsbo/Cave-Creek-AZ-85331/</forSaleByOwner>
+				<foreclosures>http://www.zillow.com/homes/for_sale/Cave-Creek-AZ-85331/fore_lt/0_mmm/</foreclosures>
+			</links>
+			<makeMeMove>
+				<count>71</count>
+
+	<result>
+		<lastRefreshedDate>2011-01-31 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8038496</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/28069-N-112th-Pl-Scottsdale-AZ-85262/8038496_zpid/</homedetails>
+			</links>
+			<address>
+				<street>28069 N 112th Pl</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.739965</latitude>
+					<longitude>-111.837657</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>11880</lotSizeSqFt>
+			<finishedSqFt>2100</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>450000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-01-10 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7928409</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/2240-E-Venado-Dr-Phoenix-AZ-85087/7928409_zpid/</homedetails>
+			</links>
+			<address>
+				<street>2240 E Venado Dr</street>	
+				<zipcode>85087</zipcode>
+				<city>Phoenix</city>
+				<state>AZ</state>
+				
+					<latitude>33.899729</latitude>
+					<longitude>-112.033404</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>108900</lotSizeSqFt>
+			<finishedSqFt>3335</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>5</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>425000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-01-06 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7979161</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4356-E-Rancho-Tierra-Dr-Cave-Creek-AZ-85331/7979161_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4356 E Rancho Tierra Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.765514</latitude>
+					<longitude>-111.987201</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>8069</lotSizeSqFt>
+			<finishedSqFt>2901</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>425000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-10-02 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>55266151</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4824-E-Sleepy-Ranch-Rd-Cave-Creek-AZ-85331/55266151_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4824 E Sleepy Ranch Rd</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.780746</latitude>
+					<longitude>-111.977287</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>10000</lotSizeSqFt>
+			<finishedSqFt>1810</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>325000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-07-28 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>60048877</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6030-E-Monterra-Way-Scottsdale-AZ-85266/60048877_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6030 E Monterra Way</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.728027</latitude>
+					<longitude>-111.950161</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>45466</lotSizeSqFt>
+			<finishedSqFt>3000</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>825000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-05-01 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>60981665</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/36820-N-24th-Way-Cave-Creek-AZ-85331/60981665_zpid/</homedetails>
+			</links>
+			<address>
+				<street>36820 N 24th Way</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.819948</latitude>
+					<longitude>-112.028833</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>57934</lotSizeSqFt>
+			<finishedSqFt>2600</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>350000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-02-04 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8035675</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7137-E-Canyon-Wren-Cir-Scottsdale-AZ-85266/8035675_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7137 E Canyon Wren Cir</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.794391</latitude>
+					<longitude>-111.92748</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>6000</lotSizeSqFt>
+			<finishedSqFt>1409</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>525</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-12-11 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>55266149</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4825-E-Sleepy-Ranch-Rd-Cave-Creek-AZ-85331/55266149_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4825 E Sleepy Ranch Rd</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.780272</latitude>
+					<longitude>-111.977133</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>11883</lotSizeSqFt>
+			<finishedSqFt>1826</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>425000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-11-29 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7974234</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/33222-N-56th-St-Cave-Creek-AZ-85331/7974234_zpid/</homedetails>
+			</links>
+			<address>
+				<street>33222 N 56th St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.787635</latitude>
+					<longitude>-111.961375</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>54450</lotSizeSqFt>
+			<finishedSqFt>3294</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>16</count>
+		</images>
+		<price>529000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-11-24 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8033650</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/9828-E-Seven-Palms-Dr-Scottsdale-AZ-85262/8033650_zpid/</homedetails>
+			</links>
+			<address>
+				<street>9828 E Seven Palms Dr</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.793158</latitude>
+					<longitude>-111.869055</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>12281</lotSizeSqFt>
+			<finishedSqFt>3108</finishedSqFt>
+			<bathrooms>4.5</bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>800000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-11-22 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>67802341</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/44421-N-20th-St-New-River-AZ-85087/67802341_zpid/</homedetails>
+			</links>
+			<address>
+				<street>44421 N 20th St</street>	
+				<zipcode>85087</zipcode>
+				<city>New River</city>
+				<state>AZ</state>
+				
+					<latitude>33.891749</latitude>
+					<longitude>-112.038522</longitude>
+				
+			</address>
+			<useCode>Miscellaneous</useCode>
+			<lotSizeSqFt>60139</lotSizeSqFt>
+			<finishedSqFt>2994</finishedSqFt>
+			<bathrooms>2.75</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>485000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-09-27 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>18197205</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4248-E-Desert-Sky-Ct-Cave-Creek-AZ-85331/18197205_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4248 E Desert Sky Ct</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.78757</latitude>
+					<longitude>-111.98948</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>5000</lotSizeSqFt>
+			<finishedSqFt>1515</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>14</count>
+		</images>
+		<price>275000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-08-27 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>67757629</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7021-E-Horizon-Dr-Cave-Creek-AZ-85331/67757629_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7021 E Horizon Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.83201</latitude>
+					<longitude>-111.928039</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>38272</lotSizeSqFt>
+			<finishedSqFt>4752</finishedSqFt>
+			<bathrooms>5.0</bathrooms>
+			<bedrooms>5</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>1200000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-07-24 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7980330</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/40501-N-60th-St-Cave-Creek-AZ-85331/7980330_zpid/</homedetails>
+			</links>
+			<address>
+				<street>40501 N 60th St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.853038</latitude>
+					<longitude>-111.950796</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>123743</lotSizeSqFt>
+			<finishedSqFt>4585</finishedSqFt>
+			<bathrooms>4.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>1200000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-07-05 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8032137</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/8140-E-Cow-Track-Dr-AZ-85377/8032137_zpid/</homedetails>
+			</links>
+			<address>
+				<street>8140 E Cow Track Dr</street>	
+				<zipcode>85377</zipcode>
+				<city> </city>
+				<state>AZ</state>
+				
+					<latitude>33.832579</latitude>
+					<longitude>-111.905889</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>217800</lotSizeSqFt>
+			<finishedSqFt>6024</finishedSqFt>
+			<bathrooms>4.5</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>1600000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-07-02 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2137985552</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7616-E-Nonchalant-Ave-Cave-Creek-AZ-85331/2137985552_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7616 E Nonchalant Ave</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.819049</latitude>
+					<longitude>-111.916675</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>47916</lotSizeSqFt>
+			<finishedSqFt>2500</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>525000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-06-02 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7978555</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/30625-N-45th-Pl-Cave-Creek-AZ-85331/7978555_zpid/</homedetails>
+			</links>
+			<address>
+				<street>30625 N 45th Pl</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.763768</latitude>
+					<longitude>-111.982929</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>9234</lotSizeSqFt>
+			<finishedSqFt>3800</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>365000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-03-11 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>50182666</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/36329-N-22nd-St-Desert-Hills-AZ-85086/50182666_zpid/</homedetails>
+			</links>
+			<address>
+				<street>36329 N 22nd St</street>	
+				<zipcode>85086</zipcode>
+				<city>Desert Hills</city>
+				<state>AZ</state>
+				
+					<latitude>33.815124</latitude>
+					<longitude>-112.033593</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>72752</lotSizeSqFt>
+			<finishedSqFt>1796</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>320000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-02-20 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7975099</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4519-E-Dale-Ln-Cave-Creek-AZ-85331/7975099_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4519 E Dale Ln</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.744736</latitude>
+					<longitude>-111.982011</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>7160</lotSizeSqFt>
+			<finishedSqFt>2034</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>365000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-01-01 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7979157</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4382-E-Rancho-Tierra-Dr-Cave-Creek-AZ-85331/7979157_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4382 E Rancho Tierra Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.765517</latitude>
+					<longitude>-111.98626</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>16058</lotSizeSqFt>
+			<finishedSqFt>2883</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>425000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-12-29 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>55266154</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4804-E-Sleepy-Ranch-Rd-Cave-Creek-AZ-85331/55266154_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4804 E Sleepy Ranch Rd</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.780733</latitude>
+					<longitude>-111.978077</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>10858</lotSizeSqFt>
+			<finishedSqFt>2253</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>550000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-12-01 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8038624</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/11155-E-Running-Deer-Trl-Scottsdale-AZ-85262/8038624_zpid/</homedetails>
+			</links>
+			<address>
+				<street>11155 E Running Deer Trl</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.74038</latitude>
+					<longitude>-111.839809</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>8253</lotSizeSqFt>
+			<finishedSqFt>1936</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>415000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-11-30 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7984824</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/26649-N-45th-Pl-Cave-Creek-AZ-85331/7984824_zpid/</homedetails>
+			</links>
+			<address>
+				<street>26649 N 45th Pl</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.728327</latitude>
+					<longitude>-111.981776</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>8634</lotSizeSqFt>
+			<finishedSqFt>2906</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>12</count>
+		</images>
+		<price>440000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-11-12 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7978058</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6103-E-Surrey-Dr-Cave-Creek-AZ-85331/7978058_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6103 E Surrey Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.82068</latitude>
+					<longitude>-111.949686</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>42280</lotSizeSqFt>
+			<finishedSqFt>2664</finishedSqFt>
+			<bathrooms>2.75</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>500000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-11-10 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2141006713</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4505-E-Coyote-Wash-Dr-Cave-Creek-AZ-85331/2141006713_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4505 E Coyote Wash Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.791118</latitude>
+					<longitude>-111.984636</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt></lotSizeSqFt>
+			<finishedSqFt></finishedSqFt>
+			<bathrooms></bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>325000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-08-26 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7974129</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/35095-N-Sophora-Dr-AZ-85331/7974129_zpid/</homedetails>
+			</links>
+			<address>
+				<street>35095 N Sophora Dr</street>	
+				<zipcode>85331</zipcode>
+				<city> </city>
+				<state>AZ</state>
+				
+					<latitude>33.803667</latitude>
+					<longitude>-111.955051</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>38815</lotSizeSqFt>
+			<finishedSqFt>3700</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>1050000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-08-20 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8038892</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7490-E-Stagecoach-Pass-AZ-85377/8038892_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7490 E Stagecoach Pass</street>	
+				<zipcode>85377</zipcode>
+				<city> </city>
+				<state>AZ</state>
+				
+					<latitude>33.814419</latitude>
+					<longitude>-111.917611</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>71113</lotSizeSqFt>
+			<finishedSqFt>3905</finishedSqFt>
+			<bathrooms>3.75</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>2</count>
+		</images>
+		<price>1500000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-07-16 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7975685</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4814-E-Eden-Dr-Cave-Creek-AZ-85331/7975685_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4814 E Eden Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.755179</latitude>
+					<longitude>-111.979219</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>8764</lotSizeSqFt>
+			<finishedSqFt>2559</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>5</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>375000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-06-26 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2143870666</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/33101-N-82nd-St-Scottsdale-AZ-85266/2143870666_zpid/</homedetails>
+			</links>
+			<address>
+				<street>33101 N 82nd St</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.7856</latitude>
+					<longitude>-111.904034</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt></lotSizeSqFt>
+			<finishedSqFt></finishedSqFt>
+			<bathrooms></bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>999000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-05-14 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2144720933</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/33437-N-74th-Way-Scottsdale-AZ-85266/2144720933_zpid/</homedetails>
+			</links>
+			<address>
+				<street>33437 N 74th Way</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.786474</latitude>
+					<longitude>-111.919657</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt></lotSizeSqFt>
+			<finishedSqFt></finishedSqFt>
+			<bathrooms></bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>650000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-04-27 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>52427678</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/29920-N-59th-St-Cave-Creek-AZ-85331/52427678_zpid/</homedetails>
+			</links>
+			<address>
+				<street>29920 N 59th St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.757256</latitude>
+					<longitude>-111.954728</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>57761</lotSizeSqFt>
+			<finishedSqFt>2437</finishedSqFt>
+			<bathrooms>3.75</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>750000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-04-22 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2145694942</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7379-E-Brisa-Dr-Scottsdale-AZ-85266/2145694942_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7379 E Brisa Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.768512</latitude>
+					<longitude>-111.921969</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt></lotSizeSqFt>
+			<finishedSqFt>2950</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>679500</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-04-12 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>19465811</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/35213-N-Canyon-Creek-Cir-Carefree-AZ-85377/19465811_zpid/</homedetails>
+			</links>
+			<address>
+				<street>35213 N Canyon Creek Cir</street>	
+				<zipcode>85377</zipcode>
+				<city>CAREFREE </city>
+				<state>AZ</state>
+				
+					<latitude>33.804653</latitude>
+					<longitude>-111.956799</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>43560</lotSizeSqFt>
+			<finishedSqFt>2800</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>999999</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-04-04 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7979783</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/40209-N-32nd-St-Cave-Creek-AZ-85331/7979783_zpid/</homedetails>
+			</links>
+			<address>
+				<street>40209 N 32nd St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.850175</latitude>
+					<longitude>-112.012734</longitude>
+				
+			</address>
+			<useCode>Mobile / Manufactured</useCode>
+			<lotSizeSqFt>103542</lotSizeSqFt>
+			<finishedSqFt>960</finishedSqFt>
+			<bathrooms>1.75</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>3</count>
+		</images>
+		<price>500000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-03-31 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>50182736</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/37612-N-26th-St-Cave-Creek-AZ-85331/50182736_zpid/</homedetails>
+			</links>
+			<address>
+				<street>37612 N 26th St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.826714</latitude>
+					<longitude>-112.026453</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>57935</lotSizeSqFt>
+			<finishedSqFt>3260</finishedSqFt>
+			<bathrooms>3.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>605900</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-03-15 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2146056714</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7443-E-Evening-Glow-Dr-Scottsdale-AZ-85266/2146056714_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7443 E Evening Glow Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.791486</latitude>
+					<longitude>-111.919832</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>6800</lotSizeSqFt>
+			<finishedSqFt>2010</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>557500</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2008-01-14 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>67757721</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/8300-E-Dixileta-Dr-UNIT-280-Scottsdale-AZ-85266/67757721_zpid/</homedetails>
+			</links>
+			<address>
+				<street>8300 E Dixileta Dr UNIT 280</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.756237</latitude>
+					<longitude>-111.90789</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>76595</lotSizeSqFt>
+			<finishedSqFt>5609</finishedSqFt>
+			<bathrooms>6.5</bathrooms>
+			<bedrooms>5</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>2500000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-11-19 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>50182858</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4649-E-Matt-Dillon-Trl-Cave-Creek-AZ-85331/50182858_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4649 E Matt Dillon Trl</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.78881</latitude>
+					<longitude>-111.98161</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>5850</lotSizeSqFt>
+			<finishedSqFt>1342</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>300000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-10-31 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7973998</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6110-E-Leisure-Ln-Cave-Creek-AZ-85331/7973998_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6110 E Leisure Ln</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.807766</latitude>
+					<longitude>-111.949714</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>54460</lotSizeSqFt>
+			<finishedSqFt>3303</finishedSqFt>
+			<bathrooms>4.0</bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>3800000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-10-15 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7985025</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4223-E-Spur-Dr-Cave-Creek-AZ-85331/7985025_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4223 E Spur Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.72723</latitude>
+					<longitude>-111.98985</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>7555</lotSizeSqFt>
+			<finishedSqFt>2144</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>3</count>
+		</images>
+		<price>525000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-10-08 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2146921809</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4801-E-Quien-Sabe-Way-Cave-Creek-AZ-85331/2146921809_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4801 E Quien Sabe Way</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.78513</latitude>
+					<longitude>-111.97754</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>11500</lotSizeSqFt>
+			<finishedSqFt>3022</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>575000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-10-08 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>50183341</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/5127-E-Silver-Sage-Ln-Cave-Creek-AZ-85331/50183341_zpid/</homedetails>
+			</links>
+			<address>
+				<street>5127 E Silver Sage Ln</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.741542</latitude>
+					<longitude>-111.970648</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>9275</lotSizeSqFt>
+			<finishedSqFt>2650</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>6</count>
+		</images>
+		<price>410000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-09-19 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8035642</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7147-E-Burnside-Trl-Scottsdale-AZ-85266/8035642_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7147 E Burnside Trl</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.77793</latitude>
+					<longitude>-111.927356</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>78408</lotSizeSqFt>
+			<finishedSqFt>4183</finishedSqFt>
+			<bathrooms>4.5</bathrooms>
+			<bedrooms>5</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>1950000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-09-11 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7978475</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/5784-E-Dusty-Coyote-Cir-Scottsdale-AZ-85266/7978475_zpid/</homedetails>
+			</links>
+			<address>
+				<street>5784 E Dusty Coyote Cir</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.79483</latitude>
+					<longitude>-111.95687</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>14885</lotSizeSqFt>
+			<finishedSqFt>3451</finishedSqFt>
+			<bathrooms>3.75</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>500000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-08-27 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>12938411</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/5221-E-Thunder-Hawk-Rd-Cave-Creek-AZ-85331/12938411_zpid/</homedetails>
+			</links>
+			<address>
+				<street>5221 E Thunder Hawk Rd</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.777682</latitude>
+					<longitude>-111.968144</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>10800</lotSizeSqFt>
+			<finishedSqFt>2738</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>7</count>
+		</images>
+		<price>499900</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-08-21 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8035146</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6429-E-Ashler-Hills-Dr-Cave-Creek-AZ-85331/8035146_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6429 E Ashler Hills Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.777029</latitude>
+					<longitude>-111.941956</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>49484</lotSizeSqFt>
+			<finishedSqFt>2106</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>20</count>
+		</images>
+		<price>699000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-08-19 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>67757638</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6945-E-Stevens-Rd-Cave-Creek-AZ-85331/67757638_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6945 E Stevens Rd</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.83312</latitude>
+					<longitude>-111.93017</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>31653</lotSizeSqFt>
+			<finishedSqFt>3583</finishedSqFt>
+			<bathrooms>4.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>1300000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-08-10 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>67782429</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6635-E-Dove-Valley-Rd-Cave-Creek-AZ-85331/67782429_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6635 E Dove Valley Rd</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.78419</latitude>
+					<longitude>-111.93713</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>54450</lotSizeSqFt>
+			<finishedSqFt>3500</finishedSqFt>
+			<bathrooms>2.75</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>3</count>
+		</images>
+		<price>899000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-07-26 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7977179</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/33017-N-50th-St-Cave-Creek-AZ-85331/7977179_zpid/</homedetails>
+			</links>
+			<address>
+				<street>33017 N 50th St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.785571</latitude>
+					<longitude>-111.973253</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>11966</lotSizeSqFt>
+			<finishedSqFt>3022</finishedSqFt>
+			<bathrooms>2.75</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>610000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-07-26 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7979055</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/30219-N-47th-St-Cave-Creek-AZ-85331/7979055_zpid/</homedetails>
+			</links>
+			<address>
+				<street>30219 N 47th St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.760303</latitude>
+					<longitude>-111.979681</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>10907</lotSizeSqFt>
+			<finishedSqFt>3200</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>450000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-06-28 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7974704</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4325-E-Via-Dona-Rd-Cave-Creek-AZ-85331/7974704_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4325 E Via Dona Rd</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.749646</latitude>
+					<longitude>-111.988377</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>39248</lotSizeSqFt>
+			<finishedSqFt>2750</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>890000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-06-20 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8078902</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/37029-N-Romping-Rd-Carefree-AZ-85377/8078902_zpid/</homedetails>
+			</links>
+			<address>
+				<street>37029 N Romping Rd</street>	
+				<zipcode>85377</zipcode>
+				<city>CAREFREE </city>
+				<state>AZ</state>
+				
+					<latitude>33.823579</latitude>
+					<longitude>-111.874583</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>56908</lotSizeSqFt>
+			<finishedSqFt>3050</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>5</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>1500000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-06-19 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8035153</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6616-E-Calle-De-Las-Estrellas-Cave-Creek-AZ-85331/8035153_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6616 E Calle De Las Estrellas</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.776133</latitude>
+					<longitude>-111.938644</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>60374</lotSizeSqFt>
+			<finishedSqFt>2250</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>4</count>
+		</images>
+		<price>450000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-06-05 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8037651</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/28441-N-101st-Way-Scottsdale-AZ-85262/8037651_zpid/</homedetails>
+			</links>
+			<address>
+				<street>28441 N 101st Way</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.743904</latitude>
+					<longitude>-111.863971</longitude>
+				
+			</address>
+			<useCode>Townhouse</useCode>
+			<lotSizeSqFt>3552</lotSizeSqFt>
+			<finishedSqFt>1600</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>4</count>
+		</images>
+		<price>450000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-05-22 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>50181411</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/8582-E-Cactus-Wren-Cir-Scottsdale-AZ-85266/50181411_zpid/</homedetails>
+			</links>
+			<address>
+				<street>8582 E Cactus Wren Cir</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.795412</latitude>
+					<longitude>-111.8955</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>29379</lotSizeSqFt>
+			<finishedSqFt>5837</finishedSqFt>
+			<bathrooms>5.5</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>1300000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-05-22 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7979060</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/30061-N-47th-St-Cave-Creek-AZ-85331/7979060_zpid/</homedetails>
+			</links>
+			<address>
+				<street>30061 N 47th St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.759202</latitude>
+					<longitude>-111.980203</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>12562</lotSizeSqFt>
+			<finishedSqFt>2005</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>405000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-05-15 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8034118</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7463-E-High-Point-Dr-Scottsdale-AZ-85266/8034118_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7463 E High Point Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.794014</latitude>
+					<longitude>-111.920645</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>16751</lotSizeSqFt>
+			<finishedSqFt>3390</finishedSqFt>
+			<bathrooms>4.0</bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>4</count>
+		</images>
+		<price>1225000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-04-21 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7975887</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4875-E-Fernwood-Ct-Cave-Creek-AZ-85331/7975887_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4875 E Fernwood Ct</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.749936</latitude>
+					<longitude>-111.974212</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>9916</lotSizeSqFt>
+			<finishedSqFt>2170</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>550000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-04-14 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8033196</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/9532-E-Whitewing-Dr-Scottsdale-AZ-85262/8033196_zpid/</homedetails>
+			</links>
+			<address>
+				<street>9532 E Whitewing Dr</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.80633</latitude>
+					<longitude>-111.87332</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>16173</lotSizeSqFt>
+			<finishedSqFt>2275</finishedSqFt>
+			<bathrooms>3.75</bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>705000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-04-13 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7977191</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4815-E-Quien-Sabe-Way-Cave-Creek-AZ-85331/7977191_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4815 E Quien Sabe Way</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.785349</latitude>
+					<longitude>-111.977008</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>12138</lotSizeSqFt>
+			<finishedSqFt>2526</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>569500</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-03-16 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>50183147</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/28434-N-51st-St-Cave-Creek-AZ-85331/50183147_zpid/</homedetails>
+			</links>
+			<address>
+				<street>28434 N 51st St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.744199</latitude>
+					<longitude>-111.970528</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>4510</lotSizeSqFt>
+			<finishedSqFt>1943</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>345000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-03-01 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2146986059</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/39649-N-Ridgeway-Cave-Creek-AZ-85331/2146986059_zpid/</homedetails>
+			</links>
+			<address>
+				<street>39649 N Ridgeway</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.845549</latitude>
+					<longitude>-111.938846</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>435600</lotSizeSqFt>
+			<finishedSqFt>5000</finishedSqFt>
+			<bathrooms>4.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>6</count>
+		</images>
+		<price>2500000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-02-16 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8038950</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/36801-N-Never-Mind-Trl-AZ-85377/8038950_zpid/</homedetails>
+			</links>
+			<address>
+				<street>36801 N Never Mind Trl</street>	
+				<zipcode>85377</zipcode>
+				<city> </city>
+				<state>AZ</state>
+				
+					<latitude>33.819479</latitude>
+					<longitude>-111.928036</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>65906</lotSizeSqFt>
+			<finishedSqFt>2320</finishedSqFt>
+			<bathrooms>2.75</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>6</count>
+		</images>
+		<price>639000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-02-11 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7979138</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/30651-N-44th-St-Cave-Creek-AZ-85331/7979138_zpid/</homedetails>
+			</links>
+			<address>
+				<street>30651 N 44th St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.764533</latitude>
+					<longitude>-111.986148</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>6946</lotSizeSqFt>
+			<finishedSqFt>2496</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>465000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-02-07 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7976186</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4848-E-Dale-Ln-Cave-Creek-AZ-85331/7976186_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4848 E Dale Ln</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.745175</latitude>
+					<longitude>-111.976495</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>12081</lotSizeSqFt>
+			<finishedSqFt>2539</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>625000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-01-18 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>59267090</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/8382-E-Tumbleweed-Dr-Scottsdale-AZ-85266/59267090_zpid/</homedetails>
+			</links>
+			<address>
+				<street>8382 E Tumbleweed Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.797087</latitude>
+					<longitude>-111.900233</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>52991</lotSizeSqFt>
+			<finishedSqFt>5800</finishedSqFt>
+			<bathrooms>3.75</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>1600000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-01-04 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7975362</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4708-E-Casey-Ln-Cave-Creek-AZ-85331/7975362_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4708 E Casey Ln</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.753706</latitude>
+					<longitude>-111.983406</longitude>
+				
+			</address>
+			<useCode>Condo</useCode>
+			<lotSizeSqFt>3806</lotSizeSqFt>
+			<finishedSqFt>1841</finishedSqFt>
+			<bathrooms>2.75</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>425000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2007-01-02 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7980473</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/30818-N-41st-Pl-Cave-Creek-AZ-85331/7980473_zpid/</homedetails>
+			</links>
+			<address>
+				<street>30818 N 41st Pl</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.76515</latitude>
+					<longitude>-111.99256</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>6247</lotSizeSqFt>
+			<finishedSqFt>1987</finishedSqFt>
+			<bathrooms>2.75</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>399900</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2006-12-22 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>55266106</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/35215-N-39th-Pl-Cave-Creek-AZ-85331/55266106_zpid/</homedetails>
+			</links>
+			<address>
+				<street>35215 N 39th Pl</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.80453</latitude>
+					<longitude>-111.996334</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>43296</lotSizeSqFt>
+			<finishedSqFt>3000</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>950000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2006-12-12 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>52428500</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/11407-E-Blue-Sky-Dr-Scottsdale-AZ-85262/52428500_zpid/</homedetails>
+			</links>
+			<address>
+				<street>11407 E Blue Sky Dr</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.739013</latitude>
+					<longitude>-111.834374</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>11764</lotSizeSqFt>
+			<finishedSqFt>3148</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>750000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2006-12-11 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8031989</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7548-E-Rising-Star-Cir-AZ-85377/8031989_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7548 E Rising Star Cir</street>	
+				<zipcode>85377</zipcode>
+				<city> </city>
+				<state>AZ</state>
+				
+					<latitude>33.836807</latitude>
+					<longitude>-111.918537</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>40244</lotSizeSqFt>
+			<finishedSqFt>3800</finishedSqFt>
+			<bathrooms>3.75</bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>1700000</price>
+	</result>
+
+
+			</makeMeMove>
+			<forSaleByOwner>
+				<count>2</count>
+
+	<result>
+		<lastRefreshedDate>2011-01-27 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2128396037</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/65th-St-Cave-Creek-AZ-85331/2128396037_zpid/</homedetails>
+			</links>
+			<address>
+				<street>65th St.</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.760071</latitude>
+					<longitude>-111.941709</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>69696</lotSizeSqFt>
+			<finishedSqFt>2350</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>6</count>
+		</images>
+		<price>419900</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-01-06 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>52427671</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6310-E-Lowden-Rd-Cave-Creek-AZ-85331/52427671_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6310 E Lowden Rd</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.765211</latitude>
+					<longitude>-111.945168</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>54450</lotSizeSqFt>
+			<finishedSqFt>2337</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>11</count>
+		</images>
+		<price>499000</price>
+	</result>
+
+
+			</forSaleByOwner>
+			<forSaleByAgent>
+				<count>27</count>
+
+	<result>
+		<lastRefreshedDate>2011-02-14 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7975408</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4740-E-Eden-Dr-Cave-Creek-AZ-85331/7975408_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4740 E Eden Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.753964</latitude>
+					<longitude>-111.981253</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>3882</lotSizeSqFt>
+			<finishedSqFt>1684</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>2</count>
+		</images>
+		<price>230000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-02-02 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8034830</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6507-E-Shooting-Star-Way-Scottsdale-AZ-85266/8034830_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6507 E Shooting Star Way</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.792339</latitude>
+					<longitude>-111.941572</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>5543</lotSizeSqFt>
+			<finishedSqFt>1670</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>429000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-02-02 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8035570</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7138-E-Aloe-Vera-Dr-Scottsdale-AZ-85266/8035570_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7138 E Aloe Vera Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.781443</latitude>
+					<longitude>-111.927807</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>5748</lotSizeSqFt>
+			<finishedSqFt>1974</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>2</count>
+		</images>
+		<price>370000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-02-01 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7978225</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/34094-N-60th-Pl-Scottsdale-AZ-85266/7978225_zpid/</homedetails>
+			</links>
+			<address>
+				<street>34094 N 60th Pl</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.794556</latitude>
+					<longitude>-111.951591</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>8564</lotSizeSqFt>
+			<finishedSqFt>2127</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>425000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-01-28 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8034775</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6526-E-Crested-Saguaro-Ln-Scottsdale-AZ-85266/8034775_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6526 E Crested Saguaro Ln</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.78996</latitude>
+					<longitude>-111.940473</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>12865</lotSizeSqFt>
+			<finishedSqFt>3429</finishedSqFt>
+			<bathrooms>4.75</bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>565000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-01-20 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8035698</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7058-E-Brilliant-Sky-Dr-Scottsdale-AZ-85266/8035698_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7058 E Brilliant Sky Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.796113</latitude>
+					<longitude>-111.928717</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>6105</lotSizeSqFt>
+			<finishedSqFt>1670</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>390000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2011-01-07 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8039565</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/34043-N-66th-Pl-Scottsdale-AZ-85266/8039565_zpid/</homedetails>
+			</links>
+			<address>
+				<street>34043 N 66th Pl</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.79444</latitude>
+					<longitude>-111.937863</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>11623</lotSizeSqFt>
+			<finishedSqFt>2478</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>490000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-12-15 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8033218</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/9535-E-Cavalry-Dr-Scottsdale-AZ-85262/8033218_zpid/</homedetails>
+			</links>
+			<address>
+				<street>9535 E Cavalry Dr</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.802617</latitude>
+					<longitude>-111.875204</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>7149</lotSizeSqFt>
+			<finishedSqFt>2053</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>479000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-11-21 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8034633</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6764-E-Soaring-Eagle-Way-Scottsdale-AZ-85266/8034633_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6764 E Soaring Eagle Way</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.789588</latitude>
+					<longitude>-111.935633</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>6098</lotSizeSqFt>
+			<finishedSqFt>1905</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>8</count>
+		</images>
+		<price>380000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-11-18 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8035491</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6978-E-Thirsty-Cactus-Ln-Scottsdale-AZ-85266/8035491_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6978 E Thirsty Cactus Ln</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.780368</latitude>
+					<longitude>-111.930852</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>8048</lotSizeSqFt>
+			<finishedSqFt>2699</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>575000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-11-13 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8034996</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6670-E-Whispering-Mesquite-Trl-Scottsdale-AZ-85266/8034996_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6670 E Whispering Mesquite Trl</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.798242</latitude>
+					<longitude>-111.937823</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>10179</lotSizeSqFt>
+			<finishedSqFt>2539</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>500000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-11-03 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2129423638</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6770-E-Rockaway-Hills-Dr-Cave-Creek-AZ-85331/2129423638_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6770 E Rockaway Hills Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.857402</latitude>
+					<longitude>-111.934888</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>217800</lotSizeSqFt>
+			<finishedSqFt>3994</finishedSqFt>
+			<bathrooms>3.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>14</count>
+		</images>
+		<price>935000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-10-29 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8036482</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7608-E-Corva-Dr-Scottsdale-AZ-85266/8036482_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7608 E Corva Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.765885</latitude>
+					<longitude>-111.917343</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>6325</lotSizeSqFt>
+			<finishedSqFt>1394</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>15</count>
+		</images>
+		<price>307000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-10-29 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2136200071</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/13642-E-Brookhart-Way-Scottsdale-AZ-85262/2136200071_zpid/</homedetails>
+			</links>
+			<address>
+				<street>13642 E Brookhart Way</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.744539</latitude>
+					<longitude>-111.786273</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt></lotSizeSqFt>
+			<finishedSqFt></finishedSqFt>
+			<bathrooms></bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>5</count>
+		</images>
+		<price>134900</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-09-27 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8036246</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7387-E-Visao-Dr-Scottsdale-AZ-85266/8036246_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7387 E Visao Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.766513</latitude>
+					<longitude>-111.921575</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>13069</lotSizeSqFt>
+			<finishedSqFt>2960</finishedSqFt>
+			<bathrooms>3.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>15</count>
+		</images>
+		<price>649000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-05-08 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8035440</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/32402-N-68th-Way-Scottsdale-AZ-85266/8035440_zpid/</homedetails>
+			</links>
+			<address>
+				<street>32402 N 68th Way</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.779354</latitude>
+					<longitude>-111.933489</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>522720</lotSizeSqFt>
+			<finishedSqFt>1955</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>2</bedrooms>
+		</property>
+		<images>
+			<count>4</count>
+		</images>
+		<price>465000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-05-02 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8039564</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/34055-N-66th-Pl-Scottsdale-AZ-85266/8039564_zpid/</homedetails>
+			</links>
+			<address>
+				<street>34055 N 66th Pl</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.794691</latitude>
+					<longitude>-111.937984</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>522720</lotSizeSqFt>
+			<finishedSqFt>2358</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>450000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-04-23 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8036306</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/7651-E-Visao-Dr-Scottsdale-AZ-85266/8036306_zpid/</homedetails>
+			</links>
+			<address>
+				<street>7651 E Visao Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.76924</latitude>
+					<longitude>-111.916162</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>12825</lotSizeSqFt>
+			<finishedSqFt>3159</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>13</count>
+		</images>
+		<price>649000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-02-14 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8034737</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6569-E-Evening-Glow-Dr-Scottsdale-AZ-85266/8034737_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6569 E Evening Glow Dr</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.790427</latitude>
+					<longitude>-111.939542</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>9617</lotSizeSqFt>
+			<finishedSqFt>3022</finishedSqFt>
+			<bathrooms>2.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>18</count>
+		</images>
+		<price>579000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-02-11 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8034773</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/6562-E-Crested-Saguaro-Ln-Scottsdale-AZ-85266/8034773_zpid/</homedetails>
+			</links>
+			<address>
+				<street>6562 E Crested Saguaro Ln</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.789645</latitude>
+					<longitude>-111.93952</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>435600</lotSizeSqFt>
+			<finishedSqFt>3730</finishedSqFt>
+			<bathrooms>3.5</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>10</count>
+		</images>
+		<price>675000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-01-23 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2133764174</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/8885-E-Covey-Trl-Scottsdale-AZ-85262/2133764174_zpid/</homedetails>
+			</links>
+			<address>
+				<street>8885 E Covey Trl</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.827699</latitude>
+					<longitude>-111.888607</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>114127</lotSizeSqFt>
+			<finishedSqFt></finishedSqFt>
+			<bathrooms></bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>575000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2010-01-23 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2133740843</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/35801-N-61st-St-Cave-Creek-AZ-85331/2133740843_zpid/</homedetails>
+			</links>
+			<address>
+				<street>35801 N 61st St</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.809671</latitude>
+					<longitude>-111.949473</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>39204</lotSizeSqFt>
+			<finishedSqFt>3104</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>6</count>
+		</images>
+		<price>792000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-12-19 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>2134462691</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/12200-E-Pinnacle-Vis-Dr-Scottsdale-AZ-85262/2134462691_zpid/</homedetails>
+			</links>
+			<address>
+				<street>12200 E Pinnacle Vis Dr</street>	
+				<zipcode>85262</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.734251</latitude>
+					<longitude>-111.886663</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>129808</lotSizeSqFt>
+			<finishedSqFt></finishedSqFt>
+			<bathrooms></bathrooms>
+			<bedrooms></bedrooms>
+		</property>
+		<images>
+			<count>0</count>
+		</images>
+		<price>499000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-09-27 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7975319</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/4449-E-Barwick-Dr-Cave-Creek-AZ-85331/7975319_zpid/</homedetails>
+			</links>
+			<address>
+				<street>4449 E Barwick Dr</street>	
+				<zipcode>85331</zipcode>
+				<city>Cave Creek</city>
+				<state>AZ</state>
+				
+					<latitude>33.756258</latitude>
+					<longitude>-111.984152</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>304920</lotSizeSqFt>
+			<finishedSqFt>2658</finishedSqFt>
+			<bathrooms>2.0</bathrooms>
+			<bedrooms>4</bedrooms>
+		</property>
+		<images>
+			<count>31</count>
+		</images>
+		<price>309000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-08-31 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8037199</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/8605-E-Via-Dona-Rd-Scottsdale-AZ-85266/8037199_zpid/</homedetails>
+			</links>
+			<address>
+				<street>8605 E Via Dona Rd</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.747525</latitude>
+					<longitude>-111.895975</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>587624</lotSizeSqFt>
+			<finishedSqFt>5400</finishedSqFt>
+			<bathrooms>5.5</bathrooms>
+			<bedrooms>5</bedrooms>
+		</property>
+		<images>
+			<count>1</count>
+		</images>
+		<price>1450000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-06-16 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>7986066</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/27629-N-74th-St-Scottsdale-AZ-85266/7986066_zpid/</homedetails>
+			</links>
+			<address>
+				<street>27629 N 74th St</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.735896</latitude>
+					<longitude>-111.921237</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>27447</lotSizeSqFt>
+			<finishedSqFt>3022</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>3</bedrooms>
+		</property>
+		<images>
+			<count>12</count>
+		</images>
+		<price>679000</price>
+	</result>
+
+	<result>
+		<lastRefreshedDate>2009-06-13 00:00:00.0</lastRefreshedDate>
+		<property>
+			<zpid>8036883</zpid>
+			<links>
+				<homedetails>http://www.zillow.com/homedetails/29585-N-69th-Pl-Scottsdale-AZ-85266/8036883_zpid/</homedetails>
+			</links>
+			<address>
+				<street>29585 N 69th Pl</street>	
+				<zipcode>85266</zipcode>
+				<city>Scottsdale</city>
+				<state>AZ</state>
+				
+					<latitude>33.753994</latitude>
+					<longitude>-111.931564</longitude>
+				
+			</address>
+			<useCode>Single Family</useCode>
+			<lotSizeSqFt>15615</lotSizeSqFt>
+			<finishedSqFt>3312</finishedSqFt>
+			<bathrooms>3.0</bathrooms>
+			<bedrooms>5</bedrooms>
+		</property>
+		<images>
+			<count>29</count>
+		</images>
+		<price>450000</price>
+	</result>
+
+
+			</forSaleByAgent>
+			<reportForSale>
+				<count>0</count>
+
+
+			</reportForSale>
+			
+		</response>
+	
+	
+</RegionPostings:regionPostings><!-- H:119  T:136ms  S:54600  R:Thu Feb 24 08:48:05 PST 2011  B:3.0.104745.20110223.055158-comp_rel_b -->

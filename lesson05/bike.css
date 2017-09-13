@@ -1,0 +1,41 @@
+/*
+   New Perspectives on XML
+   Tutorial 5
+   Tutorial Case
+
+   Tour Nation Bicycles Style Sheet
+   Author: Efrem McCrimon
+   Date:   02-22-2011
+
+   Filename:         bike.css
+   Supporting Files: 
+
+*/
+
+* {display : block }
+document    {width: 720px; font-size: 12pt}
+author      {display: none}
+date        {position: absolute; top: 0px; left: 660px; font-size: 8pt}
+title       {border-bottom: 2px solid purple}
+subtitle    {font-family: Arial, Helvetica, sans-serif; font-size: 14pt;
+                font-style: italic; text-align: center}
+model       {margin: 10px; border: 7px outset rgb(255,128,255); padding: 7px}
+name        {border-bottom: 1px solid black; color: white; background-image: url(back.jpg);
+                font-family: Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold;
+                letter-spacing: 10px; text-indent: 10px}
+description {width: 400px; float: right; text-align: justify}
+features    {width: 250px; color: blue; background-color: ivory; border: 2px solid purple;
+                padding: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 8pt}
+feature     {display: list-item; list-style: square inside}
+fName       {display: inline; color: red; font-variant: small-caps}
+
+
+name.city   {color: yellow}
+name[class="city"]  {color: yellow}
+
+name.combo  {color: lightgreen}
+name[class="combo"]  {color: lightgreen}
+
+description:first-letter    {font-size: 26pt; vertical-align: top; float: left;
+                            line-height: 0.8; margin-right: 5px}
+description:first-line      {font-variant: small-caps}

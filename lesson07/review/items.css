@@ -1,0 +1,27 @@
+/*
+   New Perspectives on XML
+   Tutorial 7
+   Review Assignment
+
+   Wizard Works Cascading Style Sheet
+
+   Filename:         items.css
+   Supporting Files: 
+*/
+
+body          {width: 620px}
+th, h1        {font-family:Arial, Helvetica,sans-serif}
+
+table.Summary {font-size:8pt; position:absolute; top:5px; left:480px; width: 150px;
+               background-color: rgb(212,212,255)}
+th.Summary    {text-align: left; width: 50px; vertical-align: top}
+td.Summary    {background-color: white; text-align: right; vertical-align: top; width: 50px}
+
+h1            {border-bottom: 3px solid blue; color:blue}
+
+table.prod    {width: 620px}
+table.prod th {vertical-align: top}
+table.prod td {vertical-align: top}
+td.num        {text-align: right}
+th.num        {text-align: right}
+
